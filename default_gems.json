@@ -173,6 +173,20 @@
     }
   },
   {
+    "gem": "scanf",
+    "native": false,
+    "autoRequire": false,
+    "description": "Pure-Ruby [scanf](http://en.wikipedia.org/wiki/Scanf_format_string) implementation",
+    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
+    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/scanf.rb",
+    "gemGithubLink": null,
+    "gemLink": null,
+    "maintainer": null,
+    "versions": {
+      "2.5": "0.0.1"
+    }
+  },
+  {
     "gem": "strscan",
     "native": true,
     "autoRequire": false,
