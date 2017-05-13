@@ -1,231 +1,234 @@
-[
-  {
-    "gem": "bigdecimal",
-    "native": true,
-    "autoRequire": false,
-    "description": "Support for arbitrary-precision floating point decimal arithmetic",
-    "rdocLink": "https://gruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/bigdecimal",
-    "gemGithubLink": "https://github.com/ruby/bigdecimal",
-    "gemLink": "https://rubygems.org/gems/bigdecimal",
-    "maintainer": "Kenta Murata (mrkn)",
-    "versions": {
-      "2.5": "1.3.0",
-      "2.4": "1.3.0",
-      "2.3": "1.2.8",
-      "2.2": "1.2.6"
+{
+  "version": "0.1",
+  "gems": [
+    {
+      "gem": "bigdecimal",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for arbitrary-precision floating point decimal arithmetic",
+      "rdocLink": "https://gruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/bigdecimal",
+      "gemGithubLink": "https://github.com/ruby/bigdecimal",
+      "gemLink": "https://rubygems.org/gems/bigdecimal",
+      "maintainer": "Kenta Murata (mrkn)",
+      "versions": {
+        "2.5": "1.3.0",
+        "2.4": "1.3.0",
+        "2.3": "1.2.8",
+        "2.2": "1.2.6"
+      }
+    },
+    {
+      "gem": "cmath",
+      "native": false,
+      "autoRequire": false,
+      "description": "Trigonometric and transcendental functions for complex numbers",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/cmath.rb",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "csv",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
+      "rdocLink": "http://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/csv.rb",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": "James Edward Gray II (jeg2)",
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "date",
+      "native": true,
+      "autoRequire": false,
+      "description": "The [Date](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html) and [DateTime](https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html) classes",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/date/rdoc/index.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/date",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "dbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [DBM databases](https://gen.wikipedia.org/wiki/Dbm)",
+      "rdocLink": "https://gruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/dbm",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "fileutils",
+      "native": false,
+      "autoRequire": false,
+      "description": "Utilities for working with the file system",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/fileutils.rb",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "io-console",
+      "native": true,
+      "autoRequire": false,
+      "description": "Patches `IO` for simple and portable access to the console",
+      "rdocLink": "https://gruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/io/console",
+      "gemGithubLink": "https://github.com/nobu/io-console",
+      "gemLink": "https://rubygems.org/gems/io-console",
+      "notes": "GitHub repo out of sync",
+      "maintainer": "Nobuyuki Nakada (nobu)",
+      "versions": {
+        "2.5": "0.4.6",
+        "2.4": "0.4.6",
+        "2.3": "0.4.5",
+        "2.2": "0.4.3"
+      }
+    },
+    {
+      "gem": "json",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for JSON ([JavaScript Object Notation](https://gen.wikipedia.org/wiki/JSON))",
+      "rdocLink": "https://gruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/json",
+      "gemGithubLink": "https://github.com/flori/json",
+      "gemLink": "https://rubygems.org/gems/json",
+      "maintainer": ["NARUSE", "Yui (naruse)", "Hiroshi SHIBATA (hsbt)"],
+      "versions": {
+        "2.5": "2.0.2",
+        "2.4": "2.0.2",
+        "2.3": "1.8.3"
+      }
+    },
+    {
+      "gem": "openssl",
+      "native": true,
+      "autoRequire": false,
+      "description": "Wraps [OpenSSL](http://www.openssl.org/) for cryptographic functionality",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/openssl",
+      "gemGithubLink": "https://github.com/ruby/openssl",
+      "gemLink": "https://rubygems.org/gems/openssl",
+      "maintainer": "Kazuki Yamaguchi (rhe)",
+      "versions": {
+        "2.5": "2.0.2",
+        "2.4": "2.0.2"
+      }
+    },
+    {
+      "gem": "psych",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for YAML ([YAML Ain't Markup Language](http://en.wikipedia.org/wiki/YAML))",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/psych",
+      "gemGithubLink": "https://github.com/ruby/psych",
+      "gemLink": "https://rubygems.org/gems/psych",
+      "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA(hsbt)"],
+      "versions": {
+        "2.5": "2.2.2",
+        "2.4": "2.2.2",
+        "2.3.3": "2.1.0",
+        "2.3.2": "2.1.0",
+        "2.3.1": "2.0.17",
+        "2.3.0": "2.0.17",
+        "2.2": "2.0.8"
+      }
+    },
+    {
+      "gem": "rdoc",
+      "native": false,
+      "autoRequire": false,
+      "description": "Ruby documentation generator",
+      "rdocLink": "https://rdoc.github.io/rdoc/",
+      "mriGithubLink": ["https://github.com/ruby/ruby/blob/trunk/lib/rdoc.rb", "https://github.com/ruby/ruby/tree/trunk/lib/rdoc"],
+      "gemGithubLink": "https://github.com/rdoc/rdoc",
+      "gemLink": "https://rubygems.org/gems/rdoc",
+      "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
+      "versions": {
+        "2.5": "5.0.0",
+        "2.4": "5.0.0",
+        "2.3": "4.2.1",
+        "2.2": "4.2.0"
+      }
+    },
+    {
+      "gem": "scanf",
+      "native": false,
+      "autoRequire": false,
+      "description": "Pure-Ruby [scanf](http://en.wikipedia.org/wiki/Scanf_format_string) implementation",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/scanf.rb",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "strscan",
+      "native": true,
+      "autoRequire": false,
+      "description": "Lexical string scanning",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/strscan",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "webrick",
+      "native": false,
+      "autoRequire": false,
+      "description": "HTTP Server",
+      "rdocLink": "http://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
+      "mriGithubLink": ["https://github.com/ruby/ruby/tree/trunk/lib/webrick.rb", "https://github.com/ruby/ruby/tree/trunk/lib/webrick"],
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "zlib",
+      "native": true,
+      "autoRequire": false,
+      "description": "Interface to the [zlib compression library](http://en.wikipedia.org/wiki/Zlib)",
+      "rdocLink": "http://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/zlib",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
     }
-  },
-  {
-    "gem": "cmath",
-    "native": false,
-    "autoRequire": false,
-    "description": "Trigonometric and transcendental functions for complex numbers",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/cmath.rb",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "csv",
-    "native": false,
-    "autoRequire": false,
-    "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
-    "rdocLink": "http://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/csv.rb",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": "James Edward Gray II (jeg2)",
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "date",
-    "native": true,
-    "autoRequire": false,
-    "description": "The [Date](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html) and [DateTime](https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html) classes",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/date/rdoc/index.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/date",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "dbm",
-    "native": true,
-    "autoRequire": false,
-    "description": "Support for [DBM databases](https://gen.wikipedia.org/wiki/Dbm)",
-    "rdocLink": "https://gruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/dbm",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "fileutils",
-    "native": false,
-    "autoRequire": false,
-    "description": "Utilities for working with the file system",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/fileutils.rb",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "io-console",
-    "native": true,
-    "autoRequire": false,
-    "description": "Patches `IO` for simple and portable access to the console",
-    "rdocLink": "https://gruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/io/console",
-    "gemGithubLink": "https://github.com/nobu/io-console",
-    "gemLink": "https://rubygems.org/gems/io-console",
-    "notes": "GitHub repo out of sync",
-    "maintainer": "Nobuyuki Nakada (nobu)",
-    "versions": {
-      "2.5": "0.4.6",
-      "2.4": "0.4.6",
-      "2.3": "0.4.5",
-      "2.2": "0.4.3"
-    }
-  },
-  {
-    "gem": "json",
-    "native": true,
-    "autoRequire": false,
-    "description": "Support for JSON ([JavaScript Object Notation](https://gen.wikipedia.org/wiki/JSON))",
-    "rdocLink": "https://gruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/json",
-    "gemGithubLink": "https://github.com/flori/json",
-    "gemLink": "https://rubygems.org/gems/json",
-    "maintainer": ["NARUSE", "Yui (naruse)", "Hiroshi SHIBATA (hsbt)"],
-    "versions": {
-      "2.5": "2.0.2",
-      "2.4": "2.0.2",
-      "2.3": "1.8.3"
-    }
-  },
-  {
-    "gem": "openssl",
-    "native": true,
-    "autoRequire": false,
-    "description": "Wraps [OpenSSL](http://www.openssl.org/) for cryptographic functionality",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/openssl",
-    "gemGithubLink": "https://github.com/ruby/openssl",
-    "gemLink": "https://rubygems.org/gems/openssl",
-    "maintainer": "Kazuki Yamaguchi (rhe)",
-    "versions": {
-      "2.5": "2.0.2",
-      "2.4": "2.0.2"
-    }
-  },
-  {
-    "gem": "psych",
-    "native": true,
-    "autoRequire": false,
-    "description": "Support for YAML ([YAML Ain't Markup Language](http://en.wikipedia.org/wiki/YAML))",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/psych",
-    "gemGithubLink": "https://github.com/ruby/psych",
-    "gemLink": "https://rubygems.org/gems/psych",
-    "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA(hsbt)"],
-    "versions": {
-      "2.5": "2.2.2",
-      "2.4": "2.2.2",
-      "2.3.3": "2.1.0",
-      "2.3.2": "2.1.0",
-      "2.3.1": "2.0.17",
-      "2.3.0": "2.0.17",
-      "2.2": "2.0.8"
-    }
-  },
-  {
-    "gem": "rdoc",
-    "native": false,
-    "autoRequire": false,
-    "description": "Ruby documentation generator",
-    "rdocLink": "https://rdoc.github.io/rdoc/",
-    "mriGithubLink": ["https://github.com/ruby/ruby/blob/trunk/lib/rdoc.rb", "https://github.com/ruby/ruby/tree/trunk/lib/rdoc"],
-    "gemGithubLink": "https://github.com/rdoc/rdoc",
-    "gemLink": "https://rubygems.org/gems/rdoc",
-    "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
-    "versions": {
-      "2.5": "5.0.0",
-      "2.4": "5.0.0",
-      "2.3": "4.2.1",
-      "2.2": "4.2.0"
-    }
-  },
-  {
-    "gem": "scanf",
-    "native": false,
-    "autoRequire": false,
-    "description": "Pure-Ruby [scanf](http://en.wikipedia.org/wiki/Scanf_format_string) implementation",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/scanf.rb",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "strscan",
-    "native": true,
-    "autoRequire": false,
-    "description": "Lexical string scanning",
-    "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/strscan",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "webrick",
-    "native": false,
-    "autoRequire": false,
-    "description": "HTTP Server",
-    "rdocLink": "http://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
-    "mriGithubLink": ["https://github.com/ruby/ruby/tree/trunk/lib/webrick.rb", "https://github.com/ruby/ruby/tree/trunk/lib/webrick"],
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  },
-  {
-    "gem": "zlib",
-    "native": true,
-    "autoRequire": false,
-    "description": "Interface to the [zlib compression library](http://en.wikipedia.org/wiki/Zlib)",
-    "rdocLink": "http://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
-    "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/zlib",
-    "gemGithubLink": null,
-    "gemLink": null,
-    "maintainer": null,
-    "versions": {
-      "2.5": "0.0.1"
-    }
-  }
-]
+  ]
+}
