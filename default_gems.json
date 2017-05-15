@@ -197,12 +197,18 @@
       "autoRequire": false,
       "description": "Ruby documentation generator",
       "rdocLink": "https://rdoc.github.io/rdoc/",
-      "mriGithubLink": ["https://github.com/ruby/ruby/blob/trunk/lib/rdoc.rb", "https://github.com/ruby/ruby/tree/trunk/lib/rdoc"],
+      "mriGithubLink": [
+        "https://github.com/ruby/ruby/blob/trunk/lib/rdoc.rb",
+        "https://github.com/ruby/ruby/tree/trunk/lib/rdoc"
+      ],
       "gemGithubLink": "https://github.com/rdoc/rdoc",
       "gemLink": "https://rubygems.org/gems/rdoc",
-      "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
+      "maintainer": [
+        "Eric Hodel (drbrain)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
       "versions": {
-        "2.5": "5.0.0",
+        "2.5": "5.1.0",
         "2.4": "5.0.0",
         "2.3": "4.2.1",
         "2.2": "4.2.0"
