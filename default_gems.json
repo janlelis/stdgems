@@ -89,6 +89,20 @@
       }
     },
     {
+      "gem": "fcntl",
+      "native": true,
+      "autoRequire": false,
+      "description": "Loads values from the OS' `fcntl.h` to be used for low-level [file descriptior manipulation](http://readruby.io/io#fcntl) system calls with [IO#fcntl](https://ruby-doc.org/core/IO.html#method-i-fcntl) and [IO.sysopen](https://ruby-doc.org/core/IO.html#method-c-sysopen)",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/fcntl",
+      "gemGithubLink": "https://github.com/ruby/fcntl",
+      "gemLink": "https://rubygems.org/gems/fcntl",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
       "gem": "fileutils",
       "native": false,
       "autoRequire": false,
