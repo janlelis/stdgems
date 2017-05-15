@@ -89,6 +89,20 @@
       }
     },
     {
+      "gem": "gdbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [SDBM databases](http://en.wikipedia.org/wiki/Dbm)",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/gdbm/rdoc/GDBM.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/gdbm",
+      "gemGithubLink": "https://github.com/ruby/gdbm",
+      "gemLink": "https://rubygems.org/gems/gdbm",
+      "maintainer": "Yukihiro Matsumoto (matz)",
+      "versions": {
+        "2.5": "2.0.0"
+      }
+    },
+    {
       "gem": "io-console",
       "native": true,
       "autoRequire": false,
@@ -135,6 +149,20 @@
       "versions": {
         "2.5": "2.0.2",
         "2.4": "2.0.2"
+      }
+    },
+    {
+      "gem": "sdbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [SDBM databases](http://en.wikipedia.org/wiki/Dbm)",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/sdbm",
+      "gemGithubLink": "https://github.com/ruby/sdbm",
+      "gemLink": "https://rubygems.org/gems/sdbm",
+      "maintainer": "Yukihiro Matsumoto (matz)",
+      "versions": {
+        "2.5": "0.0.1"
       }
     },
     {
