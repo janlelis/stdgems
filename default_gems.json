@@ -209,9 +209,9 @@
       "description": "Pure-Ruby [scanf](http://en.wikipedia.org/wiki/Scanf_format_string) implementation",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/scanf.rb",
-      "gemGithubLink": null,
-      "gemLink": null,
-      "maintainer": null,
+      "gemGithubLink": "https://github.com/ruby/scanf",
+      "gemLink": "https://rubygems.org/gems/scanf",
+      "maintainer": "David A. Black (dblack)",
       "versions": {
         "2.5": "0.0.1"
       }
