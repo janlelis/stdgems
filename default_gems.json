@@ -147,8 +147,9 @@
       "gemLink": "https://rubygems.org/gems/openssl",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
-        "2.5": "2.0.2",
-        "2.4": "2.0.2"
+        "2.5": "2.0.3",
+        "2.4.1": "2.0.3",
+        "2.4.0": "2.0.2"
       }
     },
     {
