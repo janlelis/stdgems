@@ -240,7 +240,7 @@
       "description": "Ruby documentation generator",
       "rdocLink": "https://rdoc.github.io/rdoc/",
       "mriSourcePath": [
-        "https://github.com/ruby/ruby/blob/trunk/lib/rdoc.rb",
+        "lib/rdoc.rb",
         "lib/rdoc"
       ],
       "gemGithubLink": "https://github.com/rdoc/rdoc",
