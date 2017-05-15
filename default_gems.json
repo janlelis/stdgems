@@ -129,9 +129,12 @@
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/json",
       "gemGithubLink": "https://github.com/flori/json",
       "gemLink": "https://rubygems.org/gems/json",
-      "maintainer": ["NARUSE", "Yui (naruse)", "Hiroshi SHIBATA (hsbt)"],
+      "maintainer": [
+        "NARUSE", "Yui (naruse)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
       "versions": {
-        "2.5": "2.0.2",
+        "2.5": "2.0.4",
         "2.4": "2.0.2",
         "2.3": "1.8.3"
       }
