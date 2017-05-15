@@ -237,11 +237,11 @@
       "description": "HTTP Server",
       "rdocLink": "http://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
       "mriGithubLink": ["https://github.com/ruby/ruby/tree/trunk/lib/webrick.rb", "https://github.com/ruby/ruby/tree/trunk/lib/webrick"],
-      "gemGithubLink": null,
-      "gemLink": null,
-      "maintainer": null,
+      "gemGithubLink": "https://github.com/ruby/webrick",
+      "gemLink": "https://rubygems.org/gems/webrick",
+      "maintainer": "Hiroshi Nakamura (nahi)",
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.4.0"
       }
     },
     {
