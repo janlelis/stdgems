@@ -39,8 +39,8 @@
       "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
       "rdocLink": "http://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/csv.rb",
-      "gemGithubLink": null,
-      "gemLink": null,
+      "gemGithubLink": "https://github.com/ruby/csv",
+      "gemLink": "https://rubygems.org/gems/csv",
       "maintainer": "James Edward Gray II (jeg2)",
       "versions": {
         "2.5": "0.0.1"
