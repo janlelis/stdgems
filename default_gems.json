@@ -291,7 +291,7 @@
       "description": "Lexical string scanning",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/strscan",
-      "gemGithubLink": null,
+      "gemGithubLink": "https://github.com/ruby/strscan",
       "gemLink": null,
       "maintainer": null,
       "versions": {
