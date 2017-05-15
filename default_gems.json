@@ -25,8 +25,8 @@
       "description": "Trigonometric and transcendental functions for complex numbers",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/cmath.rb",
-      "gemGithubLink": null,
-      "gemLink": null,
+      "gemGithubLink": "https://github.com/ruby/cmath",
+      "gemLink": "https://rubygems.org/gems/cmath",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
