@@ -9,7 +9,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "mriSourcePath": "ext/bigdecimal",
       "sourceRepository": "https://github.com/ruby/bigdecimal",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
@@ -181,7 +181,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
       "mriSourcePath": "ext/json",
       "sourceRepository": "https://github.com/flori/json",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/json",
       "maintainer": [
         "NARUSE", "Yui (naruse)",
@@ -201,7 +201,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL.html",
       "mriSourcePath": "ext/openssl",
       "sourceRepository": "https://github.com/ruby/openssl",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/openssl",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
@@ -233,7 +233,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
       "mriSourcePath": "ext/psych",
       "sourceRepository": "https://github.com/ruby/psych",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/psych",
       "maintainer": [
         "Aaron Patterson (tenderlove)",
@@ -259,7 +259,7 @@
         "lib/rdoc"
       ],
       "sourceRepository": "https://github.com/rdoc/rdoc",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/rdoc",
       "maintainer": [
         "Eric Hodel (drbrain)",
