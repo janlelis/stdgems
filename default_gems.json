@@ -271,6 +271,20 @@
       }
     },
     {
+      "gem": "stringio",
+      "native": true,
+      "autoRequire": false,
+      "description": "Makes strings behave like IO objects",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/stringio",
+      "gemGithubLink": null,
+      "gemLink": null,
+      "maintainer": "Nobuyuki Nakada (nobu)",
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
       "gem": "strscan",
       "native": true,
       "autoRequire": false,
