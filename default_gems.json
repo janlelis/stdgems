@@ -81,11 +81,11 @@
       "description": "Utilities for working with the file system",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/lib/fileutils.rb",
-      "gemGithubLink": null,
-      "gemLink": null,
+      "gemGithubLink": "https://rubygems.org/gems/fileutils",
+      "gemLink": "https://rubygems.org/gems/fileutils",
       "maintainer": null,
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "0.7.1"
       }
     },
     {
