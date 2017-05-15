@@ -251,8 +251,8 @@
       "description": "Interface to the [zlib compression library](http://en.wikipedia.org/wiki/Zlib)",
       "rdocLink": "http://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/zlib",
-      "gemGithubLink": null,
-      "gemLink": null,
+      "gemGithubLink": "https://github.com/ruby/zlib",
+      "gemLink": "https://rubygems.org/gems/zlib",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
