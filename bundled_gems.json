@@ -59,7 +59,7 @@
       "gem": "rake",
       "native": false,
       "autoRequire": false,
-      "description": "  A Ruby task runner, inspired by [make](http://en.wikipedia.org/wiki/Make_%28software%29)",
+      "description": "A Ruby task runner, inspired by [make](http://en.wikipedia.org/wiki/Make_%28software%29)",
       "gemGithubLink": "https://github.com/ruby/rake",
       "gemLink": "https://rubygems.org/gems/rake",
       "versions": {
