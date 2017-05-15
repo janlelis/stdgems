@@ -7,7 +7,7 @@
       "autoRequire": true,
       "description": "Patches error messages to suggest correct spelling of methods/classes/variables",
       "gemGithubLink": "https://github.com/yuki24/did_you_mean",
-      "gemLink": "https://rubygems.org/gems/did_you_mean",
+      "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
       "versions": {
         "2.5": "1.1.0",
         "2.4": "1.1.0",
@@ -20,7 +20,7 @@
       "autoRequire": false,
       "description": "Test/spec framework, comes with mocking and benchmark capabilities",
       "gemGithubLink": "https://github.com/seattlerb/minitest",
-      "gemLink": "https://rubygems.org/gems/minitest",
+      "rubygemsLink": "https://rubygems.org/gems/minitest",
       "versions": {
         "2.5": "5.10.1",
         "2.4": "5.10.1",
@@ -34,7 +34,7 @@
       "autoRequire": false,
       "description": "Support for [Telnet](https://en.wikipedia.org/wiki/Telnet)",
       "gemGithubLink": "https://github.com/ruby/net-telnet",
-      "gemLink": "https://rubygems.org/gems/net-telnet",
+      "rubygemsLink": "https://rubygems.org/gems/net-telnet",
       "versions": {
         "2.5": "0.1.1",
         "2.4": "0.1.1",
@@ -47,7 +47,7 @@
       "autoRequire": false,
       "description": "Debug tool that displays intermediate results of a method chain",
       "gemGithubLink": "https://github.com/k-tsj/power_assert",
-      "gemLink": "https://rubygems.org/gems/power_assert",
+      "rubygemsLink": "https://rubygems.org/gems/power_assert",
       "versions": {
         "2.5": "1.0.2",
         "2.4": "0.4.1",
@@ -61,7 +61,7 @@
       "autoRequire": false,
       "description": "A Ruby task runner, inspired by [make](https://en.wikipedia.org/wiki/Make_%28software%29)",
       "gemGithubLink": "https://github.com/ruby/rake",
-      "gemLink": "https://rubygems.org/gems/rake",
+      "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
         "2.5": "12.0.0",
         "2.4": "12.0.0",
@@ -74,7 +74,7 @@
       "autoRequire": false,
       "description": "A xUnit family unit testing framework",
       "gemGithubLink": "https://github.com/test-unit/test-unit",
-      "gemLink": "https://rubygems.org/gems/test-unit",
+      "rubygemsLink": "https://rubygems.org/gems/test-unit",
       "versions": {
         "2.5": "3.2.3",
         "2.4": "3.2.3",
@@ -88,7 +88,7 @@
       "autoRequire": false,
       "description": "[Remote Procedure Calls via XML and HTTP](https://en.wikipedia.org/wiki/XML-RPC)",
       "gemGithubLink": "https://github.com/ruby/xmlrpc",
-      "gemLink": "https://rubygems.org/gems/xmlrpc",
+      "rubygemsLink": "https://rubygems.org/gems/xmlrpc",
       "versions": {
         "2.5": "0.2.1",
         "2.4": "0.2.1"

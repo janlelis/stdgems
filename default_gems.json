@@ -9,7 +9,7 @@
       "rdocLink": "https://gruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "mriSourcePath": "ext/bigdecimal",
       "gemGithubLink": "https://github.com/ruby/bigdecimal",
-      "gemLink": "https://rubygems.org/gems/bigdecimal",
+      "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
         "2.5": "1.3.2",
@@ -26,7 +26,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
       "mriSourcePath": "lib/cmath.rb",
       "gemGithubLink": "https://github.com/ruby/cmath",
-      "gemLink": "https://rubygems.org/gems/cmath",
+      "rubygemsLink": "https://rubygems.org/gems/cmath",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
@@ -40,7 +40,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
       "mriSourcePath": "lib/csv.rb",
       "gemGithubLink": "https://github.com/ruby/csv",
-      "gemLink": "https://rubygems.org/gems/csv",
+      "rubygemsLink": "https://rubygems.org/gems/csv",
       "maintainer": "James Edward Gray II (jeg2)",
       "versions": {
         "2.5": "0.0.1"
@@ -54,7 +54,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/date/rdoc/index.html",
       "mriSourcePath": "ext/date",
       "gemGithubLink": "https://github.com/ruby/date",
-      "gemLink": "https://rubygems.org/gems/date",
+      "rubygemsLink": "https://rubygems.org/gems/date",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
@@ -68,7 +68,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
       "mriSourcePath": "ext/dbm",
       "gemGithubLink": "https://github.com/ruby/dbm",
-      "gemLink": "https://rubygems.org/gems/dbm",
+      "rubygemsLink": "https://rubygems.org/gems/dbm",
       "maintainer": null,
       "versions": {
         "2.5": "1.0.0"
@@ -82,7 +82,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "mriSourcePath": "ext/etc",
       "gemGithubLink": "https://github.com/ruby/etc",
-      "gemLink": "https://rubygems.org/gems/etc",
+      "rubygemsLink": "https://rubygems.org/gems/etc",
       "maintainer": null,
       "versions": {
         "2.5": "0.2.1"
@@ -96,7 +96,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
       "mriSourcePath": "ext/fcntl",
       "gemGithubLink": "https://github.com/ruby/fcntl",
-      "gemLink": "https://rubygems.org/gems/fcntl",
+      "rubygemsLink": "https://rubygems.org/gems/fcntl",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
@@ -110,7 +110,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
       "mriSourcePath": "ext/fiddle",
       "gemGithubLink": "https://github.com/ruby/fiddle",
-      "gemLink": "https://rubygems.org/gems/fiddle",
+      "rubygemsLink": "https://rubygems.org/gems/fiddle",
       "maintainer": "Aaron Patterson (tenderlove)",
       "versions": {
         "2.5": "1.0.0"
@@ -124,7 +124,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "mriSourcePath": "lib/fileutils.rb",
       "gemGithubLink": "https://rubygems.org/gems/fileutils",
-      "gemLink": "https://rubygems.org/gems/fileutils",
+      "rubygemsLink": "https://rubygems.org/gems/fileutils",
       "maintainer": null,
       "versions": {
         "2.5": "0.7.1"
@@ -138,7 +138,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/gdbm/rdoc/GDBM.html",
       "mriSourcePath": "ext/gdbm",
       "gemGithubLink": "https://github.com/ruby/gdbm",
-      "gemLink": "https://rubygems.org/gems/gdbm",
+      "rubygemsLink": "https://rubygems.org/gems/gdbm",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
         "2.5": "2.0.0"
@@ -152,7 +152,7 @@
       "rdocLink": "https://gruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html",
       "mriSourcePath": "ext/io/console",
       "gemGithubLink": null,
-      "gemLink": "https://rubygems.org/gems/io-console",
+      "rubygemsLink": "https://rubygems.org/gems/io-console",
       "notes": "There is a [GitHub repo](https://github.com/nobu/io-console), but it is currently out of sync",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
@@ -170,7 +170,7 @@
       "rdocLink": "https://gruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
       "mriSourcePath": "ext/json",
       "gemGithubLink": "https://github.com/flori/json",
-      "gemLink": "https://rubygems.org/gems/json",
+      "rubygemsLink": "https://rubygems.org/gems/json",
       "maintainer": [
         "NARUSE", "Yui (naruse)",
         "Hiroshi SHIBATA (hsbt)"
@@ -189,7 +189,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL.html",
       "mriSourcePath": "ext/openssl",
       "gemGithubLink": "https://github.com/ruby/openssl",
-      "gemLink": "https://rubygems.org/gems/openssl",
+      "rubygemsLink": "https://rubygems.org/gems/openssl",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
         "2.5": "2.0.3",
@@ -205,7 +205,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
       "mriSourcePath": "ext/sdbm",
       "gemGithubLink": "https://github.com/ruby/sdbm",
-      "gemLink": "https://rubygems.org/gems/sdbm",
+      "rubygemsLink": "https://rubygems.org/gems/sdbm",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
         "2.5": "0.0.1"
@@ -219,7 +219,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
       "mriSourcePath": "ext/psych",
       "gemGithubLink": "https://github.com/ruby/psych",
-      "gemLink": "https://rubygems.org/gems/psych",
+      "rubygemsLink": "https://rubygems.org/gems/psych",
       "maintainer": [
         "Aaron Patterson (tenderlove)",
         "Hiroshi SHIBATA (hsbt)"
@@ -244,7 +244,7 @@
         "lib/rdoc"
       ],
       "gemGithubLink": "https://github.com/rdoc/rdoc",
-      "gemLink": "https://rubygems.org/gems/rdoc",
+      "rubygemsLink": "https://rubygems.org/gems/rdoc",
       "maintainer": [
         "Eric Hodel (drbrain)",
         "Hiroshi SHIBATA (hsbt)"
@@ -264,7 +264,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
       "mriSourcePath": "lib/scanf.rb",
       "gemGithubLink": "https://github.com/ruby/scanf",
-      "gemLink": "https://rubygems.org/gems/scanf",
+      "rubygemsLink": "https://rubygems.org/gems/scanf",
       "maintainer": "David A. Black (dblack)",
       "versions": {
         "2.5": "0.0.1"
@@ -278,7 +278,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "mriSourcePath": "ext/stringio",
       "gemGithubLink": null,
-      "gemLink": null,
+      "rubygemsLink": null,
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "2.5": "0.0.1"
@@ -292,7 +292,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
       "mriSourcePath": "ext/strscan",
       "gemGithubLink": "https://github.com/ruby/strscan",
-      "gemLink": null,
+      "rubygemsLink": null,
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
@@ -309,7 +309,7 @@
         "lib/webrick"
       ],
       "gemGithubLink": "https://github.com/ruby/webrick",
-      "gemLink": "https://rubygems.org/gems/webrick",
+      "rubygemsLink": "https://rubygems.org/gems/webrick",
       "maintainer": "Hiroshi Nakamura (nahi)",
       "versions": {
         "2.5": "1.4.0"
@@ -323,7 +323,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
       "mriSourcePath": "ext/zlib",
       "gemGithubLink": "https://github.com/ruby/zlib",
-      "gemLink": "https://rubygems.org/gems/zlib",
+      "rubygemsLink": "https://rubygems.org/gems/zlib",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
