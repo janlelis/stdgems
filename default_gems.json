@@ -53,8 +53,8 @@
       "description": "The [Date](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html) and [DateTime](https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html) classes",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/date/rdoc/index.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/date",
-      "gemGithubLink": null,
-      "gemLink": null,
+      "gemGithubLink": "https://github.com/ruby/date",
+      "gemLink": "https://rubygems.org/gems/date",
       "maintainer": null,
       "versions": {
         "2.5": "0.0.1"
