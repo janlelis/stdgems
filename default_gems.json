@@ -75,6 +75,20 @@
       }
     },
     {
+      "gem": "etc",
+      "native": true,
+      "autoRequire": false,
+      "description": "Access UNIX info from `/etc`",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/etc",
+      "gemGithubLink": "https://github.com/ruby/etc",
+      "gemLink": "https://rubygems.org/gems/etc",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.2.1"
+      }
+    },
+    {
       "gem": "fileutils",
       "native": false,
       "autoRequire": false,
