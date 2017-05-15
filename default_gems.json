@@ -65,13 +65,13 @@
       "native": true,
       "autoRequire": false,
       "description": "Support for [DBM databases](https://gen.wikipedia.org/wiki/Dbm)",
-      "rdocLink": "https://gruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/dbm",
-      "gemGithubLink": null,
-      "gemLink": null,
+      "gemGithubLink": "https://github.com/ruby/dbm",
+      "gemLink": "https://rubygems.org/gems/dbm",
       "maintainer": null,
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
