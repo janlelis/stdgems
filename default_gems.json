@@ -103,6 +103,20 @@
       }
     },
     {
+      "gem": "fiddle",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for FFI ([Foreign Function Interface](https://sourceware.org/libffi/))",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
+      "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/fiddle",
+      "gemGithubLink": "https://github.com/ruby/fiddle",
+      "gemLink": "https://rubygems.org/gems/fiddle",
+      "maintainer": "Aaron Patterson (tenderlove)",
+      "versions": {
+        "2.5": "1.0.0"
+      }
+    },
+    {
       "gem": "fileutils",
       "native": false,
       "autoRequire": false,
