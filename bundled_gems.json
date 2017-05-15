@@ -32,7 +32,7 @@
       "gem": "net-telnet",
       "native": false,
       "autoRequire": false,
-      "description": "Support for [Telnet](http://en.wikipedia.org/wiki/Telnet)",
+      "description": "Support for [Telnet](https://en.wikipedia.org/wiki/Telnet)",
       "gemGithubLink": "https://github.com/ruby/net-telnet",
       "gemLink": "https://rubygems.org/gems/net-telnet",
       "versions": {
@@ -59,7 +59,7 @@
       "gem": "rake",
       "native": false,
       "autoRequire": false,
-      "description": "A Ruby task runner, inspired by [make](http://en.wikipedia.org/wiki/Make_%28software%29)",
+      "description": "A Ruby task runner, inspired by [make](https://en.wikipedia.org/wiki/Make_%28software%29)",
       "gemGithubLink": "https://github.com/ruby/rake",
       "gemLink": "https://rubygems.org/gems/rake",
       "versions": {
@@ -86,7 +86,7 @@
       "gem": "xmlrpc",
       "native": false,
       "autoRequire": false,
-      "description": "[Remote Procedure Calls via XML and HTTP](http://en.wikipedia.org/wiki/XML-RPC)",
+      "description": "[Remote Procedure Calls via XML and HTTP](https://en.wikipedia.org/wiki/XML-RPC)",
       "gemGithubLink": "https://github.com/ruby/xmlrpc",
       "gemLink": "https://rubygems.org/gems/xmlrpc",
       "versions": {
