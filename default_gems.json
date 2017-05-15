@@ -178,9 +178,12 @@
       "mriGithubLink": "https://github.com/ruby/ruby/tree/trunk/ext/psych",
       "gemGithubLink": "https://github.com/ruby/psych",
       "gemLink": "https://rubygems.org/gems/psych",
-      "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA(hsbt)"],
+      "maintainer": [
+        "Aaron Patterson (tenderlove)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
       "versions": {
-        "2.5": "2.2.2",
+        "2.5": "3.0.0",
         "2.4": "2.2.2",
         "2.3": "2.1.0",
         "2.3.1": "2.0.17",
