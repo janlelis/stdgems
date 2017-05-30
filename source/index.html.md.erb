@@ -1,0 +1,37 @@
+# [stdgems.org](https://stdgems.org)
+
+## About the Gemified Standard Library
+
+Ruby's standard library is in the process of being gemified. It will soon - **Ruby 2.5** - consist of [RubyGems](https://rubygems.org), which can be updated independently from Ruby. Some standard libraries have already be turned into gems before Ruby 2.5.
+
+There are two different kinds of standard gems:
+
+- **Default gems:** These gems are part of Ruby and you can always require them directly. You cannot remove them. They are maintained by Ruby core.
+
+- **Bundled gems:** The behavior of bundled gems is similar normal gems, but they get automatically installed when you install Ruby. They can be uninstalled and they are maintained outside of Ruby core.
+
+## Standard Gems Version Data
+
+Every Ruby version ships a specific set of default and bundled gems. The tables below list included gems of the current Ruby version **<%= current_ruby_version %>**. There is also [version matrix](/matrix), a table which describes which Ruby version comes with which gem versions. The raw data is available as [default_gems.json](/default_gems.json) and [bundled_gems.json](/bundled_gems.json).
+
+## Default Gems (Ruby <%= current_ruby_version %>)
+
+Gem | Version | Description | Resources
+----|---------|-------------|----------
+<%= default_gems_list %>
+{:.table-20-10-45-X}
+
+## Bundled Gems (Ruby <%= current_ruby_version %>)
+
+Gem | Version | Description | Resources
+----|---------|-------------|----------
+<%= bundled_gems_list %>
+{:.table-20-10-45-X}
+
+## Gems per Ruby Version
+
+<%= listed_ruby_versions.group_by{ |ruby_version| ruby_version.to_f }.map{ |_, ruby_versions| "- Gem list for Ruby: " + ruby_versions.map{ |ruby_version| "[#{ruby_version}](/#{ruby_version})" }.join(" - ") }.join("\n") %>
+
+## About stdgems.org
+
+This page and the JSON data files it is based on are maintained on [GitHub](https://github.com/janlelis/stdgems). Originally based on [episode 20 of Idiosyncratic Ruby](https://idiosyncratic-ruby.com/20-better-standards.html) and put together by [Jan Lelis](https://janlelis.com).

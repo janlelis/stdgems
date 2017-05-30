@@ -1,0 +1,23 @@
+## Description
+
+<%= gem_info["description"] %>
+
+## Info
+
+<%= gem_details_properties(gem_info, gem_type) %>
+
+## Project Links
+
+<%= gem_details(gem_info, gem_type) %>
+
+<% if gem_info["notes"] %>
+## Notes
+
+<%= gem_info["notes"] %>
+<% end %>
+
+## Gem Version
+
+<%= gem_details_versions(gem_info) %>
+
+<%= partial 'footer' %>
