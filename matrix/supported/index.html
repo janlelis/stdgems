@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Standard Gems: Version Matrix (Supported Rubies)</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Ruby's standard library is divided in default and bundled gems"/>
+    <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function(){
+  ['h2', 'h3'].forEach(function(h){
+    document.querySelectorAll(h).forEach(function(e){
+      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+    })
+  })
+})
+    </script>
+  </head>
+
+  <body>
+    <div class="world">
+      <section class="post-header">
+        <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top"><a href="#top">Standard Gems Version Matrix</a></h1>
+      </section>
+
+     	<article class="post"><h2 id="supported-rubies">Supported Rubies</h2>
+
+<p>Which Ruby version comes with which bundled and default gems? This matrix lists all Ruby versions which have not reached <em>end of support</em>, yet. Also see the <a href="/matrix">simplified matrix of recent main versions of Ruby</a>.</p>
+
+<h3 id="default-gems-supported-ruby-version-matrix">Default Gems Supported Ruby Version Matrix</h3>
+
+<table class="table-20-X">
+  <thead>
+    <tr>
+      <th>Gem</th>
+      <th>2.4.1</th>
+      <th>2.4.0</th>
+      <th>2.3.4</th>
+      <th>2.3.3</th>
+      <th>2.3.2</th>
+      <th>2.3.1</th>
+      <th>2.3.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/bigdecimal">bigdecimal</a> <strong>c</strong></td>
+      <td>1.3.0</td>
+      <td>1.3.0</td>
+      <td>1.2.8</td>
+      <td>1.2.8</td>
+      <td>1.2.8</td>
+      <td>1.2.8</td>
+      <td>1.2.8</td>
+    </tr>
+    <tr>
+      <td><a href="/cmath">cmath</a></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/csv">csv</a></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/date">date</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/dbm">dbm</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/etc">etc</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/fcntl">fcntl</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/fiddle">fiddle</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/fileutils">fileutils</a></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/gdbm">gdbm</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/io-console">io-console</a> <strong>c</strong></td>
+      <td>0.4.6</td>
+      <td>0.4.6</td>
+      <td>0.4.5</td>
+      <td>0.4.5</td>
+      <td>0.4.5</td>
+      <td>0.4.5</td>
+      <td>0.4.5</td>
+    </tr>
+    <tr>
+      <td><a href="/json">json</a> <strong>c</strong></td>
+      <td>2.0.2</td>
+      <td>2.0.2</td>
+      <td>1.8.3</td>
+      <td>1.8.3</td>
+      <td>1.8.3</td>
+      <td>1.8.3</td>
+      <td>1.8.3</td>
+    </tr>
+    <tr>
+      <td><a href="/openssl">openssl</a> <strong>c</strong></td>
+      <td>2.0.3</td>
+      <td>2.0.2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/sdbm">sdbm</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/psych">psych</a> <strong>c</strong></td>
+      <td>2.2.2</td>
+      <td>2.2.2</td>
+      <td>2.1.0</td>
+      <td>2.1.0</td>
+      <td>2.1.0</td>
+      <td>2.0.17</td>
+      <td>2.0.17</td>
+    </tr>
+    <tr>
+      <td><a href="/rdoc">rdoc</a></td>
+      <td>5.0.0</td>
+      <td>5.0.0</td>
+      <td>4.2.1</td>
+      <td>4.2.1</td>
+      <td>4.2.1</td>
+      <td>4.2.1</td>
+      <td>4.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="/scanf">scanf</a></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/stringio">stringio</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/strscan">strscan</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/webrick">webrick</a></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a href="/zlib">zlib</a> <strong>c</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="bundled-gems-supported-ruby-version-matrix">Bundled Gems Supported Ruby Version Matrix</h3>
+
+<table class="table-20-X">
+  <thead>
+    <tr>
+      <th>Gem</th>
+      <th>2.4.1</th>
+      <th>2.4.0</th>
+      <th>2.3.4</th>
+      <th>2.3.3</th>
+      <th>2.3.2</th>
+      <th>2.3.1</th>
+      <th>2.3.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/did_you_mean">did_you_mean</a></td>
+      <td>1.1.0</td>
+      <td>1.1.0</td>
+      <td>1.0.0</td>
+      <td>1.0.0</td>
+      <td>1.0.0</td>
+      <td>1.0.0</td>
+      <td>1.0.0</td>
+    </tr>
+    <tr>
+      <td><a href="/minitest">minitest</a></td>
+      <td>5.10.1</td>
+      <td>5.10.1</td>
+      <td>5.8.3</td>
+      <td>5.8.3</td>
+      <td>5.8.3</td>
+      <td>5.8.3</td>
+      <td>5.8.3</td>
+    </tr>
+    <tr>
+      <td><a href="/net-telnet">net-telnet</a></td>
+      <td>0.1.1</td>
+      <td>0.1.1</td>
+      <td>0.1.1</td>
+      <td>0.1.1</td>
+      <td>0.1.1</td>
+      <td>0.1.1</td>
+      <td>0.1.1</td>
+    </tr>
+    <tr>
+      <td><a href="/power_assert">power_assert</a></td>
+      <td>0.4.1</td>
+      <td>0.4.1</td>
+      <td>0.2.6</td>
+      <td>0.2.6</td>
+      <td>0.2.6</td>
+      <td>0.2.6</td>
+      <td>0.2.6</td>
+    </tr>
+    <tr>
+      <td><a href="/rake">rake</a></td>
+      <td>12.0.0</td>
+      <td>12.0.0</td>
+      <td>10.4.2</td>
+      <td>10.4.2</td>
+      <td>10.4.2</td>
+      <td>10.4.2</td>
+      <td>10.4.2</td>
+    </tr>
+    <tr>
+      <td><a href="/test-unit">test-unit</a></td>
+      <td>3.2.3</td>
+      <td>3.2.3</td>
+      <td>3.1.5</td>
+      <td>3.1.5</td>
+      <td>3.1.5</td>
+      <td>3.1.5</td>
+      <td>3.1.5</td>
+    </tr>
+    <tr>
+      <td><a href="/xmlrpc">xmlrpc</a></td>
+      <td>0.2.1</td>
+      <td>0.2.1</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="more-standard-gems">More Standard Gems</h2>
+
+<ul>
+  <li><a href="/">General information about standard gems</a></li>
+  <li>Versions matrix: <a href="/matrix">main</a> / <a href="/matrix/supported">supported</a></li>
+  <li>Gem list for Ruby: <a href="/2.5.0">2.5.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.4.1">2.4.1</a> - <a href="/2.4.0">2.4.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
+</ul>
+
+</article>
+    </div>
+    <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  </body>
+</html>

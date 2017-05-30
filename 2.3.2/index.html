@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Standard Gems</title>
+    <title>Standard Gems 2.3.2</title>
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 
@@ -25,31 +25,11 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top">Ruby Standard Gems</a></h1>
+        <h1 class="post-heading" id="top"><a href="#top">Standard Gems 2.3.2</a></h1>
       </section>
 
      	<article class="post">
-
-<h2 id="about-the-gemified-standard-library">About the Gemified Standard Library</h2>
-
-<p>Ruby's standard library is in the process of being gemified. It will soon - <strong>Ruby 2.5</strong> - consist of <a href="https://rubygems.org">RubyGems</a>, which can be updated independently from Ruby. Some standard libraries have already be turned into gems before Ruby 2.5.</p>
-
-<p>There are two different kinds of standard gems:</p>
-
-<ul>
-  <li>
-    <p><strong>Default gems:</strong> These gems are part of Ruby and you can always require them directly. You cannot remove them. They are maintained by Ruby core.</p>
-  </li>
-  <li>
-    <p><strong>Bundled gems:</strong> The behavior of bundled gems is similar normal gems, but they get automatically installed when you install Ruby. They can be uninstalled and they are maintained outside of Ruby core.</p>
-  </li>
-</ul>
-
-<h2 id="standard-gems-version-data">Standard Gems Version Data</h2>
-
-<p>Every Ruby version ships a specific set of default and bundled gems. The tables below list included gems of the current Ruby version <strong>2.4.1</strong>. There is also <a href="/matrix">version matrix</a>, a table which describes which Ruby version comes with which gem versions. The raw data is available as <a href="/default_gems.json">default_gems.json</a> and <a href="/bundled_gems.json">bundled_gems.json</a>.</p>
-
-<h2 id="default-gems-ruby-241">Default Gems (Ruby 2.4.1)</h2>
+<h2 id="default-gems">Default Gems</h2>
 
 <table class="table-20-10-45-X">
   <thead>
@@ -63,44 +43,38 @@ document.addEventListener('DOMContentLoaded', function(){
   <tbody>
     <tr>
       <td><a href="/bigdecimal">bigdecimal</a> <strong>c</strong></td>
-      <td>1.3.0</td>
+      <td>1.2.8</td>
       <td>Support for arbitrary-precision floating point decimal arithmetic</td>
       <td><a href="https://rubygems.org/gems/bigdecimal">RubyGems</a>, <a href="https://github.com/ruby/bigdecimal">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/bigdecimal">MRI</a>, <a href="https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/io-console">io-console</a> <strong>c</strong></td>
-      <td>0.4.6</td>
+      <td>0.4.5</td>
       <td>Patches <code>IO</code> for simple and portable access to the console</td>
       <td><a href="https://rubygems.org/gems/io-console">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/io/console">MRI</a>, <a href="https://ruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/json">json</a> <strong>c</strong></td>
-      <td>2.0.2</td>
+      <td>1.8.3</td>
       <td>Support for JSON (<a href="https://gen.wikipedia.org/wiki/JSON">JavaScript Object Notation</a>)</td>
       <td><a href="https://rubygems.org/gems/json">RubyGems</a>, <a href="https://github.com/flori/json">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/json">MRI</a>, <a href="https://ruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html">RDoc</a></td>
     </tr>
     <tr>
-      <td><a href="/openssl">openssl</a> <strong>c</strong></td>
-      <td>2.0.3</td>
-      <td>Wraps <a href="https://www.openssl.org/">OpenSSL</a> for cryptographic functionality</td>
-      <td><a href="https://rubygems.org/gems/openssl">RubyGems</a>, <a href="https://github.com/ruby/openssl">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/openssl">MRI</a>, <a href="https://ruby.github.io/openssl/">RDoc</a></td>
-    </tr>
-    <tr>
       <td><a href="/psych">psych</a> <strong>c</strong></td>
-      <td>2.2.2</td>
+      <td>2.1.0</td>
       <td>Support for YAML (<a href="https://en.wikipedia.org/wiki/YAML">YAML Ain't Markup Language</a>)</td>
       <td><a href="https://rubygems.org/gems/psych">RubyGems</a>, <a href="https://github.com/ruby/psych">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/psych">MRI</a>, <a href="https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/rdoc">rdoc</a></td>
-      <td>5.0.0</td>
+      <td>4.2.1</td>
       <td>Ruby documentation generator</td>
       <td><a href="https://rubygems.org/gems/rdoc">RubyGems</a>, <a href="https://github.com/rdoc/rdoc">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/rdoc.rb">MRI (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/rdoc">MRI (2)</a>, <a href="https://rdoc.github.io/rdoc/">RDoc</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="bundled-gems-ruby-241">Bundled Gems (Ruby 2.4.1)</h2>
+<h2 id="bundled-gems">Bundled Gems</h2>
 
 <table class="table-20-10-45-X">
   <thead>
@@ -114,13 +88,13 @@ document.addEventListener('DOMContentLoaded', function(){
   <tbody>
     <tr>
       <td><a href="/did_you_mean">did_you_mean</a></td>
-      <td>1.1.0</td>
+      <td>1.0.0</td>
       <td>Patches error messages to suggest correct spelling of methods/classes/variables</td>
       <td><a href="https://rubygems.org/gems/did_you_mean">RubyGems</a>, <a href="https://github.com/yuki24/did_you_mean">GitHub</a></td>
     </tr>
     <tr>
       <td><a href="/minitest">minitest</a></td>
-      <td>5.10.1</td>
+      <td>5.8.3</td>
       <td>Test/spec framework, comes with mocking and benchmark capabilities</td>
       <td><a href="https://rubygems.org/gems/minitest">RubyGems</a>, <a href="https://github.com/seattlerb/minitest">GitHub</a></td>
     </tr>
@@ -132,43 +106,36 @@ document.addEventListener('DOMContentLoaded', function(){
     </tr>
     <tr>
       <td><a href="/power_assert">power_assert</a></td>
-      <td>0.4.1</td>
+      <td>0.2.6</td>
       <td>Debug tool that displays intermediate results of a method chain</td>
       <td><a href="https://rubygems.org/gems/power_assert">RubyGems</a>, <a href="https://github.com/k-tsj/power_assert">GitHub</a></td>
     </tr>
     <tr>
       <td><a href="/rake">rake</a></td>
-      <td>12.0.0</td>
+      <td>10.4.2</td>
       <td>A Ruby task runner, inspired by <a href="https://en.wikipedia.org/wiki/Make_%28software%29">make</a></td>
       <td><a href="https://rubygems.org/gems/rake">RubyGems</a>, <a href="https://github.com/ruby/rake">GitHub</a></td>
     </tr>
     <tr>
       <td><a href="/test-unit">test-unit</a></td>
-      <td>3.2.3</td>
+      <td>3.1.5</td>
       <td>A xUnit family unit testing framework</td>
       <td><a href="https://rubygems.org/gems/test-unit">RubyGems</a>, <a href="https://github.com/test-unit/test-unit">GitHub</a></td>
-    </tr>
-    <tr>
-      <td><a href="/xmlrpc">xmlrpc</a></td>
-      <td>0.2.1</td>
-      <td><a href="https://en.wikipedia.org/wiki/XML-RPC">Remote Procedure Calls via XML and HTTP</a></td>
-      <td><a href="https://rubygems.org/gems/xmlrpc">RubyGems</a>, <a href="https://github.com/ruby/xmlrpc">GitHub</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="gems-per-ruby-version">Gems per Ruby Version</h2>
+<h2 id="more-standard-gems">More Standard Gems</h2>
 
 <ul>
+  <li><a href="/">General information about standard gems</a></li>
+  <li>Versions matrix: <a href="/matrix">main</a> / <a href="/matrix/supported">supported</a></li>
   <li>Gem list for Ruby: <a href="/2.5.0">2.5.0</a></li>
   <li>Gem list for Ruby: <a href="/2.4.1">2.4.1</a> - <a href="/2.4.0">2.4.0</a></li>
   <li>Gem list for Ruby: <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
   <li>Gem list for Ruby: <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
 </ul>
 
-<h2 id="about-stdgemsorg">About stdgems.org</h2>
-
-<p>This page and the JSON data files it is based on are maintained on <a href="https://github.com/janlelis/stdgems">GitHub</a>. Originally based on <a href="https://idiosyncratic-ruby.com/20-better-standards.html">episode 20 of Idiosyncratic Ruby</a> and put together by <a href="https://janlelis.com">Jan Lelis</a>.</p>
 </article>
     </div>
     <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
