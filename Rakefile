@@ -85,3 +85,13 @@ task :stdgems_json do
   File.write(stdgems_out_filename, JSON.pretty_generate(stdgems_file))
   puts "Done"
 end
+
+### WEBSITE ###
+
+require 'middleman-gh-pages'
+
+desc 'Deploy to stdgems.org'
+# task :deploy => :publish do
+task :deploy do
+  sh 'git checkout website && rake publish && git checkout gh-pages && git pull origin gh-pages && git push production gh-pages:gh-pages'
+end
