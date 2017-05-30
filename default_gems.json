@@ -1,0 +1,357 @@
+{
+  "version": "0.1.0",
+  "gems": [
+    {
+      "gem": "bigdecimal",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for arbitrary-precision floating point decimal arithmetic",
+      "mriSourcePath": "ext/bigdecimal",
+      "sourceRepository": "https://github.com/ruby/bigdecimal",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
+      "maintainer": "Kenta Murata (mrkn)",
+      "versions": {
+        "2.5": "1.3.2",
+        "2.4": "1.3.0",
+        "2.3": "1.2.8",
+        "2.2": "1.2.6"
+      }
+    },
+    {
+      "gem": "cmath",
+      "native": false,
+      "autoRequire": false,
+      "description": "Trigonometric and transcendental functions for complex numbers",
+      "mriSourcePath": "lib/cmath.rb",
+      "sourceRepository": "https://github.com/ruby/cmath",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/cmath",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "csv",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
+      "mriSourcePath": "lib/csv.rb",
+      "sourceRepository": "https://github.com/ruby/csv",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/csv",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
+      "maintainer": "James Edward Gray II (jeg2)",
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "date",
+      "native": true,
+      "autoRequire": false,
+      "description": "The [Date](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html) and [DateTime](https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html) classes",
+      "mriSourcePath": "ext/date",
+      "sourceRepository": "https://github.com/ruby/date",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/date",
+      "rdocLink": [
+        "https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html",
+        "https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html"
+      ],
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "dbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [DBM databases](https://gen.wikipedia.org/wiki/Dbm)",
+      "mriSourcePath": "ext/dbm",
+      "sourceRepository": "https://github.com/ruby/dbm",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/dbm",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "1.0.0"
+      }
+    },
+    {
+      "gem": "etc",
+      "native": true,
+      "autoRequire": false,
+      "description": "Access UNIX info from `/etc`",
+      "mriSourcePath": "ext/etc",
+      "sourceRepository": "https://github.com/ruby/etc",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/etc",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.2.1"
+      }
+    },
+    {
+      "gem": "fcntl",
+      "native": true,
+      "autoRequire": false,
+      "description": "Loads values from the OS' `fcntl.h` to be used for low-level [file descriptor manipulation](https://en.wikipedia.org/wiki/File_descriptor) system calls with [IO#fcntl](https://ruby-doc.org/core/IO.html#method-i-fcntl) and [IO.sysopen](https://ruby-doc.org/core/IO.html#method-c-sysopen)",
+      "mriSourcePath": "ext/fcntl",
+      "sourceRepository": "https://github.com/ruby/fcntl",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/fcntl",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "fiddle",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for FFI ([Foreign Function Interface](https://sourceware.org/libffi/))",
+      "mriSourcePath": "ext/fiddle",
+      "sourceRepository": "https://github.com/ruby/fiddle",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/fiddle",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
+      "maintainer": "Aaron Patterson (tenderlove)",
+      "versions": {
+        "2.5": "1.0.0"
+      }
+    },
+    {
+      "gem": "fileutils",
+      "native": false,
+      "autoRequire": false,
+      "description": "Utilities for working with the file system",
+      "mriSourcePath": "lib/fileutils.rb",
+      "sourceRepository": "https://github.com/ruby/fileutils",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/fileutils",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.7.1"
+      }
+    },
+    {
+      "gem": "gdbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
+      "mriSourcePath": "ext/gdbm",
+      "sourceRepository": "https://github.com/ruby/gdbm",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/gdbm",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/gdbm/rdoc/GDBM.html",
+      "maintainer": "Yukihiro Matsumoto (matz)",
+      "versions": {
+        "2.5": "2.0.0"
+      }
+    },
+    {
+      "gem": "io-console",
+      "native": true,
+      "autoRequire": false,
+      "description": "Patches `IO` for simple and portable access to the console",
+      "mriSourcePath": "ext/io/console",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/io-console",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html",
+      "maintainer": "Nobuyuki Nakada (nobu)",
+      "notes": "There is a [GitHub repo](https://github.com/nobu/io-console), but it is currently out of sync.",
+      "versions": {
+        "2.5": "0.4.6",
+        "2.4": "0.4.6",
+        "2.3": "0.4.5",
+        "2.2": "0.4.3"
+      }
+    },
+    {
+      "gem": "json",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for JSON ([JavaScript Object Notation](https://gen.wikipedia.org/wiki/JSON))",
+      "mriSourcePath": "ext/json",
+      "sourceRepository": "https://github.com/flori/json",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/json",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
+      "maintainer": [
+        "NARUSE", "Yui (naruse)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
+      "versions": {
+        "2.5": "2.0.4",
+        "2.4": "2.0.2",
+        "2.3": "1.8.3"
+      }
+    },
+    {
+      "gem": "openssl",
+      "native": true,
+      "autoRequire": false,
+      "description": "Wraps [OpenSSL](https://www.openssl.org/) for cryptographic functionality",
+      "mriSourcePath": "ext/openssl",
+      "sourceRepository": "https://github.com/ruby/openssl",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/openssl",
+      "rdocLink": "https://ruby.github.io/openssl/",
+      "maintainer": "Kazuki Yamaguchi (rhe)",
+      "versions": {
+        "2.5": "2.0.3",
+        "2.4": "2.0.3",
+        "2.4.0": "2.0.2"
+      }
+    },
+    {
+      "gem": "sdbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
+      "mriSourcePath": "ext/sdbm",
+      "sourceRepository": "https://github.com/ruby/sdbm",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/sdbm",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
+      "maintainer": "Yukihiro Matsumoto (matz)",
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "psych",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for YAML ([YAML Ain't Markup Language](https://en.wikipedia.org/wiki/YAML))",
+      "mriSourcePath": "ext/psych",
+      "sourceRepository": "https://github.com/ruby/psych",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/psych",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
+      "maintainer": [
+        "Aaron Patterson (tenderlove)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
+      "versions": {
+        "2.5": "3.0.0",
+        "2.4": "2.2.2",
+        "2.3": "2.1.0",
+        "2.3.1": "2.0.17",
+        "2.3.0": "2.0.17",
+        "2.2": "2.0.8"
+      }
+    },
+    {
+      "gem": "rdoc",
+      "native": false,
+      "autoRequire": false,
+      "description": "Ruby documentation generator",
+      "mriSourcePath": [
+        "lib/rdoc.rb",
+        "lib/rdoc"
+      ],
+      "sourceRepository": "https://github.com/rdoc/rdoc",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/rdoc",
+      "rdocLink": "https://rdoc.github.io/rdoc/",
+      "maintainer": [
+        "Eric Hodel (drbrain)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
+      "versions": {
+        "2.5": "5.1.0",
+        "2.4": "5.0.0",
+        "2.3": "4.2.1",
+        "2.2": "4.2.0"
+      }
+    },
+    {
+      "gem": "scanf",
+      "native": false,
+      "autoRequire": false,
+      "description": "Pure-Ruby [scanf](https://en.wikipedia.org/wiki/Scanf_format_string) implementation",
+      "mriSourcePath": "lib/scanf.rb",
+      "sourceRepository": "https://github.com/ruby/scanf",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/scanf",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
+      "maintainer": "David A. Black (dblack)",
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "stringio",
+      "native": true,
+      "autoRequire": false,
+      "description": "Makes strings behave like IO objects",
+      "mriSourcePath": "ext/stringio",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
+      "maintainer": "Nobuyuki Nakada (nobu)",
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "strscan",
+      "native": true,
+      "autoRequire": false,
+      "description": "Lexical string scanning",
+      "mriSourcePath": "ext/strscan",
+      "sourceRepository": "https://github.com/ruby/strscan",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    },
+    {
+      "gem": "webrick",
+      "native": false,
+      "autoRequire": false,
+      "description": "HTTP Server",
+      "mriSourcePath": [
+        "lib/webrick.rb",
+        "lib/webrick"
+      ],
+      "sourceRepository": "https://github.com/ruby/webrick",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/webrick",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
+      "maintainer": "Hiroshi Nakamura (nahi)",
+      "versions": {
+        "2.5": "1.4.0"
+      }
+    },
+    {
+      "gem": "zlib",
+      "native": true,
+      "autoRequire": false,
+      "description": "Interface to the [zlib compression library](https://en.wikipedia.org/wiki/Zlib)",
+      "mriSourcePath": "ext/zlib",
+      "sourceRepository": "https://github.com/ruby/zlib",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/zlib",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
+      "maintainer": null,
+      "versions": {
+        "2.5": "0.0.1"
+      }
+    }
+  ]
+}

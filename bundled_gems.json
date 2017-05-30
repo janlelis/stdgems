@@ -1,0 +1,98 @@
+{
+  "version": "0.1.0",
+  "gems": [
+    {
+      "gem": "did_you_mean",
+      "native": false,
+      "autoRequire": true,
+      "description": "Patches error messages to suggest correct spelling of methods/classes/variables",
+      "sourceRepository": "https://github.com/yuki24/did_you_mean",
+      "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
+      "versions": {
+        "2.5": "1.1.0",
+        "2.4": "1.1.0",
+        "2.3": "1.0.0"
+      }
+    },
+    {
+      "gem": "minitest",
+      "native": false,
+      "autoRequire": false,
+      "description": "Test/spec framework, comes with mocking and benchmark capabilities",
+      "sourceRepository": "https://github.com/seattlerb/minitest",
+      "rubygemsLink": "https://rubygems.org/gems/minitest",
+      "versions": {
+        "2.5": "5.10.1",
+        "2.4": "5.10.1",
+        "2.3": "5.8.3",
+        "2.2": "5.4.3"
+      }
+    },
+    {
+      "gem": "net-telnet",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for [Telnet](https://en.wikipedia.org/wiki/Telnet)",
+      "sourceRepository": "https://github.com/ruby/net-telnet",
+      "rubygemsLink": "https://rubygems.org/gems/net-telnet",
+      "versions": {
+        "2.5": "0.1.1",
+        "2.4": "0.1.1",
+        "2.3": "0.1.1"
+      }
+    },
+    {
+      "gem": "power_assert",
+      "native": false,
+      "autoRequire": false,
+      "description": "Debug tool that displays intermediate results of a method chain",
+      "sourceRepository": "https://github.com/k-tsj/power_assert",
+      "rubygemsLink": "https://rubygems.org/gems/power_assert",
+      "versions": {
+        "2.5": "1.0.2",
+        "2.4": "0.4.1",
+        "2.3": "0.2.6",
+        "2.2": "0.2.2"
+      }
+    },
+    {
+      "gem": "rake",
+      "native": false,
+      "autoRequire": false,
+      "description": "A Ruby task runner, inspired by [make](https://en.wikipedia.org/wiki/Make_%28software%29)",
+      "sourceRepository": "https://github.com/ruby/rake",
+      "rubygemsLink": "https://rubygems.org/gems/rake",
+      "versions": {
+        "2.5": "12.0.0",
+        "2.4": "12.0.0",
+        "2.3": "10.4.2"
+      }
+    },
+    {
+      "gem": "test-unit",
+      "native": false,
+      "autoRequire": false,
+      "description": "A xUnit family unit testing framework",
+      "sourceRepository": "https://github.com/test-unit/test-unit",
+      "rubygemsLink": "https://rubygems.org/gems/test-unit",
+      "versions": {
+        "2.5": "3.2.3",
+        "2.4": "3.2.3",
+        "2.3": "3.1.5",
+        "2.2": "3.0.8"
+      }
+    },
+    {
+      "gem": "xmlrpc",
+      "native": false,
+      "autoRequire": false,
+      "description": "[Remote Procedure Calls via XML and HTTP](https://en.wikipedia.org/wiki/XML-RPC)",
+      "sourceRepository": "https://github.com/ruby/xmlrpc",
+      "rubygemsLink": "https://rubygems.org/gems/xmlrpc",
+      "versions": {
+        "2.5": "0.2.1",
+        "2.4": "0.2.1"
+      }
+    }
+  ]
+}
