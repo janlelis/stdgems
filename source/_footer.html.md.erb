@@ -1,0 +1,5 @@
+## More Standard Gems
+
+- [General information about standard gems](/)
+- Versions matrix: [main](/matrix) / [supported](/matrix/supported)
+<%= listed_ruby_versions.group_by{ |ruby_version| ruby_version.to_f }.map{ |_, ruby_versions| "- Gem list for Ruby: " + ruby_versions.map{ |ruby_version| "[#{ruby_version}](/#{ruby_version})" }.join(" - ") }.join("\n") %>
