@@ -302,7 +302,7 @@ helpers do
 
   def dev_version_warning(ruby_version)
     if ruby_version > CURRENT_RUBY_VERSION
-      "**Warning:** This Ruby version has not been relaesed, yet. Standard gem data might still change."
+      "**Warning:** This Ruby version has not been released, yet. Standard gem data might still change."
     end
   end
 
