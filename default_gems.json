@@ -296,7 +296,7 @@
       "autoRequire": false,
       "description": "Makes strings behave like IO objects",
       "mriSourcePath": "ext/stringio",
-      "sourceRepository": null,
+      "sourceRepository": "https://github.com/ruby/stringio",
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": null,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
