@@ -1,6 +1,6 @@
 # Change Log
 
-## Next
+## 0.1.2
 ### Default Gems
 
 - New maintainer for webrick
