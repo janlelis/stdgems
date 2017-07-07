@@ -191,7 +191,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.5": "2.0.4",
+        "2.5": "2.1.0",
         "2.4": "2.0.2",
         "2.3": "1.8.3"
       }
@@ -208,7 +208,7 @@
       "rdocLink": "https://ruby.github.io/openssl/",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
-        "2.5": "2.0.3",
+        "2.5": "2.0.4",
         "2.4": "2.0.3",
         "2.4.0": "2.0.2"
       }

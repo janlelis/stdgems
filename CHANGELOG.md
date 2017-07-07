@@ -4,6 +4,7 @@
 ### Default Gems
 
 - New maintainer for webrick
+- 2.5: Update openssl, json
 
 ### Bundled Gems
 
