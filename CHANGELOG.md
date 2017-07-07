@@ -5,6 +5,10 @@
 
 - New maintainer for webrick
 
+### Bundled Gems
+
+- 2.5: Update did\_you\_mean, minitest, test-unit, xmlrpc
+
 ## 0.1.1
 ### Default Gems
 
