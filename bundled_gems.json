@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "gems": [
     {
       "gem": "did_you_mean",
@@ -9,7 +9,7 @@
       "sourceRepository": "https://github.com/yuki24/did_you_mean",
       "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
       "versions": {
-        "2.5": "1.1.0",
+        "2.5": "1.1.2",
         "2.4": "1.1.0",
         "2.3": "1.0.0"
       }
@@ -22,7 +22,7 @@
       "sourceRepository": "https://github.com/seattlerb/minitest",
       "rubygemsLink": "https://rubygems.org/gems/minitest",
       "versions": {
-        "2.5": "5.10.1",
+        "2.5": "5.10.2",
         "2.4": "5.10.1",
         "2.3": "5.8.3",
         "2.2": "5.4.3"
@@ -76,7 +76,7 @@
       "sourceRepository": "https://github.com/test-unit/test-unit",
       "rubygemsLink": "https://rubygems.org/gems/test-unit",
       "versions": {
-        "2.5": "3.2.3",
+        "2.5": "3.2.4",
         "2.4": "3.2.3",
         "2.3": "3.1.5",
         "2.2": "3.0.8"
@@ -90,7 +90,7 @@
       "sourceRepository": "https://github.com/ruby/xmlrpc",
       "rubygemsLink": "https://rubygems.org/gems/xmlrpc",
       "versions": {
-        "2.5": "0.2.1",
+        "2.5": "0.3.0",
         "2.4": "0.2.1"
       }
     }
