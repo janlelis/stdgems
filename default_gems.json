@@ -330,10 +330,10 @@
         "lib/webrick"
       ],
       "sourceRepository": "https://github.com/ruby/webrick",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": false,
       "rubygemsLink": "https://rubygems.org/gems/webrick",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
-      "maintainer": "Hiroshi Nakamura (nahi)",
+      "maintainer": "Eric Wong (normalperson)",
       "versions": {
         "2.5": "1.4.0"
       }
