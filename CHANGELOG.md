@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.1.3
+### Default Gems
+
+- 2.5: Add ipaddr
+
 ## 0.1.2
 ### Default Gems
 

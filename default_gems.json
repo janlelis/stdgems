@@ -177,6 +177,21 @@
       }
     },
     {
+      "gem": "ipaddr",
+      "native": false,
+      "autoRequire": false,
+      "description": "[IP address](https://en.wikipedia.org/wiki/IP_address) manipulation (IPv4 and IPv6)",
+      "mriSourcePath": "lib/ipaddr.rb",
+      "sourceRepository": "https://github.com/ruby/ipaddr",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
+      "maintainer": "Akinori MUSHA (knu)",
+      "versions": {
+        "2.5": "1.0.0"
+      }
+    },
+    {
       "gem": "json",
       "native": true,
       "autoRequire": false,
