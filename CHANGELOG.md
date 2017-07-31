@@ -1,10 +1,11 @@
 # Change Log
 
-## Next
+## 0.1.4
 
 ### Default Gems
 
 - 2.5: Add digest
+- Fix broken Wikipedia links
 
 ## 0.1.3
 
