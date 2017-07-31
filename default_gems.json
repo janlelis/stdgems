@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -71,7 +71,7 @@
       "gem": "dbm",
       "native": true,
       "autoRequire": false,
-      "description": "Support for [DBM databases](https://gen.wikipedia.org/wiki/Dbm)",
+      "description": "Support for [DBM databases](https://en.wikipedia.org/wiki/Dbm)",
       "mriSourcePath": "ext/dbm",
       "sourceRepository": "https://github.com/ruby/dbm",
       "sourceRepositoryIsUpstream": null,
@@ -80,6 +80,21 @@
       "maintainer": null,
       "versions": {
         "2.5": "1.0.0"
+      }
+    },
+    {
+      "gem": "digest",
+      "native": true,
+      "autoRequire": false,
+      "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
+      "mriSourcePath": "ext/digest",
+      "sourceRepository": "https://github.com/ruby/digest",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
+      "maintainer": "Akinori MUSHA (knu)",
+      "versions": {
+        "2.5": "0.1.0"
       }
     },
     {
@@ -195,7 +210,7 @@
       "gem": "json",
       "native": true,
       "autoRequire": false,
-      "description": "Support for JSON ([JavaScript Object Notation](https://gen.wikipedia.org/wiki/JSON))",
+      "description": "Support for JSON ([JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON))",
       "mriSourcePath": "ext/json",
       "sourceRepository": "https://github.com/flori/json",
       "sourceRepositoryIsUpstream": true,
