@@ -198,7 +198,7 @@
       "description": "[IP address](https://en.wikipedia.org/wiki/IP_address) manipulation (IPv4 and IPv6)",
       "mriSourcePath": "lib/ipaddr.rb",
       "sourceRepository": "https://github.com/ruby/ipaddr",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": null,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",

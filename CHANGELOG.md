@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Mark ipaddr repository as upstream
+
 ## 0.1.4
 
 ### Default Gems
