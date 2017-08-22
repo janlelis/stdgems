@@ -6,6 +6,10 @@
 
 - Mark ipaddr repository as upstream
 
+### Bundled Gems
+
+- 2.5: Bump power\_assert version
+
 ## 0.1.4
 
 ### Default Gems
