@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -154,7 +154,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.7.1"
+        "2.5": "0.7.2"
       }
     },
     {
@@ -198,7 +198,7 @@
       "description": "[IP address](https://en.wikipedia.org/wiki/IP_address) manipulation (IPv4 and IPv6)",
       "mriSourcePath": "lib/ipaddr.rb",
       "sourceRepository": "https://github.com/ruby/ipaddr",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": null,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
@@ -238,8 +238,9 @@
       "rdocLink": "https://ruby.github.io/openssl/",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
-        "2.5": "2.0.4",
-        "2.4": "2.0.3",
+        "2.5": "2.0.5",
+        "2.4": "2.0.4",
+        "2.4.1": "2.0.3",
         "2.4.0": "2.0.2"
       }
     },
