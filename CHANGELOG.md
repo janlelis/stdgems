@@ -5,6 +5,7 @@
 ### Default Gems
 
 - Mark ipaddr repository as upstream
+- Update OpenSSL version for 2.4 and 2.5
 
 ### Bundled Gems
 
