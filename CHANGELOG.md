@@ -6,6 +6,7 @@
 
 - Mark ipaddr repository as upstream
 - Update OpenSSL version for 2.4 and 2.5
+- Current fileutils version is 0.7.2
 
 ### Bundled Gems
 
