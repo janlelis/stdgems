@@ -5,6 +5,7 @@
 ### Default Gems
 
 - Add bundler
+- Update rdoc
 
 ### Bundled Gems
 
