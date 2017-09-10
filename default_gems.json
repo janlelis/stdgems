@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -31,7 +31,7 @@
       "rdocLink": null,
       "maintainer": null,
       "versions": {
-        "2.5": "1.5.14",
+        "2.5": "1.5.14"
       }
     },
     {
