@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Bundled Gems
+
+- Update openssl and minitest
+
 ## 0.1.5
 
 ### Default Gems
