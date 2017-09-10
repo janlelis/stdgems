@@ -2,6 +2,10 @@
 
 ## Next
 
+### Default Gems
+
+- Add bundler
+
 ### Bundled Gems
 
 - Update openssl and minitest

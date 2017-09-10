@@ -20,6 +20,21 @@
       }
     },
     {
+      "gem": "bundler",
+      "native": true,
+      "autoRequire": false,
+      "description": "[Bundler](https://bundler.io) is a local package manager for Ruby applications",
+      "mriSourcePath": "lib/bundler",
+      "sourceRepository": "https://github.com/bundler/bundler",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/bunder",
+      "rdocLink": null,
+      "maintainer": null,
+      "versions": {
+        "2.5": "1.5.14",
+      }
+    },
+    {
       "gem": "cmath",
       "native": false,
       "autoRequire": false,
