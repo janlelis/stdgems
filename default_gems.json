@@ -21,7 +21,7 @@
     },
     {
       "gem": "bundler",
-      "native": true,
+      "native": false,
       "autoRequire": false,
       "description": "[Bundler](https://bundler.io) is a local package manager for Ruby applications",
       "mriSourcePath": "lib/bundler",

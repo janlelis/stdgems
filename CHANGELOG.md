@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Fix: Bundler is not a native extension
+
 ## 0.1.6
 
 ### Default Gems
