@@ -4,7 +4,7 @@
 
 ### Default Gems
 
-- Fix: Bundler is not a native extension
+- Fix & improve bundler info
 
 ## 0.1.6
 
