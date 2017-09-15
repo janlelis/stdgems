@@ -6,6 +6,10 @@
 
 - Fix & improve bundler info
 
+### Bundled Gems
+
+- Fix minitest version for Ruby 2.3.x
+
 ## 0.1.6
 
 ### Default Gems
