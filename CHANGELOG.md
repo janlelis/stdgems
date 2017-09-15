@@ -4,6 +4,7 @@
 
 ### Default Gems
 
+- Update versions for Ruby releases: 2.4.2, 2.3.5, 2.2.8
 - Fix & improve bundler info
 
 ### Bundled Gems
