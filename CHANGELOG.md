@@ -1,10 +1,14 @@
 # Change Log
 
-## 0.1.8
+## 0.1.9
 
 ### Default Gems
 
 - Fix that Ruby 2.4.2 bundles openssl v2.0.5 (@pvalena)
+
+## 0.1.8
+
+- Please ignore
 
 ## 0.1.7
 
