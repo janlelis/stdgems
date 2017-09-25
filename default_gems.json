@@ -262,7 +262,7 @@
       "rdocLink": "https://ruby.github.io/openssl/",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
-        "2.5":   "2.0.5",
+        "2.5":   "2.1.0",
 
         "2.4":   "2.0.5",
         "2.4.1": "2.0.3",

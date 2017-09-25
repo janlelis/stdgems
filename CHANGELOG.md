@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update Ruby 2.5's openssl to 2.1.0
+
 ## 0.1.9
 
 ### Default Gems
