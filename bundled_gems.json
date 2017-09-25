@@ -65,7 +65,7 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
-        "2.5": "12.0.0",
+        "2.5": "12.1.0",
         "2.4": "12.0.0",
         "2.3": "10.4.2"
       }

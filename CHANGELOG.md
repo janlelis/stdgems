@@ -9,6 +9,10 @@
 - Update Ruby 2.5's csv to 0.1.0
 - Update Ruby 2.5's bundler to 1.15.4
 
+### Bundled Gems
+
+- Update Ruby 2.5's rake to 12.1.0
+
 ## 0.1.9
 
 ### Default Gems
