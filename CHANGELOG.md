@@ -5,6 +5,9 @@
 ### Default Gems
 
 - Update Ruby 2.5's openssl to 2.1.0
+- Update Ruby 2.5's zlib to 0.1.0
+- Update Ruby 2.5's csv to 0.1.0
+- Update Ruby 2.5's bundler to 1.15.4
 
 ## 0.1.9
 
