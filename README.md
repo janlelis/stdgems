@@ -2,7 +2,7 @@
 
 ## About the Gemified Standard Library
 
-Ruby's standard library is in the process of being gemified. It will soon - **Ruby 2.5** - consist of [RubyGems](https://rubygems.org), which can be updated independently from Ruby. Some standard libraries have already be turned into gems before Ruby 2.5.
+Ruby's standard library is in the process of being gemified. It will soon - **Ruby 2.5** - consist of [RubyGems](https://rubygems.org), which can be updated independently from Ruby. Some standard libraries have already been turned into gems before Ruby 2.5.
 
 There are two different kinds of standard gems:
 
