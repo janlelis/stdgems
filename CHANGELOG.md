@@ -1,5 +1,13 @@
 # Change Log
 
+## Next
+
+### Bundled Gems
+
+- Update Ruby 2.5's power_assert to 1.1.1
+- Update Ruby 2.5's rake to 12.2.1
+- Update Ruby 2.5's test-unit to 3.2.6
+
 ## 0.1.10
 
 ### Default Gems
