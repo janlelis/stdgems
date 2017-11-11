@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- ipaddr is published on rubygems.org
+
 ## 0.1.11
 
 ### Default Gems
