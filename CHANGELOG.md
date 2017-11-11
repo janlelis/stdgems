@@ -2,6 +2,11 @@
 
 ## Next
 
+### Default Gems
+
+- Update Ruby 2.5's bundle to 1.16.0
+- Update Ruby 2.5's ipaddr to 1.2.0
+
 ### Bundled Gems
 
 - Update Ruby 2.5's power_assert to 1.1.1
