@@ -1,5 +1,5 @@
 {
-  "version": "0.1.10",
+  "version": "0.1.11",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -31,7 +31,7 @@
       "rdocLink": "http://www.rubydoc.info/gems/bundler",
       "maintainer": null,
       "versions": {
-        "2.5": "1.15.4"
+        "2.5": "1.16.0"
       }
     },
     {
@@ -218,7 +218,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
-        "2.5": "1.0.0"
+        "2.5": "1.2.0"
       }
     },
     {
