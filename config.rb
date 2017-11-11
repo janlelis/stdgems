@@ -115,7 +115,7 @@ helpers do
     case gem_info["rdocLink"]
     when Array
       gem_info["rdocLink"].each_with_index{ |rdocLink, index|
-        res << "[MRI (#{index + 1})](#{rdocLink})"
+        res << "[RDoc (#{index + 1})](#{rdocLink})"
       }
     when String
       res << "[RDoc](#{gem_info["rdocLink"]})"
