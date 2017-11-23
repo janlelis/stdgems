@@ -6,6 +6,10 @@
 
 - ipaddr is published on rubygems.org
 
+### Bundled Gems
+
+- Update Ruby 2.5's rake to 12.3.0
+
 ## 0.1.11
 
 ### Default Gems
