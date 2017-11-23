@@ -1,5 +1,5 @@
 {
-  "version": "0.1.11",
+  "version": "0.1.12",
   "gems": [
     {
       "gem": "did_you_mean",
@@ -65,7 +65,7 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
-        "2.5": "12.2.1",
+        "2.5": "12.3.0",
         "2.4": "12.0.0",
         "2.3": "10.4.2"
       }

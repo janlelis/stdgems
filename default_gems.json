@@ -1,5 +1,5 @@
 {
-  "version": "0.1.11",
+  "version": "0.1.12",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -214,7 +214,7 @@
       "mriSourcePath": "lib/ipaddr.rb",
       "sourceRepository": "https://github.com/ruby/ipaddr",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/ipaddr",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
