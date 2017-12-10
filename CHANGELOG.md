@@ -4,6 +4,12 @@
 
 ### Default Gems
 
+- Move rdoc repo to Ruby organization
+
+## 0.1.12
+
+### Default Gems
+
 - ipaddr is published on rubygems.org
 
 ### Bundled Gems
