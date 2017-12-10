@@ -1,5 +1,5 @@
 {
-  "version": "0.1.12",
+  "version": "0.1.13",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -330,10 +330,10 @@
         "lib/rdoc.rb",
         "lib/rdoc"
       ],
-      "sourceRepository": "https://github.com/rdoc/rdoc",
+      "sourceRepository": "https://github.com/ruby/rdoc",
       "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/rdoc",
-      "rdocLink": "https://rdoc.github.io/rdoc/",
+      "rdocLink": "https://ruby.github.io/rdoc/",
       "maintainer": [
         "Eric Hodel (drbrain)",
         "Hiroshi SHIBATA (hsbt)"
