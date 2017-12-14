@@ -12,6 +12,7 @@
 - Update Ruby 2.5's sdbm to 1.0.0
 - Update Ruby 2.5's scanf to 1.0.0
 - Update Ruby 2.5's zlib to 1.0.0
+- Add Hiroshi SHIBATA (hsbt) as maintainer for bundler
 
 ### Bundled Gems
 
