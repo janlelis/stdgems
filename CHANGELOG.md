@@ -1,5 +1,18 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update Ruby 2.5's bundler to 1.16.1
+- Update Ruby 2.5's csv to 1.0.0
+- Update Ruby 2.5's date to 1.0.0
+- Update Ruby 2.5's fcntl to 1.0.0
+- Update Ruby 2.5's fileutils to 1.0.1
+- Update Ruby 2.5's sdbm to 1.0.0
+- Update Ruby 2.5's scanf to 1.0.0
+- Update Ruby 2.5's zlib to 1.0.0
+
 ## 0.1.13
 
 ### Default Gems

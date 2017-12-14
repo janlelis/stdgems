@@ -31,7 +31,7 @@
       "rdocLink": "http://www.rubydoc.info/gems/bundler",
       "maintainer": null,
       "versions": {
-        "2.5": "1.16.0"
+        "2.5": "1.16.1"
       }
     },
     {
@@ -61,7 +61,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
       "maintainer": "James Edward Gray II (jeg2)",
       "versions": {
-        "2.5": "0.1.0"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -79,7 +79,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -139,7 +139,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -169,7 +169,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.7.2"
+        "2.5": "1.0.1"
       }
     },
     {
@@ -281,7 +281,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -357,7 +357,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
       "maintainer": "David A. Black (dblack)",
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -420,7 +420,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.1.0"
+        "2.5": "1.0.0"
       }
     }
   ]
