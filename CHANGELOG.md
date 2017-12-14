@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Add rubygems itself as a default gem
+
 ## 0.1.14
 
 ### Default Gems

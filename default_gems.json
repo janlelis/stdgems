@@ -346,6 +346,51 @@
       }
     },
     {
+      "gem": "rubygems",
+      "native": false,
+      "autoRequire": true,
+      "description": "[RubyGems](https://rubygems.org) allows you to download, install, and use Ruby software packages on your system",
+      "mriSourcePath": [
+        "lib/rubygems.rb",
+        "lib/rubygems"
+      ],
+      "sourceRepository": "https://github.com/rubygems/rubygems",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/rubygems",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rubygems/rdoc/Gem.html",
+      "maintainer": [
+        "Eric Hodel (drbrain)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
+      "versions": {
+        "2.5":   "2.7.3",
+
+        "2.4":   "2.6.14",
+        "2.4.2": "2.6.13",
+        "2.4.1": "2.6.11",
+        "2.4.0": "2.6.8",
+
+        "2.3":   "2.5.2.2",
+        "2.3.5": "2.5.2.1",
+        "2.3.4": "2.5.2",
+        "2.3.3": "2.5.2",
+        "2.3.2": "2.5.2",
+        "2.3.1": "2.5.1",
+        "2.3.0": "2.5.1",
+
+        "2.2":   "2.4.5.4",
+        "2.2.8": "2.4.5.3",
+        "2.2.7": "2.4.5.2",
+        "2.2.6": "2.4.5.2",
+        "2.2.5": "2.4.5.1",
+        "2.2.4": "2.4.5.1",
+        "2.2.3": "2.4.5.1",
+        "2.2.2": "2.4.5",
+        "2.2.1": "2.4.5",
+        "2.2.0": "2.4.5"
+      }
+    },
+    {
       "gem": "scanf",
       "native": false,
       "autoRequire": false,
