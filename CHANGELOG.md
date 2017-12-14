@@ -13,6 +13,11 @@
 - Update Ruby 2.5's scanf to 1.0.0
 - Update Ruby 2.5's zlib to 1.0.0
 
+### Bundled Gems
+
+- Update Ruby 2.5's did_you_mean to 1.2.0
+- Update Ruby 2.5's test-unit to 3.2.7
+
 ## 0.1.13
 
 ### Default Gems
