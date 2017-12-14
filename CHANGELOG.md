@@ -15,6 +15,7 @@
 - Update Ruby 2.5's zlib to 1.0.0
 - Add Hiroshi SHIBATA (hsbt) as maintainer for bundler
 - Fix Ruby 2.4's json version: 2.0.4
+- Add Ruby 2.4's webrick version: 1.3.1
 
 ### Bundled Gems
 
