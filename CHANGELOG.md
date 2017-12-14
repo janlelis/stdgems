@@ -4,6 +4,7 @@
 
 ### Default Gems
 
+- Update Ruby 2.5's bigdecimal to 1.3.3
 - Update Ruby 2.5's bundler to 1.16.1
 - Update Ruby 2.5's csv to 1.0.0
 - Update Ruby 2.5's date to 1.0.0
