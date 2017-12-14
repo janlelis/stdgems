@@ -176,7 +176,7 @@
       "gem": "gdbm",
       "native": true,
       "autoRequire": false,
-      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
+      "description": "Support for [GDBM databases](https://en.wikipedia.org/wiki/Dbm)",
       "mriSourcePath": "ext/gdbm",
       "sourceRepository": "https://github.com/ruby/gdbm",
       "sourceRepositoryIsUpstream": null,
