@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Improve rubygems' rubygems link
+
 ## 0.1.15
 
 ### Default Gems

@@ -356,7 +356,7 @@
       ],
       "sourceRepository": "https://github.com/rubygems/rubygems",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": "https://rubygems.org/gems/rubygems",
+      "rubygemsLink": "https://rubygems.org/gems/rubygems-update",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rubygems/rdoc/Gem.html",
       "maintainer": [
         "Eric Hodel (drbrain)",
