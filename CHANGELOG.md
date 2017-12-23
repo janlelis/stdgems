@@ -4,6 +4,13 @@
 
 ### Default Gems
 
+- Update Ruby 2.5's cmath to 1.0.0
+- Update Ruby 2.5's etc to 1.0.0
+- Update Ruby 2.5's fileutils to 1.0.2
+- Update Ruby 2.5's psych to 3.0.2
+- Update Ruby 2.5's stringio to 1.0.0
+- Update Ruby 2.5's strscan to 1.0.0
+- Update Ruby 2.5's webrick to 1.4.1
 - Improve rubygems' rubygems link
 
 ## 0.1.15
