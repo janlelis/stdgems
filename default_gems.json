@@ -98,21 +98,6 @@
       }
     },
     {
-      "gem": "digest",
-      "native": true,
-      "autoRequire": false,
-      "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
-      "mriSourcePath": "ext/digest",
-      "sourceRepository": "https://github.com/ruby/digest",
-      "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
-      "maintainer": "Akinori MUSHA (knu)",
-      "versions": {
-        "2.5": "0.1.0"
-      }
-    },
-    {
       "gem": "etc",
       "native": true,
       "autoRequire": false,

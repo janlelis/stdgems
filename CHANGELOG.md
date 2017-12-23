@@ -4,6 +4,7 @@
 
 ### Default Gems
 
+- Remove digest (will not be gemified with Ruby 2.5)
 - Update Ruby 2.5's cmath to 1.0.0
 - Update Ruby 2.5's etc to 1.0.0
 - Update Ruby 2.5's fileutils to 1.0.2
