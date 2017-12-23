@@ -1,5 +1,5 @@
 {
-  "version": "0.1.15",
+  "version": "0.1.16",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -20,21 +20,6 @@
       }
     },
     {
-      "gem": "bundler",
-      "native": false,
-      "autoRequire": false,
-      "description": "[Bundler](https://bundler.io) is the local package manager for Ruby applications",
-      "mriSourcePath": "lib/bundler",
-      "sourceRepository": "https://github.com/bundler/bundler",
-      "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": "https://rubygems.org/gems/bundler",
-      "rdocLink": "http://www.rubydoc.info/gems/bundler",
-      "maintainer": "Hiroshi SHIBATA (hsbt)",
-      "versions": {
-        "2.5": "1.16.1"
-      }
-    },
-    {
       "gem": "cmath",
       "native": false,
       "autoRequire": false,
@@ -46,7 +31,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -98,21 +83,6 @@
       }
     },
     {
-      "gem": "digest",
-      "native": true,
-      "autoRequire": false,
-      "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
-      "mriSourcePath": "ext/digest",
-      "sourceRepository": "https://github.com/ruby/digest",
-      "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
-      "maintainer": "Akinori MUSHA (knu)",
-      "versions": {
-        "2.5": "0.1.0"
-      }
-    },
-    {
       "gem": "etc",
       "native": true,
       "autoRequire": false,
@@ -124,7 +94,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.2.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -169,7 +139,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
-        "2.5": "1.0.1"
+        "2.5": "1.0.2"
       }
     },
     {
@@ -299,7 +269,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.5":   "3.0.0",
+        "2.5":   "3.0.2",
 
         "2.4":   "2.2.2",
 
@@ -356,7 +326,7 @@
       ],
       "sourceRepository": "https://github.com/rubygems/rubygems",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": "https://rubygems.org/gems/rubygems",
+      "rubygemsLink": "https://rubygems.org/gems/rubygems-update",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rubygems/rdoc/Gem.html",
       "maintainer": [
         "Eric Hodel (drbrain)",
@@ -417,7 +387,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -432,7 +402,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
       "maintainer": null,
       "versions": {
-        "2.5": "0.0.1"
+        "2.5": "1.0.0"
       }
     },
     {
@@ -450,7 +420,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
       "versions": {
-        "2.5": "1.4.0",
+        "2.5": "1.4.1",
         "2.4": "1.3.1"
       }
     },
