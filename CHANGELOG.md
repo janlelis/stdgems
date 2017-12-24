@@ -7,6 +7,7 @@
 - Update Ruby 2.5's bigdecimal to 1.3.4
 - Update Ruby 2.5's rdoc to 6.0.1
 - Update Ruby 2.5's webrick to 1.4.2
+- Ruby 2.5's stringio is only at 0.0.1
 
 ## 0.1.16
 

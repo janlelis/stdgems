@@ -387,7 +387,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "2.5": "1.0.0"
+        "2.5": "0.0.1"
       }
     },
     {
