@@ -13,7 +13,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
-        "2.5": "1.3.3",
+        "2.5": "1.3.4",
         "2.4": "1.3.0",
         "2.3": "1.2.8",
         "2.2": "1.2.6"
@@ -309,7 +309,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.5": "6.0.0",
+        "2.5": "6.0.1",
         "2.4": "5.0.0",
         "2.3": "4.2.1",
         "2.2": "4.2.0"
@@ -420,7 +420,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
       "versions": {
-        "2.5": "1.4.1",
+        "2.5": "1.4.2",
         "2.4": "1.3.1"
       }
     },
