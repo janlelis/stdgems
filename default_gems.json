@@ -1,5 +1,5 @@
 {
-  "version": "0.1.16",
+  "version": "0.1.17",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -13,7 +13,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
-        "2.5": "1.3.3",
+        "2.5": "1.3.4",
         "2.4": "1.3.0",
         "2.3": "1.2.8",
         "2.2": "1.2.6"
@@ -240,21 +240,6 @@
       }
     },
     {
-      "gem": "sdbm",
-      "native": true,
-      "autoRequire": false,
-      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
-      "mriSourcePath": "ext/sdbm",
-      "sourceRepository": "https://github.com/ruby/sdbm",
-      "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": "https://rubygems.org/gems/sdbm",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
-      "maintainer": "Yukihiro Matsumoto (matz)",
-      "versions": {
-        "2.5": "1.0.0"
-      }
-    },
-    {
       "gem": "psych",
       "native": true,
       "autoRequire": false,
@@ -309,7 +294,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.5": "6.0.0",
+        "2.5": "6.0.1",
         "2.4": "5.0.0",
         "2.3": "4.2.1",
         "2.2": "4.2.0"
@@ -376,6 +361,21 @@
       }
     },
     {
+      "gem": "sdbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
+      "mriSourcePath": "ext/sdbm",
+      "sourceRepository": "https://github.com/ruby/sdbm",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/sdbm",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
+      "maintainer": "Yukihiro Matsumoto (matz)",
+      "versions": {
+        "2.5": "1.0.0"
+      }
+    },
+    {
       "gem": "stringio",
       "native": true,
       "autoRequire": false,
@@ -387,7 +387,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "2.5": "1.0.0"
+        "2.5": "0.0.1"
       }
     },
     {
@@ -420,7 +420,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
       "versions": {
-        "2.5": "1.4.1",
+        "2.5": "1.4.2",
         "2.4": "1.3.1"
       }
     },
