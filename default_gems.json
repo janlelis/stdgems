@@ -240,21 +240,6 @@
       }
     },
     {
-      "gem": "sdbm",
-      "native": true,
-      "autoRequire": false,
-      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
-      "mriSourcePath": "ext/sdbm",
-      "sourceRepository": "https://github.com/ruby/sdbm",
-      "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": "https://rubygems.org/gems/sdbm",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
-      "maintainer": "Yukihiro Matsumoto (matz)",
-      "versions": {
-        "2.5": "1.0.0"
-      }
-    },
-    {
       "gem": "psych",
       "native": true,
       "autoRequire": false,
@@ -371,6 +356,21 @@
       "rubygemsLink": "https://rubygems.org/gems/scanf",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
       "maintainer": "David A. Black (dblack)",
+      "versions": {
+        "2.5": "1.0.0"
+      }
+    },
+    {
+      "gem": "sdbm",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
+      "mriSourcePath": "ext/sdbm",
+      "sourceRepository": "https://github.com/ruby/sdbm",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/sdbm",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
+      "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
         "2.5": "1.0.0"
       }
