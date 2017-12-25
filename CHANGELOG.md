@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.0
+
+- Ruby 2.5 release
+
 ## 0.1.17
 
 ### Default Gems
