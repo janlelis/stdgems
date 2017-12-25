@@ -1,8 +1,8 @@
-# [Standard Gems](https://stdgems.org)
+# Ruby [Standard Gems](https://stdgems.org)
 
 ## About the Gemified Standard Library
 
-Ruby's standard library is in the process of being gemified. More and more libraries will be turned into [RubyGems](https://rubygems.org), which can be updated independently from Ruby. Some standard libraries have already been turned into gems before Ruby 2.5.
+Ruby's standard library is in the process of being gemified. More and more libraries will be turned into [RubyGems](https://rubygems.org), which can be updated independently from Ruby.
 
 There are two different kinds of standard gems:
 
@@ -19,4 +19,6 @@ This repository contains two JSON files:
 
 They contain data about all default and bundled gems and which versions come with which Ruby version.
 
-On [stdgems.org](https://stdgems.org), the data is used for a readable documentation website.
+## About stdgems.org
+
+Go to [stdgems.org](https://stdgems.org) to easily browse the standard gem data and more info.
