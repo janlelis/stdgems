@@ -11,6 +11,8 @@ DEFAULT_GEMS_FILE = File.read("default_gems.json")
 DEFAULT_GEMS_JSON = JSON.parse(DEFAULT_GEMS_FILE)["gems"]
 BUNDLED_GEMS_FILE = File.read("bundled_gems.json")
 BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
+LIBRARIES_FILE = File.read("libraries.json")
+LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
 MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 CURRENT_RUBY_VERSION = "2.5.0"
 LISTED_RUBY_VERSIONS = %w[
@@ -180,6 +182,17 @@ helpers do
     gem_list_for(BUNDLED_GEMS_JSON, ruby_version)
   end
 
+  def libraries_list
+    LIBRARIES_JSON.map{ |gem_info|
+      [
+        "#{ gem_info["gem"] }" +
+            (gem_info["native"] ? ' **c**' : ''),
+        gem_info["description"],
+        build_resource_list(gem_info)
+      ].join(" | ")
+    }.join("\n")
+  end
+
   def default_gems_version_matrix
     version_matrix_for(DEFAULT_GEMS_JSON)
   end
@@ -202,6 +215,10 @@ helpers do
 
   def bundled_gems_json
     BUNDLED_GEMS_FILE
+  end
+
+  def libraries_json
+    LIBRARIES_FILE
   end
 
   def gem_details(gem_info, gem_type)
