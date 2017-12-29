@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.0
+
+- Add new libraries.json file which lists non-gemified standard libraries
+
 ## 1.0.0
 
 - Ruby 2.5 release
