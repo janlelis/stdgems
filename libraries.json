@@ -150,7 +150,7 @@
       "description": "Finds all files in a given directory and its sub-directories",
       "mriSourcePath": "lib/find.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html",
-      "notes": "You can get a very similar result using: `\`find .\`.split($/)`",
+      "notes": "You can get a very similar result using: ```find .`.split($/)``",
       "maintainer": "Kazuki Tsujimoto (ktsj)"
     },
     {
