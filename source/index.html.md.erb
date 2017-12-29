@@ -34,6 +34,10 @@ Gem | Version | Description | Resources
 
 <%= listed_ruby_versions.group_by{ |ruby_version| ruby_version.to_f }.map{ |_, ruby_versions| "- Gem list for Ruby: " + ruby_versions.map{ |ruby_version| "[#{ruby_version}](/#{ruby_version})" }.join(" - ") }.join("\n") %>
 
+## Non-Gemified Standard Libraries
+
+A list of standard libraries which have not yet turned into gems can be found at [libraries](/libraries). The respective JSON file is at [libraries.json](/libraries.json).
+
 ## About stdgems.org
 
 This page and the JSON data files it is based on are maintained on [GitHub](https://github.com/janlelis/stdgems). Originally based on [episode 20 of Idiosyncratic Ruby](https://idiosyncratic-ruby.com/20-better-standards.html) and put together by [Jan Lelis](https://janlelis.com).
