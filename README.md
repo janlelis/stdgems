@@ -10,15 +10,14 @@ There are two different kinds of standard gems:
 
 - **Bundled gems:** The behavior of bundled gems is similar to normal gems, but they get automatically installed when you install Ruby. They can be uninstalled and they are maintained outside of Ruby core.
 
-## About the stdgems project
+## About the stdgems.org project
 
-This repository contains two JSON files:
+This repository contains three JSON files:
 
 - [default_gems.json](/default_gems.json)
 - [bundled_gems.json](/bundled_gems.json)
+- [libraries.json](/libraries.json)
 
-They contain data about all default and bundled gems and which versions come with which Ruby version.
-
-## About stdgems.org
+The first two files contain data about all default and bundled gems and which Ruby version comes with which version of the gem. The third file contains data about all the non-gemified standard libraries.
 
 Go to [stdgems.org](https://stdgems.org) to easily browse the standard gem data and more info.
