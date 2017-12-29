@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "gems": [
     {
       "gem": "did_you_mean",
@@ -74,7 +74,7 @@
       "gem": "test-unit",
       "native": false,
       "autoRequire": false,
-      "description": "A xUnit family unit testing framework",
+      "description": "A xUnit family unit testing framework (compatibility layer for minitest)",
       "sourceRepository": "https://github.com/test-unit/test-unit",
       "rubygemsLink": "https://rubygems.org/gems/test-unit",
       "versions": {
