@@ -44,7 +44,10 @@
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/csv",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
-      "maintainer": "James Edward Gray II (jeg2)",
+      "maintainer": [
+        "Kenta Murata (mrkn)",
+        "Kouhei Sutou (kou)"
+      ],
       "versions": {
         "2.5": "1.0.0"
       }

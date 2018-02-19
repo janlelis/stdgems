@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update csv's maintainer
+
 ## 1.1.0
 
 - Add new libraries.json file which lists non-gemified standard libraries
