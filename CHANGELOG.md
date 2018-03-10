@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update etc's, fcntl's, and zlib's maintainers
+
 ## 1.1.1
 
 ### Default Gems
