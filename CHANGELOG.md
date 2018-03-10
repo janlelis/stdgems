@@ -1,6 +1,6 @@
 # Change Log
 
-## Next
+## 1.1.2
 
 ### Default Gems
 
