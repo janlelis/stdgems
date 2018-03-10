@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -95,7 +95,7 @@
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/etc",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
-      "maintainer": null,
+      "maintainer": "Ruby core team",
       "versions": {
         "2.5": "1.0.0"
       }
@@ -110,7 +110,7 @@
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/fcntl",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
-      "maintainer": null,
+      "maintainer": "Ruby core team",
       "versions": {
         "2.5": "1.0.0"
       }
@@ -437,7 +437,7 @@
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/zlib",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
-      "maintainer": null,
+      "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
         "2.5": "1.0.0"
       }
