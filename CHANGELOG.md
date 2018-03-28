@@ -1,5 +1,19 @@
 # Change Log
 
+## Next
+
+Ruby releases: 2.5.1, 2.4.4, 2.3.7, 2.2.10
+
+### Default Gems
+
+- Update Ruby 2.4's bigdecimal to 1.3.2
+- Update Ruby 2.4's openssl to 2.0.7
+- Update Ruby 2.5's rdoc to 6.0.3
+- Update Ruby 2.5's rubygems to 2.7.6
+- Update Ruby 2.4's rubygems to 2.6.14.1
+- Update Ruby 2.3's rubygems to 2.5.2.3
+- Update Ruby 2.2's rubygems to 2.4.5.4
+
 ## 1.1.2
 
 ### Default Gems
@@ -18,7 +32,7 @@
 
 ## 1.0.0
 
-- Ruby 2.5 release
+Ruby 2.5 release
 
 ## 0.1.17
 
