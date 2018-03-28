@@ -14,15 +14,18 @@ BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
 LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
 MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
-CURRENT_RUBY_VERSION = "2.5.0"
+CURRENT_RUBY_VERSION = "2.5.1"
 LISTED_RUBY_VERSIONS = %w[
+  2.5.1
   2.5.0
 
+  2.4.4
   2.4.3
   2.4.2
   2.4.1
   2.4.0
 
+  2.3.7
   2.3.6
   2.3.5
   2.3.4
@@ -31,6 +34,7 @@ LISTED_RUBY_VERSIONS = %w[
   2.3.1
   2.3.0
 
+  2.2.10
   2.2.9
   2.2.8
   2.2.7
@@ -45,13 +49,16 @@ LISTED_RUBY_VERSIONS = %w[
 
 MATRIX_RUBY_VERSIONS = %w[2.5 2.4 2.3 2.2]
 MATRIX_SUPPORTED_RUBY_VERSIONS = %w[
+  2.5.1
   2.5.0
 
+  2.4.4
   2.4.3
   2.4.2
   2.4.1
   2.4.0
 
+  2.3.7
   2.3.6
   2.3.5
   2.3.4
