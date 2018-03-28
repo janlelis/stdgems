@@ -1,6 +1,6 @@
 # Change Log
 
-## Next
+## 1.2.0
 
 Ruby releases: 2.5.1, 2.4.4, 2.3.7, 2.2.10
 
