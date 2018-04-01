@@ -14,17 +14,23 @@ BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
 LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
 MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
+
 CURRENT_RUBY_VERSION = "2.5.1"
-LISTED_RUBY_VERSIONS = %w[
+
+RUBY_2_5_VERSIONS = %w[
   2.5.1
   2.5.0
+]
 
+RUBY_2_4_VERSIONS = %w[
   2.4.4
   2.4.3
   2.4.2
   2.4.1
   2.4.0
+]
 
+RUBY_2_3_VERSIONS = %w[
   2.3.7
   2.3.6
   2.3.5
@@ -33,7 +39,9 @@ LISTED_RUBY_VERSIONS = %w[
   2.3.2
   2.3.1
   2.3.0
+]
 
+RUBY_2_2_VERSIONS = %w[
   2.2.10
   2.2.9
   2.2.8
@@ -47,26 +55,17 @@ LISTED_RUBY_VERSIONS = %w[
   2.2.0
 ]
 
+LISTED_RUBY_VERSIONS = \
+  RUBY_2_5_VERSIONS +
+  RUBY_2_4_VERSIONS +
+  RUBY_2_3_VERSIONS +
+  RUBY_2_2_VERSIONS
+
 MATRIX_RUBY_VERSIONS = %w[2.5 2.4 2.3 2.2]
-MATRIX_SUPPORTED_RUBY_VERSIONS = %w[
-  2.5.1
-  2.5.0
-
-  2.4.4
-  2.4.3
-  2.4.2
-  2.4.1
-  2.4.0
-
-  2.3.7
-  2.3.6
-  2.3.5
-  2.3.4
-  2.3.3
-  2.3.2
-  2.3.1
-  2.3.0
-]
+MATRIX_SUPPORTED_RUBY_VERSIONS = \
+  RUBY_2_5_VERSIONS[0,3] +
+  RUBY_2_4_VERSIONS[0,3] +
+  RUBY_2_3_VERSIONS[0,3]
 
 def grouped_ruby_versions
   LISTED_RUBY_VERSIONS.group_by{ |ruby_version| ruby_version.to_f }
@@ -177,6 +176,8 @@ helpers do
             "-"
           }
         ]
+      }.reject{ |versions|
+        versions[2..-1].uniq == ["-"]
       }
     ).map{ |line| line.join(" | ") }.join("\n")
   end
@@ -214,6 +215,38 @@ helpers do
 
   def bundled_gems_supported_version_matrix
     version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS)
+  end
+
+  def default_gems_version_matrix_2_5
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_5_VERSIONS)
+  end
+
+  def bundled_gems_version_matrix_2_5
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_5_VERSIONS)
+  end
+
+  def default_gems_version_matrix_2_4
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_4_VERSIONS)
+  end
+
+  def bundled_gems_version_matrix_2_4
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_4_VERSIONS)
+  end
+
+  def default_gems_version_matrix_2_3
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_3_VERSIONS)
+  end
+
+  def bundled_gems_version_matrix_2_3
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_3_VERSIONS)
+  end
+
+  def default_gems_version_matrix_2_2
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_2_VERSIONS)
+  end
+
+  def bundled_gems_version_matrix_2_2
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_2_VERSIONS)
   end
 
   def default_gems_json
