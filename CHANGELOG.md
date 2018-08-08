@@ -2,6 +2,10 @@
 
 ## Next
 
+### Default Gems
+
+Add Ruby 2.6 (unreleased)
+
 ### Bundled Gems
 
 Add Ruby 2.6 (unreleased)
