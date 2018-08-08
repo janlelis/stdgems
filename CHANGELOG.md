@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Bundled Gems
+
+Add Ruby 2.6 (unreleased)
+
 ## 1.2.0
 
 Ruby releases: 2.5.1, 2.4.4, 2.3.7, 2.2.10
