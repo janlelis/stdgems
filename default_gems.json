@@ -95,6 +95,24 @@
       }
     },
     {
+      "gem": "e2mmap",
+      "native": false,
+      "autoRequire": false,
+      "description": "Abstraction around exception handling",
+      "mriSourcePath": [
+        "lib/e2mmap.rb",
+        "lib/e2mmap"
+      ],
+      "sourceRepository": "https://github.com/ruby/e2mmap",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.1.0"
+      }
+    },
+    {
       "gem": "etc",
       "native": true,
       "autoRequire": false,
@@ -159,6 +177,25 @@
       }
     },
     {
+      "gem": "forwardable",
+      "native": false,
+      "autoRequire": false,
+      "description": "Provides a way to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls. Also see [this overview of delegation in Ruby](http://radar.oreilly.com/2014/02/delegation-patterns-in-ruby.html), which contains an example",
+      "mriSourcePath": [
+        "lib/forwardable.rb",
+        "lib/forwardable",
+        "ext/rubyvm/lib/forwardable/impl.rb"
+      ],
+      "sourceRepository": "https://github.com/ruby/forwardable",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "1.2.0"
+      }
+    },
+    {
       "gem": "gdbm",
       "native": true,
       "autoRequire": false,
@@ -211,6 +248,24 @@
       }
     },
     {
+      "gem": "irb",
+      "native": false,
+      "autoRequire": false,
+      "description": "Interactive Ruby Console ([REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop))",
+      "mriSourcePath": [
+        "lib/irb.rb",
+        "lib/irb"
+      ],
+      "sourceRepository": "https://github.com/ruby/irb",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.9.6"
+      }
+    },
+    {
       "gem": "json",
       "native": true,
       "autoRequire": false,
@@ -242,6 +297,54 @@
       }
     },
     {
+      "gem": "logger",
+      "native": false,
+      "autoRequire": false,
+      "description": "[Logging utility](https://ruby.janlelis.de/50-exploring-the-stdlib-logger)",
+      "mriSourcePath": "lib/logger.rb",
+      "sourceRepository": "https://github.com/ruby/logger",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
+      "maintainer": "Naotoshi Seo (sonots)",
+      "versions": {
+        "2.6": "1.2.7"
+      }
+    },
+    {
+      "gem": "matrix",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for [matrices](https://en.wikipedia.org/wiki/Matrix_%28mathematics%29)",
+      "mriSourcePath": [
+        "lib/matrix.rb",
+        "lib/matrix"
+      ],
+      "sourceRepository": "https://github.com/ruby/matrix",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
+      "maintainer": "Marc-Andre Lafortune (marcandre)",
+      "versions": {
+        "2.6": "0.1.0"
+      }
+    },
+    {
+      "gem": "mutex_m",
+      "native": false,
+      "autoRequire": false,
+      "description": "A mixin that makes any object behave like a [mutex](https://ruby-doc.org/core/Mutex.html)",
+      "mriSourcePath": "lib/mutex_m.rb",
+      "sourceRepository": "https://github.com/ruby/mutex_m",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.1.0"
+      }
+    },
+    {
       "gem": "openssl",
       "native": true,
       "autoRequire": false,
@@ -262,6 +365,36 @@
         "2.4.2": "2.0.5",
         "2.4.1": "2.0.3",
         "2.4.0": "2.0.2"
+      }
+    },
+    {
+      "gem": "ostruct",
+      "native": false,
+      "autoRequire": false,
+      "description": "Wrapper around [Hash](https://ruby-doc.org/core/Hash.html) which lets you read and set attributes with a method-based API",
+      "mriSourcePath": "lib/ostruct.rb",
+      "sourceRepository": "https://github.com/ruby/ostruct",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
+      "maintainer": "Marc-Andre Lafortune (marcandre)",
+      "versions": {
+        "2.6": "0.1.0"
+      }
+    },
+    {
+      "gem": "prime",
+      "native": false,
+      "autoRequire": false,
+      "description": "Access to prime numbers and prime factorization",
+      "mriSourcePath": "lib/prime.rb",
+      "sourceRepository": "https://github.com/ruby/prime",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prime/rdoc/Prime.html",
+      "maintainer": "Yuki Sonoda (yugui)",
+      "versions": {
+        "2.6": "0.1.0"
       }
     },
     {
@@ -327,6 +460,39 @@
         "2.4":   "5.0.0",
         "2.3":   "4.2.1",
         "2.2":   "4.2.0"
+      }
+    },
+    {
+      "gem": "rexml",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for XML ([Extensible Markup Language](https://en.wikipedia.org/wiki/XML))",
+      "mriSourcePath": "lib/rexml",
+      "sourceRepository": "https://github.com/ruby/rexml",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
+      "maintainer": "Kouhei Sutou (kou)",
+      "versions": {
+        "2.6": "3.1.7.3"
+      }
+    },
+    {
+      "gem": "rss",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for RSS ([Rich Site Summary](https://en.wikipedia.org/wiki/RSS)) and [Atom](https://en.wikipedia.org/wiki/Atom_%28standard%29)",
+      "mriSourcePath": [
+        "lib/rss.rb",
+        "lib/rss"
+      ],
+      "sourceRepository": "https://github.com/ruby/rss",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html",
+      "maintainer": "Kouhei Sutou (kou)",
+      "versions": {
+        "2.6": "0.2.7"
       }
     },
     {
@@ -413,6 +579,24 @@
       }
     },
     {
+      "gem": "shell",
+      "native": false,
+      "autoRequire": false,
+      "description": "Provides a Ruby interface for interacting with the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
+      "mriSourcePath": [
+        "lib/shell.rb",
+        "lib/shell"
+      ],
+      "sourceRepository": "https://github.com/ruby/shell",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shell/rdoc/Shell.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.7"
+      }
+    },
+    {
       "gem": "stringio",
       "native": true,
       "autoRequire": false,
@@ -442,6 +626,57 @@
       "versions": {
         "2.6": "1.0.0",
         "2.5": "1.0.0"
+      }
+    },
+    {
+      "gem": "sync",
+      "native": false,
+      "autoRequire": false,
+      "description": "[Two-phase lock](https://en.wikipedia.org/wiki/Two-phase_locking) with a counter for multi-threaded code",
+      "mriSourcePath": "lib/sync.rb",
+      "sourceRepository": "https://github.com/ruby/sync",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sync/rdoc/Sync_m.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.1.0"
+      }
+    },
+    {
+      "gem": "thwait",
+      "native": false,
+      "autoRequire": false,
+      "description": "Waits for threads to finish",
+      "mriSourcePath": [
+        "lib/thwait.rb",
+        "lib/thwait"
+      ],
+      "sourceRepository": "https://github.com/ruby/thwait",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/thwait/rdoc/ThWait.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.1.0"
+      }
+    },
+    {
+      "gem": "tracer",
+      "native": false,
+      "autoRequire": false,
+      "description": "Outputs the [code execution trace](https://en.wikipedia.org/wiki/Tracing_%28software%29) via [Kernel#set_trace_func](https://ruby-doc.org/core/Kernel.html#method-i-set_trace_func)",
+      "mriSourcePath": [
+        "lib/tracer.rb",
+        "lib/tracer"
+      ],
+      "sourceRepository": "https://github.com/ruby/tracer",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tracer/rdoc/Tracer.html",
+      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "versions": {
+        "2.6": "0.1.0"
       }
     },
     {

@@ -96,15 +96,6 @@
       "maintainer": "Masatoshi SEKI (seki)"
     },
     {
-      "gem": "e2mmap",
-      "native": false,
-      "autoRequire": false,
-      "description": "Abstraction around exception handling",
-      "mriSourcePath": "lib/e2mmap.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
-    },
-    {
       "gem": "English",
       "native": false,
       "autoRequire": false,
@@ -154,18 +145,6 @@
       "maintainer": "Kazuki Tsujimoto (ktsj)"
     },
     {
-      "gem": "forwardable",
-      "native": false,
-      "autoRequire": false,
-      "description": "Provides a way to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls. Also see [this overview of delegation in Ruby](http://radar.oreilly.com/2014/02/delegation-patterns-in-ruby.html), which contains an example",
-      "mriSourcePath": [
-        "lib/forwardable.rb",
-        "ext/rubyvm/lib/forwardable/impl.rb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
-    },
-    {
       "gem": "getoptlong",
       "native": false,
       "autoRequire": false,
@@ -193,18 +172,6 @@
       "maintainer": "Nobuyuki Nakada (nobu)"
     },
     {
-      "gem": "irb",
-      "native": false,
-      "autoRequire": false,
-      "description": "Interactive Ruby Console ([REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop))",
-      "mriSourcePath": [
-        "lib/irb.rb",
-        "lib/irb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
-    },
-    {
       "gem": "kconv",
       "native": false,
       "autoRequire": false,
@@ -212,27 +179,6 @@
       "mriSourcePath": "ext/nkf/lib/kconv.rb",
       "rdocLink": "https://ruby-doc.org/stdlib-2.5.0/libdoc/nkf/rdoc/Kconv.html",
       "maintainer": "NARUSE, Yui (narse)"
-    },
-    {
-      "gem": "logger",
-      "native": false,
-      "autoRequire": false,
-      "description": "[Logging utility](http://ruby.janlelis.de/50-exploring-the-stdlib-logger)",
-      "mriSourcePath": "lib/logger.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
-      "maintainer": "Naotoshi Seo (sonots)"
-    },
-    {
-      "gem": "matrix",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for [matrices](https://en.wikipedia.org/wiki/Matrix_%28mathematics%29)",
-      "mriSourcePath": [
-        "lib/matrix.rb",
-        "lib/matrix"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
-      "maintainer": "Marc-Andre Lafortune (marcandre)"
     },
     {
       "gem": "mkmf",
@@ -251,15 +197,6 @@
       "mriSourcePath": "lib/monitor.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html",
       "maintainer": "Shugo Maeda (shugo)"
-    },
-    {
-      "gem": "mutex_m",
-      "native": false,
-      "autoRequire": false,
-      "description": "A mixin that makes any object behave like a [mutex](https://ruby-doc.org/core/Mutex.html)",
-      "mriSourcePath": "lib/mutex_m.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
     },
     {
       "gem": "net-ftp",
@@ -378,15 +315,6 @@
       "maintainer": "Nobuyuki Nakada (nobu)"
     },
     {
-      "gem": "ostruct",
-      "native": false,
-      "autoRequire": false,
-      "description": "Wrapper around [Hash](https://ruby-doc.org/core/Hash.html) which lets you read and set attributes with a method API",
-      "mriSourcePath": "lib/ostruct.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
-      "maintainer": "Marc-Andre Lafortune (marcandre)"
-    },
-    {
       "gem": "pathname",
       "native": true,
       "autoRequire": false,
@@ -406,15 +334,6 @@
       ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
       "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "prime",
-      "native": false,
-      "autoRequire": false,
-      "description": "Access to prime numbers and prime factorization",
-      "mriSourcePath": "lib/prime.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prime/rdoc/Prime.html",
-      "maintainer": "Yuki Sonoda (yugui)"
     },
     {
       "gem": "profiler",
@@ -493,15 +412,6 @@
       "maintainer": "Tanaka Akira (akr)"
     },
     {
-      "gem": "rexml",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for XML ([Extensible Markup Language](https://en.wikipedia.org/wiki/XML))",
-      "mriSourcePath": "lib/rexml",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
-      "maintainer": "Kouhei Sutou (kou)"
-    },
-    {
       "gem": "rinda",
       "native": false,
       "autoRequire": false,
@@ -518,18 +428,6 @@
       "mriSourcePath": "ext/ripper",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html",
       "maintainer": null
-    },
-    {
-      "gem": "rss",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for RSS ([Rich Site Summary](https://en.wikipedia.org/wiki/RSS)) and [Atom](https://en.wikipedia.org/wiki/Atom_%28standard%29)",
-      "mriSourcePath": [
-        "lib/rss.rb",
-        "lib/rss"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html",
-      "maintainer": "Kouhei Sutou (kou)"
     },
     {
       "gem": "securerandom",
@@ -551,18 +449,6 @@
         "https://ruby-doc.org/stdlib/libdoc/set/rdoc/SortedSet.html"
       ],
       "maintainer": "Akinori MUSHA (knu)"
-    },
-    {
-      "gem": "shell",
-      "native": false,
-      "autoRequire": false,
-      "description": "Provides a Ruby interface for interacting with the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
-      "mriSourcePath": [
-        "lib/shell.rb",
-        "lib/shell"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shell/rdoc/Shell.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
     },
     {
       "gem": "shellwords",
@@ -595,15 +481,6 @@
       ]
     },
     {
-      "gem": "sync",
-      "native": false,
-      "autoRequire": false,
-      "description": "[Two-phase lock](https://en.wikipedia.org/wiki/Two-phase_locking) with a counter for multi-threaded code",
-      "mriSourcePath": "lib/sync.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sync/rdoc/Sync_m.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
-    },
-    {
       "gem": "syslog",
       "native": true,
       "autoRequire": false,
@@ -620,15 +497,6 @@
       "mriSourcePath": "lib/tempfile.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html",
       "maintainer": null
-    },
-    {
-      "gem": "thwait",
-      "native": false,
-      "autoRequire": false,
-      "description": "Waits for threads to finish",
-      "mriSourcePath": "lib/thwait.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/thwait/rdoc/ThWait.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
     },
     {
       "gem": "time",
@@ -656,15 +524,6 @@
       "mriSourcePath": "lib/tmpdir.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir",
       "maintainer": null
-    },
-    {
-      "gem": "tracer",
-      "native": false,
-      "autoRequire": false,
-      "description": "Outputs the [code execution trace](https://en.wikipedia.org/wiki/Tracing_%28software%29) via [Kernel#set_trace_func](https://ruby-doc.org/core/Kernel.html#method-i-set_trace_func)",
-      "mriSourcePath": "lib/tracer.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tracer/rdoc/Tracer.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)"
     },
     {
       "gem": "tsort",
