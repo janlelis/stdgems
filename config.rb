@@ -17,6 +17,10 @@ MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
 CURRENT_RUBY_VERSION = "2.5.1"
 
+RUBY_2_6_VERSIONS = %w[
+  2.6.0
+]
+
 RUBY_2_5_VERSIONS = %w[
   2.5.1
   2.5.0
@@ -56,6 +60,7 @@ RUBY_2_2_VERSIONS = %w[
 ]
 
 LISTED_RUBY_VERSIONS = \
+  RUBY_2_6_VERSIONS +
   RUBY_2_5_VERSIONS +
   RUBY_2_4_VERSIONS +
   RUBY_2_3_VERSIONS +
@@ -215,6 +220,14 @@ helpers do
 
   def bundled_gems_supported_version_matrix
     version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS)
+  end
+
+  def default_gems_version_matrix_2_6
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_6_VERSIONS)
+  end
+
+  def bundled_gems_version_matrix_2_6
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_6_VERSIONS)
   end
 
   def default_gems_version_matrix_2_5
