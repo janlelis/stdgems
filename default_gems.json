@@ -45,7 +45,10 @@
       "native": false,
       "autoRequire": false,
       "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
-      "mriSourcePath": "lib/csv.rb",
+      "mriSourcePath": [
+        "lib/csv.rb",
+        "lib/csv"
+      ],
       "sourceRepository": "https://github.com/ruby/csv",
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/csv",
