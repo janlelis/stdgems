@@ -1,14 +1,8 @@
 # Change Log
 
-## Next
+## 1.3.0
 
-### Default Gems
-
-Add Ruby 2.6 (unreleased)
-
-### Bundled Gems
-
-Add Ruby 2.6 (unreleased)
+Ruby 2.6 (preview) changes
 
 ## 1.2.0
 
