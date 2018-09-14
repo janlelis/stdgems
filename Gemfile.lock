@@ -48,7 +48,7 @@ GEM
     debugging (1.1.1)
       binding.repl (~> 3.0)
       paint (>= 0.9, < 3.0)
-    did_you_mean (1.2.0)
+    did_you_mean (1.2.1)
     erubis (2.7.0)
     every_day_irb (2.0.0)
       cd (~> 1.0)
