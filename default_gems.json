@@ -50,7 +50,7 @@
         "lib/csv"
       ],
       "sourceRepository": "https://github.com/ruby/csv",
-      "sourceRepositoryIsUpstream": null,
+      "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/csv",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
       "maintainer": [
@@ -58,7 +58,7 @@
         "Kouhei Sutou (kou)"
       ],
       "versions": {
-        "2.6": "1.0.2",
+        "2.6": "3.0.1",
         "2.5": "1.0.0"
       }
     },

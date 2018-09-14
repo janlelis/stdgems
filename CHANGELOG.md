@@ -1,5 +1,9 @@
 # Change Log
 
+## Next
+
+- Update Ruby 2.6's csv to 3.0.1
+
 ## 1.3.0
 
 Ruby 2.6 (preview) changes
