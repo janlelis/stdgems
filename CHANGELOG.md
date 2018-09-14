@@ -4,6 +4,7 @@
 
 - Update Ruby 2.6's csv to 3.0.1
 - Update Ruby 2.6's psych to 3.1.0
+- Update Ruby 2.6's rdoc to 6.1.0
 
 ## 1.3.0
 
