@@ -1,5 +1,16 @@
 # Change Log
 
+## Next
+
+Ruby releases: 2.5.3, 2.5.2, 2.4.5, 2.3.8
+
+### Default Gems
+
+- Update Ruby 2.5's openssl to 2.1.2
+- Fix Ruby 2.5's rdoc (it's 6.0.1)
+- Update Ruby 2.4's openssl to 2.0.9
+- Update Ruby 2.4's rubygems to 2.6.14.3
+
 ## 1.3.1
 
 ### Default Gems
