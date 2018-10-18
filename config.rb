@@ -15,18 +15,21 @@ LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
 MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
-CURRENT_RUBY_VERSION = "2.5.1"
+CURRENT_RUBY_VERSION = "2.5.3"
 
 RUBY_2_6_VERSIONS = %w[
   2.6.0
 ]
 
 RUBY_2_5_VERSIONS = %w[
+  2.5.3
+  2.5.2
   2.5.1
   2.5.0
 ]
 
 RUBY_2_4_VERSIONS = %w[
+  2.4.5
   2.4.4
   2.4.3
   2.4.2
@@ -35,6 +38,7 @@ RUBY_2_4_VERSIONS = %w[
 ]
 
 RUBY_2_3_VERSIONS = %w[
+  2.3.8
   2.3.7
   2.3.6
   2.3.5
