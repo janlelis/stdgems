@@ -186,7 +186,7 @@ helpers do
           }
         ]
       }.reject{ |versions|
-        versions[2..-1].uniq == ["-"]
+        versions[1..-1].uniq == ["-"]
       }
     ).map{ |line| line.join(" | ") }.join("\n")
   end
