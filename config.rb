@@ -156,15 +156,29 @@ helpers do
       gem_info["versions"][exact_ruby_version] ||
       gem_info["versions"][major_ruby_version]
     }.map{ |gem_info|
-      [
-        "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
-            (gem_info["native"] ? ' **c**' : ''),
-        gem_info["versions"][exact_ruby_version] ||
-        gem_info["versions"][major_ruby_version],
-        gem_info["description"],
-        build_resource_list(gem_info)
-      ].join(" | ")
+      gem_info_row(gem_info, major_ruby_version, exact_ruby_version)
     }.join("\n")
+  end
+
+  def new_gems_in(source, ruby_version)
+    major_ruby_version = ruby_version.to_f.to_s
+
+    source.select{ |gem_info|
+      gem_info["versions"].keys.min === major_ruby_version
+    }.map{ |gem_info|
+      gem_info_row(gem_info)
+    }.join("\n")
+  end
+
+  def gem_info_row(gem_info, major_ruby_version = nil, exact_ruby_version = nil)
+    [
+      "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
+          (gem_info["native"] ? ' **c**' : ''),
+      exact_ruby_version && gem_info["versions"][exact_ruby_version] ||
+      major_ruby_version && gem_info["versions"][major_ruby_version],
+      gem_info["description"],
+      build_resource_list(gem_info)
+    ].compact.join(" | ")
   end
 
   def version_matrix_for(source, ruby_versions = MATRIX_RUBY_VERSIONS)
@@ -264,6 +278,14 @@ helpers do
 
   def bundled_gems_version_matrix_2_2
     version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_2_VERSIONS)
+  end
+
+  def new_default_gems_in(ruby_version)
+    new_gems_in(DEFAULT_GEMS_JSON, ruby_version)
+  end
+
+  def new_bundled_gems_in(ruby_version)
+    new_gems_in(BUNDLED_GEMS_JSON, ruby_version)
   end
 
   def default_gems_json
