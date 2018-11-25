@@ -34,6 +34,10 @@ Gem | Version | Description | Resources
 
 <%= listed_ruby_versions.group_by{ |ruby_version| ruby_version.to_f }.map{ |_, ruby_versions| "- Gem list for Ruby: " + ruby_versions.map{ |ruby_version| "[#{ruby_version}](/#{ruby_version})" }.join(" - ") + (ruby_versions[0] > current_ruby_version ? " (preview)" : "") }.join("\n") %>
 
+## Gemification Progress
+
+New standard gems in Ruby: [2.6](/new-in/2.6) - [2.5](/new-in/2.5) - [2.4](/new-in/2.4) - [2.3](/new-in/2.3) - [2.2](/new-in/2.2)
+
 ## Non-Gemified Standard Libraries
 
 A list of standard libraries which have not yet turned into gems can be found at [libraries](/libraries). The respective JSON file is at [libraries.json](/libraries.json).
