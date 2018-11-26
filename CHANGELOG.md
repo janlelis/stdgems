@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Ruby 2.6: Add bundler
+
 ## 1.4.0
 
 Ruby releases: 2.5.3, 2.5.2, 2.4.5, 2.3.8
