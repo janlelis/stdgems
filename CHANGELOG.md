@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update Ruby 2.6's stringio to 0.0.2
+
 ## 1.4.1
 
 ### Default Gems
