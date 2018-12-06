@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update Ruby 2.6's bigdecimal to 1.4.0
+
 ## 1.4.2
 
 ### Default Gems
