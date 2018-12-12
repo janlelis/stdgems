@@ -1,5 +1,12 @@
 # Change Log
 
+## Next
+
+### Bundler Gems
+
+- Update Ruby 2.6's rake to 12.3.1
+- Update Ruby 2.6's test-unit to 3.2.9
+
 ## 1.4.3
 
 ### Default Gems
