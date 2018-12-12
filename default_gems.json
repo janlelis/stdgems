@@ -1,5 +1,5 @@
 {
-  "version": "1.4.3",
+  "version": "1.4.4",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -36,7 +36,7 @@
       "rdocLink": "http://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "2.6": "2.0.0"
+        "2.6": "1.7.2"
       }
     },
     {
