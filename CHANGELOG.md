@@ -2,6 +2,10 @@
 
 ## Next
 
+### Default Gems
+
+- Downgrade Ruby 2.6's bundler to 1.17.2
+
 ### Bundler Gems
 
 - Update Ruby 2.6's rake to 12.3.1
