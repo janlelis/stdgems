@@ -33,7 +33,7 @@
       "sourceRepository": "https://github.com/bundler/bundler",
       "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/bundler",
-      "rdocLink": "http://www.rubydoc.info/gems/bundler",
+      "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
         "2.6": "1.17.2"
