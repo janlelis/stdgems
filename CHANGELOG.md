@@ -5,6 +5,7 @@
 ### Default Gems
 
 - Fix typo in bundler version
+- Update Ruby 2.6's logger to 1.3.0
 
 ## 1.4.4
 
