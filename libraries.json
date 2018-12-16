@@ -385,9 +385,8 @@
       "gem": "rbconfig",
       "native": true,
       "autoRequire": false,
-      "description": "`RbConfig` is a Ruby constant that contains compile time information",
+      "description": "`RbConfig` is a [Ruby constant that contains compile time information](https://idiosyncratic-ruby.com/42-ruby-config.html)",
       "rdocLink": null,
-      "notes": "See [R(u)b(y)Config(uration)](https://idiosyncratic-ruby.com/42-ruby-config.html) for more info",
       "maintainer": null
     },
     {
