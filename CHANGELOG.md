@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Fix typo in bundler version
+
 ## 1.4.4
 
 ### Default Gems
