@@ -8,6 +8,7 @@
 - Update Ruby 2.6's logger to 1.3.0
 - Update Ruby 2.6's openssl to 1.1.2
 - Update Ruby 2.6's sync to 0.5.0
+- Update rubygems links
 
 ## 1.4.4
 

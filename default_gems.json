@@ -123,7 +123,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/e2mmap",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/e2mmap",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -206,7 +206,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/forwardable",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/forwardable",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -276,7 +276,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/irb",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -322,7 +322,7 @@
       "mriSourcePath": "lib/logger.rb",
       "sourceRepository": "https://github.com/ruby/logger",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/logger",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
       "maintainer": "Naotoshi Seo (sonots)",
       "versions": {
@@ -340,7 +340,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/matrix",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
       "maintainer": "Marc-Andre Lafortune (marcandre)",
       "versions": {
@@ -355,7 +355,7 @@
       "mriSourcePath": "lib/mutex_m.rb",
       "sourceRepository": "https://github.com/ruby/mutex_m",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/mutex_m",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -396,7 +396,7 @@
       "mriSourcePath": "lib/ostruct.rb",
       "sourceRepository": "https://github.com/ruby/ostruct",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/ostruct",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
       "maintainer": "Marc-Andre Lafortune (marcandre)",
       "versions": {
@@ -490,7 +490,7 @@
       "mriSourcePath": "lib/rexml",
       "sourceRepository": "https://github.com/ruby/rexml",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/rexml",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
@@ -508,7 +508,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/rss",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/rss",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
@@ -610,7 +610,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/shell",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/shell",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shell/rdoc/Shell.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -625,7 +625,7 @@
       "mriSourcePath": "ext/stringio",
       "sourceRepository": "https://github.com/ruby/stringio",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/stringio",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
@@ -641,7 +641,7 @@
       "mriSourcePath": "ext/strscan",
       "sourceRepository": "https://github.com/ruby/strscan",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/strscan",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
       "maintainer": null,
       "versions": {
@@ -657,7 +657,7 @@
       "mriSourcePath": "lib/sync.rb",
       "sourceRepository": "https://github.com/ruby/sync",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/sync",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sync/rdoc/Sync_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -675,7 +675,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/thwait",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/thwait",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/thwait/rdoc/ThWait.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
