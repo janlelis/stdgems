@@ -6,6 +6,7 @@
 
 - Fix typo in bundler version
 - Update Ruby 2.6's logger to 1.3.0
+- Update Ruby 2.6's openssl to 1.1.2
 
 ## 1.4.4
 
