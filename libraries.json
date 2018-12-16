@@ -1,5 +1,5 @@
 {
-  "version": "1.4.4",
+  "version": "1.4.5",
   "gems": [
     {
       "gem": "abbrev",
@@ -148,7 +148,7 @@
       "gem": "getoptlong",
       "native": false,
       "autoRequire": false,
-      "description": "[GNU getopt_long()](http://linux.die.net/man/3/getopt_long) style command-line option parsing",
+      "description": "[GNU getopt_long()](https://linux.die.net/man/3/getopt_long) style command-line option parsing",
       "mriSourcePath": "lib/getoptlong.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
       "maintainer": null
@@ -394,7 +394,7 @@
       "gem": "readline",
       "native": true,
       "autoRequire": false,
-      "description": "Interface to [GNU Readline](http://directory.fsf.org/wiki/Readline) and [NetBSD Editline](http://thrysoee.dk/editline/)",
+      "description": "Interface to [GNU Readline](https://directory.fsf.org/wiki/Readline) and [NetBSD Editline](https://thrysoee.dk/editline/)",
       "mriSourcePath": "ext/readline",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
       "maintainer": "TAKAO Kouji (kouji)"

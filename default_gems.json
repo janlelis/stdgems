@@ -1,5 +1,5 @@
 {
-  "version": "1.4.4",
+  "version": "1.4.5",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -33,10 +33,10 @@
       "sourceRepository": "https://github.com/bundler/bundler",
       "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/bundler",
-      "rdocLink": "http://www.rubydoc.info/gems/bundler",
+      "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "2.6": "1.7.2"
+        "2.6": "1.17.2"
       }
     },
     {
@@ -123,7 +123,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/e2mmap",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/e2mmap",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -206,7 +206,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/forwardable",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/forwardable",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -276,7 +276,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/irb",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -322,11 +322,12 @@
       "mriSourcePath": "lib/logger.rb",
       "sourceRepository": "https://github.com/ruby/logger",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/logger",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
+      "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
       "versions": {
-        "2.6": "1.2.7"
+        "2.6": "1.3.0"
       }
     },
     {
@@ -340,7 +341,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/matrix",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
       "maintainer": "Marc-Andre Lafortune (marcandre)",
       "versions": {
@@ -355,7 +356,7 @@
       "mriSourcePath": "lib/mutex_m.rb",
       "sourceRepository": "https://github.com/ruby/mutex_m",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/mutex_m",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -374,7 +375,7 @@
       "rdocLink": "https://ruby.github.io/openssl/",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
-        "2.6":   "2.1.1",
+        "2.6":   "2.1.2",
 
         "2.5":   "2.1.2",
         "2.5.1": "2.1.0",
@@ -396,7 +397,7 @@
       "mriSourcePath": "lib/ostruct.rb",
       "sourceRepository": "https://github.com/ruby/ostruct",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/ostruct",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
       "maintainer": "Marc-Andre Lafortune (marcandre)",
       "versions": {
@@ -490,7 +491,7 @@
       "mriSourcePath": "lib/rexml",
       "sourceRepository": "https://github.com/ruby/rexml",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/rexml",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
@@ -508,7 +509,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/rss",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/rss",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
@@ -610,7 +611,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/shell",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/shell",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shell/rdoc/Shell.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -625,7 +626,7 @@
       "mriSourcePath": "ext/stringio",
       "sourceRepository": "https://github.com/ruby/stringio",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/stringio",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
@@ -641,7 +642,7 @@
       "mriSourcePath": "ext/strscan",
       "sourceRepository": "https://github.com/ruby/strscan",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/strscan",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
       "maintainer": null,
       "versions": {
@@ -657,11 +658,11 @@
       "mriSourcePath": "lib/sync.rb",
       "sourceRepository": "https://github.com/ruby/sync",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/sync",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sync/rdoc/Sync_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.6": "0.1.0"
+        "2.6": "0.5.0"
       }
     },
     {
@@ -675,7 +676,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/thwait",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/thwait",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/thwait/rdoc/ThWait.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
