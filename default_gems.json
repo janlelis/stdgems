@@ -1,5 +1,5 @@
 {
-  "version": "1.4.5",
+  "version": "1.4.6",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -261,7 +261,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
-        "2.6": "1.2.0",
+        "2.6": "1.2.2",
         "2.5": "1.2.0"
       }
     },
@@ -280,7 +280,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.6": "0.9.6"
+        "2.6": "1.0.0"
       }
     },
     {
