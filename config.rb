@@ -15,6 +15,8 @@ LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
 MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
+STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
+
 CURRENT_RUBY_VERSION = "2.5.3"
 
 RUBY_2_6_VERSIONS = %w[
@@ -431,5 +433,9 @@ helpers do
     else
       "Standard Gems"
     end
+  end
+
+  def stdgems_version
+    STDGEMS_VERSION
   end
 end
