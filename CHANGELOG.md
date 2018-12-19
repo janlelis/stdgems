@@ -1,5 +1,9 @@
 # Change Log
 
+## Next
+
+- Update Ruby 2.6's irb to 1.0.0
+
 ## 1.4.5
 
 ### Default Gems
