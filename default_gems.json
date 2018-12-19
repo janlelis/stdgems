@@ -261,7 +261,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
-        "2.6": "1.2.0",
+        "2.6": "1.2.2",
         "2.5": "1.2.0"
       }
     },

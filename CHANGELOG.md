@@ -3,6 +3,7 @@
 ## Next
 
 - Update Ruby 2.6's irb to 1.0.0
+- Update Ruby 2.6's ipaddr to 1.2.2
 
 ## 1.4.5
 
