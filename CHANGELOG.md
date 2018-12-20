@@ -1,6 +1,14 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update Ruby 2.6's rexml to 3.1.8
+
 ## 1.4.6
+
+### Default Gems
 
 - Update Ruby 2.6's irb to 1.0.0
 - Update Ruby 2.6's ipaddr to 1.2.2
