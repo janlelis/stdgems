@@ -5,6 +5,7 @@
 ### Default Gems
 
 - Update Ruby 2.6's rubygems to 3.0.1
+- Update Ruby 2.6's csv to 3.0.2
 - Update Ruby 2.6's rexml to 3.1.8
 
 ## 1.4.6
