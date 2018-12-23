@@ -1,5 +1,5 @@
 {
-  "version": "1.4.6",
+  "version": "1.4.7",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -495,7 +495,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "2.6": "3.1.7.3"
+        "2.6": "3.1.8"
       }
     },
     {
@@ -534,7 +534,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.6":   "3.0.0",
+        "2.6":   "3.0.2",
 
         "2.5":   "2.7.6",
         "2.5.0": "2.7.3",
