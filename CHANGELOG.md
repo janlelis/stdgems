@@ -8,6 +8,10 @@ Ruby releases: 2.6.0
 
 - Fix Ruby 2.6's rubygems version
 
+### Bundled Gems
+
+- Update Ruby 2.6's did_you_mean to 1.3.0
+
 ## 1.4.7
 
 ### Default Gems
