@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.5.0 (unreleased)
+
+Ruby releases: 2.6.0
+
+### Default Gems
+
+- Fix Ruby 2.6's rubygems version
+
 ## 1.4.7
 
 ### Default Gems
