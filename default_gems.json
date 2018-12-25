@@ -242,7 +242,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "2.6": "0.4.6",
+        "2.6": "0.4.7",
         "2.5": "0.4.6",
         "2.4": "0.4.6",
         "2.3": "0.4.5",
