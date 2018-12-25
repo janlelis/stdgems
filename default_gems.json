@@ -495,7 +495,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "2.6": "3.1.8"
+        "2.6": "3.1.9"
       }
     },
     {
