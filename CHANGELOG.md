@@ -6,6 +6,7 @@ Ruby releases: 2.6.0
 
 ### Default Gems
 
+- Update Ruby 2.6's bigdecimal to 1.4.2
 - Update Ruby 2.6's csv to 3.0.2
 - Update Ruby 2.6's io-console to 0.4.7
 - Update Ruby 2.6's rexml to 3.1.9
