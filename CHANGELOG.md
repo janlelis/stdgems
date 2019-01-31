@@ -6,6 +6,7 @@ Ruby release 2.6.1
 
 ### Default Gems
 
+- Update Ruby 2.6's csv to 3.0.4
 - Fix Ruby 2.6's bigdecimal (it's 1.4.1)
 
 ## 1.5.0
