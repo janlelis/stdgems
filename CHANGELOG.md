@@ -1,5 +1,13 @@
 # Change Log
 
+## Next
+
+Ruby release 2.6.1
+
+### Default Gems
+
+- Fix Ruby 2.6's bigdecimal (it's 1.4.1)
+
 ## 1.5.0
 
 Ruby releases: 2.6.0
