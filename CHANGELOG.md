@@ -1,6 +1,6 @@
 # Change Log
 
-## Next
+## 1.6.0
 
 Ruby release 2.6.1
 
