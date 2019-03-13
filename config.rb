@@ -79,8 +79,7 @@ MATRIX_RUBY_VERSIONS = %w[2.6 2.5 2.4 2.3 2.2]
 MATRIX_SUPPORTED_RUBY_VERSIONS = \
   RUBY_2_6_VERSIONS[0,3] +
   RUBY_2_5_VERSIONS[0,3] +
-  RUBY_2_4_VERSIONS[0,3] +
-  RUBY_2_3_VERSIONS[0,3]
+  RUBY_2_4_VERSIONS[0,3]
 
 def grouped_ruby_versions
   LISTED_RUBY_VERSIONS.group_by{ |ruby_version| ruby_version.to_f }
