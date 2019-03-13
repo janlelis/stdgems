@@ -1,5 +1,14 @@
 # Change Log
 
+## Next
+
+Ruby releases: 2.6.2, 2.5.4
+
+### Default Gems
+
+- Update Ruby 2.6's rubygems to 3.0.3
+- Update Ruby 2.5's rubygems to 2.7.6.2
+
 ## 1.6.0
 
 Ruby release 2.6.1
