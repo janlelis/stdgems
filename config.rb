@@ -17,14 +17,16 @@ MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-CURRENT_RUBY_VERSION = "2.6.1"
+CURRENT_RUBY_VERSION = "2.6.2"
 
 RUBY_2_6_VERSIONS = %w[
+  2.6.2
   2.6.1
   2.6.0
 ]
 
 RUBY_2_5_VERSIONS = %w[
+  2.5.4
   2.5.3
   2.5.2
   2.5.1
