@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.8.0 (unreleased)
+
+Ruby release: 2.4.6
+
+### Default Gems
+
+- Update Ruby 2.4's rubygems to 2.6.14.4
+
 ## 1.7.0
 
 Ruby releases: 2.6.2, 2.5.4
