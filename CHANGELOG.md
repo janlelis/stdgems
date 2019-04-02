@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.8.0 (unreleased)
+## 1.8.0
 
 Ruby release: 2.4.6
 
