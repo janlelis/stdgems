@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.9.0 (unreleased)
+
+Ruby release: 2.6.2
+
+### Default Gems
+
+- Update Ruby 2.6's csv to 3.0.9
+
 ## 1.8.0
 
 Ruby release: 2.4.6
