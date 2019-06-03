@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -13,6 +13,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
+        "2.7":   "1.4.2",
         "2.6":   "1.4.1",
         "2.5":   "1.3.4",
         "2.4":   "1.3.2",
@@ -36,6 +37,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
+        "2.7": "2.1.0",
         "2.6": "1.17.2"
       }
     },
@@ -51,6 +53,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
       "maintainer": null,
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -73,6 +76,7 @@
         "Kouhei Sutou (kou)"
       ],
       "versions": {
+        "2.7":   "3.0.9",
         "2.6":   "3.0.9",
         "2.6.2": "3.0.4",
         "2.6.1": "3.0.4",
@@ -95,6 +99,8 @@
       ],
       "maintainer": null,
       "versions": {
+        "2.7":   "2.0.0",
+
         "2.6":   "2.0.0",
         "2.6.0": "1.0.0",
 
@@ -113,6 +119,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
       "maintainer": null,
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -132,6 +139,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -147,6 +155,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "maintainer": "Ruby core team",
       "versions": {
+        "2.7": "1.0.1",
         "2.6": "1.0.1",
         "2.5": "1.0.0"
       }
@@ -163,6 +172,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
       "maintainer": "Ruby core team",
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -179,6 +189,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
       "maintainer": "Aaron Patterson (tenderlove)",
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -195,6 +206,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
+        "2.7": "1.1.0",
         "2.6": "1.1.0",
         "2.5": "1.0.2"
       }
@@ -215,6 +227,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "1.2.0",
         "2.6": "1.2.0"
       }
     },
@@ -230,6 +243,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/gdbm/rdoc/GDBM.html",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
+        "2.7": "2.0.0",
         "2.6": "2.0.0",
         "2.5": "2.0.0"
       }
@@ -247,6 +261,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
+        "2.7": "0.4.7",
         "2.6": "0.4.7",
         "2.5": "0.4.6",
         "2.4": "0.4.6",
@@ -266,6 +281,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
+        "2.7": "1.2.2",
         "2.6": "1.2.2",
         "2.5": "1.2.0"
       }
@@ -285,6 +301,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "1.1.0",
         "2.6": "1.0.0"
       }
     },
@@ -303,6 +320,8 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
+        "2.7":   "2.2.0",
+
         "2.6":   "2.1.0",
 
         "2.5":   "2.1.0",
@@ -332,6 +351,7 @@
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
       "versions": {
+        "2.7": "1.3.0",
         "2.6": "1.3.0"
       }
     },
@@ -350,6 +370,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
       "maintainer": "Marc-Andre Lafortune (marcandre)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -365,6 +386,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -380,6 +402,8 @@
       "rdocLink": "https://ruby.github.io/openssl/",
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "versions": {
+        "2.7":   "2.1.2",
+
         "2.6":   "2.1.2",
 
         "2.5":   "2.1.2",
@@ -406,6 +430,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
       "maintainer": "Marc-Andre Lafortune (marcandre)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -421,6 +446,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prime/rdoc/Prime.html",
       "maintainer": "Yuki Sonoda (yugui)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -439,6 +465,8 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
+        "2.7":   "3.1.0",
+
         "2.6":   "3.1.0",
 
         "2.5":   "3.0.2",
@@ -481,11 +509,27 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
+        "2.7":   "6.1.0",
         "2.6":   "6.1.0",
         "2.5":   "6.0.1",
         "2.4":   "5.0.0",
         "2.3":   "4.2.1",
         "2.2":   "4.2.0"
+      }
+    },
+    {
+      "gem": "reline",
+      "native": false,
+      "autoRequire": false,
+      "description": "Ruby-only implementation of [GNU Readline](https://directory.fsf.org/wiki/Readline) / [NetBSD Editline](https://thrysoee.dk/editline/) ",
+      "mriSourcePath": "lib/reline",
+      "sourceRepository": "https://github.com/ruby/reline",
+      "sourceRepositoryIsUpstream": true,
+      "rubygemsLink": "https://rubygems.org/gems/reline",
+      "rdocLink": null,
+      "maintainer": "aycabta",
+      "versions": {
+        "2.7": "0.0.0"
       }
     },
     {
@@ -500,6 +544,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
+        "2.7": "3.1.9",
         "2.6": "3.1.9"
       }
     },
@@ -518,6 +563,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
+        "2.7": "0.2.8",
         "2.6": "0.2.7"
       }
     },
@@ -539,6 +585,8 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
+        "2.7":     "3.1.0",
+
         "2.6":     "3.0.3",
         "2.6.1":   "3.0.1",
         "2.6.0":   "3.0.1",
@@ -591,6 +639,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
       "maintainer": "David A. Black (dblack)",
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -607,6 +656,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -626,6 +676,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shell/rdoc/Shell.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "0.7",
         "2.6": "0.7"
       }
     },
@@ -641,6 +692,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
+        "2.7": "0.0.2",
         "2.6": "0.0.2",
         "2.5": "0.0.1"
       }
@@ -655,8 +707,9 @@
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/strscan",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
-      "maintainer": null,
+      "maintainer": "Kouhei Sutou (kou)",
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -673,6 +726,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sync/rdoc/Sync_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "0.5.0",
         "2.6": "0.5.0"
       }
     },
@@ -691,6 +745,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/thwait/rdoc/ThWait.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -709,6 +764,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tracer/rdoc/Tracer.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },
@@ -727,6 +783,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
       "versions": {
+        "2.7": "1.4.2",
         "2.6": "1.4.2",
         "2.5": "1.4.2",
         "2.4": "1.3.1"
@@ -744,6 +801,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
+        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
