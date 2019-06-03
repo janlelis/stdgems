@@ -1,10 +1,14 @@
 # Change Log
 
-## Next
+## 1.10.0 (unreleased)
 
 ### Default Gems
 
 - Update strscan's maintainer to Kouhei Sutou (kou)
+
+### Bundled Gems
+
+- Ruby 2.7 preview changes: Updates power_assert, test-unit
 
 ## 1.9.0
 
