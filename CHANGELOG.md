@@ -4,6 +4,8 @@
 
 ### Default Gems
 
+- Ruby 2.7 preview changes:
+  Updates bigdecimal, bundler, irb, json, rubygems, rss
 - Update strscan's maintainer to Kouhei Sutou (kou)
 
 ### Bundled Gems
