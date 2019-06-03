@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -521,7 +521,7 @@
       "gem": "reline",
       "native": false,
       "autoRequire": false,
-      "description": "Ruby-only implemntation of [GNU Readline](https://directory.fsf.org/wiki/Readline) / [NetBSD Editline](https://thrysoee.dk/editline/) ",
+      "description": "Ruby-only implementation of [GNU Readline](https://directory.fsf.org/wiki/Readline) / [NetBSD Editline](https://thrysoee.dk/editline/) ",
       "mriSourcePath": "lib/reline",
       "sourceRepository": "https://github.com/ruby/reline",
       "sourceRepositoryIsUpstream": true,

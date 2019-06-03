@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.10.0 (unreleased)
+## 1.10.0
 
 Ruby preview release: 2.7.0
 
