@@ -13,7 +13,7 @@ BUNDLED_GEMS_FILE = File.read("bundled_gems.json")
 BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
 LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
-MRI_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
+CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
@@ -143,10 +143,10 @@ helpers do
     case gem_info["mriSourcePath"]
     when Array
       gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
-        res << "[MRI (#{index + 1})](#{MRI_SOURCE_PREFIX + mriSourcePath})"
+        res << "[CRuby (#{index + 1})](#{CRUBY_SOURCE_PREFIX + mriSourcePath})"
       }
     when String
-      res << "[MRI](#{MRI_SOURCE_PREFIX + gem_info["mriSourcePath"]})"
+      res << "[CRuby](#{CRUBY_SOURCE_PREFIX + gem_info["mriSourcePath"]})"
     end
 
     case gem_info["rdocLink"]
@@ -333,10 +333,10 @@ helpers do
     case gem_info["mriSourcePath"]
     when Array
       gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
-        res << ["MRI source on GitHub (part #{index + 1})", (MRI_SOURCE_PREFIX + mriSourcePath)]
+        res << ["CRuby source on GitHub (part #{index + 1})", (CRUBY_SOURCE_PREFIX + mriSourcePath)]
       }
     when String
-      res << ["MRI source on GitHub", (MRI_SOURCE_PREFIX + gem_info["mriSourcePath"])]
+      res << ["CRuby source on GitHub", (CRUBY_SOURCE_PREFIX + gem_info["mriSourcePath"])]
     end
 
     case gem_info["rdocLink"]
