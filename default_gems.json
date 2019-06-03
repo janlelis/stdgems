@@ -655,7 +655,7 @@
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/strscan",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
-      "maintainer": null,
+      "maintainer": "Kouhei Sutou (kou)",
       "versions": {
         "2.6": "1.0.0",
         "2.5": "1.0.0"

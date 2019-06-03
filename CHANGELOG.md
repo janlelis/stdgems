@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Update strscan's maintainer to Kouhei Sutou (kou)
+
 ## 1.9.0
 
 Ruby release: 2.6.2
