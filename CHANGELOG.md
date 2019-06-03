@@ -2,11 +2,14 @@
 
 ## 1.10.0 (unreleased)
 
+Ruby preview release: 2.7.0
+
 ### Default Gems
 
 - Ruby 2.7 preview changes:
   Updates bigdecimal, bundler, irb, json, rubygems, rss
 - Update strscan's maintainer to Kouhei Sutou (kou)
+- Add reline gem
 
 ### Bundled Gems
 
