@@ -12,6 +12,10 @@
 
 - Ruby 2.7 preview changes: Updates power_assert, test-unit
 
+### Other
+
+- Remove profiler & profile
+
 ## 1.9.0
 
 Ruby release: 2.6.2

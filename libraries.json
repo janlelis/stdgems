@@ -336,18 +336,6 @@
       "maintainer": "Tanaka Akira (akr)"
     },
     {
-      "gem": "profiler",
-      "native": false,
-      "autoRequire": false,
-      "description": "Measures which methods are called and how long each method takes to complete. Auto-start via `require 'profile'`",
-      "mriSourcePath": [
-        "lib/profiler.rb",
-        "lib/profile.rb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/profiler/rdoc/Profiler__.html",
-      "maintainer": null
-    },
-    {
       "gem": "pstore",
       "native": false,
       "autoRequire": false,
