@@ -92,6 +92,12 @@ MATRIX_SUPPORTED_RUBY_VERSIONS = \
   RUBY_2_5_VERSIONS[0,3] +
   RUBY_2_4_VERSIONS[0,3]
 
+STATS = {
+  total_count: DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size + LIBRARIES_JSON.size,
+  gemified_count: DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size,
+  gemified_percentage: (DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size).to_f / (DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size + LIBRARIES_JSON.size),
+}
+
 def grouped_ruby_versions
   LISTED_RUBY_VERSIONS.group_by{ |ruby_version| ruby_version.to_f }
 end
@@ -314,6 +320,10 @@ helpers do
 
   def libraries_json
     LIBRARIES_FILE
+  end
+
+  def stats
+    STATS
   end
 
   def gem_details(gem_info, gem_type)
