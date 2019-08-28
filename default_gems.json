@@ -546,7 +546,7 @@
       "rdocLink": null,
       "maintainer": "aycabta",
       "versions": {
-        "2.7": "0.0.0"
+        "2.7": "0.0.1"
       }
     },
     {
@@ -561,7 +561,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "2.7": "3.1.9",
+        "2.7": "3.2.2",
         "2.6": "3.1.9"
       }
     },
