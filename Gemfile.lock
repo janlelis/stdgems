@@ -100,7 +100,7 @@ GEM
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    looksee (4.0.0)
+    looksee (4.1.0)
     method_locator (0.0.4)
     method_source (0.8.2)
     methodfinder (2.1.0)
