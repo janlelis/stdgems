@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Standard Gems</title>
+    <title>Standard Gems 2.6.4</title>
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
 
     <meta charset="utf-8">
@@ -24,33 +24,11 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top">Ruby Standard Gems</a></h1>
+        <h1 class="post-heading" id="top"><a href="#top">Standard Gems 2.6.4</a></h1>
       </section>
 
      	<article class="post">
-
-<h2 id="about-the-gemified-standard-library">About the Gemified Standard Library</h2>
-
-<p>Ruby's standard library is in the process of being gemified. More and more libraries will be turned into <a href="https://rubygems.org">RubyGems</a>, which can be updated independently from Ruby.</p>
-
-<p>There are two different kinds of standard gems:</p>
-
-<ul>
-  <li>
-    <p><strong>Default gems:</strong> These gems are part of Ruby and you can always require them directly. You cannot remove them. They are maintained by Ruby core.</p>
-  </li>
-  <li>
-    <p><strong>Bundled gems:</strong> The behavior of bundled gems is similar to normal gems, but they get automatically installed when you install Ruby. They can be uninstalled and they are maintained outside of Ruby core.</p>
-  </li>
-</ul>
-
-<p>Checkout <a href="https://www.youtube.com/watch?v=93nGROEgyEc">Hiroshi Shibata's talk at RubyConf 2017</a> for more info. Also see <a href="https://bugs.ruby-lang.org/issues/5481">Ruby issue #5481</a> for the current state of the gemification project.</p>
-
-<h2 id="standard-gems-version-data">Standard Gems Version Data</h2>
-
-<p>Every Ruby version ships a specific set of default and bundled gems. The tables below list included gems of the current Ruby version <strong>2.6.4</strong>. There is also <a href="/compare">version comparison</a> that shows which Ruby version comes with which gem versions. The raw data is available as <a href="/default_gems.json">default_gems.json</a> and <a href="/bundled_gems.json">bundled_gems.json</a>.</p>
-
-<h2 id="default-gems-ruby-264">Default Gems (Ruby 2.6.4)</h2>
+<h2 id="default-gems">Default Gems</h2>
 
 <table class="table-20-10-45-X">
   <thead>
@@ -293,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function(){
   </tbody>
 </table>
 
-<h2 id="bundled-gems-ruby-264">Bundled Gems (Ruby 2.6.4)</h2>
+<h2 id="bundled-gems">Bundled Gems</h2>
 
 <table class="table-20-10-45-X">
   <thead>
@@ -350,32 +328,21 @@ document.addEventListener('DOMContentLoaded', function(){
   </tbody>
 </table>
 
-<h2 id="gems-per-ruby-version">Gems per Ruby Version</h2>
+<h2 id="more-standard-gems">More Standard Gems</h2>
 
 <ul>
+  <li><a href="/">General information about standard gems</a></li>
   <li>Gem list for Ruby: <a href="/2.7.0">2.7.0</a> (preview)</li>
   <li>Gem list for Ruby: <a href="/2.6.4">2.6.4</a> - <a href="/2.6.3">2.6.3</a> - <a href="/2.6.2">2.6.2</a> - <a href="/2.6.1">2.6.1</a> - <a href="/2.6.0">2.6.0</a></li>
   <li>Gem list for Ruby: <a href="/2.5.6">2.5.6</a> - <a href="/2.5.5">2.5.5</a> - <a href="/2.5.4">2.5.4</a> - <a href="/2.5.3">2.5.3</a> - <a href="/2.5.2">2.5.2</a> - <a href="/2.5.1">2.5.1</a> - <a href="/2.5.0">2.5.0</a></li>
   <li>Gem list for Ruby: <a href="/2.4.7">2.4.7</a> - <a href="/2.4.6">2.4.6</a> - <a href="/2.4.5">2.4.5</a> - <a href="/2.4.4">2.4.4</a> - <a href="/2.4.3">2.4.3</a> - <a href="/2.4.2">2.4.2</a> - <a href="/2.4.1">2.4.1</a> - <a href="/2.4.0">2.4.0</a></li>
   <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> - <a href="/2.3.7">2.3.7</a> - <a href="/2.3.6">2.3.6</a> - <a href="/2.3.5">2.3.5</a> - <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
   <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> - <a href="/2.2.9">2.2.9</a> - <a href="/2.2.8">2.2.8</a> - <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
+  <li>Compare versions: <a href="/compare">Main Rubies</a> - <a href="/compare/supported">Supported Rubies</a> - <a href="/compare/2.6">2.6</a> - <a href="/compare/2.5">2.5</a> - <a href="/compare/2.4">2.4</a> - <a href="/compare/2.3">2.3</a> - <a href="/compare/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></li>
+  <li>List of <a href="/libraries">not-yet-gemified standard libraries</a></li>
 </ul>
 
-<h2 id="gemification-progress">Gemification Progress</h2>
-
-<p>New standard gems in Ruby: <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></p>
-
-<h2 id="non-gemified-standard-libraries">Non-Gemified Standard Libraries</h2>
-
-<p>A list of standard libraries which have not yet turned into gems can be found at <a href="/libraries">libraries</a>. The respective JSON file is at <a href="/libraries.json">libraries.json</a>.</p>
-
-<h2 id="about-stdgemsorg">About stdgems.org</h2>
-
-<p>This page and the JSON data files it is based on are maintained on <a href="https://github.com/janlelis/stdgems">GitHub</a>. Originally based on <a href="https://idiosyncratic-ruby.com/20-better-standards.html">episode 20 of Idiosyncratic Ruby</a> and put together by <a href="https://janlelis.com">Jan Lelis</a>.</p>
-
-<p>Page Version: 1.11.0</p>
-
-<p><a href="https://janlelis.com/data-protection.html">Data Protection</a></p>
 </article>
     </div>
     <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
