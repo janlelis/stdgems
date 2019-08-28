@@ -17,13 +17,14 @@ CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-CURRENT_RUBY_VERSION = "2.6.3"
+CURRENT_RUBY_VERSION = "2.6.4"
 
 RUBY_2_7_VERSIONS = %w[
   2.7.0
 ]
 
 RUBY_2_6_VERSIONS = %w[
+  2.6.4
   2.6.3
   2.6.2
   2.6.1
@@ -31,6 +32,7 @@ RUBY_2_6_VERSIONS = %w[
 ]
 
 RUBY_2_5_VERSIONS = %w[
+  2.5.6
   2.5.5
   2.5.4
   2.5.3
@@ -40,6 +42,7 @@ RUBY_2_5_VERSIONS = %w[
 ]
 
 RUBY_2_4_VERSIONS = %w[
+  2.4.7
   2.4.6
   2.4.5
   2.4.4
