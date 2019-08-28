@@ -1,5 +1,16 @@
 # Change Log
 
+## 1.11.0 (unreleased)
+
+Ruby releases 2.6.4, 2.5.6, 2.4.7
+
+### Default Gems
+
+- Update Ruby 2.7's rdoc to 6.2.0
+- Update Ruby 2.6's rdoc to 6.1.2
+- Update Ruby 2.5's rdoc to 6.0.1.1
+- Update Ruby 2.4's rdoc to 5.0.1
+
 ## 1.10.0
 
 Ruby preview release: 2.7.0
