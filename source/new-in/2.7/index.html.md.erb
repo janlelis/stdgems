@@ -1,0 +1,37 @@
+---
+ruby_version: 2.7
+heading: Gemified in 2.7
+title: Gemified in 2.7
+---
+
+<% ruby_version = current_page.data[:ruby_version].to_s %>
+
+The following libraries were made standard gems with Ruby <%= ruby_version %>:
+
+<%= dev_version_warning(ruby_version) %>
+
+## Default Gems
+
+<% new_default = new_default_gems_in(ruby_version) %>
+<% if new_default && !new_default.empty? %>
+Gem | Description | Resources
+----|-------------|----------
+<%= new_default %>
+{:.table-20-45-X}
+<% else %>
+No bundled gems were introduced in <%= ruby_version %>.
+<% end %>
+
+## Bundled Gems
+
+<% new_bundled = new_bundled_gems_in(ruby_version) %>
+<% if new_bundled && !new_bundled.empty? %>
+Gem | Description | Resources
+----|-------------|----------
+<%= new_bundled %>
+{:.table-20-45-X}
+<% else %>
+No bundled gems were introduced in <%= ruby_version %>.
+<% end %>
+
+<%= partial "footer" %>
