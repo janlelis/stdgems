@@ -13,6 +13,11 @@ Ruby releases 2.6.4, 2.5.6, 2.4.7
 - Update Ruby 2.5's rdoc to 6.0.1.1
 - Update Ruby 2.4's rdoc to 5.0.1
 
+### Bundled Gems
+
+- Update Ruby 2.7's rake to 12.3.3
+- Update Ruby 2.7's power_assert to 1.1.5
+
 ## 1.10.0
 
 Ruby preview release: 2.7.0

@@ -57,7 +57,7 @@
       "sourceRepository": "https://github.com/k-tsj/power_assert",
       "rubygemsLink": "https://rubygems.org/gems/power_assert",
       "versions": {
-        "2.7": "1.1.4",
+        "2.7": "1.1.5",
         "2.6": "1.1.3",
         "2.5": "1.1.1",
         "2.4": "0.4.1",
@@ -73,7 +73,7 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
-        "2.7": "12.3.2",
+        "2.7": "12.3.3",
         "2.6": "12.3.2",
         "2.5": "12.3.0",
         "2.4": "12.0.0",
