@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.11.0 (unreleased)
+## 1.11.0
 
 Ruby releases 2.6.4, 2.5.6, 2.4.7
 
