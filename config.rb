@@ -377,6 +377,10 @@ helpers do
   def gem_details_properties(gem_info, gem_type)
     res = []
 
+    if gem_info["removed"]
+      res << ["The gem has been removed from Ruby and is **no longer available**"]
+    end
+
     if gem_type == "bundled"
       res << ["This gem is a **bundled** gem"]
     else
@@ -397,7 +401,7 @@ helpers do
 
     if gem_info["maintainer"]
       res << ["Current maintainer(s): " + Array(gem_info["maintainer"]).join(", ")]
-    elsif gem_type != "bundled"
+    elsif gem_type != "bundled" && !gem_info["removed"]
       res << ["This library is currently **unmaintained**"]
     end
 
