@@ -49,11 +49,11 @@
       "mriSourcePath": "lib/cmath.rb",
       "sourceRepository": "https://github.com/ruby/cmath",
       "sourceRepositoryIsUpstream": null,
+      "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/cmath",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cmath/rdoc/CMath.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/cmath/rdoc/CMath.html",
       "maintainer": null,
       "versions": {
-        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -652,11 +652,11 @@
       "mriSourcePath": "lib/scanf.rb",
       "sourceRepository": "https://github.com/ruby/scanf",
       "sourceRepositoryIsUpstream": null,
+      "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/scanf",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/scanf/rdoc/Scanf.html",
-      "maintainer": "David A. Black (dblack)",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/scanf/rdoc/Scanf.html",
+      "maintainer": null,
       "versions": {
-        "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -690,10 +690,9 @@
       "sourceRepository": "https://github.com/ruby/shell",
       "sourceRepositoryIsUpstream": null,
       "rubygemsLink": "https://rubygems.org/gems/shell",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shell/rdoc/Shell.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/shell/rdoc/Shell.html",
+      "maintainer": null,
       "versions": {
-        "2.7": "0.7",
         "2.6": "0.7"
       }
     },
@@ -739,11 +738,11 @@
       "mriSourcePath": "lib/sync.rb",
       "sourceRepository": "https://github.com/ruby/sync",
       "sourceRepositoryIsUpstream": null,
+      "removed": "true",
       "rubygemsLink": "https://rubygems.org/gems/sync",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/sync/rdoc/Sync_m.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/sync/rdoc/Sync_m.html",
+      "maintainer": null,
       "versions": {
-        "2.7": "0.5.0",
         "2.6": "0.5.0"
       }
     },
@@ -758,11 +757,11 @@
       ],
       "sourceRepository": "https://github.com/ruby/thwait",
       "sourceRepositoryIsUpstream": null,
+      "removed": "true",
       "rubygemsLink": "https://rubygems.org/gems/thwait",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/thwait/rdoc/ThWait.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/thwait/rdoc/ThWait.html",
+      "maintainer": null,
       "versions": {
-        "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
     },

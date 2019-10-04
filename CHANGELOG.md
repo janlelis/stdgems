@@ -1,5 +1,15 @@
 # Change Log
 
+## Next
+
+### Default Gems
+
+- Remove cmath beginning with 2.7
+- Remove scanf beginning with 2.7
+- Remove shell beginning with 2.7
+- Remove sync beginning with 2.7
+- Remove thwait beginning with 2.7
+
 ## 1.12.1
 
 ### Default Gems
