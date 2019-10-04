@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.12.0
+
+Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
+
+### Default Gems
+
+- Update webrick (see note)
+
 ## 1.11.0
 
 Ruby releases 2.6.4, 2.5.6, 2.4.7
