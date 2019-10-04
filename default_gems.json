@@ -1,5 +1,5 @@
 {
-  "version": "1.12.0",
+  "version": "1.12.1",
   "gems": [
     {
       "gem": "bigdecimal",
@@ -799,7 +799,7 @@
       "rubygemsLink": "https://rubygems.org/gems/webrick",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
-      "notes": "**Please note:** Despite the gemspec stating otherwise, The webrick version included in Ruby might be more recent than 1.4.2. For example, the webrick included in Ruby 2.6.5, 2.5.7, 2.4.9, and 2.4.8 is actually webrick 1.5.0.",
+      "notes": "**Please note:** Despite the gemspec stating otherwise, the webrick version included with Ruby might be more recent than version 1.4.2. For example, the webrick included in Ruby 2.6.5, 2.5.7, 2.4.9, and 2.4.8 does include security fixes for CVE-2019-16201 and CVE-2019-16254.",
       "versions": {
         "2.7": "1.5.0",
         "2.6": "1.4.2",
