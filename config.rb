@@ -196,6 +196,20 @@ helpers do
     }.join("\n")
   end
 
+  def previous_major_ruby_version(major_ruby_version)
+    "%.1f" % (major_ruby_version.to_f - 0.1)
+  end
+
+  def removed_gems_in(source, ruby_version)
+    ruby_version = previous_major_ruby_version(ruby_version.to_f.to_s)
+
+    source.select{ |gem_info|
+      gem_info["versions"].keys.max === ruby_version
+    }.map{ |gem_info|
+      gem_info_row(gem_info)
+    }.join("\n")
+  end
+
   def gem_info_row(gem_info, major_ruby_version = nil, exact_ruby_version = nil)
     [
       "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
@@ -312,6 +326,14 @@ helpers do
 
   def new_bundled_gems_in(ruby_version)
     new_gems_in(BUNDLED_GEMS_JSON, ruby_version)
+  end
+
+  def removed_default_gems_in(ruby_version)
+    removed_gems_in(DEFAULT_GEMS_JSON, ruby_version)
+  end
+
+  def removed_bundled_gems_in(ruby_version)
+    removed_gems_in(BUNDLED_GEMS_JSON, ruby_version)
   end
 
   def default_gems_json
