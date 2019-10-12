@@ -19,7 +19,17 @@ Gem | Description | Resources
 <%= new_default %>
 {:.table-20-45-X}
 <% else %>
-No bundled gems were introduced in <%= ruby_version %>.
+No default gems were introduced in <%= ruby_version %>.
+<% end %>
+
+<% removed_default = removed_default_gems_in(ruby_version) %>
+<% if removed_default && !removed_default.empty? %>
+### Removed from Ruby
+
+Gem | Description | Resources
+----|-------------|----------
+<%= removed_default %>
+{:.table-20-45-X}
 <% end %>
 
 ## Bundled Gems
@@ -32,6 +42,16 @@ Gem | Description | Resources
 {:.table-20-45-X}
 <% else %>
 No bundled gems were introduced in <%= ruby_version %>.
+<% end %>
+
+<% removed_bundled = removed_bundled_gems_in(ruby_version) %>
+<% if removed_bundled && !removed_bundled.empty? %>
+### Removed from Ruby
+
+Gem | Description | Resources
+----|-------------|----------
+<%= removed_bundled %>
+{:.table-20-45-X}
 <% end %>
 
 <%= partial "footer" %>
