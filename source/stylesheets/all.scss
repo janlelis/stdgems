@@ -59,8 +59,11 @@ blockquote{
   margin-left: 0;
 }
 
-p strong {
-  font-size: 0.90em;
+strong {
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
 }
 
 .world {
