@@ -4,8 +4,10 @@
 
 ### Default Gems
 
-- Ruby 2.7 preview changes:
-  Updates bigdecimal, csv, fileutils, io-console, reline, rexml, stringio, strscan
+- Ruby 2.7 preview default gems updates:
+  bigdecimal, csv, fileutils, io-console, reline, rexml, stringio, strscan
+- Ruby 2.7 preview bundled gems updates:
+  did_you_mean, minitest, rake, test-unit
 - Ruby 2.7 removals:
   cmath, scanf, shell, sync, thwait
 
