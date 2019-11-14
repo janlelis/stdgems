@@ -2,9 +2,14 @@
 
 ## Next
 
+### Default Gems
+
+- Ruby 2.7 preview default gems updates:
+  reline
+
 ### Bundled Gems
 
-- Ruby 2.7 preview 3 bundled gems updates:
+- Ruby 2.7 preview bundled gems updates:
   minitest
 
 ## 1.13.0
