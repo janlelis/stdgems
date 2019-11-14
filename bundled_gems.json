@@ -24,7 +24,7 @@
       "sourceRepository": "https://github.com/seattlerb/minitest",
       "rubygemsLink": "https://rubygems.org/gems/minitest",
       "versions": {
-        "2.7": "5.12.0",
+        "2.7": "5.13.0",
         "2.6": "5.11.3",
         "2.5": "5.10.3",
         "2.4": "5.10.1",

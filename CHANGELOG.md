@@ -1,5 +1,12 @@
 # Change Log
 
+## Next
+
+### Bundled Gems
+
+- Ruby 2.7 preview 3 bundled gems updates:
+  minitest
+
 ## 1.13.0
 
 ### Default Gems
