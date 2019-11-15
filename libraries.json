@@ -20,32 +20,6 @@
       "maintainer": "Yusuke Endoh (mame)"
     },
     {
-      "gem": "benchmark",
-      "native": false,
-      "autoRequire": false,
-      "description": "Benchmark utility: Measures and reports the time used to execute code",
-      "mriSourcePath": "lib/benchmark.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html",
-      "maintainer": null
-    },
-    {
-      "gem": "cgi",
-      "native": true,
-      "autoRequire": false,
-      "description": "Support for CGI ([Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface))",
-      "mriSourcePath": [
-        "lib/cgi.rb",
-        "lib/cgi",
-        "ext/cgi"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html",
-      "notes": "Only the escape utilities are implemented as native extension.",
-      "maintainer": [
-        "Takeyuki Fujioka (xibbar)",
-        "Nobuyoshi Nakada (nobu)"
-      ]
-    },
-    {
       "gem": "coverage",
       "native": true,
       "autoRequire": false,
@@ -61,15 +35,6 @@
       "description": "Command-line [debugger](https://en.wikipedia.org/wiki/Debugger)",
       "mriSourcePath": "lib/debug.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/debug/rdoc/DEBUGGER__.html",
-      "maintainer": null
-    },
-    {
-      "gem": "delegate",
-      "native": false,
-      "autoRequire": false,
-      "description": "Provides three ways to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls",
-      "mriSourcePath": "lib/delegate.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html",
       "maintainer": null
     },
     {
@@ -143,15 +108,6 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html",
       "notes": "You can get a very similar result using: ```find .`.split($/)``",
       "maintainer": "Kazuki Tsujimoto (ktsj)"
-    },
-    {
-      "gem": "getoptlong",
-      "native": false,
-      "autoRequire": false,
-      "description": "[GNU getopt_long()](https://linux.die.net/man/3/getopt_long) style command-line option parsing",
-      "mriSourcePath": "lib/getoptlong.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
-      "maintainer": null
     },
     {
       "gem": "io-nonblock",
@@ -230,30 +186,12 @@
       "maintainer": "Shugo Maeda (shugo)"
     },
     {
-      "gem": "net-pop",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for POP3 ([Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol))",
-      "mriSourcePath": "lib/net/pop.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html",
-      "maintainer": null
-    },
-    {
       "gem": "net-protocol",
       "native": false,
       "autoRequire": false,
       "description": "Internal class for the other net- libraries, going to be refactored/removed",
       "mriSourcePath": "lib/net/protocol.rb",
       "rdocLink": null,
-      "maintainer": null
-    },
-    {
-      "gem": "net-smtp",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for SMTP ([Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol))",
-      "mriSourcePath": "lib/net/smtp.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/Net/SMTP.html",
       "maintainer": null
     },
     {
@@ -275,15 +213,6 @@
       "maintainer": null
     },
     {
-      "gem": "observer",
-      "native": false,
-      "autoRequire": false,
-      "description": "Implementation of the [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), a way to let interested other objects know o an objetc's updates",
-      "mriSourcePath": "lib/observer.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
-      "maintainer": null
-    },
-    {
       "gem": "open-uri",
       "native": false,
       "autoRequire": false,
@@ -291,15 +220,6 @@
       "mriSourcePath": "lib/open-uri.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open-uri/rdoc/OpenURI.html",
       "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "open3",
-      "native": false,
-      "autoRequire": false,
-      "description": "Simple spawning of child processes",
-      "mriSourcePath": "lib/open3.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html",
-      "maintainer": null
     },
     {
       "gem": "optparse",
@@ -336,18 +256,6 @@
       "maintainer": "Tanaka Akira (akr)"
     },
     {
-      "gem": "pstore",
-      "native": false,
-      "autoRequire": false,
-      "description": "Transactional file storage for Ruby objects",
-      "mriSourcePath": [
-        "lib/profiler.rb",
-        "lib/profile.rb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html",
-      "maintainer": null
-    },
-    {
       "gem": "pty",
       "native": true,
       "autoRequire": false,
@@ -376,15 +284,6 @@
       "description": "`RbConfig` is a [Ruby constant that contains compile time information](https://idiosyncratic-ruby.com/42-ruby-config.html)",
       "rdocLink": null,
       "maintainer": null
-    },
-    {
-      "gem": "readline",
-      "native": true,
-      "autoRequire": false,
-      "description": "Interface to [GNU Readline](https://directory.fsf.org/wiki/Readline) and [NetBSD Editline](https://thrysoee.dk/editline/)",
-      "mriSourcePath": "ext/readline",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
-      "maintainer": "TAKAO Kouji (kouji)"
     },
     {
       "gem": "resolv",
@@ -447,15 +346,6 @@
       "maintainer": "Akinori MUSHA (knu)"
     },
     {
-      "gem": "singleton",
-      "native": false,
-      "autoRequire": false,
-      "description": "Mixin for Ruby classes that should only have one instance",
-      "mriSourcePath": "lib/singleton.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html",
-      "maintainer": "Yukihiro Matsumoto (matz)"
-    },
-    {
       "gem": "socket",
       "native": true,
       "autoRequire": false,
@@ -493,15 +383,6 @@
       "mriSourcePath": "lib/time.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/time/rdoc/Time.html",
       "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "timeout",
-      "native": false,
-      "autoRequire": false,
-      "description": "Auto-terminates code blocks after the time limit is reached",
-      "mriSourcePath": "lib/timeout.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html",
-      "maintainer": "Yukihiro Matsumoto (matz)"
     },
     {
       "gem": "tmpdir",
@@ -580,30 +461,6 @@
       "mriSourcePath": "ext/win32ole",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/win32ole/rdoc/WIN32OLE.html",
       "maintainer": "Masaki Suketa (suke)"
-    },
-    {
-      "gem": "yaml-dbm",
-      "native": false,
-      "autoRequire": false,
-      "description": "A wrapper around [DBM](https://stdgems.org/dbm/) using YAML serialization",
-      "mriSourcePath": "lib/yaml/dbm.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.5.0/libdoc/yaml/rdoc/YAML/DBM.html",
-      "maintainer": [
-        "Aaron Patterson (tenderlove)",
-        "Hiroshi SHIBATA (hsbt)"
-      ]
-    },
-    {
-      "gem": "yaml-store",
-      "native": false,
-      "autoRequire": false,
-      "description": "A wrapper around pstore using YAML serialization",
-      "mriSourcePath": "lib/yaml/store.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.5.0/libdoc/yaml/rdoc/YAML/Store.html",
-      "maintainer": [
-        "Aaron Patterson (tenderlove)",
-        "Hiroshi SHIBATA (hsbt)"
-      ]
     }
   ]
 }

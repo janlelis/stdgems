@@ -2,6 +2,21 @@
   "version": "1.13.0",
   "gems": [
     {
+      "gem": "benchmark",
+      "native": false,
+      "autoRequire": false,
+      "description": "Benchmark utility: Measures and reports the time used to execute code",
+      "mriSourcePath": "lib/benchmark.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/benchmark",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
       "gem": "bigdecimal",
       "native": true,
       "autoRequire": false,
@@ -39,6 +54,29 @@
       "versions": {
         "2.7": "2.1.0",
         "2.6": "1.17.2"
+      }
+    },
+    {
+      "gem": "cgi",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for CGI ([Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface))",
+      "mriSourcePath": [
+        "lib/cgi.rb",
+        "lib/cgi",
+        "ext/cgi"
+      ],
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/cgi",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html",
+      "maintainer": [
+        "Takeyuki Fujioka (xibbar)",
+        "Nobuyoshi Nakada (nobu) — native code"
+      ],
+      "notes": "Only the escape utilities are implemented as native extension.",
+      "versions": {
+        "2.7": "0.1.0"
       }
     },
     {
@@ -122,6 +160,21 @@
         "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
+      }
+    },
+    {
+      "gem": "delegate",
+      "native": false,
+      "autoRequire": false,
+      "description": "Provides three ways to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls",
+      "mriSourcePath": "lib/delegate.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/delegate",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
       }
     },
     {
@@ -246,6 +299,21 @@
         "2.7": "2.0.0",
         "2.6": "2.0.0",
         "2.5": "2.0.0"
+      }
+    },
+    {
+      "gem": "getoptlong",
+      "native": false,
+      "autoRequire": false,
+      "description": "[GNU getopt_long()](https://linux.die.net/man/3/getopt_long) style command-line option parsing",
+      "mriSourcePath": "lib/getoptlong.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/getoptlong",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
       }
     },
     {
@@ -391,6 +459,66 @@
       }
     },
     {
+      "gem": "net-pop",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for POP3 ([Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol))",
+      "mriSourcePath": "lib/net/pop.rb",
+      "sourceRepository": "https://github.com/ruby/net-pop",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/net-pop",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
+      "gem": "net-smtp",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for SMTP ([Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol))",
+      "mriSourcePath": "lib/net/smtp.rb",
+      "sourceRepository": "https://github.com/ruby/net-smtp",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/net-smtp",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/Net/SMTP.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
+      "gem": "observer",
+      "native": false,
+      "autoRequire": false,
+      "description": "Implementation of the [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), a way to let interested other objects know o an objetc's updates",
+      "mriSourcePath": "lib/observer.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
+      "gem": "open3",
+      "native": false,
+      "autoRequire": false,
+      "description": "Simple spawning of child processes",
+      "mriSourcePath": "lib/open3.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/open3",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
       "gem": "openssl",
       "native": true,
       "autoRequire": false,
@@ -448,6 +576,21 @@
       "versions": {
         "2.7": "0.1.0",
         "2.6": "0.1.0"
+      }
+    },
+    {
+      "gem": "pstore",
+      "native": false,
+      "autoRequire": false,
+      "description": "Transactional file storage for Ruby objects",
+      "mriSourcePath": "lib/pstore.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/pstore",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html",
+      "maintainer": null,
+      "versions": {
+        "2.7": "0.1.0"
       }
     },
     {
@@ -532,6 +675,37 @@
         "2.4.0":   "5.0.0",
         "2.3":     "4.2.1",
         "2.2":     "4.2.0"
+      }
+    },
+    {
+      "gem": "readline",
+      "native": false,
+      "autoRequire": false,
+      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) [reline](https://stdgems.org/reline) will be used.",
+      "mriSourcePath": "ext/readline",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
+      "maintainer": "TAKAO Kouji (kouji)",
+      "versions": {
+        "2.7": "0.0.1"
+      }
+    },
+    {
+      "gem": "readline-ext",
+      "native": true,
+      "autoRequire": false,
+      "description": "Interface to [GNU Readline](https://directory.fsf.org/wiki/Readline) and [NetBSD Editline](https://thrysoee.dk/editline/)",
+      "mriSourcePath": "ext/readline",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
+      "maintainer": "TAKAO Kouji (kouji)",
+      "notes": "Was just called **readline** before Ruby 2.7.",
+      "versions": {
+        "2.7": "0.1.0"
       }
     },
     {
@@ -697,6 +871,21 @@
       }
     },
     {
+      "gem": "singleton",
+      "native": false,
+      "autoRequire": false,
+      "description": "Mixin for Ruby classes that should only have one instance",
+      "mriSourcePath": "lib/singleton.rb",
+      "sourceRepository": "https://github.com/ruby/singleton",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": "https://rubygems.org/gems/singleton",
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html",
+      "maintainer": "Yukihiro Matsumoto (matz)",
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
       "gem": "stringio",
       "native": true,
       "autoRequire": false,
@@ -766,6 +955,23 @@
       }
     },
     {
+      "gem": "timeout",
+      "native": false,
+      "autoRequire": false,
+      "description": "Auto-terminates code blocks after the time limit is reached",
+      "mriSourcePath": "lib/timeout.rb",
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html",
+      "maintainer": [
+        "Yukihiro Matsumoto (matz)"
+      ],
+      "versions": {
+        "2.7": "0.1.0"
+      }
+    },
+    {
       "gem": "tracer",
       "native": false,
       "autoRequire": false,
@@ -804,6 +1010,32 @@
         "2.6": "1.4.2",
         "2.5": "1.4.2",
         "2.4": "1.3.1"
+      }
+    },
+    {
+      "gem": "yaml",
+      "native": false,
+      "autoRequire": false,
+      "description": "`require 'yaml'` will load the [psych default gem](https://stdgems.org/dbm/), **yaml/dbm** is a wrapper around [DBM](https://stdgems.org/dbm/) using YAML serialization, and **yaml/store** lets you use [pstore](https://stdgems.org/pstore/) with YAML",
+      "mriSourcePath": [
+        "lib/yaml.rb",
+        "lib/yaml/dbm.rb",
+        "lib/yaml/store.rb"
+      ],
+      "sourceRepository": null,
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": [
+        "https://ruby-doc.org/stdlib-2.6.5/libdoc/yaml/rdoc/YAML.html",
+        "https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/DBM.html",
+        "https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/Store.html"
+      ],
+      "maintainer": [
+        "Aaron Patterson (tenderlove)",
+        "Hiroshi SHIBATA (hsbt)"
+      ],
+      "versions": {
+        "2.7": "0.1.0"
       }
     },
     {

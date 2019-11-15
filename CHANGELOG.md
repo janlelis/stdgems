@@ -4,6 +4,9 @@
 
 ### Default Gems
 
+- Gemify:
+  benchmark, cgi, delegate, getoptlong, net-pop, net-smtp, observer, open3, pstore,
+  readline, readline-ext, singleton, timeout, yaml
 - Ruby 2.7 preview default gems updates:
   reline
 
