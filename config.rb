@@ -336,6 +336,19 @@ helpers do
     removed_gems_in(BUNDLED_GEMS_JSON, ruby_version)
   end
 
+  def unmaintained_default_gems
+    DEFAULT_GEMS_JSON.select{ |gem_info|
+      !gem_info["maintainer"] && !gem_info["removed"]
+    }.map{ |gem_info|
+      [
+        "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
+            (gem_info["native"] ? ' **c**' : ''),
+        gem_info["description"],
+        build_resource_list(gem_info)
+      ].compact.join(" | ")
+    }.join("\n")
+  end
+
   def default_gems_json
     DEFAULT_GEMS_FILE
   end
