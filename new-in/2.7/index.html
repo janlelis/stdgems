@@ -44,9 +44,79 @@ document.addEventListener('DOMContentLoaded', function(){
   </thead>
   <tbody>
     <tr>
+      <td><a href="/benchmark">benchmark</a></td>
+      <td>Benchmark utility: Measures and reports the time used to execute code</td>
+      <td><a href="https://rubygems.org/gems/benchmark">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/benchmark.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/cgi">cgi</a> <strong>c</strong></td>
+      <td>Support for CGI (<a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">Common Gateway Interface</a>)</td>
+      <td><a href="https://rubygems.org/gems/cgi">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/cgi.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/cgi">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/cgi">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/delegate">delegate</a></td>
+      <td>Provides three ways to <a href="https://en.wikipedia.org/wiki/Delegation_pattern">delegate</a> method calls</td>
+      <td><a href="https://rubygems.org/gems/delegate">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/delegate.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/getoptlong">getoptlong</a></td>
+      <td><a href="https://linux.die.net/man/3/getopt_long">GNU getopt_long()</a> style command-line option parsing</td>
+      <td><a href="https://rubygems.org/gems/getoptlong">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/getoptlong.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/net-pop">net-pop</a></td>
+      <td>Support for POP3 (<a href="https://en.wikipedia.org/wiki/Post_Office_Protocol">Post Office Protocol</a>)</td>
+      <td><a href="https://rubygems.org/gems/net-pop">RubyGems</a>, <a href="https://github.com/ruby/net-pop">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/net/pop.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/net-smtp">net-smtp</a></td>
+      <td>Support for SMTP (<a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">Simple Mail Transfer Protocol</a>)</td>
+      <td><a href="https://rubygems.org/gems/net-smtp">RubyGems</a>, <a href="https://github.com/ruby/net-smtp">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/net/smtp.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/Net/SMTP.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/observer">observer</a></td>
+      <td>Implementation of the <a href="https://en.wikipedia.org/wiki/Observer_pattern">observer pattern</a>, a way to let interested other objects know o an objetc's updates</td>
+      <td><a href="https://github.com/ruby/ruby/tree/trunk/lib/observer.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/open3">open3</a></td>
+      <td>Simple spawning of child processes</td>
+      <td><a href="https://rubygems.org/gems/open3">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/open3.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/pstore">pstore</a></td>
+      <td>Transactional file storage for Ruby objects</td>
+      <td><a href="https://rubygems.org/gems/pstore">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/pstore.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/readline">readline</a></td>
+      <td>If available, <a href="https://stdgems.org/readline-ext">readline-ext</a> will be loaded, or (Ruby-only) <a href="https://stdgems.org/reline">reline</a> will be used.</td>
+      <td><a href="https://github.com/ruby/ruby/tree/trunk/ext/readline">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/readline-ext">readline-ext</a> <strong>c</strong></td>
+      <td>Interface to <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> and <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/trunk/ext/readline">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html">RDoc</a></td>
+    </tr>
+    <tr>
       <td><a href="/reline">reline</a></td>
       <td>Ruby-only implementation of <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> / <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></td>
       <td><a href="https://rubygems.org/gems/reline">RubyGems</a>, <a href="https://github.com/ruby/reline">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/reline">CRuby</a></td>
+    </tr>
+    <tr>
+      <td><a href="/singleton">singleton</a></td>
+      <td>Mixin for Ruby classes that should only have one instance</td>
+      <td><a href="https://rubygems.org/gems/singleton">RubyGems</a>, <a href="https://github.com/ruby/singleton">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/singleton.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/timeout">timeout</a></td>
+      <td>Auto-terminates code blocks after the time limit is reached</td>
+      <td><a href="https://github.com/ruby/ruby/tree/trunk/lib/timeout.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/yaml">yaml</a></td>
+      <td><code>require 'yaml'</code> will load the <a href="https://stdgems.org/dbm/">psych default gem</a>, <strong>yaml/dbm</strong> is a wrapper around <a href="https://stdgems.org/dbm/">DBM</a> using YAML serialization, and <strong>yaml/store</strong> lets you use <a href="https://stdgems.org/pstore/">pstore</a> with YAML</td>
+      <td><a href="https://github.com/ruby/ruby/tree/trunk/lib/yaml.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/yaml/dbm.rb">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/yaml/store.rb">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib-2.6.5/libdoc/yaml/rdoc/YAML.html">RDoc (1)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/DBM.html">RDoc (2)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/Store.html">RDoc (3)</a></td>
     </tr>
   </tbody>
 </table>

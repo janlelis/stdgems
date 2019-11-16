@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Standard Gems: reline</title>
+    <title>Standard Gems: cgi</title>
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
 
     <meta charset="utf-8">
@@ -24,34 +24,40 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top">Gem:<br/>reline</a></h1>
+        <h1 class="post-heading" id="top"><a href="#top">Gem:<br/>cgi</a></h1>
       </section>
 
      	<article class="post"><h2 id="description">Description</h2>
 
-<p>Ruby-only implementation of <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> / <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></p>
+<p>Support for CGI (<a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">Common Gateway Interface</a>)</p>
 
 <h2 id="info">Info</h2>
 
 <ul>
   <li>This gem is a <strong>default</strong> gem</li>
-  <li>Call <code>require "reline"</code> to use this library</li>
-  <li>The library is written in Ruby, there are <strong>no native extensions</strong></li>
-  <li>Current maintainer(s): aycabta</li>
+  <li>Call <code>require "cgi"</code> to use this library</li>
+  <li>The library <strong>does contain</strong> native extensions</li>
+  <li>Current maintainer(s): Takeyuki Fujioka (xibbar), Nobuyoshi Nakada (nobu) — native code</li>
 </ul>
 
 <h2 id="project-links">Project Links</h2>
 
 <ul>
-  <li><a href="https://rubygems.org/gems/reline">Project on RubyGems</a></li>
-  <li><a href="https://github.com/ruby/reline">Source repository (<strong>upstream</strong>)</a></li>
-  <li><a href="https://github.com/ruby/ruby/tree/trunk/lib/reline">CRuby source on GitHub</a></li>
+  <li><a href="https://rubygems.org/gems/cgi">Project on RubyGems</a></li>
+  <li><a href="https://github.com/ruby/ruby/tree/trunk/lib/cgi.rb">CRuby source on GitHub (part 1)</a></li>
+  <li><a href="https://github.com/ruby/ruby/tree/trunk/lib/cgi">CRuby source on GitHub (part 2)</a></li>
+  <li><a href="https://github.com/ruby/ruby/tree/trunk/ext/cgi">CRuby source on GitHub (part 3)</a></li>
+  <li><a href="https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html">RDoc API documentation</a></li>
 </ul>
+
+<h2 id="notes">Notes</h2>
+
+<p>Only the escape utilities are implemented as native extension.</p>
 
 <h2 id="gem-version">Gem Version</h2>
 
 <ul>
-  <li><strong>0.0.4</strong> in Ruby 2.7.0</li>
+  <li><strong>0.1.0</strong> in Ruby 2.7.0</li>
 </ul>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
