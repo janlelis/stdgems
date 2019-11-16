@@ -1,0 +1,17 @@
+---
+heading: Unmaintained Gems
+title: Unmaintained Default Gems
+---
+
+The following default gems are not maintained by anyone... [Consider adopting a standard library!](https://bugs.ruby-lang.org/issues/5481)
+
+<% if unmaintained_default_gems.present? %>
+Gem | Description | Resources
+----|-------------|----------
+<%= unmaintained_default_gems %>
+{:.table-20-45-X}
+<% else %>
+**All default gems are currently maintained**
+<% end %>
+
+<%= partial "footer" %>
