@@ -142,7 +142,7 @@ helpers do
     LISTED_RUBY_VERSIONS
   end
 
-  def build_resource_list(gem_info)
+  def build_resource_list(gem_info, mriSource = true)
     res = []
 
     if gem_info["rubygemsLink"]
@@ -153,13 +153,15 @@ helpers do
       res << "[GitHub](#{gem_info["sourceRepository"]})"
     end
 
-    case gem_info["mriSourcePath"]
-    when Array
-      gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
-        res << "[CRuby (#{index + 1})](#{CRUBY_SOURCE_PREFIX + mriSourcePath})"
-      }
-    when String
-      res << "[CRuby](#{CRUBY_SOURCE_PREFIX + gem_info["mriSourcePath"]})"
+    if mriSource
+      case gem_info["mriSourcePath"]
+      when Array
+        gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
+          res << "[CRuby (#{index + 1})](#{CRUBY_SOURCE_PREFIX + mriSourcePath})"
+        }
+      when String
+        res << "[CRuby](#{CRUBY_SOURCE_PREFIX + gem_info["mriSourcePath"]})"
+      end
     end
 
     case gem_info["rdocLink"]
@@ -345,6 +347,19 @@ helpers do
             (gem_info["native"] ? ' **c**' : ''),
         gem_info["description"],
         build_resource_list(gem_info)
+      ].compact.join(" | ")
+    }.join("\n")
+  end
+
+  def removed_default_gems
+    DEFAULT_GEMS_JSON.select{ |gem_info|
+      gem_info["removed"]
+    }.map{ |gem_info|
+      [
+        "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
+            (gem_info["native"] ? ' **c**' : ''),
+        gem_info["description"],
+        build_resource_list(gem_info, false)
       ].compact.join(" | ")
     }.join("\n")
   end
