@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Standard Gems: Gemified in 2.7</title>
+    <title>Standard Gems: Unmaintained Default Gems</title>
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
 
     <meta charset="utf-8">
@@ -24,15 +24,10 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top">Gemified in 2.7</a></h1>
+        <h1 class="post-heading" id="top"><a href="#top">Unmaintained Gems</a></h1>
       </section>
 
-     	<article class="post">
-<p>The following libraries were made standard gems with Ruby 2.7:</p>
-
-<p><strong>Warning:</strong> This Ruby version has not been released, yet. Standard gem data might still change.</p>
-
-<h2 id="default-gems">Default Gems</h2>
+     	<article class="post"><p>The following default gems are not maintained by anyone… <a href="https://bugs.ruby-lang.org/issues/5481">Consider adopting a standard library!</a></p>
 
 <table class="table-20-45-X">
   <thead>
@@ -49,14 +44,24 @@ document.addEventListener('DOMContentLoaded', function(){
       <td><a href="https://rubygems.org/gems/benchmark">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/benchmark.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html">RDoc</a></td>
     </tr>
     <tr>
-      <td><a href="/cgi">cgi</a> <strong>c</strong></td>
-      <td>Support for CGI (<a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">Common Gateway Interface</a>)</td>
-      <td><a href="https://rubygems.org/gems/cgi">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/cgi.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/cgi">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/cgi">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html">RDoc</a></td>
+      <td><a href="/date">date</a> <strong>c</strong></td>
+      <td>The <a href="https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html">Date</a> and <a href="https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html">DateTime</a> classes</td>
+      <td><a href="https://rubygems.org/gems/date">RubyGems</a>, <a href="https://github.com/ruby/date">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/date">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html">RDoc (1)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html">RDoc (2)</a></td>
+    </tr>
+    <tr>
+      <td><a href="/dbm">dbm</a> <strong>c</strong></td>
+      <td>Support for <a href="https://en.wikipedia.org/wiki/Dbm">DBM databases</a></td>
+      <td><a href="https://rubygems.org/gems/dbm">RubyGems</a>, <a href="https://github.com/ruby/dbm">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/ext/dbm">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/delegate">delegate</a></td>
       <td>Provides three ways to <a href="https://en.wikipedia.org/wiki/Delegation_pattern">delegate</a> method calls</td>
       <td><a href="https://rubygems.org/gems/delegate">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/delegate.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/fileutils">fileutils</a></td>
+      <td>Utilities for working with the file system, such as copying, moving, or deleting files</td>
+      <td><a href="https://rubygems.org/gems/fileutils">RubyGems</a>, <a href="https://github.com/ruby/fileutils">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/fileutils.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/getoptlong">getoptlong</a></td>
@@ -88,81 +93,8 @@ document.addEventListener('DOMContentLoaded', function(){
       <td>Transactional file storage for Ruby objects</td>
       <td><a href="https://rubygems.org/gems/pstore">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/pstore.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html">RDoc</a></td>
     </tr>
-    <tr>
-      <td><a href="/readline">readline</a></td>
-      <td>If available, <a href="https://stdgems.org/readline-ext">readline-ext</a> will be loaded, or (Ruby-only) <a href="https://stdgems.org/reline">reline</a> will be used.</td>
-      <td><a href="https://github.com/ruby/ruby/tree/trunk/ext/readline">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/readline-ext">readline-ext</a> <strong>c</strong></td>
-      <td>Interface to <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> and <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/trunk/ext/readline">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/reline">reline</a></td>
-      <td>Ruby-only implementation of <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> / <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></td>
-      <td><a href="https://rubygems.org/gems/reline">RubyGems</a>, <a href="https://github.com/ruby/reline">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/reline">CRuby</a></td>
-    </tr>
-    <tr>
-      <td><a href="/singleton">singleton</a></td>
-      <td>Mixin for Ruby classes that should only have one instance</td>
-      <td><a href="https://rubygems.org/gems/singleton">RubyGems</a>, <a href="https://github.com/ruby/singleton">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/singleton.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/timeout">timeout</a></td>
-      <td>Auto-terminates code blocks after the time limit is reached</td>
-      <td><a href="https://github.com/ruby/ruby/tree/trunk/lib/timeout.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/yaml">yaml</a></td>
-      <td><code>require 'yaml'</code> will load the <a href="https://stdgems.org/dbm/">psych default gem</a>, <strong>yaml/dbm</strong> is a wrapper around <a href="https://stdgems.org/dbm/">DBM</a> using YAML serialization, and <strong>yaml/store</strong> lets you use <a href="https://stdgems.org/pstore/">pstore</a> with YAML</td>
-      <td><a href="https://github.com/ruby/ruby/tree/trunk/lib/yaml.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/yaml/dbm.rb">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/yaml/store.rb">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib-2.6.5/libdoc/yaml/rdoc/YAML.html">RDoc (1)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/DBM.html">RDoc (2)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/Store.html">RDoc (3)</a></td>
-    </tr>
   </tbody>
 </table>
-
-<h3 id="removed-from-ruby">Removed from Ruby</h3>
-
-<table class="table-20-45-X">
-  <thead>
-    <tr>
-      <th>Gem</th>
-      <th>Description</th>
-      <th>Resources</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/cmath">cmath</a></td>
-      <td>Trigonometric and transcendental functions for complex numbers</td>
-      <td><a href="https://rubygems.org/gems/cmath">RubyGems</a>, <a href="https://github.com/ruby/cmath">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/cmath.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib-2.6/libdoc/cmath/rdoc/CMath.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/scanf">scanf</a></td>
-      <td>Pure-Ruby <a href="https://en.wikipedia.org/wiki/Scanf_format_string">scanf</a> implementation</td>
-      <td><a href="https://rubygems.org/gems/scanf">RubyGems</a>, <a href="https://github.com/ruby/scanf">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/scanf.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib-2.6/libdoc/scanf/rdoc/Scanf.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/shell">shell</a></td>
-      <td>Provides a Ruby interface for interacting with the <a href="https://en.wikipedia.org/wiki/Bourne_shell">shell</a></td>
-      <td><a href="https://rubygems.org/gems/shell">RubyGems</a>, <a href="https://github.com/ruby/shell">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/shell.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/shell">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-2.6/libdoc/shell/rdoc/Shell.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/sync">sync</a></td>
-      <td><a href="https://en.wikipedia.org/wiki/Two-phase_locking">Two-phase lock</a> with a counter for multi-threaded code</td>
-      <td><a href="https://rubygems.org/gems/sync">RubyGems</a>, <a href="https://github.com/ruby/sync">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/sync.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib-2.6/libdoc/sync/rdoc/Sync_m.html">RDoc</a></td>
-    </tr>
-    <tr>
-      <td><a href="/thwait">thwait</a></td>
-      <td>Waits for threads to finish</td>
-      <td><a href="https://rubygems.org/gems/thwait">RubyGems</a>, <a href="https://github.com/ruby/thwait">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/thwait.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/trunk/lib/thwait">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-2.6/libdoc/thwait/rdoc/ThWait.html">RDoc</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="bundled-gems">Bundled Gems</h2>
-
-<p>No bundled gems were introduced in 2.7.</p>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
 
