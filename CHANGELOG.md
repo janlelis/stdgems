@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.14.1
+
+### Default Gems
+
+- Correct "removed" flags
+
 ## 1.14.0
 
 ### Default Gems

@@ -1,5 +1,5 @@
 {
-  "version": "1.14.0",
+  "version": "1.14.1",
   "gems": [
     {
       "gem": "benchmark",
@@ -863,6 +863,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/shell",
       "sourceRepositoryIsUpstream": null,
+      "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/shell",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/shell/rdoc/Shell.html",
       "maintainer": null,
@@ -927,7 +928,7 @@
       "mriSourcePath": "lib/sync.rb",
       "sourceRepository": "https://github.com/ruby/sync",
       "sourceRepositoryIsUpstream": null,
-      "removed": "true",
+      "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/sync",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/sync/rdoc/Sync_m.html",
       "maintainer": null,
@@ -946,7 +947,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/thwait",
       "sourceRepositoryIsUpstream": null,
-      "removed": "true",
+      "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/thwait",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/thwait/rdoc/ThWait.html",
       "maintainer": null,
