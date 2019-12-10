@@ -7,6 +7,9 @@
 - Ruby 2.7 preview updates:
   date, dbm, etc, fileutils, forwardable, gdbm, irb, logger, reline, stringio,
   webrick, zlib
+- Gemify:
+  uri
+
 
 ## 1.14.1
 

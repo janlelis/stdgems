@@ -424,18 +424,6 @@
       "maintainer": "Martin J. Dürst"
     },
     {
-      "gem": "uri",
-      "native": false,
-      "autoRequire": false,
-      "description": "[URI](https://en.wikipedia.org/wiki/Uniform_resource_identifier)/URL manipulation",
-      "mriSourcePath": [
-        "lib/uri.rb",
-        "lib/uri"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
-      "maintainer": "YAMADA, Akira (akira)"
-    },
-    {
       "gem": "weakref",
       "native": false,
       "autoRequire": false,

@@ -992,6 +992,24 @@
       }
     },
     {
+      "gem": "uri",
+      "native": false,
+      "autoRequire": false,
+      "description": "[URI](https://en.wikipedia.org/wiki/Uniform_resource_identifier)/URL manipulation",
+      "mriSourcePath": [
+        "lib/uri.rb",
+        "lib/uri"
+      ],
+      "sourceRepository": "https://github.com/ruby/uri",
+      "sourceRepositoryIsUpstream": null,
+      "rubygemsLink": null,
+      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
+      "maintainer": "YAMADA, Akira (akira)",
+      "versions": {
+        "2.7": "0.10.0"
+      }
+    },
+    {
       "gem": "webrick",
       "native": false,
       "autoRequire": false,
