@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.15.0 (unreleased)
+## 1.15.0
 
 ### Default Gems
 
