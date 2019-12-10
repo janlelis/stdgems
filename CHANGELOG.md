@@ -9,6 +9,8 @@
   webrick, zlib
 - Gemify:
   uri
+- Remove:
+  e2mm
 - Promote did_you_mean from bundled to default gem
 
 ## 1.14.1
