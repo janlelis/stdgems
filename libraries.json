@@ -1,5 +1,5 @@
 {
-  "version": "1.14.1",
+  "version": "1.15.0",
   "gems": [
     {
       "gem": "abbrev",
@@ -422,18 +422,6 @@
       ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html",
       "maintainer": "Martin J. Dürst"
-    },
-    {
-      "gem": "uri",
-      "native": false,
-      "autoRequire": false,
-      "description": "[URI](https://en.wikipedia.org/wiki/Uniform_resource_identifier)/URL manipulation",
-      "mriSourcePath": [
-        "lib/uri.rb",
-        "lib/uri"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
-      "maintainer": "YAMADA, Akira (akira)"
     },
     {
       "gem": "weakref",

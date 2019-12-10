@@ -1,5 +1,5 @@
 {
-  "version": "1.14.1",
+  "version": "1.15.0",
   "gems": [
     {
       "gem": "did_you_mean",
@@ -9,7 +9,6 @@
       "sourceRepository": "https://github.com/yuki24/did_you_mean",
       "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
       "versions": {
-        "2.7": "1.3.1",
         "2.6": "1.3.0",
         "2.5": "1.2.0",
         "2.4": "1.1.0",
