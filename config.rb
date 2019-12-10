@@ -124,7 +124,20 @@ def build_version_redirects!
   end
 end
 
+def hybrid_default_gems_json
+  DEFAULT_GEMS_JSON.select{ |default_gem|
+    BUNDLED_GEMS_JSON.map{ |bundled_gem| bundled_gem["gem"] }.include?(default_gem["gem"])
+  }.map{ |default_gem|
+    {
+      "gem" => default_gem["gem"],
+      "default" => default_gem,
+      "bundled" => BUNDLED_GEMS_JSON.find{ |bundled_gem| bundled_gem["gem"] == default_gem["gem"] }
+    }
+  }
+end
+
 def build_all_pages!
+  build_gem_pages_for! hybrid_default_gems_json, "hybrid_default"
   build_gem_pages_for! DEFAULT_GEMS_JSON, "default"
   build_gem_pages_for! BUNDLED_GEMS_JSON, "bundled"
   build_version_pages!
@@ -380,7 +393,13 @@ helpers do
     STATS
   end
 
+  def gem_description(gem_info, gem_type)
+    gem_info = gem_info["default"] if gem_type == "hybrid_default"
+    gem_info["description"]
+  end
+
   def gem_details(gem_info, gem_type)
+    gem_info = gem_info["default"] if gem_type == "hybrid_default"
     res = []
 
     if gem_info["rubygemsLink"]
@@ -425,13 +444,16 @@ helpers do
   end
 
   def gem_details_properties(gem_info, gem_type)
+    gem_info = gem_info["default"] if gem_type == "hybrid_default"
     res = []
 
     if gem_info["removed"]
       res << ["The gem has been removed from Ruby and is **no longer available**"]
     end
 
-    if gem_type == "bundled"
+    if gem_type == "hybrid_default"
+      res << ["This gem is a **default** gem, but was a **bundled** one before"]
+    elsif gem_type == "bundled"
       res << ["This gem is a **bundled** gem"]
     else
       res << ["This gem is a **default** gem"]
@@ -444,7 +466,7 @@ helpers do
     end
 
     if gem_info["native"]
-      res << ["The library **does contain** native extensions"]
+      res << ["The library **contains** native extensions"]
     else
       res << ["The library is written in Ruby, there are **no native extensions**"]
     end
@@ -464,7 +486,7 @@ helpers do
     }.join("\n")
   end
 
-  def gem_details_versions(gem_info)
+  def gem_details_versions_list(gem_info)
     LISTED_RUBY_VERSIONS.map{ |ruby_version|
       exact_ruby_version = ruby_version
       major_ruby_version = ruby_version.to_f.to_s
@@ -486,6 +508,17 @@ helpers do
       end
       "- **" + gem_version + "** in Ruby " + ruby_versions_range
     }.join("\n")
+  end
+
+  def gem_details_versions(gem_info, hybrid_default = false)
+    if hybrid_default
+      "### As Default Gem\n" +
+      gem_details_versions_list(gem_info["default"]) + "\n\n" +
+      "### As Bundled Gem\n" +
+      gem_details_versions_list(gem_info["bundled"])
+    else
+      gem_details_versions_list(gem_info)
+    end
   end
 
   def require_path_of(gem_info)
