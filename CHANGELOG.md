@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.15.0 (unreleased)
+
+### Default Gems
+
+- Ruby 2.7 preview updates:
+  date, dbm, etc, fileutils, forwardable, gdbm, irb, logger, reline, stringio,
+  webrick, zlib
+
 ## 1.14.1
 
 ### Default Gems

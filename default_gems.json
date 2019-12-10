@@ -137,7 +137,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "2.7":   "2.0.0",
+        "2.7":   "3.0.0",
 
         "2.6":   "2.0.0",
         "2.6.0": "1.0.0",
@@ -157,7 +157,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html",
       "maintainer": null,
       "versions": {
-        "2.7": "1.0.0",
+        "2.7": "1.1.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
@@ -208,7 +208,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "maintainer": "Ruby core team",
       "versions": {
-        "2.7": "1.0.1",
+        "2.7": "1.1.0",
         "2.6": "1.0.1",
         "2.5": "1.0.0"
       }
@@ -259,7 +259,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
-        "2.7": "1.3.0",
+        "2.7": "1.4.1",
         "2.6": "1.1.0",
         "2.5": "1.0.2"
       }
@@ -280,7 +280,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.7": "1.2.0",
+        "2.7": "1.3.0",
         "2.6": "1.2.0"
       }
     },
@@ -296,7 +296,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/gdbm/rdoc/GDBM.html",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
-        "2.7": "2.0.0",
+        "2.7": "2.1.0",
         "2.6": "2.0.0",
         "2.5": "2.0.0"
       }
@@ -369,7 +369,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.7": "1.1.0",
+        "2.7": "1.2.0",
         "2.6": "1.0.0"
       }
     },
@@ -419,7 +419,7 @@
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
       "versions": {
-        "2.7": "1.3.0",
+        "2.7": "1.4.1",
         "2.6": "1.3.0"
       }
     },
@@ -720,7 +720,7 @@
       "rdocLink": null,
       "maintainer": "aycabta",
       "versions": {
-        "2.7": "0.0.4"
+        "2.7": "0.0.7"
       }
     },
     {
@@ -898,7 +898,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "2.7": "0.0.3",
+        "2.7": "0.1.0",
         "2.6": "0.0.2",
         "2.5": "0.0.1"
       }
@@ -1007,7 +1007,7 @@
       "maintainer": "Eric Wong (normalperson)",
       "notes": "**Please note:** Despite the gemspec stating otherwise, the webrick version included with Ruby might be more recent than version 1.4.2. For example, the webrick included in Ruby 2.6.5, 2.5.7, 2.4.9, and 2.4.8 does include security fixes for CVE-2019-16201 and CVE-2019-16254.",
       "versions": {
-        "2.7": "1.5.0",
+        "2.7": "1.6.0",
         "2.6": "1.4.2",
         "2.5": "1.4.2",
         "2.4": "1.3.1"
@@ -1051,7 +1051,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
-        "2.7": "1.0.0",
+        "2.7": "1.1.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
       }
