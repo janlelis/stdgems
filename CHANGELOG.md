@@ -9,7 +9,7 @@
   webrick, zlib
 - Gemify:
   uri
-
+- Promote did_you_mean from bundled to default gem
 
 ## 1.14.1
 
