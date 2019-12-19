@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.16.0 (unreleased)
+## 1.16.0
 
 ### Default Gems
 
