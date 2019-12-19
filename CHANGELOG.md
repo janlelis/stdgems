@@ -1,5 +1,17 @@
 # Change Log
 
+## 1.16.0 (unreleased)
+
+### Default Gems
+
+- Ruby 2.7 preview updates (rc1):
+  bundler, forwardable, io-console, json, rubygems
+
+### Bundled Gems
+
+- Ruby 2.7 preview updates (rc1):
+  rake
+
 ## 1.15.0
 
 ### Default Gems

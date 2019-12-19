@@ -52,7 +52,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "2.7": "2.1.0",
+        "2.7": "2.1.1",
         "2.6": "1.17.2"
       }
     },
@@ -298,7 +298,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.7": "1.3.0",
+        "2.7": "1.3.1",
         "2.6": "1.2.0"
       }
     },
@@ -347,7 +347,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "2.7": "0.5.1",
+        "2.7": "0.5.2",
         "2.6": "0.4.7",
         "2.5": "0.4.6",
         "2.4": "0.4.6",
@@ -406,7 +406,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.7":   "2.2.0",
+        "2.7":   "2.3.0",
 
         "2.6":   "2.1.0",
 
@@ -794,7 +794,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "2.7":     "3.1.0",
+        "2.7":     "3.1.1",
 
         "2.6":     "3.0.3",
         "2.6.1":   "3.0.1",
