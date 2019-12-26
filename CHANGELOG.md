@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.17.0 (unreleased)
+
+Ruby release: 2.7.0
+
+### Default Gems
+
+- Ruby 2.7 final updates:
+  bundler, io-console, irb, matrix, ostruct, prime, rdoc, readline, reline, rubygems
+
+
 ## 1.16.0
 
 ### Default Gems
