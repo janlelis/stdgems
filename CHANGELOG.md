@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.17.1
+
+### Default Gems
+
+- Fix did_you_mean version
+
 ## 1.17.0
 
 Ruby release: 2.7.0
