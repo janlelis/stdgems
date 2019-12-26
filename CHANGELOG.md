@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.17.0 (unreleased)
+## 1.17.0
 
 Ruby release: 2.7.0
 
@@ -8,7 +8,6 @@ Ruby release: 2.7.0
 
 - Ruby 2.7 final updates:
   bundler, io-console, irb, matrix, ostruct, prime, rdoc, readline, reline, rubygems
-
 
 ## 1.16.0
 
