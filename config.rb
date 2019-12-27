@@ -1,4 +1,5 @@
 require "json"
+require "latest_ruby"
 
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
@@ -17,7 +18,7 @@ CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-CURRENT_RUBY_VERSION = "2.7.0"
+CURRENT_RUBY_VERSION = Latest.ruby.version.to_s
 
 RUBY_2_7_VERSIONS = %w[
   2.7.0
