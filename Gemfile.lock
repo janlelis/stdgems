@@ -96,6 +96,7 @@ GEM
       looksee (~> 4.0)
     json (1.8.6)
     kramdown (1.9.0)
+    latest_ruby (2.0.0)
     listen (2.10.1)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
@@ -197,6 +198,7 @@ DEPENDENCIES
   bourbon
   builder
   irbtools-more
+  latest_ruby
   middleman (~> 3.3.10)
   middleman-gh-pages
   neat
