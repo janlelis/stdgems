@@ -1,5 +1,5 @@
 {
-  "version": "1.17.1",
+  "version": "1.18.0",
   "gems": [
     {
       "gem": "benchmark",
@@ -52,7 +52,9 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "2.7": "2.1.2",
+        "2.7":   "2.1.4",
+        "2.7.0": "2.1.2",
+
         "2.6": "1.17.2"
       }
     },
@@ -347,7 +349,9 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "2.7": "0.5.3",
+        "2.7":   "0.5.6",
+        "2.7.0": "0.5.3",
+
         "2.6": "0.4.7",
         "2.5": "0.4.6",
         "2.4": "0.4.6",
@@ -387,8 +391,10 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.7": "1.2.1",
-        "2.6": "1.0.0"
+        "2.7":   "1.2.3",
+        "2.7.0": "1.2.1",
+
+        "2.6":   "1.0.0"
       }
     },
     {
@@ -405,6 +411,7 @@
         "NARUSE", "Yui (naruse)",
         "Hiroshi SHIBATA (hsbt)"
       ],
+      "notes": "- Latest Ruby releases for 2.4 / 2.5 / 2.6 / 2.7 contain a security fix (CVE-2020-16255) not included in the listed gem versions",
       "versions": {
         "2.7":   "2.3.0",
 
@@ -738,7 +745,8 @@
       "rdocLink": null,
       "maintainer": "aycabta",
       "versions": {
-        "2.7": "0.1.2"
+        "2.7":   "0.1.3",
+        "2.7.0": "0.1.2"
       }
     },
     {
