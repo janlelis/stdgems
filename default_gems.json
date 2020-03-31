@@ -387,8 +387,10 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "2.7": "1.2.1",
-        "2.6": "1.0.0"
+        "2.7":   "1.2.3",
+        "2.7.0": "1.2.1",
+
+        "2.6":   "1.0.0"
       }
     },
     {
@@ -739,7 +741,8 @@
       "rdocLink": null,
       "maintainer": "aycabta",
       "versions": {
-        "2.7": "0.1.2"
+        "2.7":   "0.1.3",
+        "2.7.0": "0.1.2"
       }
     },
     {

@@ -6,6 +6,7 @@ Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
 
 ## Default Gems
 
+- Update Ruby 2.7's irb to 1.2.3 and reline to 0.1.3
 - Add note to json gem about security update
 
 ## Bundled Gems
