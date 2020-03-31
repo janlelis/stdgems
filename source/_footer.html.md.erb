@@ -2,7 +2,7 @@
 
 - [General information about standard gems](/)
 <%= listed_ruby_versions.group_by{ |ruby_version| ruby_version.to_f }.map{ |_, ruby_versions| "- Gem list for Ruby: " + ruby_versions.map{ |ruby_version| "[#{ruby_version}](/#{ruby_version})" }.join(" - ") + (ruby_versions[0] > current_ruby_version ? " (preview)" : "") }.join("\n") %>
-- Compare versions: [Main Rubies](/compare) - [Supported Rubies](/compare/supported) - [2.6](/compare/2.6) - [2.5](/compare/2.5) - [2.4](/compare/2.4) - [2.3](/compare/2.3) - [2.2](/compare/2.2)
+- Compare versions: [Main Rubies](/compare) - [Supported Rubies](/compare/supported) - [2.7](/compare/2.7) - [2.6](/compare/2.6) - [2.5](/compare/2.5) - [2.4](/compare/2.4) - [2.3](/compare/2.3) - [2.2](/compare/2.2)
 - Gemified in: [2.7](/new-in/2.7) - [2.6](/new-in/2.6) - [2.5](/new-in/2.5) - [2.4](/new-in/2.4) - [2.3](/new-in/2.3) - [2.2](/new-in/2.2)
 - List of [unmaintained default gems](/unmaintained) and list of [removed default gems](/removed)
 - List of [not-yet-gemified standard libraries](/libraries)
