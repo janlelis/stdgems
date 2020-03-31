@@ -405,6 +405,7 @@
         "NARUSE", "Yui (naruse)",
         "Hiroshi SHIBATA (hsbt)"
       ],
+      "notes": "- Latest Ruby releases for 2.4 / 2.5 / 2.6 / 2.7 contain a security fix (CVE-2020-16255) not included in the listed gem versions",
       "versions": {
         "2.7":   "2.3.0",
 

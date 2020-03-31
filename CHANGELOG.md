@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.18.0 (unreleased)
+
+Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
+
+## Default Gems
+
+- Add note to json gem about security update
+
 ## 1.17.1
 
 ### Default Gems
