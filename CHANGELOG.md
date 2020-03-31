@@ -8,6 +8,11 @@ Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
 
 - Add note to json gem about security update
 
+## Bundled Gems
+
+- Update Ruby 2.6's rake to 12.3.3
+- Update Ruby 2.5's rake to 12.3.3
+
 ## 1.17.1
 
 ### Default Gems
