@@ -10,6 +10,7 @@ Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
 
 ## Bundled Gems
 
+- Update Ruby 2.7's power_assert to 1.1.7
 - Update Ruby 2.6's rake to 12.3.3
 - Update Ruby 2.5's rake to 12.3.3
 
