@@ -52,7 +52,9 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "2.7": "2.1.2",
+        "2.7":   "2.1.4",
+        "2.7.0": "2.1.2",
+
         "2.6": "1.17.2"
       }
     },
