@@ -21,10 +21,12 @@ STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 CURRENT_RUBY_VERSION = Latest.ruby.version.to_s
 
 RUBY_2_7_VERSIONS = %w[
+  2.7.1
   2.7.0
 ]
 
 RUBY_2_6_VERSIONS = %w[
+  2.6.6
   2.6.5
   2.6.4
   2.6.3
@@ -34,6 +36,7 @@ RUBY_2_6_VERSIONS = %w[
 ]
 
 RUBY_2_5_VERSIONS = %w[
+  2.5.8
   2.5.7
   2.5.6
   2.5.5
@@ -45,6 +48,7 @@ RUBY_2_5_VERSIONS = %w[
 ]
 
 RUBY_2_4_VERSIONS = %w[
+  2.4.10
   2.4.9
   2.4.8
   2.4.7
