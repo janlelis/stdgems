@@ -151,7 +151,7 @@
       "gem": "dbm",
       "native": true,
       "autoRequire": false,
-      "description": "Support for [DBM databases](https://en.wikipedia.org/wiki/Dbm)",
+      "description": "Support for [DBM databases](https://en.wikipedia.org/wiki/DBM_(computing))",
       "mriSourcePath": "ext/dbm",
       "sourceRepository": "https://github.com/ruby/dbm",
       "sourceRepositoryIsUpstream": null,
