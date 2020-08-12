@@ -14,7 +14,7 @@ BUNDLED_GEMS_FILE = File.read("bundled_gems.json")
 BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
 LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
-CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/trunk/"
+CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/master/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
