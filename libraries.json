@@ -2,24 +2,6 @@
   "version": "1.18.0",
   "gems": [
     {
-      "gem": "abbrev",
-      "native": false,
-      "autoRequire": false,
-      "description": "Finds the shortest unique abbreviation amongst many strings",
-      "mriSourcePath": "lib/abbrev.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/abbrev/rdoc/Abbrev.html",
-      "maintainer": "Akinori MUSHA (knu)"
-    },
-    {
-      "gem": "base64",
-      "native": false,
-      "autoRequire": false,
-      "description": "Encodes and decodes strings to a [Base64](https://en.wikipedia.org/wiki/Base64) representation. Implemented as a small wrapper around [String#unpack](https://idiosyncratic-ruby.com/4-what-the-pack.html)",
-      "mriSourcePath": "lib/base64.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/base64/rdoc/Base64.html",
-      "maintainer": "Yusuke Endoh (mame)"
-    },
-    {
       "gem": "coverage",
       "native": true,
       "autoRequire": false,
@@ -61,27 +43,6 @@
       "maintainer": "Masatoshi SEKI (seki)"
     },
     {
-      "gem": "English",
-      "native": false,
-      "autoRequire": false,
-      "description": "[Readable aliases for special global variables](https://idiosyncratic-ruby.com/9-globalization.html)",
-      "mriSourcePath": "lib/English.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html",
-      "maintainer": null
-    },
-    {
-      "gem": "erb",
-      "native": false,
-      "autoRequire": false,
-      "description": "Templating engine for Ruby",
-      "mriSourcePath": "lib/erb.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/erb/rdoc/index.html",
-      "maintainer": [
-        "Masatoshi SEKI (seki)",
-        "Takashi Kokubun (k0kubun)"
-      ]
-    },
-    {
       "gem": "expect",
       "native": false,
       "autoRequire": false,
@@ -98,34 +59,6 @@
       "mriSourcePath": "ext/fiber",
       "rdocLink": "https://ruby-doc.org/core/Fiber.html",
       "maintainer": "Koichi Sasada (ko1)"
-    },
-    {
-      "gem": "find",
-      "native": false,
-      "autoRequire": false,
-      "description": "Finds all files in a given directory and its sub-directories",
-      "mriSourcePath": "lib/find.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html",
-      "notes": "You can get a very similar result using: ```find .`.split($/)``",
-      "maintainer": "Kazuki Tsujimoto (ktsj)"
-    },
-    {
-      "gem": "io-nonblock",
-      "native": true,
-      "autoRequire": false,
-      "description": "Allows to work with `IO` streams in a non-blocking way",
-      "mriSourcePath": "ext/io/nonblock",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/nonblock/rdoc/IO.html",
-      "maintainer": "Nobuyuki Nakada (nobu)"
-    },
-    {
-      "gem": "io-wait",
-      "native": true,
-      "autoRequire": false,
-      "description": "Adds methods to wait until an `IO` stream becomes readable or writable",
-      "mriSourcePath": "ext/io/wait",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/wait/rdoc/IO.html",
-      "maintainer": "Nobuyuki Nakada (nobu)"
     },
     {
       "gem": "kconv",
@@ -155,55 +88,6 @@
       "maintainer": "Shugo Maeda (shugo)"
     },
     {
-      "gem": "net-ftp",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for FTP ([File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol))",
-      "mriSourcePath": "lib/net/ftp.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/ftp/rdoc/Net/FTP.html",
-      "maintainer": "Shugo Maeda (shugo)"
-    },
-    {
-      "gem": "net-http",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for HTTP ([Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol))",
-      "mriSourcePath": [
-        "lib/net/http.rb",
-        "lib/net/https.rb",
-        "lib/net/http"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/http/rdoc/Net/HTTP.html",
-      "maintainer": "NARUSE, Yui (naruse)"
-    },
-    {
-      "gem": "net-imap",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support for IMAP ([Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol))",
-      "mriSourcePath": "lib/net/imap.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/imap/rdoc/Net/IMAP.html",
-      "maintainer": "Shugo Maeda (shugo)"
-    },
-    {
-      "gem": "net-protocol",
-      "native": false,
-      "autoRequire": false,
-      "description": "Internal class for the other net- libraries, going to be refactored/removed",
-      "mriSourcePath": "lib/net/protocol.rb",
-      "rdocLink": null,
-      "maintainer": null
-    },
-    {
-      "gem": "nkf",
-      "native": true,
-      "autoRequire": false,
-      "description": "[Kanji](https://en.wikipedia.org/wiki/Kanji) encoding converter",
-      "mriSourcePath": "ext/nkf",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/nkf/rdoc/NKF.html",
-      "maintainer": "NARUSE, Yui (narse)"
-    },
-    {
       "gem": "objspace",
       "native": true,
       "autoRequire": false,
@@ -211,28 +95,6 @@
       "mriSourcePath": "ext/objspace",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html",
       "maintainer": null
-    },
-    {
-      "gem": "open-uri",
-      "native": false,
-      "autoRequire": false,
-      "description": "Monkeypatches [Kernel#open](https://ruby-doc.org/core/Kernel.html#method-i-open) to support remote endpoints via `net/http` and `net/ftp`",
-      "mriSourcePath": "lib/open-uri.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open-uri/rdoc/OpenURI.html",
-      "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "optparse",
-      "native": false,
-      "autoRequire": false,
-      "description": "Command-line option parser",
-      "mriSourcePath": [
-        "lib/optparse.rb",
-        "lib/optionparser.rb",
-        "lib/optparse"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptParse.html",
-      "maintainer": "Nobuyuki Nakada (nobu)"
     },
     {
       "gem": "pathname",
@@ -265,46 +127,12 @@
       "maintainer": null
     },
     {
-      "gem": "racc",
-      "native": true,
-      "autoRequire": false,
-      "description": "Bindings for Racc, a [YACC](https://en.wikipedia.org/wiki/Yacc)-like [LALR(1) parser generator](https://en.wikipedia.org/wiki/LALR_parser_generator)",
-      "mriSourcePath": [
-        "lib/racc/parser.rb",
-        "ext/racc/cparse"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html",
-      "notes": "Also see the [project's GitHub](https://github.com/tenderlove/racc)",
-      "maintainer": "Aaron Patterson (tenderlove)"
-    },
-    {
       "gem": "rbconfig",
       "native": true,
       "autoRequire": false,
       "description": "`RbConfig` is a [Ruby constant that contains compile time information](https://idiosyncratic-ruby.com/42-ruby-config.html)",
       "rdocLink": null,
       "maintainer": null
-    },
-    {
-      "gem": "resolv",
-      "native": false,
-      "autoRequire": false,
-      "description": "Thread-aware [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) resolver. Will replace [Socket](https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html)'s DNS via `require 'resolve-replace'`",
-      "mriSourcePath": [
-        "lib/resolv.rb",
-        "lib/resolv-replace.rb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
-      "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "rinda",
-      "native": false,
-      "autoRequire": false,
-      "description": "Support fot the [Linda distributed computing paradigm](https://en.wikipedia.org/wiki/Linda_%28coordination_language%29) in [drb](https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html)",
-      "mriSourcePath": "lib/rinda",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rinda/rdoc/Rinda.html",
-      "maintainer": "Masatoshi SEKI (seki)"
     },
     {
       "gem": "ripper",
@@ -314,36 +142,6 @@
       "mriSourcePath": "ext/ripper",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html",
       "maintainer": null
-    },
-    {
-      "gem": "securerandom",
-      "native": false,
-      "autoRequire": false,
-      "description": "Provides crpytographical randomness from openssl or the OS",
-      "mriSourcePath": "lib/securerandom.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/securerandom/rdoc/SecureRandom.html",
-      "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "set",
-      "native": false,
-      "autoRequire": false,
-      "description": "Data structure for unordered collections without duplicates. Implemented on top of Hash. Also comes with `SortedSet` for ordered collections.",
-      "mriSourcePath": "lib/set.rb",
-      "rdocLink": [
-        "https://ruby-doc.org/stdlib/libdoc/set/rdoc/Set.html",
-        "https://ruby-doc.org/stdlib/libdoc/set/rdoc/SortedSet.html"
-      ],
-      "maintainer": "Akinori MUSHA (knu)"
-    },
-    {
-      "gem": "shellwords",
-      "native": false,
-      "autoRequire": false,
-      "description": "Escape and manipulate commads to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
-      "mriSourcePath": "lib/shellwords.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shellwords/rdoc/Shellwords.html",
-      "maintainer": "Akinori MUSHA (knu)"
     },
     {
       "gem": "socket",
@@ -356,51 +154,6 @@
         "Tanaka Akira (akr)",
         "API change needs matz's approval"
       ]
-    },
-    {
-      "gem": "syslog",
-      "native": true,
-      "autoRequire": false,
-      "description": "Interface to the low-level [syslog](https://en.wikipedia.org/wiki/Syslog) logger",
-      "mriSourcePath": "ext/syslog",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/syslog/rdoc/Syslog.html",
-      "maintainer": "Akinori MUSHA (knu)"
-    },
-    {
-      "gem": "tempfile",
-      "native": false,
-      "autoRequire": false,
-      "description": "Simplifies OS independent creation of temporary files",
-      "mriSourcePath": "lib/tempfile.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html",
-      "maintainer": null
-    },
-    {
-      "gem": "time",
-      "native": false,
-      "autoRequire": false,
-      "description": "Adds more methods to `Time`",
-      "mriSourcePath": "lib/time.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/time/rdoc/Time.html",
-      "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "tmpdir",
-      "native": false,
-      "autoRequire": false,
-      "description": "Adds a `Dir.mktmpdir` method for creating temporary directories OS independently",
-      "mriSourcePath": "lib/tmpdir.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir",
-      "maintainer": null
-    },
-    {
-      "gem": "tsort",
-      "native": false,
-      "autoRequire": false,
-      "description": "Topological sorting using [Tarjan’s algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm), which finds [strongly connected components](https://en.wikipedia.org/wiki/Strongly_connected_component) in [graphs](https://en.wikipedia.org/wiki/Graph_%28abstract_data_type%29)",
-      "mriSourcePath": "lib/tsort.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tsort/rdoc/TSort.html",
-      "maintainer": "Tanaka Akira (akr)"
     },
     {
       "gem": "un",
@@ -422,15 +175,6 @@
       ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html",
       "maintainer": "Martin J. Dürst"
-    },
-    {
-      "gem": "weakref",
-      "native": false,
-      "autoRequire": false,
-      "description": "Explicitely allow objects to be garbage collected",
-      "mriSourcePath": "lib/weakref.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html",
-      "maintainer": null
     },
     {
       "gem": "win32",

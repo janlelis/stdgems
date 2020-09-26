@@ -1,17 +1,44 @@
 # Change Log
 
+## 2.0.0 (unreleased)
+
+### Default Gems
+
+- Ruby 3.0 preview1 updates:
+  bigdecimal, bundler, csv, date, fiddle, json, matrix, openssl,
+  psych, rubygems, stringio, strscan
+- Ruby 3.0 preview1 gemifications:
+  abbrev, base64, english, erb, find, io-nonblock, io-find,
+  net-ftp, net-http, net-imap, net-protocol, nkf, open-uri,
+  optparse, racc, resolv, resolv-replace, rinda, securerandom,
+  set, shellwords, syslog, tempfile, time, tmpdir, tsort,
+  weakref
+- Ruby 3.0 preview1 removals:
+  sdbm
+
+### Bundled Gems
+
+- Ruby 3.0 preview1 updates:
+  minitest, power_assert, test-unit
+- Ruby 3.0 preview1 removals:
+  net-telnet, xmlrpc
+- Ruby 3.0 preview1 moved from default gems:
+  rexml, rss
+- Ruby 3.0 preview1 additions:
+  rbs
+
 ## 1.18.0
 
 Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
 
-## Default Gems
+### Default Gems
 
 - Update Ruby 2.7's bundler to 2.1.4
 - Update Ruby 2.7's io-console to 0.5.6
 - Update Ruby 2.7's irb to 1.2.3 and reline to 0.1.3
 - Add note to json gem about security update
 
-## Bundled Gems
+### Bundled Gems
 
 - Update Ruby 2.7's power_assert to 1.1.7
 - Update Ruby 2.6's rake to 12.3.3
