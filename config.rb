@@ -20,6 +20,10 @@ STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
 CURRENT_RUBY_VERSION = Latest.ruby.version.to_s
 
+RUBY_3_0_VERSIONS = %w[
+  3.0.0
+]
+
 RUBY_2_7_VERSIONS = %w[
   2.7.1
   2.7.0
@@ -88,6 +92,7 @@ RUBY_2_2_VERSIONS = %w[
 ]
 
 LISTED_RUBY_VERSIONS = \
+  RUBY_3_0_VERSIONS +
   RUBY_2_7_VERSIONS +
   RUBY_2_6_VERSIONS +
   RUBY_2_5_VERSIONS +
@@ -131,7 +136,8 @@ end
 
 def hybrid_default_gems_json
   DEFAULT_GEMS_JSON.select{ |default_gem|
-    BUNDLED_GEMS_JSON.map{ |bundled_gem| bundled_gem["gem"] }.include?(default_gem["gem"])
+    BUNDLED_GEMS_JSON.map{ |bundled_gem| bundled_gem["gem"] }.include?(default_gem["gem"]) &&
+    !default_gem["removed"]
   }.map{ |default_gem|
     {
       "gem" => default_gem["gem"],
@@ -141,8 +147,22 @@ def hybrid_default_gems_json
   }
 end
 
+def hybrid_bundled_gems_json
+  BUNDLED_GEMS_JSON.select{ |bundled_gem|
+    DEFAULT_GEMS_JSON.map{ |default_gem| default_gem["gem"] }.include?(bundled_gem["gem"]) &&
+    !bundled_gem["removed"]
+  }.map{ |bundled_gem|
+    {
+      "gem" => bundled_gem["gem"],
+      "bundled" => bundled_gem,
+      "default" => DEFAULT_GEMS_JSON.find{ |default_gem| default_gem["gem"] == bundled_gem["gem"] }
+    }
+  }
+end
+
 def build_all_pages!
   build_gem_pages_for! hybrid_default_gems_json, "hybrid_default"
+  build_gem_pages_for! hybrid_bundled_gems_json, "hybrid_bundled"
   build_gem_pages_for! DEFAULT_GEMS_JSON, "default"
   build_gem_pages_for! BUNDLED_GEMS_JSON, "bundled"
   build_version_pages!
@@ -217,6 +237,7 @@ helpers do
   end
 
   def previous_major_ruby_version(major_ruby_version)
+    return "2.7" if major_ruby_version.to_f == 3.0
     "%.1f" % (major_ruby_version.to_f - 0.1)
   end
 
@@ -408,11 +429,13 @@ helpers do
 
   def gem_description(gem_info, gem_type)
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
+    gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
     gem_info["description"]
   end
 
   def gem_details(gem_info, gem_type)
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
+    gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
     res = []
 
     if gem_info["rubygemsLink"]
@@ -422,11 +445,7 @@ helpers do
     end
 
     if gem_info["sourceRepository"]
-      if gem_info["sourceRepositoryIsUpstream"]
-        res << ["Source repository (**upstream**)", gem_info["sourceRepository"]]
-      else
-        res << ["Source repository", gem_info["sourceRepository"]]
-      end
+      res << ["Source repository", gem_info["sourceRepository"]]
     end
 
     case gem_info["mriSourcePath"]
@@ -458,6 +477,7 @@ helpers do
 
   def gem_details_properties(gem_info, gem_type)
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
+    gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
     res = []
 
     if gem_info["removed"]
@@ -466,6 +486,8 @@ helpers do
 
     if gem_type == "hybrid_default"
       res << ["This gem is a **default** gem, but was a **bundled** one before"]
+    elsif gem_type == "hybrid_bundled"
+      res << ["This gem is a **bundled** gem, but was a **default** one before"]
     elsif gem_type == "bundled"
       res << ["This gem is a **bundled** gem"]
     else
@@ -523,12 +545,17 @@ helpers do
     }.join("\n")
   end
 
-  def gem_details_versions(gem_info, hybrid_default = false)
-    if hybrid_default
+  def gem_details_versions(gem_info, gem_type = nil)
+    if gem_type == "hybrid_default"
       "### As Default Gem\n" +
       gem_details_versions_list(gem_info["default"]) + "\n\n" +
       "### As Bundled Gem\n" +
       gem_details_versions_list(gem_info["bundled"])
+    elsif gem_type == "hybrid_bundled"
+      "### As Bundled Gem\n" +
+      gem_details_versions_list(gem_info["bundled"]) + "\n\n" +
+      "### As Default Gem\n" +
+      gem_details_versions_list(gem_info["default"])
     else
       gem_details_versions_list(gem_info)
     end
