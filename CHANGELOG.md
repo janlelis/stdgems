@@ -32,6 +32,7 @@
 - Remove sourceRepositoryIsUpstream flag from default gems
 - Add remaining rubygems links (all standard gems are now also published on rubygems.org)
 - Update repository links for bundler and power_assert
+- Monitor standard library is a native extension now
 
 ## 1.18.0
 

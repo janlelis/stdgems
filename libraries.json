@@ -26,7 +26,6 @@
       "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
       "mriSourcePath": "ext/digest",
       "sourceRepository": "https://github.com/ruby/digest",
-      "sourceRepositoryIsUpstream": null,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
       "maintainer": "Akinori MUSHA (knu)"
     },
@@ -80,12 +79,12 @@
     },
     {
       "gem": "monitor",
-      "native": false,
+      "native": true,
       "autoRequire": false,
       "description": "[Monitors](https://en.wikipedia.org/wiki/Monitor_%28synchronization%29) for multi-threaded code",
-      "mriSourcePath": "lib/monitor.rb",
+      "mriSourcePath": "ext/monitor",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html",
-      "maintainer": "Shugo Maeda (shugo)"
+      "maintainer": "Koichi Sasada (ko1)"
     },
     {
       "gem": "objspace",
