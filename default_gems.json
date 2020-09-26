@@ -739,7 +739,7 @@
       "mriSourcePath": "lib/observer.rb",
       "sourceRepository": "https://github.com/ruby/observer",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/observer",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
       "maintainer": null,
       "versions": {
@@ -852,7 +852,7 @@
       "mriSourcePath": "lib/prime.rb",
       "sourceRepository": "https://github.com/ruby/prime",
       "sourceRepositoryIsUpstream": true,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/prime",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prime/rdoc/Prime.html",
       "maintainer": "Yuki Sonoda (yugui)",
       "versions": {
@@ -1423,7 +1423,7 @@
       "mriSourcePath": "lib/timeout.rb",
       "sourceRepository": "https://github.com/ruby/timeout",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/timeout",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html",
       "maintainer": [
         "Yukihiro Matsumoto (matz)"
@@ -1459,7 +1459,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/tracer",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/tracer",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tracer/rdoc/Tracer.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
@@ -1494,7 +1494,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/uri",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/uri",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
       "maintainer": "YAMADA, Akira (akira)",
       "versions": {
@@ -1551,7 +1551,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/yaml",
       "sourceRepositoryIsUpstream": null,
-      "rubygemsLink": null,
+      "rubygemsLink": "https://rubygems.org/gems/yaml",
       "rdocLink": [
         "https://ruby-doc.org/stdlib-2.6.5/libdoc/yaml/rdoc/YAML.html",
         "https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/DBM.html",

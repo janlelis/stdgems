@@ -27,6 +27,10 @@
 - Ruby 3.0 preview1 additions:
   rbs
 
+### Misc
+
+- Add remaining rubygems links (all standard gems are now also published on rubygems.org)
+
 ## 1.18.0
 
 Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8
