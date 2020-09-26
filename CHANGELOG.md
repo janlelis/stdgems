@@ -29,7 +29,9 @@
 
 ### Misc
 
+- Remove sourceRepositoryIsUpstream flag from default gems
 - Add remaining rubygems links (all standard gems are now also published on rubygems.org)
+- Update repository links for bundler and power_assert
 
 ## 1.18.0
 
