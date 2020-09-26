@@ -56,7 +56,7 @@
       "native": false,
       "autoRequire": false,
       "description": "Debug tool that displays intermediate results of a method chain",
-      "sourceRepository": "https://github.com/k-tsj/power_assert",
+      "sourceRepository": "https://github.com/ruby/power_assert",
       "rubygemsLink": "https://rubygems.org/gems/power_assert",
       "versions": {
         "3.0":   "1.2.0",

@@ -78,7 +78,7 @@
       "autoRequire": false,
       "description": "[Bundler](https://bundler.io) is the local package manager for Ruby applications",
       "mriSourcePath": "lib/bundler",
-      "sourceRepository": "https://github.com/bundler/bundler",
+      "sourceRepository": "https://github.com/rubygems/rubygems/tree/master/bundler",
       "sourceRepositoryIsUpstream": true,
       "rubygemsLink": "https://rubygems.org/gems/bundler",
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
