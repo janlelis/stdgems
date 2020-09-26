@@ -50,13 +50,18 @@ document.addEventListener('DOMContentLoaded', function(){
     </tr>
     <tr>
       <td><a href="/dbm">dbm</a> <strong>c</strong></td>
-      <td>Support for <a href="https://en.wikipedia.org/wiki/Dbm">DBM databases</a></td>
+      <td>Support for <a href="https://en.wikipedia.org/wiki/DBM_(computing)">DBM databases</a></td>
       <td><a href="https://rubygems.org/gems/dbm">RubyGems</a>, <a href="https://github.com/ruby/dbm">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/dbm">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/dbm/rdoc/DBM.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/delegate">delegate</a></td>
       <td>Provides three ways to <a href="https://en.wikipedia.org/wiki/Delegation_pattern">delegate</a> method calls</td>
       <td><a href="https://rubygems.org/gems/delegate">RubyGems</a>, <a href="https://github.com/ruby/delegate">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/delegate.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/english">english</a></td>
+      <td><a href="https://idiosyncratic-ruby.com/9-globalization.html">Readable aliases for special global variables</a></td>
+      <td><a href="https://rubygems.org/gems/english">RubyGems</a>, <a href="https://github.com/ruby/English">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/English.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/fileutils">fileutils</a></td>
@@ -74,6 +79,11 @@ document.addEventListener('DOMContentLoaded', function(){
       <td><a href="https://rubygems.org/gems/net-pop">RubyGems</a>, <a href="https://github.com/ruby/net-pop">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/pop.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html">RDoc</a></td>
     </tr>
     <tr>
+      <td><a href="/net-protocol">net-protocol</a></td>
+      <td>Internal class for the other net-* libraries, going to be refactored/removed</td>
+      <td><a href="https://rubygems.org/gems/net-protocol">RubyGems</a>, <a href="https://github.com/ruby/net-protocol">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/protocol.rb">CRuby</a></td>
+    </tr>
+    <tr>
       <td><a href="/net-smtp">net-smtp</a></td>
       <td>Support for SMTP (<a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">Simple Mail Transfer Protocol</a>)</td>
       <td><a href="https://rubygems.org/gems/net-smtp">RubyGems</a>, <a href="https://github.com/ruby/net-smtp">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/smtp.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/Net/SMTP.html">RDoc</a></td>
@@ -81,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function(){
     <tr>
       <td><a href="/observer">observer</a></td>
       <td>Implementation of the <a href="https://en.wikipedia.org/wiki/Observer_pattern">observer pattern</a>, a way to let interested other objects know o an objetc's updates</td>
-      <td><a href="https://github.com/ruby/observer">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/observer.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/observer">RubyGems</a>, <a href="https://github.com/ruby/observer">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/observer.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/open3">open3</a></td>
@@ -93,6 +103,21 @@ document.addEventListener('DOMContentLoaded', function(){
       <td>Transactional file storage for Ruby objects</td>
       <td><a href="https://rubygems.org/gems/pstore">RubyGems</a>, <a href="https://github.com/ruby/pstore">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/pstore.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html">RDoc</a></td>
     </tr>
+    <tr>
+      <td><a href="/tempfile">tempfile</a></td>
+      <td>Simplifies OS independent creation of temporary files</td>
+      <td><a href="https://rubygems.org/gems/tempfile">RubyGems</a>, <a href="https://github.com/ruby/tempfile">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tempfile.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/tmpdir">tmpdir</a></td>
+      <td>Adds a <code>Dir.mktmpdir</code> method for creating temporary directories OS independently</td>
+      <td><a href="https://rubygems.org/gems/tmpdir">RubyGems</a>, <a href="https://github.com/ruby/tmpdir">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tmpdir.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/weakref">weakref</a></td>
+      <td>Explicitely allow objects to be garbage collected</td>
+      <td><a href="https://rubygems.org/gems/weakref">RubyGems</a>, <a href="https://github.com/ruby/weakref">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/weakref.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html">RDoc</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -100,6 +125,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <ul>
   <li><a href="/">General information about standard gems</a></li>
+  <li>Gem list for Ruby: <a href="/3.0.0">3.0.0</a> (preview)</li>
   <li>Gem list for Ruby: <a href="/2.7.1">2.7.1</a> - <a href="/2.7.0">2.7.0</a></li>
   <li>Gem list for Ruby: <a href="/2.6.6">2.6.6</a> - <a href="/2.6.5">2.6.5</a> - <a href="/2.6.4">2.6.4</a> - <a href="/2.6.3">2.6.3</a> - <a href="/2.6.2">2.6.2</a> - <a href="/2.6.1">2.6.1</a> - <a href="/2.6.0">2.6.0</a></li>
   <li>Gem list for Ruby: <a href="/2.5.8">2.5.8</a> - <a href="/2.5.7">2.5.7</a> - <a href="/2.5.6">2.5.6</a> - <a href="/2.5.5">2.5.5</a> - <a href="/2.5.4">2.5.4</a> - <a href="/2.5.3">2.5.3</a> - <a href="/2.5.2">2.5.2</a> - <a href="/2.5.1">2.5.1</a> - <a href="/2.5.0">2.5.0</a></li>
@@ -107,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function(){
   <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> - <a href="/2.3.7">2.3.7</a> - <a href="/2.3.6">2.3.6</a> - <a href="/2.3.5">2.3.5</a> - <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
   <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> - <a href="/2.2.9">2.2.9</a> - <a href="/2.2.8">2.2.8</a> - <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
   <li>Compare versions: <a href="/compare">Main Rubies</a> - <a href="/compare/supported">Supported Rubies</a> - <a href="/compare/2.7">2.7</a> - <a href="/compare/2.6">2.6</a> - <a href="/compare/2.5">2.5</a> - <a href="/compare/2.4">2.4</a> - <a href="/compare/2.3">2.3</a> - <a href="/compare/2.2">2.2</a></li>
-  <li>Gemified in: <a href="/new-in/2.7">2.7</a> - <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/3.0">3.0</a> - <a href="/new-in/2.7">2.7</a> - <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></li>
   <li>List of <a href="/unmaintained">unmaintained default gems</a> and list of <a href="/removed">removed default gems</a></li>
   <li>List of <a href="/libraries">not-yet-gemified standard libraries</a></li>
 </ul>

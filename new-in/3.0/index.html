@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Standard Gems: Gemified in 3.0</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Ruby's standard library is divided into default and bundled gems"/>
+    <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function(){
+  ['h2', 'h3'].forEach(function(h){
+    document.querySelectorAll(h).forEach(function(e){
+      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+    })
+  })
+})
+    </script>
+  </head>
+
+  <body>
+    <div class="world">
+      <section class="post-header">
+        <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top"><a href="#top">Gemified in 3.0</a></h1>
+      </section>
+
+     	<article class="post">
+<p>The following libraries were made standard gems with Ruby 3.0:</p>
+
+<p><strong>Warning:</strong> This Ruby version has not been released, yet. Standard gem data might still change.</p>
+
+<h2 id="new-default-gems">New Default Gems</h2>
+
+<table class="table-20-45-X">
+  <thead>
+    <tr>
+      <th>Gem</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/abbrev">abbrev</a></td>
+      <td>Finds the shortest unique abbreviation amongst many strings</td>
+      <td><a href="https://rubygems.org/gems/abbrev">RubyGems</a>, <a href="https://github.com/ruby/abbrev">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/abbrev.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/abbrev/rdoc/Abbrev.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/base64">base64</a></td>
+      <td>Encodes and decodes strings to a <a href="https://en.wikipedia.org/wiki/Base64">Base64</a> representation. Implemented as a small wrapper around <a href="https://idiosyncratic-ruby.com/4-what-the-pack.html">String#unpack</a></td>
+      <td><a href="https://rubygems.org/gems/base64">RubyGems</a>, <a href="https://github.com/ruby/base64">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/base64.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/base64/rdoc/Base64.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/english">english</a></td>
+      <td><a href="https://idiosyncratic-ruby.com/9-globalization.html">Readable aliases for special global variables</a></td>
+      <td><a href="https://rubygems.org/gems/english">RubyGems</a>, <a href="https://github.com/ruby/English">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/English.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/erb">erb</a></td>
+      <td>Templating engine for Ruby</td>
+      <td><a href="https://rubygems.org/gems/erb">RubyGems</a>, <a href="https://github.com/ruby/erb">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/erb.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/erb/rdoc/index.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/find">find</a></td>
+      <td>Finds all files in a given directory and its sub-directories</td>
+      <td><a href="https://rubygems.org/gems/find">RubyGems</a>, <a href="https://github.com/ruby/find">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/find.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/io-nonblock">io-nonblock</a> <strong>c</strong></td>
+      <td>Allows to work with <code>IO</code> streams in a non-blocking way</td>
+      <td><a href="https://rubygems.org/gems/io-nonblock">RubyGems</a>, <a href="https://github.com/ruby/io-nonblock">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/io/nonblock">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/io/nonblock/rdoc/IO.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/io-wait">io-wait</a> <strong>c</strong></td>
+      <td>Adds methods to wait until an <code>IO</code> stream becomes readable or writable</td>
+      <td><a href="https://rubygems.org/gems/io-wait">RubyGems</a>, <a href="https://github.com/ruby/io-wait">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/io/wait">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/io/wait/rdoc/IO.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/net-ftp">net-ftp</a></td>
+      <td>Support for FTP (<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">File Transfer Protocol</a>)</td>
+      <td><a href="https://rubygems.org/gems/net-ftp">RubyGems</a>, <a href="https://github.com/ruby/net-ftp">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/ftp.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/ftp/rdoc/Net/FTP.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/net-http">net-http</a></td>
+      <td>Support for HTTP (<a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol</a>)</td>
+      <td><a href="https://rubygems.org/gems/net-http">RubyGems</a>, <a href="https://github.com/ruby/net-http">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/http.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/https.rb">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/http">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/http/rdoc/Net/HTTP.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/net-imap">net-imap</a></td>
+      <td>Support for IMAP (<a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">Internet Message Access Protocol</a>)</td>
+      <td><a href="https://rubygems.org/gems/net-imap">RubyGems</a>, <a href="https://github.com/ruby/net-imap">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/imap.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/net/imap/rdoc/Net/IMAP.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/net-protocol">net-protocol</a></td>
+      <td>Internal class for the other net-* libraries, going to be refactored/removed</td>
+      <td><a href="https://rubygems.org/gems/net-protocol">RubyGems</a>, <a href="https://github.com/ruby/net-protocol">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/net/protocol.rb">CRuby</a></td>
+    </tr>
+    <tr>
+      <td><a href="/nkf">nkf</a> <strong>c</strong></td>
+      <td><a href="https://en.wikipedia.org/wiki/Kanji">Kanji</a> encoding converter</td>
+      <td><a href="https://rubygems.org/gems/nkf">RubyGems</a>, <a href="https://github.com/ruby/nkf">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/nkf">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/nkf/rdoc/NKF.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/open-uri">open-uri</a></td>
+      <td>Monkeypatches <a href="https://ruby-doc.org/core/Kernel.html#method-i-open">Kernel#open</a> to support remote endpoints via <code>net/http</code> and <code>net/ftp</code></td>
+      <td><a href="https://rubygems.org/gems/open-uri">RubyGems</a>, <a href="https://github.com/ruby/open-uri">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/open-uri.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/open-uri/rdoc/OpenURI.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/optparse">optparse</a></td>
+      <td>Command-line option parser</td>
+      <td><a href="https://rubygems.org/gems/optparse">RubyGems</a>, <a href="https://github.com/ruby/optparse">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/optparse.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/optionparser.rb">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/optparse">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptParse.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/racc">racc</a> <strong>c</strong></td>
+      <td>Bindings for Racc, a <a href="https://en.wikipedia.org/wiki/Yacc">YACC</a>-like <a href="https://en.wikipedia.org/wiki/LALR_parser_generator">LALR(1) parser generator</a></td>
+      <td><a href="https://rubygems.org/gems/racc">RubyGems</a>, <a href="https://github.com/ruby/racc">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/racc/parser.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/racc/cparse">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/resolv">resolv</a></td>
+      <td>Thread-aware <a href="https://en.wikipedia.org/wiki/Domain_Name_System">DNS</a> resolver</td>
+      <td><a href="https://rubygems.org/gems/resolv">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/resolv.rb">CRuby (1)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/resolv-replace">resolv-replace</a></td>
+      <td>Will replace <a href="https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html">Socket</a>'s DNS with <a href="https://stdgems.org/resolv">resolv</a></td>
+      <td><a href="https://rubygems.org/gems/resolv-replace">RubyGems</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/resolv-replace.rb">CRuby (1)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/rinda">rinda</a></td>
+      <td>Support fot the <a href="https://en.wikipedia.org/wiki/Linda_%28coordination_language%29">Linda distributed computing paradigm</a> in <a href="https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html">drb</a></td>
+      <td><a href="https://rubygems.org/gems/rinda">RubyGems</a>, <a href="https://github.com/ruby/rinda">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rinda">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/rinda/rdoc/Rinda.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/securerandom">securerandom</a></td>
+      <td>Provides crpytographical randomness from openssl or the OS</td>
+      <td><a href="https://rubygems.org/gems/securerandom">RubyGems</a>, <a href="https://github.com/ruby/securerandom">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/securerandom.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/securerandom/rdoc/SecureRandom.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/set">set</a></td>
+      <td>Data structure for unordered collections without duplicates. Implemented on top of Hash. Also comes with <code>SortedSet</code> for ordered collections.</td>
+      <td><a href="https://rubygems.org/gems/set">RubyGems</a>, <a href="https://github.com/ruby/set">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/set.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/set/rdoc/Set.html">RDoc (1)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/set/rdoc/SortedSet.html">RDoc (2)</a></td>
+    </tr>
+    <tr>
+      <td><a href="/shellwords">shellwords</a></td>
+      <td>Escape and manipulate commads to be run in the <a href="https://en.wikipedia.org/wiki/Bourne_shell">shell</a></td>
+      <td><a href="https://rubygems.org/gems/shellwords">RubyGems</a>, <a href="https://github.com/ruby/shellwords">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/shellwords.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/shellwords/rdoc/Shellwords.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/syslog">syslog</a> <strong>c</strong></td>
+      <td>Interface to the low-level <a href="https://en.wikipedia.org/wiki/Syslog">syslog</a> logger</td>
+      <td><a href="https://rubygems.org/gems/syslog">RubyGems</a>, <a href="https://github.com/ruby/syslog">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/syslog">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/syslog/rdoc/Syslog.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/tempfile">tempfile</a></td>
+      <td>Simplifies OS independent creation of temporary files</td>
+      <td><a href="https://rubygems.org/gems/tempfile">RubyGems</a>, <a href="https://github.com/ruby/tempfile">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tempfile.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/time">time</a></td>
+      <td>Adds more methods to <code>Time</code></td>
+      <td><a href="https://rubygems.org/gems/time">RubyGems</a>, <a href="https://github.com/ruby/time">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/time.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/time/rdoc/Time.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/tmpdir">tmpdir</a></td>
+      <td>Adds a <code>Dir.mktmpdir</code> method for creating temporary directories OS independently</td>
+      <td><a href="https://rubygems.org/gems/tmpdir">RubyGems</a>, <a href="https://github.com/ruby/tmpdir">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tmpdir.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/tsort">tsort</a></td>
+      <td>Topological sorting using <a href="https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm">Tarjan’s algorithm</a>, which finds <a href="https://en.wikipedia.org/wiki/Strongly_connected_component">strongly connected components</a> in <a href="https://en.wikipedia.org/wiki/Graph_%28abstract_data_type%29">graphs</a></td>
+      <td><a href="https://rubygems.org/gems/tsort">RubyGems</a>, <a href="https://github.com/ruby/tsort">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tsort.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/tsort/rdoc/TSort.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/weakref">weakref</a></td>
+      <td>Explicitely allow objects to be garbage collected</td>
+      <td><a href="https://rubygems.org/gems/weakref">RubyGems</a>, <a href="https://github.com/ruby/weakref">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/weakref.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html">RDoc</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="default-gems-removed">Default Gems Removed</h2>
+
+<table class="table-20-45-X">
+  <thead>
+    <tr>
+      <th>Gem</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/rexml">rexml</a></td>
+      <td>Support for XML (<a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language</a>)</td>
+      <td><a href="https://rubygems.org/gems/rexml">RubyGems</a>, <a href="https://github.com/ruby/rexml">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rexml">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/rexml/rdoc/REXML.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/rss">rss</a></td>
+      <td>Support for RSS (<a href="https://en.wikipedia.org/wiki/RSS">Rich Site Summary</a>) and <a href="https://en.wikipedia.org/wiki/Atom_%28standard%29">Atom</a></td>
+      <td><a href="https://rubygems.org/gems/rss">RubyGems</a>, <a href="https://github.com/ruby/rss">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rss.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rss">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/sdbm">sdbm</a> <strong>c</strong></td>
+      <td>Support for <a href="https://en.wikipedia.org/wiki/Dbm">SDBM databases</a></td>
+      <td><a href="https://rubygems.org/gems/sdbm">RubyGems</a>, <a href="https://github.com/ruby/sdbm">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/sdbm">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/sdbm/rdoc/SDBM.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/uri">uri</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Uniform_resource_identifier">URI</a>/URL manipulation</td>
+      <td><a href="https://rubygems.org/gems/uri">RubyGems</a>, <a href="https://github.com/ruby/uri">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/uri.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/uri">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html">RDoc</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="new-bundled-gems">New Bundled Gems</h2>
+
+<table class="table-20-45-X">
+  <thead>
+    <tr>
+      <th>Gem</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/rbs">rbs</a></td>
+      <td>Released with Ruby 3.0, RBS is a way to declare types in Ruby. The gem allows parsing and processing type definitions written in RBS.</td>
+      <td><a href="https://rubygems.org/gems/rbs">RubyGems</a>, <a href="https://github.com/ruby/rbs">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><a href="/rexml">rexml</a></td>
+      <td>Support for XML (<a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language</a>)</td>
+      <td><a href="https://rubygems.org/gems/rexml">RubyGems</a>, <a href="https://github.com/ruby/rexml">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><a href="/rss">rss</a></td>
+      <td>Support for RSS (<a href="https://en.wikipedia.org/wiki/RSS">Rich Site Summary</a>) and <a href="https://en.wikipedia.org/wiki/Atom_%28standard%29">Atom</a></td>
+      <td><a href="https://rubygems.org/gems/rss">RubyGems</a>, <a href="https://github.com/ruby/rss">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="bundled-gems-removed">Bundled Gems Removed</h2>
+
+<table class="table-20-45-X">
+  <thead>
+    <tr>
+      <th>Gem</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/net-telnet">net-telnet</a></td>
+      <td>Support for <a href="https://en.wikipedia.org/wiki/Telnet">Telnet</a></td>
+      <td><a href="https://rubygems.org/gems/net-telnet">RubyGems</a>, <a href="https://github.com/ruby/net-telnet">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><a href="/xmlrpc">xmlrpc</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/XML-RPC">Remote Procedure Calls via XML and HTTP</a></td>
+      <td><a href="https://rubygems.org/gems/xmlrpc">RubyGems</a>, <a href="https://github.com/ruby/xmlrpc">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="more-standard-gems">More Standard Gems</h2>
+
+<ul>
+  <li><a href="/">General information about standard gems</a></li>
+  <li>Gem list for Ruby: <a href="/3.0.0">3.0.0</a> (preview)</li>
+  <li>Gem list for Ruby: <a href="/2.7.1">2.7.1</a> - <a href="/2.7.0">2.7.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.6.6">2.6.6</a> - <a href="/2.6.5">2.6.5</a> - <a href="/2.6.4">2.6.4</a> - <a href="/2.6.3">2.6.3</a> - <a href="/2.6.2">2.6.2</a> - <a href="/2.6.1">2.6.1</a> - <a href="/2.6.0">2.6.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.5.8">2.5.8</a> - <a href="/2.5.7">2.5.7</a> - <a href="/2.5.6">2.5.6</a> - <a href="/2.5.5">2.5.5</a> - <a href="/2.5.4">2.5.4</a> - <a href="/2.5.3">2.5.3</a> - <a href="/2.5.2">2.5.2</a> - <a href="/2.5.1">2.5.1</a> - <a href="/2.5.0">2.5.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.4.10">2.4.10</a> - <a href="/2.4.9">2.4.9</a> - <a href="/2.4.8">2.4.8</a> - <a href="/2.4.7">2.4.7</a> - <a href="/2.4.6">2.4.6</a> - <a href="/2.4.5">2.4.5</a> - <a href="/2.4.4">2.4.4</a> - <a href="/2.4.3">2.4.3</a> - <a href="/2.4.2">2.4.2</a> - <a href="/2.4.1">2.4.1</a> - <a href="/2.4.0">2.4.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> - <a href="/2.3.7">2.3.7</a> - <a href="/2.3.6">2.3.6</a> - <a href="/2.3.5">2.3.5</a> - <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> - <a href="/2.2.9">2.2.9</a> - <a href="/2.2.8">2.2.8</a> - <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
+  <li>Compare versions: <a href="/compare">Main Rubies</a> - <a href="/compare/supported">Supported Rubies</a> - <a href="/compare/2.7">2.7</a> - <a href="/compare/2.6">2.6</a> - <a href="/compare/2.5">2.5</a> - <a href="/compare/2.4">2.4</a> - <a href="/compare/2.3">2.3</a> - <a href="/compare/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/3.0">3.0</a> - <a href="/new-in/2.7">2.7</a> - <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></li>
+  <li>List of <a href="/unmaintained">unmaintained default gems</a> and list of <a href="/removed">removed default gems</a></li>
+  <li>List of <a href="/libraries">not-yet-gemified standard libraries</a></li>
+</ul>
+
+</article>
+    </div>
+    <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
+  </body>
+</html>
