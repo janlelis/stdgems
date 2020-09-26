@@ -114,7 +114,7 @@
       "sourceRepository": "https://github.com/ruby/rbs",
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "versions": {
-        "3.0": "0.12.2",
+        "3.0": "0.12.2"
       }
     },
     {
@@ -125,7 +125,7 @@
       "sourceRepository": "https://github.com/ruby/rexml",
       "rubygemsLink": "https://rubygems.org/gems/rexml",
       "versions": {
-        "3.0": "3.2.4",
+        "3.0": "3.2.4"
       }
     },
     {
@@ -136,7 +136,7 @@
       "sourceRepository": "https://github.com/ruby/rss",
       "rubygemsLink": "https://rubygems.org/gems/rss",
       "versions": {
-        "3.0": "0.2.9",
+        "3.0": "0.2.9"
       }
     },
     {

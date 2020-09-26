@@ -1110,7 +1110,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/rss",
       "sourceRepositoryIsUpstream": true,
-      "remove": true,
+      "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/rss",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rss/rdoc/RSS.html",
       "maintainer": "Kouhei Sutou (kou)",
