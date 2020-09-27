@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "gems": [
     {
       "gem": "abbrev",
@@ -1420,6 +1420,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
       "maintainer": "YAMADA, Akira (akira)",
       "versions": {
+        "3.0": "0.10.0",
         "2.7": "0.10.0"
       }
     },

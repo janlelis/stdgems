@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.1
+
+- Fix: uri is not removed
+
 ## 2.0.0
 
 ### Default Gems
