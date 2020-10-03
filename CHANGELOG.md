@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.1.0 (unreleased)
+## 2.1.0
 
 - Ruby release: 2.7.2
 
