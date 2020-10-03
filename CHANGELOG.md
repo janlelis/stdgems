@@ -1,5 +1,15 @@
 # Change Log
 
+## 2.1.0 (unreleased)
+
+- Ruby release: 2.7.2
+
+### Default Gems
+
+- Update Ruby 2.7's irb to 1.2.6
+- Update Ruby 2.7's reline to 0.1.5
+- Update Ruby 2.7's rubygems to 3.1.4
+
 ## 2.0.1
 
 - Fix: uri is not removed
