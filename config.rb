@@ -25,6 +25,7 @@ RUBY_3_0_VERSIONS = %w[
 ]
 
 RUBY_2_7_VERSIONS = %w[
+  2.7.2
   2.7.1
   2.7.0
 ]
