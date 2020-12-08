@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "gems": [
     {
       "gem": "coverage",
@@ -9,37 +9,6 @@
       "mriSourcePath": "ext/coverage",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html",
       "maintainer": "Yusuke Endoh (mame)"
-    },
-    {
-      "gem": "debug",
-      "native": false,
-      "autoRequire": false,
-      "description": "Command-line [debugger](https://en.wikipedia.org/wiki/Debugger)",
-      "mriSourcePath": "lib/debug.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/debug/rdoc/DEBUGGER__.html",
-      "maintainer": null
-    },
-    {
-      "gem": "digest",
-      "native": true,
-      "autoRequire": false,
-      "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
-      "mriSourcePath": "ext/digest",
-      "sourceRepository": "https://github.com/ruby/digest",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
-      "maintainer": "Akinori MUSHA (knu)"
-    },
-    {
-      "gem": "drb",
-      "native": false,
-      "autoRequire": false,
-      "description": "Distributed object system for Ruby",
-      "mriSourcePath": [
-        "lib/drb.rb",
-        "lib/drb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html",
-      "maintainer": "Masatoshi SEKI (seki)"
     },
     {
       "gem": "expect",
@@ -96,27 +65,6 @@
       "maintainer": null
     },
     {
-      "gem": "pathname",
-      "native": true,
-      "autoRequire": false,
-      "description": "Wraps `File`, `FileTest`, `Dir`, and `FileUtils` to ease working with file system paths",
-      "mriSourcePath": "ext/pathname",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pathname/rdoc/Pathname.html",
-      "maintainer": "Tanaka Akira (akr)"
-    },
-    {
-      "gem": "pp",
-      "native": false,
-      "autoRequire": false,
-      "description": "Better object formatting and inspection. Comes with the `pp` print debugging helper via `require 'pp'`",
-      "mriSourcePath": [
-        "lib/prettyprint.rb",
-        "lib/pp.rb"
-      ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
-      "maintainer": "Tanaka Akira (akr)"
-    },
-    {
       "gem": "pty",
       "native": true,
       "autoRequire": false,
@@ -155,15 +103,6 @@
       ]
     },
     {
-      "gem": "un",
-      "native": false,
-      "autoRequire": false,
-      "description": "[Utilities to replace common UNIX commands](https://idiosyncratic-ruby.com/6-run-ruby-run.html)",
-      "mriSourcePath": "lib/un.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/un/rdoc/index.html",
-      "maintainer": "WATANABE Hirofumi (eban)"
-    },
-    {
       "gem": "unicode_normalize",
       "native": false,
       "autoRequire": true,
@@ -183,15 +122,6 @@
       "mriSourcePath": "ext/win32",
       "rdocLink": null,
       "maintainer": "NAKAMURA Usaku (usa)"
-    },
-    {
-      "gem": "win32ole",
-      "native": true,
-      "autoRequire": false,
-      "description": "Windows [OLE automation](https://en.wikipedia.org/wiki/OLE_Automation) interface",
-      "mriSourcePath": "ext/win32ole",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/win32ole/rdoc/WIN32OLE.html",
-      "maintainer": "Masaki Suketa (suke)"
     }
   ]
 }
