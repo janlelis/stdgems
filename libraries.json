@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "gems": [
     {
       "gem": "coverage",
@@ -122,6 +122,6 @@
       "mriSourcePath": "ext/win32",
       "rdocLink": null,
       "maintainer": "NAKAMURA Usaku (usa)"
-    },
+    }
   ]
 }

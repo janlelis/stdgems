@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.2.0 (unreleased)
+## 2.2.0
 
 - Ruby release: 3.0.0-preview2
 
