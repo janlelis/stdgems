@@ -4,6 +4,15 @@
 
 - Ruby release: 3.0.0-preview2
 
+### Default Gems
+
+- Ruby 3.0 preview2 additional updates:
+  csv, fiddle, net-smtp, optparse, ostruct, racc,
+  readline-ext, reline
+- Ruby 3.0 preview2 additional gemifications:
+  debug, digest, drb, pathname, pp, prettyprint,
+  un, win32ole
+
 ### Bundled Gems
 
 - Ruby 3.0 preview2 additional updates:
