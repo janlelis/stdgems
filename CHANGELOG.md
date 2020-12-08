@@ -1,5 +1,16 @@
 # Change Log
 
+## 2.2.0 (unreleased)
+
+- Ruby release: 3.0.0-preview2
+
+### Bundled Gems
+
+- Ruby 3.0 preview2 additional updates:
+  test-unit, rbs
+- Ruby 3.0 preview2 additional additions:
+  typeprof
+
 ## 2.1.0
 
 - Ruby release: 2.7.2
