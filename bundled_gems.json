@@ -79,7 +79,7 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
-        "3.0":   "13.0.1",
+        "3.0":   "13.0.2",
 
         "2.7":   "13.0.1",
 
@@ -114,7 +114,7 @@
       "sourceRepository": "https://github.com/ruby/rbs",
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "versions": {
-        "3.0": "0.20.1"
+        "3.0": "1.0.0"
       }
     },
     {
@@ -164,7 +164,7 @@
       "sourceRepository": "https://github.com/ruby/typeprof",
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
       "versions": {
-        "3.0": "0.9.0"
+        "3.0": "0.10.0"
       }
     },
     {

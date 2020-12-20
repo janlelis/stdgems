@@ -1,5 +1,26 @@
 # Change Log
 
+## 2.3.0
+
+- Ruby release: 3.0.0-rc1
+
+### Default Gems
+
+- Ruby 3.0 rc1 additional updates:
+  bigdecimal, bundler, digest, fiddle, irb, json, matrix,
+  prime, psych, reline, stringio, strscan
+- Ruby 3.0 rc1 additional gemifications:
+  debug, digest, drb, pathname, pp, prettyprint,
+  un, win32ole
+- Ruby 3.0 rc1 additional removals:
+  webrick
+- Maintainer updates: irb, prime
+
+### Bundled Gems
+
+- Ruby 3.0 rc1 additional updates:
+  rake, rbs, typeprof
+
 ## 2.2.0
 
 - Ruby release: 3.0.0-preview2
