@@ -79,7 +79,7 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
-        "3.0":   "13.0.2",
+        "3.0":   "13.0.3",
 
         "2.7":   "13.0.1",
 

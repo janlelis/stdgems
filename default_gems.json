@@ -40,7 +40,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -79,7 +79,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.0":   "2.2.2",
+        "3.0":   "2.2.3",
 
         "2.7":   "2.1.4",
         "2.7.0": "2.1.2",
@@ -106,7 +106,7 @@
       ],
       "notes": "Only the escape utilities are implemented as native extension.",
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.2.0",
         "2.7": "0.1.0"
       }
     },
@@ -166,7 +166,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "3.0":   "3.0.1",
+        "3.0":   "3.1.0",
 
         "2.7":   "3.0.0",
 
@@ -218,7 +218,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.2.0",
         "2.7": "0.1.0"
       }
     },
@@ -236,7 +236,7 @@
       "rdocLink": null,
       "maintainer": "Yuki Nishijima (yuki24)",
       "versions": {
-        "3.0": "1.4.0",
+        "3.0": "1.5.0",
         "2.7": "1.4.0"
       }
     },
@@ -300,7 +300,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.7.0"
+        "3.0": "0.7.1"
       }
     },
     {
@@ -331,7 +331,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "maintainer": "Ruby core team",
       "versions": {
-        "3.0": "1.1.0",
+        "3.0": "1.2.0",
         "2.7": "1.1.0",
         "2.6": "1.0.1",
         "2.5": "1.0.0"
@@ -365,7 +365,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
       "maintainer": "Aaron Patterson (tenderlove)",
       "versions": {
-        "3.0": "1.0.4",
+        "3.0": "1.0.6",
         "2.7": "1.0.0",
         "2.6": "1.0.0",
         "2.5": "1.0.0"
@@ -382,7 +382,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
-        "3.0": "1.4.1",
+        "3.0": "1.5.0",
         "2.7": "1.4.1",
         "2.6": "1.1.0",
         "2.5": "1.0.2"
@@ -418,7 +418,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "3.0": "1.3.1",
+        "3.0": "1.3.2",
         "2.7": "1.3.1",
         "2.6": "1.2.0"
       }
@@ -538,7 +538,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "aycabta",
       "versions": {
-        "3.0":   "1.2.8",
+        "3.0":   "1.2.9",
 
         "2.7":   "1.2.6",
         "2.7.1": "1.2.3",
@@ -562,7 +562,7 @@
       ],
       "notes": "- Latest Ruby releases for 2.4 / 2.5 / 2.6 / 2.7 contain a security fix (CVE-2020-16255) not included in the listed gem versions",
       "versions": {
-        "3.0":   "2.4.1",
+        "3.0":   "2.5.1",
 
         "2.7":   "2.3.0",
 
@@ -594,7 +594,7 @@
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
       "versions": {
-        "3.0": "1.4.2",
+        "3.0": "1.4.3",
         "2.7": "1.4.2",
         "2.6": "1.3.0"
       }
@@ -629,7 +629,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
@@ -645,7 +645,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/ftp/rdoc/Net/FTP.html",
       "maintainer": "Shugo Maeda (shugo)",
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.1.1"
       }
     },
     {
@@ -663,7 +663,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/http/rdoc/Net/HTTP.html",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.1.1"
       }
     },
     {
@@ -677,7 +677,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/imap/rdoc/Net/IMAP.html",
       "maintainer": "Shugo Maeda (shugo)",
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.1.1"
       }
     },
     {
@@ -691,7 +691,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -749,7 +749,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -764,7 +764,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -914,7 +914,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -932,7 +932,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.0":   "3.2.1",
+        "3.0":   "3.3.0",
 
         "2.7":   "3.1.0",
 
@@ -995,7 +995,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.0":     "6.2.1",
+        "3.0":     "6.3.0",
         "2.7":     "6.2.1",
         "2.6":     "6.1.2",
         "2.6.3":   "6.1.0",
@@ -1082,7 +1082,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.2.0"
       }
     },
     {
@@ -1167,7 +1167,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.0":     "3.2.2",
+        "3.0":     "3.2.3",
 
         "2.7":     "3.1.4",
         "2.7.1":   "3.1.2",
@@ -1274,7 +1274,7 @@
       ],
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "1.0.1"
       }
     },
     {
@@ -1320,7 +1320,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -1398,7 +1398,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.1.1"
       }
     },
     {
@@ -1446,7 +1446,7 @@
         "Yukihiro Matsumoto (matz)"
       ],
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -1461,7 +1461,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.1.1"
       }
     },
     {
@@ -1492,7 +1492,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tracer/rdoc/Tracer.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0",
         "2.6": "0.1.0"
       }
@@ -1540,7 +1540,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0"
+        "3.0": "0.1.1"
       }
     },
     {
@@ -1601,7 +1601,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
