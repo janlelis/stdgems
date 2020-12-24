@@ -1,5 +1,23 @@
 # Change Log
 
+## 2.4.0 (unreleased)
+
+- Ruby release: 3.0.0
+
+### Default Gems
+
+- Ruby 3.0 updates:
+  benchmark, bundler, cgi, date, delegate, did_you_mean, english,
+  etc, fiddle, fileutils, forwardable, irb, json, logger, mutex_m,
+  net-ftp, net-http, net-imap, net-pop, observer, open3, pstore,
+  psych, rdoc, resolv, rubygems, set, singleton, tempfile, timeout,
+  tmpdir, tracer, weakref, yaml
+
+### Bundled Gems
+
+- Ruby 3.0 updates:
+  rake
+
 ## 2.3.0
 
 - Ruby release: 3.0.0-rc1
