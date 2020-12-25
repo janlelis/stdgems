@@ -6,17 +6,17 @@
 
 ### Default Gems
 
-- Ruby 3.0 updates:
+- Ruby 3.0 final updates:
   benchmark, bundler, cgi, date, delegate, did_you_mean, english,
-  etc, fiddle, fileutils, forwardable, irb, json, logger, mutex_m,
-  net-ftp, net-http, net-imap, net-pop, observer, open3, pstore,
-  psych, rdoc, resolv, rubygems, set, singleton, tempfile, timeout,
-  tmpdir, tracer, weakref, yaml
+  etc, fiddle, fileutils, forwardable, getoptlong, irb, json,
+  logger, mutex_m, net-ftp, net-http, net-imap, net-pop, observer,
+  open3, pstore, psych, rdoc, reline, resolv, rubygems, set,
+  singleton, tempfile, timeout, tmpdir, tracer, weakref, yaml
 
 ### Bundled Gems
 
-- Ruby 3.0 updates:
-  rake
+- Ruby 3.0 final updates:
+  rake, test-unit, typeprof
 
 ## 2.3.0
 
