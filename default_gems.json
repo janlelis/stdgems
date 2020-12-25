@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "gems": [
     {
       "gem": "abbrev",
@@ -451,7 +451,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
       "maintainer": null,
       "versions": {
-        "3.0": "0.1.0",
+        "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
     },
@@ -538,7 +538,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "aycabta",
       "versions": {
-        "3.0":   "1.2.9",
+        "3.0":   "1.3.0",
 
         "2.7":   "1.2.6",
         "2.7.1": "1.2.3",
@@ -1063,7 +1063,7 @@
       "rdocLink": null,
       "maintainer": "aycabta",
       "versions": {
-        "3.0":   "0.1.10",
+        "3.0":   "0.2.0",
         "2.7":   "0.1.5",
         "2.7.1": "0.1.3",
         "2.7.0": "0.1.2"
