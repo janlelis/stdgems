@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "gems": [
     {
       "gem": "coverage",
@@ -27,15 +27,6 @@
       "mriSourcePath": "ext/fiber",
       "rdocLink": "https://ruby-doc.org/core/Fiber.html",
       "maintainer": "Koichi Sasada (ko1)"
-    },
-    {
-      "gem": "kconv",
-      "native": false,
-      "autoRequire": false,
-      "description": "Adds the `Kconv.kconv` function which wraps the nkf (standard) library",
-      "mriSourcePath": "ext/nkf/lib/kconv.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.5.0/libdoc/nkf/rdoc/Kconv.html",
-      "maintainer": "NARUSE, Yui (narse)"
     },
     {
       "gem": "mkmf",
