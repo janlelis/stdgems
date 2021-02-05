@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.4.1
+
+- Remove kconv from list of standard libraries, since it is
+  part of nkf #6
+
 ## 2.4.0
 
 - Ruby release: 3.0.0
