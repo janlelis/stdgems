@@ -328,6 +328,14 @@ helpers do
     version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS)
   end
 
+  def default_gems_version_matrix_3_0
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_3_0_VERSIONS)
+  end
+
+  def bundled_gems_version_matrix_3_0
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_3_0_VERSIONS)
+  end
+
   def default_gems_version_matrix_2_7
     version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_7_VERSIONS)
   end
