@@ -19,19 +19,22 @@ CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/master/"
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
 # CURRENT_RUBY_VERSION = Latest.ruby.version.to_s
-CURRENT_RUBY_VERSION = '3.0.0'
+CURRENT_RUBY_VERSION = '3.0.1'
 
 RUBY_3_0_VERSIONS = %w[
+  3.0.1
   3.0.0
 ]
 
 RUBY_2_7_VERSIONS = %w[
+  2.7.3
   2.7.2
   2.7.1
   2.7.0
 ]
 
 RUBY_2_6_VERSIONS = %w[
+  2.6.7
   2.6.6
   2.6.5
   2.6.4
@@ -42,6 +45,7 @@ RUBY_2_6_VERSIONS = %w[
 ]
 
 RUBY_2_5_VERSIONS = %w[
+  2.5.9
   2.5.8
   2.5.7
   2.5.6
