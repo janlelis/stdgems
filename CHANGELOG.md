@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.5.0 (unreleased)
+
+Ruby releases 3.0.1, 2.7.3, 2.6.7, 2.5.9
+
+### Default Gems
+
+TODO
+
+### Bundled Gems
+
+- Update Ruby 3.0's rexml, rbs, typeprof
+
 ## 2.4.1
 
 - Remove kconv from list of standard libraries, since it is
@@ -552,7 +564,7 @@ Ruby 2.5 release
 
 ### Bundled Gems
 
-- 2.5: Bump power\_assert version
+- 2.5: Bump power_assert version
 
 ## 0.1.4
 
@@ -576,7 +588,7 @@ Ruby 2.5 release
 
 ### Bundled Gems
 
-- 2.5: Update did\_you\_mean, minitest, test-unit, xmlrpc
+- 2.5: Update did_you_mean, minitest, test-unit, xmlrpc
 
 ## 0.1.1
 
