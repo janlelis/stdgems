@@ -1,29 +1,31 @@
 # Change Log
 
-## 2.5.0 (unreleased)
+## 2.5.0
 
-Ruby releases 3.0.1, 2.7.3, 2.6.7, 2.5.9
+Ruby releases: 3.0.1, 2.7.3, 2.6.7, 2.5.9
 
 ### Default Gems
 
-Update Ruby 3.0's bundler to 2.2.15
-Update Ruby 3.0's io-console to 0.5.7
-Update Ruby 3.0's irb to 1.3.5
-Update Ruby 3.0's reline to 0.2.5
-Update Ruby 3.0's rubygems to 3.2.15
-Update Ruby 3.0's tmpdir to 0.1.2
-Update Ruby 2.7's rexml to 3.2.3.1
-Update Ruby 2.7's rubygems to 3.1.6
-Update Ruby 2.7's webrick to 1.6.1
-Update Ruby 2.6's rexml to 3.1.9.1
-Update Ruby 2.6's rubygems to 3.0.3.1
-Update Ruby 2.6's webrick to 1.4.4
-Update Ruby 2.5's rubygems to 2.7.6.3
-Update Ruby 2.5's webrick to 1.4.2.1
+- Update Ruby 3.0's bundler to 2.2.15
+- Update Ruby 3.0's io-console to 0.5.7
+- Update Ruby 3.0's irb to 1.3.5
+- Update Ruby 3.0's reline to 0.2.5
+- Update Ruby 3.0's rubygems to 3.2.15
+- Update Ruby 3.0's tmpdir to 0.1.2
+- Update Ruby 2.7's rexml to 3.2.3.1
+- Update Ruby 2.7's rubygems to 3.1.6
+- Update Ruby 2.7's webrick to 1.6.1
+- Update Ruby 2.6's rexml to 3.1.9.1
+- Update Ruby 2.6's rubygems to 3.0.3.1
+- Update Ruby 2.6's webrick to 1.4.4
+- Update Ruby 2.5's rubygems to 2.7.6.3
+- Update Ruby 2.5's webrick to 1.4.2.1
 
 ### Bundled Gems
 
-- Update Ruby 3.0's rexml, rbs, typeprof
+- Update Ruby 3.0's rexml to 3.2.5
+- Update Ruby 3.0's rbs to 1.0.4
+- Update Ruby 3.0's typeprof to 0.12.0
 
 ## 2.4.1
 
