@@ -6,7 +6,12 @@ Ruby releases 3.0.1, 2.7.3, 2.6.7, 2.5.9
 
 ### Default Gems
 
-TODO
+Update Ruby 3.0's bundler to 2.2.15
+Update Ruby 3.0's io-console to 0.5.7
+Update Ruby 3.0's irb to 1.3.5
+Update Ruby 3.0's reline to 0.2.5
+Update Ruby 3.0's rubygems to 3.2.15
+Update Ruby 3.0's tmpdir to 0.1.2
 
 ### Bundled Gems
 
