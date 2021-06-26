@@ -1,10 +1,8 @@
-body {
-  @include font-feature-settings("kern", "liga", "pnum");
-  -webkit-font-smoothing: antialiased;
-  color: $base-font-color;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+html {
+  color: $font-color--base;
+  font-family: var(--font-family);
+  font-size: 100%;
+  line-height: var(--line-height);
 }
 
 h1,
@@ -13,43 +11,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
-  font-size: $base-font-size;
-  line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  font-family: var(--font-family--heading);
+  font-size: 1.25rem;
+  line-height: var(--line-height--heading);
+  margin: 0 0 var(--spacing--small);
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 var(--spacing--small);
 }
 
 a {
   color: $action-color;
-  text-decoration: none;
-  transition: color 0.1s linear;
+  text-decoration-skip-ink: auto;
+  transition: color var(--duration) var(--timing);
 
-  &:active,
-  &:focus,
   &:hover {
-    color: darken($action-color, 15%);
+    color: $action-color--alt;
   }
 
-  &:active,
   &:focus {
-    outline: none;
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
   }
 }
 
 hr {
-  border-bottom: $base-border;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: $base-spacing 0;
-}
-
-img,
-picture {
-  margin: 0;
-  max-width: 100%;
+  border-bottom: var(--border);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: var(--spacing) 0;
 }
