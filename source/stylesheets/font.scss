@@ -1,3 +1,8 @@
+:root {
+  // Override the value `system-ui, sans-serif` from bitters 2.0.4
+  --font-family: 'Lato', sans-serif;
+}
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';

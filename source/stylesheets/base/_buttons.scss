@@ -1,27 +1,34 @@
-#{$all-button-inputs},
-button {
-  @include appearance(none);
-  -webkit-font-smoothing: antialiased;
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: none;
   background-color: $action-color;
-  border-radius: $base-border-radius;
-  border: none;
-  color: #fff;
+  border: 0;
+  border-radius: var(--border-radius);
+  color: $action-color--contrast;
   cursor: pointer;
   display: inline-block;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-family: var(--font-family-base);
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
-  padding: 0.75em 1em;
+  padding: var(--spacing--small) var(--spacing);
+  text-align: center;
   text-decoration: none;
+  transition: background-color var(--duration) var(--timing);
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
 
-  &:hover,
+  &:hover {
+    background-color: $action-color--alt;
+  }
+
   &:focus {
-    background-color: darken($action-color, 15%);
-    color: #fff;
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
   }
 
   &:disabled {

@@ -1,35 +1,52 @@
-// Typography
-$base-font-family: 'Lato', sans-serif;
-$heading-font-family: $base-font-family;
-
-// Font Sizes
-$base-font-size: 1em;
-
-// Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
-
-// Other Sizes
-$base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
-
 // Colors
-$blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$blue: #1565c0;
+$blue-light: #3b83d5;
+$gray: #333;
+$white: #fff;
 
 // Font Colors
-$base-background-color: #fff;
-$base-font-color: $dark-gray;
+$font-color--base: $gray;
 $action-color: $blue;
+$action-color--alt: $blue-light;
+$action-color--contrast: $white;
 
-// Border
-$base-border-color: $light-gray;
-$base-border: 1px solid $base-border-color;
+// Background Colors
+$viewport-background-color: $white;
 
-// Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+:root {
+  // Typography
+  --font-family: system-ui, sans-serif;
+  --font-family--heading: var(--font-family);
+
+  --font-weight--thin: 100;
+  --font-weight--extra-light: 200;
+  --font-weight--light: 300;
+  --font-weight--normal: 400;
+  --font-weight--medium: 500;
+  --font-weight--semi-bold: 600;
+  --font-weight--bold: 700;
+  --font-weight--extra-bold: 800;
+  --font-weight--black: 900;
+
+  // Line heights
+  --line-height: 1.5;
+  --line-height--heading: 1.2;
+
+  // Other Sizes
+  --border-radius: 0.1875rem;
+  --spacing: 1.5rem;
+  --spacing--small: 0.75rem;
+
+  // Borders
+  --border-width: 0.0625rem;
+  --border: var(--border-width) solid currentColor;
+
+  // Focus
+  --focus-outline-width: 0.1875rem;
+  --focus-outline-offset: 0.125rem;
+  --focus-outline: var(--focus-outline-width) solid #{$action-color};
+
+  // Animations
+  --duration: 150ms;
+  --timing: ease;
+}
