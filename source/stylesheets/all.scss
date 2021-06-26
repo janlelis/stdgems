@@ -22,27 +22,29 @@ $link-color-active: #50102a;
 // #568cc3
 // 2666a9
 
+html {
+  background: #fafafa;
+}
 
 body {
-  background: #fafafa;
   @include outer-container;
 }
 
 code {
-  font-size: $base-font-size * 0.8;
+  font-size: 0.8em;
 }
 
 td, th {
-  font-size: $base-font-size * 0.83;
+  font-size: 0.83em;
   vertical-align: top;
   padding: 0.5em 0.3em;
   code{
-    font-size: $base-font-size * 0.8;
+    font-size: 0.8em;
   }
 }
 
 th {
-  font-size: $base-font-size;
+  font-size: 1em;
   font-weight: normal;
 }
 
