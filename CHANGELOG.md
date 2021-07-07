@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.6.0 (unreleased)
+
+Ruby releases: 3.0.2, 2.7.4, 2.6.8
+
+### Default Gems
+
+- Update Ruby 3.0's bundler to 2.2.22
+- Update Ruby 3.0's net-ftp to 0.1.2
+- Update Ruby 3.0's rdoc to 6.3.1
+- Update Ruby 2.7's rdoc to 6.2.1.1
+- Update Ruby 2.6's rdoc to 6.1.2.1
+
 ## 2.5.0
 
 Ruby releases: 3.0.1, 2.7.3, 2.6.7, 2.5.9
