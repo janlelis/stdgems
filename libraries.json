@@ -11,15 +11,6 @@
       "maintainer": "Yusuke Endoh (mame)"
     },
     {
-      "gem": "expect",
-      "native": false,
-      "autoRequire": false,
-      "description": "Adds [IO#expect](https://ruby-doc.org/stdlib/libdoc/expect/rdoc/IO.html#method-i-expect), which can be used to wait for a specific pattern to be read",
-      "mriSourcePath": "ext/pty/lib/expect.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/expect/rdoc/IO.html",
-      "maintainer": null
-    },
-    {
       "gem": "fiber",
       "native": true,
       "autoRequire": false,
