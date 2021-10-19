@@ -734,7 +734,7 @@
       "gem": "nkf",
       "native": true,
       "autoRequire": false,
-      "description": "[Kanji](https://en.wikipedia.org/wiki/Kanji) encoding converter",
+      "description": "[Kanji](https://en.wikipedia.org/wiki/Kanji) encoding converter. Can also be used via the [Kconv.kconv method](https://github.com/ruby/nkf/blob/master/lib/kconv.rb).",
       "mriSourcePath": "ext/nkf",
       "sourceRepository": "https://github.com/ruby/nkf",
       "rubygemsLink": "https://rubygems.org/gems/nkf",
