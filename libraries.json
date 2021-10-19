@@ -50,7 +50,7 @@
       "gem": "pty",
       "native": true,
       "autoRequire": false,
-      "description": "Manages [pseudo terminals](https://en.wikipedia.org/wiki/Pseudo_terminal)",
+      "description": "Manages [pseudo terminals](https://en.wikipedia.org/wiki/Pseudo_terminal). Also includes the [IO#expect method](https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect) via `require 'expect'`, which can be used to wait for a specific pattern to be read.",
       "mriSourcePath": "ext/pty",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html",
       "maintainer": null
