@@ -832,7 +832,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptParse.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.0": "1.0.0"
+        "3.0": "0.1.0"
       }
     },
     {
