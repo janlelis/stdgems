@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "gems": [
     {
       "gem": "coverage",
@@ -9,15 +9,6 @@
       "mriSourcePath": "ext/coverage",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html",
       "maintainer": "Yusuke Endoh (mame)"
-    },
-    {
-      "gem": "expect",
-      "native": false,
-      "autoRequire": false,
-      "description": "Adds [IO#expect](https://ruby-doc.org/stdlib/libdoc/expect/rdoc/IO.html#method-i-expect), which can be used to wait for a specific pattern to be read",
-      "mriSourcePath": "ext/pty/lib/expect.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/expect/rdoc/IO.html",
-      "maintainer": null
     },
     {
       "gem": "fiber",
@@ -59,7 +50,7 @@
       "gem": "pty",
       "native": true,
       "autoRequire": false,
-      "description": "Manages [pseudo terminals](https://en.wikipedia.org/wiki/Pseudo_terminal)",
+      "description": "Manages [pseudo terminals](https://en.wikipedia.org/wiki/Pseudo_terminal). Also includes the [IO#expect method](https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect) via `require 'expect'`, which can be used to wait for a specific pattern to be read.",
       "mriSourcePath": "ext/pty",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html",
       "maintainer": null

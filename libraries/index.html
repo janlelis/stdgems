@@ -46,11 +46,6 @@ document.addEventListener('DOMContentLoaded', function(){
       <td><a href="https://github.com/ruby/ruby/tree/master/ext/coverage">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html">RDoc</a></td>
     </tr>
     <tr>
-      <td>expect</td>
-      <td>Adds <a href="https://ruby-doc.org/stdlib/libdoc/expect/rdoc/IO.html#method-i-expect">IO#expect</a>, which can be used to wait for a specific pattern to be read</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/pty/lib/expect.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/expect/rdoc/IO.html">RDoc</a></td>
-    </tr>
-    <tr>
       <td>fiber <strong>c</strong></td>
       <td>Adds <a href="https://ruby-doc.org/core/Fiber.html#method-i-transfer">Fiber#transfer</a> and <a href="https://ruby-doc.org/core/Fiber.html#method-i-alive-3F">Fiber#alive?</a></td>
       <td><a href="https://github.com/ruby/ruby/tree/master/ext/fiber">CRuby</a>, <a href="https://ruby-doc.org/core/Fiber.html">RDoc</a></td>
@@ -72,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function(){
     </tr>
     <tr>
       <td>pty <strong>c</strong></td>
-      <td>Manages <a href="https://en.wikipedia.org/wiki/Pseudo_terminal">pseudo terminals</a></td>
+      <td>Manages <a href="https://en.wikipedia.org/wiki/Pseudo_terminal">pseudo terminals</a>. Also includes the <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect">IO#expect method</a> via <code>require 'expect'</code>, which can be used to wait for a specific pattern to be read.</td>
       <td><a href="https://github.com/ruby/ruby/tree/master/ext/pty">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html">RDoc</a></td>
     </tr>
     <tr>
