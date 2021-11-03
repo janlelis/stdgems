@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.6.1
+
+- Fix optparse version on Ruby 3.0 #9
+- Remove expect from list of standard libraries, since it is
+  part of pty #7; Add note explaining this
+
 ## 2.6.0
 
 Ruby releases: 3.0.2, 2.7.4, 2.6.8
