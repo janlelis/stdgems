@@ -127,7 +127,7 @@
       "mriSourcePath": "lib/cmath.rb",
       "sourceRepository": "https://github.com/ruby/cmath",
       "rubygemsLink": "https://rubygems.org/gems/cmath",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/cmath/rdoc/CMath.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/cmath/rdoc/CMath.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -301,7 +301,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/e2mmap",
       "rubygemsLink": "https://rubygems.org/gems/e2mmap",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "removed": true,
       "versions": {
@@ -651,7 +651,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/matrix",
       "rubygemsLink": "https://rubygems.org/gems/matrix",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html",
       "maintainer": "Marc-André Lafortune (marcandre)",
       "removed": true,
       "versions": {
@@ -685,7 +685,7 @@
       "mriSourcePath": "lib/net/ftp.rb",
       "sourceRepository": "https://github.com/ruby/net-ftp",
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/ftp/rdoc/Net/FTP.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/ftp/rdoc/Net/FTP.html",
       "maintainer": "Shugo Maeda (shugo)",
       "removed": true,
       "versions": {
@@ -721,7 +721,7 @@
       "mriSourcePath": "lib/net/imap.rb",
       "sourceRepository": "https://github.com/ruby/net-imap",
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/imap/rdoc/Net/IMAP.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/imap/rdoc/Net/IMAP.html",
       "maintainer": "Shugo Maeda (shugo)",
       "removed": true,
       "versions": {
@@ -736,7 +736,7 @@
       "mriSourcePath": "lib/net/pop.rb",
       "sourceRepository": "https://github.com/ruby/net-pop",
       "rubygemsLink": "https://rubygems.org/gems/net-pop",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/pop/rdoc/Net/POP3.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -767,7 +767,7 @@
       "mriSourcePath": "lib/net/smtp.rb",
       "sourceRepository": "https://github.com/ruby/net-smtp",
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/Net/SMTP.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/smtp/rdoc/Net/SMTP.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -957,7 +957,7 @@
       "mriSourcePath": "lib/prime.rb",
       "sourceRepository": "https://github.com/ruby/prime",
       "rubygemsLink": "https://rubygems.org/gems/prime",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prime/rdoc/Prime.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html",
       "maintainer": "Marc-André Lafortune (marcandre)",
       "removed": true,
       "versions": {
@@ -1193,7 +1193,7 @@
       "mriSourcePath": "lib/rexml",
       "sourceRepository": "https://github.com/ruby/rexml",
       "rubygemsLink": "https://rubygems.org/gems/rexml",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.7/libdoc/rexml/rdoc/REXML.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "removed": true,
       "versions": {
@@ -1238,7 +1238,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/rss",
       "rubygemsLink": "https://rubygems.org/gems/rss",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.7/libdoc/rss/rdoc/RSS.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/rss/rdoc/RSS.html",
       "maintainer": "Kouhei Sutou (kou)",
       "removed": true,
       "versions": {
@@ -1331,7 +1331,7 @@
       "mriSourcePath": "lib/scanf.rb",
       "sourceRepository": "https://github.com/ruby/scanf",
       "rubygemsLink": "https://rubygems.org/gems/scanf",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/scanf/rdoc/Scanf.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/scanf/rdoc/Scanf.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -1347,7 +1347,7 @@
       "mriSourcePath": "ext/sdbm",
       "sourceRepository": "https://github.com/ruby/sdbm",
       "rubygemsLink": "https://rubygems.org/gems/sdbm",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.7/libdoc/sdbm/rdoc/SDBM.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/sdbm/rdoc/SDBM.html",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "removed": true,
       "versions": {
@@ -1400,7 +1400,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/shell",
       "rubygemsLink": "https://rubygems.org/gems/shell",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/shell/rdoc/Shell.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/shell/rdoc/Shell.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -1482,7 +1482,7 @@
       "mriSourcePath": "lib/sync.rb",
       "sourceRepository": "https://github.com/ruby/sync",
       "rubygemsLink": "https://rubygems.org/gems/sync",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/sync/rdoc/Sync_m.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/sync/rdoc/Sync_m.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -1530,7 +1530,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/thwait",
       "rubygemsLink": "https://rubygems.org/gems/thwait",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.6/libdoc/thwait/rdoc/ThWait.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/thwait/rdoc/ThWait.html",
       "maintainer": null,
       "removed": true,
       "versions": {
@@ -1681,7 +1681,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/webrick",
       "rubygemsLink": "https://rubygems.org/gems/webrick",
-      "rdocLink": "https://ruby-doc.org/stdlib-2.7/libdoc/webrick/rdoc/WEBrick.html",
+      "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
       "notes": "**Please note:** Despite the gemspec stating otherwise, the webrick version included with Ruby might be more recent than version 1.4.2. For example, the webrick included in Ruby 2.6.5, 2.5.7, 2.4.9, and 2.4.8 does include security fixes for CVE-2019-16201 and CVE-2019-16254.",
       "removed": true,
