@@ -1,6 +1,8 @@
 # Change Log
 
-## Next (unreleased)
+## 2.7.0
+
+Ruby release: 3.0.0-preview1
 
 - Update Ruby 3.1's (preview) bundled gems
   - Add new debug gem
