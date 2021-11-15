@@ -10,6 +10,8 @@
   - Add metadata for did_you_mean, drb, pathname, pp,
     prettyprint, readline, readline-ext, reline, resolv,
     resolv-replace, un, win32ole
+- Other Ruby 3.1 changes:
+  - Remove fiber standard library (built-in now)
 
 ## 2.6.1
 
