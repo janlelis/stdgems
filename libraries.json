@@ -1,5 +1,5 @@
 {
-  "version": "2.6.1",
+  "version": "2.7.0",
   "gems": [
     {
       "gem": "coverage",
@@ -9,15 +9,6 @@
       "mriSourcePath": "ext/coverage",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html",
       "maintainer": "Yusuke Endoh (mame)"
-    },
-    {
-      "gem": "fiber",
-      "native": true,
-      "autoRequire": false,
-      "description": "Adds [Fiber#transfer](https://ruby-doc.org/core/Fiber.html#method-i-transfer) and [Fiber#alive?](https://ruby-doc.org/core/Fiber.html#method-i-alive-3F)",
-      "mriSourcePath": "ext/fiber",
-      "rdocLink": "https://ruby-doc.org/core/Fiber.html",
-      "maintainer": "Koichi Sasada (ko1)"
     },
     {
       "gem": "mkmf",
