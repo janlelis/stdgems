@@ -342,6 +342,23 @@
       }
     },
     {
+      "gem": "error_highlight",
+      "native": false,
+      "autoRequire": true,
+      "description": "Improves error messages with additional debug info",
+      "mriSourcePath": [
+        "lib/error_highlight.rb",
+        "lib/error_highlight"
+      ],
+      "sourceRepository": "https://github.com/ruby/error_highlight",
+      "rubygemsLink": "https://rubygems.org/gems/error_highlight",
+      "rdocLink": null,
+      "maintainer": null,
+      "versions": {
+        "3.1": "0.2.0"
+      }
+    },
+    {
       "gem": "etc",
       "native": true,
       "autoRequire": false,

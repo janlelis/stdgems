@@ -6,6 +6,7 @@
   - Add new debug gem
   - Move matrix, prime, and some net-* from default to bundled
 - Update Ruby 3.1's (preview) default gems
+  - Add error_highlight gem
   - Remove tracer, dbm, and gdbm
   - Add metadata for did_you_mean, drb, pathname, pp,
     prettyprint, readline, readline-ext, reline, resolv,
