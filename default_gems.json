@@ -109,7 +109,6 @@
       "rubygemsLink": "https://rubygems.org/gems/cgi",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html",
       "maintainer": [
-        "Takeyuki Fujioka (xibbar)",
         "Nobuyoshi Nakada (nobu) — native code"
       ],
       "notes": "Only the escape utilities are implemented as native extension.",
