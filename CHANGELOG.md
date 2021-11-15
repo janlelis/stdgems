@@ -1,5 +1,11 @@
 # Change Log
 
+## Next (unreleased)
+
+- Update Ruby 3.1's (preview) bundled gems
+    - Add new debug gem
+    - Move matrix, prime, and some net-* from default to bundled
+
 ## 2.6.1
 
 - Fix optparse version on Ruby 3.0 #9

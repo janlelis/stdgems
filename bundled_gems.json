@@ -2,11 +2,23 @@
   "version": "2.6.1",
   "gems": [
     {
+      "gem": "debug",
+      "native": true,
+      "autoRequire": false,
+      "description": "Command-line [debugger](https://en.wikipedia.org/wiki/Debugger)",
+      "sourceRepository": "https://github.com/ruby/debug",
+      "rubygemsLink": "https://rubygems.org/gems/debug",
+      "notes": "This gem, which is bundled with Ruby 3.1 and later, is a new debugger that supersedes the old debug standard library/gem",
+      "versions": {
+        "3.1": "1.3.4"
+      }
+    },
+    {
       "gem": "did_you_mean",
       "native": false,
       "autoRequire": true,
       "description": "Patches error messages to suggest correct spelling of methods/classes/variables",
-      "sourceRepository": "https://github.com/yuki24/did_you_mean",
+      "sourceRepository": "https://github.com/ruby/did_you_mean",
       "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
       "versions": {
@@ -17,6 +29,17 @@
       }
     },
     {
+      "gem": "matrix",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for [matrices](https://en.wikipedia.org/wiki/Matrix_%28mathematics%29)",
+      "sourceRepository": "https://github.com/ruby/matrix",
+      "rubygemsLink": "https://rubygems.org/gems/matrix",
+      "versions": {
+        "3.1": "0.4.2"
+      }
+    },
+    {
       "gem": "minitest",
       "native": false,
       "autoRequire": false,
@@ -24,6 +47,7 @@
       "sourceRepository": "https://github.com/seattlerb/minitest",
       "rubygemsLink": "https://rubygems.org/gems/minitest",
       "versions": {
+        "3.1": "5.14.4",
         "3.0": "5.14.2",
         "2.7": "5.13.0",
         "2.6": "5.11.3",
@@ -33,6 +57,50 @@
         "2.3.1": "5.8.3",
         "2.3.0": "5.8.3",
         "2.2": "5.4.3"
+      }
+    },
+    {
+      "gem": "net-ftp",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for FTP ([File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol))",
+      "sourceRepository": "https://github.com/ruby/net-ftp",
+      "rubygemsLink": "https://rubygems.org/gems/net-ftp",
+      "versions": {
+        "3.1":   "0.1.3"
+      }
+    },
+    {
+      "gem": "net-imap",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for IMAP ([Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol))",
+      "sourceRepository": "https://github.com/ruby/net-imap",
+      "rubygemsLink": "https://rubygems.org/gems/net-imap",
+      "versions": {
+        "3.1": "0.2.2"
+      }
+    },
+    {
+      "gem": "net-pop",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for POP3 ([Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol))",
+      "sourceRepository": "https://github.com/ruby/net-pop",
+      "rubygemsLink": "https://rubygems.org/gems/net-pop",
+      "versions": {
+        "3.1": "0.1.1"
+      }
+    },
+    {
+      "gem": "net-smtp",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for SMTP ([Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol))",
+      "sourceRepository": "https://github.com/ruby/net-smtp",
+      "rubygemsLink": "https://rubygems.org/gems/net-smtp",
+      "versions": {
+        "3.1": "0.3.0"
       }
     },
     {
@@ -52,6 +120,17 @@
       }
     },
     {
+      "gem": "prime",
+      "native": false,
+      "autoRequire": false,
+      "description": "Access to prime numbers and prime factorization",
+      "sourceRepository": "https://github.com/ruby/prime",
+      "rubygemsLink": "https://rubygems.org/gems/prime",
+      "versions": {
+        "3.1": "0.1.2"
+      }
+    },
+    {
       "gem": "power_assert",
       "native": false,
       "autoRequire": false,
@@ -59,6 +138,8 @@
       "sourceRepository": "https://github.com/ruby/power_assert",
       "rubygemsLink": "https://rubygems.org/gems/power_assert",
       "versions": {
+        "3.1":   "2.0.1",
+
         "3.0":   "1.2.0",
 
         "2.7":   "1.1.7",
@@ -79,6 +160,8 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "versions": {
+        "3.1":   "13.0.6",
+
         "3.0":   "13.0.3",
 
         "2.7":   "13.0.1",
@@ -114,6 +197,8 @@
       "sourceRepository": "https://github.com/ruby/rbs",
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "versions": {
+        "3.1":   "1.7.0",
+
         "3.0":   "1.0.4",
         "3.0.0": "1.0.0"
       }
@@ -126,6 +211,8 @@
       "sourceRepository": "https://github.com/ruby/rexml",
       "rubygemsLink": "https://rubygems.org/gems/rexml",
       "versions": {
+        "3.1":   "3.2.5",
+
         "3.0":   "3.2.5",
         "3.0.0": "3.2.4"
       }
@@ -138,6 +225,7 @@
       "sourceRepository": "https://github.com/ruby/rss",
       "rubygemsLink": "https://rubygems.org/gems/rss",
       "versions": {
+        "3.1": "0.2.9",
         "3.0": "0.2.9"
       }
     },
@@ -149,6 +237,7 @@
       "sourceRepository": "https://github.com/test-unit/test-unit",
       "rubygemsLink": "https://rubygems.org/gems/test-unit",
       "versions": {
+        "3.1": "3.5.1",
         "3.0": "3.3.8",
         "2.7": "3.3.4",
         "2.6": "3.2.9",
@@ -166,6 +255,8 @@
       "sourceRepository": "https://github.com/ruby/typeprof",
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
       "versions": {
+        "3.1":   "0.20.3",
+
         "3.0":   "0.12.0",
         "3.0.0": "0.11.0"
       }

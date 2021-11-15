@@ -205,6 +205,8 @@
       "rubygemsLink": null,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/debug/rdoc/DEBUGGER__.html",
       "maintainer": null,
+      "removed": true,
+      "notes": "Replaced by a new debugger library with the same name",
       "versions": {
         "3.0": "0.1.0"
       }
@@ -616,6 +618,7 @@
       "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/matrix/rdoc/index.html",
       "maintainer": "Marc-André Lafortune (marcandre)",
+      "removed": true,
       "versions": {
         "3.0": "0.3.1",
         "2.7": "0.2.0",
@@ -648,6 +651,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/ftp/rdoc/Net/FTP.html",
       "maintainer": "Shugo Maeda (shugo)",
+      "removed": true,
       "versions": {
         "3.0":   "0.1.2",
         "3.0.1": "0.1.1",
@@ -682,6 +686,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/imap/rdoc/Net/IMAP.html",
       "maintainer": "Shugo Maeda (shugo)",
+      "removed": true,
       "versions": {
         "3.0": "0.1.1"
       }
@@ -696,6 +701,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-pop",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/Net/POP3.html",
       "maintainer": null,
+      "removed": true,
       "versions": {
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -725,6 +731,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/Net/SMTP.html",
       "maintainer": null,
+      "removed": true,
       "versions": {
         "3.0": "0.2.1",
         "2.7": "0.1.0"
@@ -903,6 +910,7 @@
       "rubygemsLink": "https://rubygems.org/gems/prime",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prime/rdoc/Prime.html",
       "maintainer": "Marc-André Lafortune (marcandre)",
+      "removed": true,
       "versions": {
         "3.0": "0.1.2",
         "2.7": "0.1.1",
