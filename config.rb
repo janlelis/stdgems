@@ -1,5 +1,4 @@
 require "json"
-require "latest_ruby"
 
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
@@ -18,7 +17,6 @@ CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/master/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-# CURRENT_RUBY_VERSION = Latest.ruby.version.to_s
 CURRENT_RUBY_VERSION = '3.0.2'
 
 RUBY_3_1_VERSIONS = %w[
