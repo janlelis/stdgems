@@ -10,12 +10,7 @@ GEM
     binding.repl (3.0.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bitters (2.0.4)
-      thor (~> 1.0)
     bond (0.5.1)
-    bourbon (4.2.6)
-      sass (~> 3.4)
-      thor (~> 0.19)
     builder (3.2.2)
     cd (1.0.1)
     celluloid (0.16.0)
@@ -136,9 +131,6 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
-    neat (1.7.2)
-      bourbon (>= 4.0)
-      sass (>= 3.3)
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
     ori (0.1.0)
@@ -192,14 +184,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitters
-  bourbon
   builder
   irbtools-more
   latest_ruby
   middleman (~> 3.3.10)
   middleman-gh-pages
-  neat
   nokogiri
 
 BUNDLED WITH
