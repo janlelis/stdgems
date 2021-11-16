@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.10"
+gem "middleman", "~>3.4.1"
 gem "middleman-gh-pages"
 gem "builder"
 gem "nokogiri"
