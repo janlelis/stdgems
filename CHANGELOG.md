@@ -1,5 +1,23 @@
 # Change Log
 
+## 2.8.0 (unreleased)
+
+Ruby releases: 3.0.3, 2.7.5, 2.6.9
+
+### Default Gems
+
+- Update Ruby 3.0's bundler, cgi, date, debug, drb, etc,
+  fcntl, fiddle, io-wait, net-protocol, openssl, optparse,
+  pp, psych, racc, rdoc, resolv, rinda, rubygems, stringio,
+  strscan, zlib
+- Update Ruby 2.7's cgi, date, openssl
+- Update Ruby 2.6's date
+
+### Bundled Gems
+
+- Update Ruby 3.0's typeprof to 0.15.2
+- Update Ruby 3.0's rbs to 1.4.0
+
 ## 2.7.0
 
 Ruby release: 3.0.0-preview1
