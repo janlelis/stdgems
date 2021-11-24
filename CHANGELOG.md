@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.8.0 (unreleased)
+## 2.8.0
 
 Ruby releases: 3.0.3, 2.7.5, 2.6.9
 
