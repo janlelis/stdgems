@@ -121,6 +121,7 @@ MATRIX_SUPPORTED_RUBY_VERSIONS = \
   RUBY_3_0_VERSIONS[0,3] +
   RUBY_2_7_VERSIONS[0,3] +
   RUBY_2_6_VERSIONS[0,3]
+MATRIX_ALL_VERSIONS = LISTED_RUBY_VERSIONS
 
 STATS = {
   total_count: DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size + LIBRARIES_JSON.size,
@@ -335,6 +336,14 @@ helpers do
 
   def bundled_gems_supported_version_matrix
     version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS, "Bundled Gem")
+  end
+
+  def default_gems_all_matrix
+    version_matrix_for(DEFAULT_GEMS_JSON, MATRIX_ALL_VERSIONS, "Default Gem")
+  end
+
+  def bundled_gems_all_matrix
+    version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_ALL_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_3_0
