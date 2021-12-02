@@ -1,0 +1,172 @@
+$border: 1px solid #393939;
+$article-padding: 1.6rem;
+$action: #e9573f;
+$action-2: #4988ea;
+$hover: #d7d7d7;
+$mobile: 1000px;
+$max-line-width: 1200px;
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px solid black;
+}
+
+html {
+  scroll-padding-top: 1rem;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background: #fdfff2;
+}
+
+.world {
+  margin: 0;
+  padding: 2rem 1.6rem 1rem 1.6rem;
+}
+
+article > p {
+  max-width: $max-line-width;
+}
+
+a {
+  text-decoration: none;
+  color: $action-2;
+  &:visited {
+    color: $action;
+  }
+  &:hover {
+    background: $hover;
+    border-radius: 1px;
+  }
+}
+
+code {
+  background: white;
+  color: $action;
+  border: 1px solid #b5b5b5;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  a, a:visited {
+    color: black;
+    &:hover {
+      background: none;
+    }
+  }
+  &.table-caption {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+h3 {
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+li {
+  margin: 0;
+  margin-bottom: 0.4rem;
+  padding-left: 0.2rem;
+}
+
+table {
+  background: transparent;
+  border-spacing: 0;
+  border-bottom: 2px solid $action;
+  min-width: calc(100% + 2*#{$article-padding});
+  margin-top: 0;
+  margin-bottom: 4rem;
+  margin-left: -#{$article-padding};
+  td, th {
+    background: white;
+    margin: 0;
+    padding: 0.8rem 1.2rem;
+    text-align: left;
+    text-align: left;
+    vertical-align: top;
+    z-index: 50;
+    &:first-child, {
+      white-space: nowrap;
+      padding-left: $article-padding;
+    }
+    &:last-child {
+      border-right: none;
+    }
+  }
+  th {
+    background: $action;
+    color: white;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    z-index: 60;
+    &:first-child {
+      z-index: 70;
+    }
+  }
+
+  tr:nth-child(odd) td {
+    background: #f4f4f4;
+  }
+
+  tr:nth-child(even) td {
+    background: #ffffff;
+  }
+}
+
+.post-header {
+  background: $action;
+  color: white;
+  margin: -2rem -#{$article-padding} 3rem -#{$article-padding};
+  padding: $article-padding/2 $article-padding;
+  display: flex;
+  align-items: center;
+
+  .ruby {
+    flex-basis: 3rem;
+    flex-shrink: 0;
+    img {
+      width: 100%;
+    }
+    &:hover {
+      background: none;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    margin-left: $article-padding;
+    margin-right: 4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
