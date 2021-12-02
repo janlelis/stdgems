@@ -92,7 +92,7 @@ GEM
     looksee (4.4.0)
     memoist (0.16.2)
     method_source (1.0.0)
-    methodfinder (2.2.2)
+    methodfinder (2.2.3)
     middleman (4.4.2)
       coffee-script (~> 2.2)
       haml (>= 4.0.5)
@@ -128,6 +128,9 @@ GEM
       webrick
     middleman-gh-pages (0.4.1)
       rake (> 0.9.3)
+    middleman-sprockets (4.1.1)
+      middleman-core (~> 4.0)
+      sprockets (>= 3.0)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     nokogiri (1.12.5)
@@ -157,11 +160,19 @@ GEM
     ruby_engine (1.0.1)
     ruby_info (1.0.1)
     ruby_version (1.0.2)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
     spoon (0.0.6)
       ffi
+    sprockets (3.7.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
@@ -186,8 +197,11 @@ DEPENDENCIES
   irbtools-more
   middleman (~> 4.4.2)
   middleman-gh-pages
+  middleman-sprockets (~> 4.1.1)
   nokogiri
   rake
+  sass
+  sprockets (~> 3.7)
 
 BUNDLED WITH
    2.2.31

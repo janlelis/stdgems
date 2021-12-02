@@ -1,5 +1,6 @@
 require "json"
 
+activate :sprockets
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
 
@@ -226,7 +227,7 @@ helpers do
       res << "[RDoc](#{gem_info["rdocLink"]})"
     end
 
-    res.join(", ")
+    res.join(" · ")
   end
 
   def gem_list_for(source, ruby_version)
@@ -277,10 +278,10 @@ helpers do
     ].compact.join(" | ")
   end
 
-  def version_matrix_for(source, ruby_versions = MATRIX_RUBY_VERSIONS)
+  def version_matrix_for(source, ruby_versions, label)
     (
       [
-        ["Gem"] + ruby_versions,
+        [label] + ruby_versions,
         ["--"] * (ruby_versions.size + 1),
       ] + source.map{ |gem_info|
         [
@@ -321,75 +322,75 @@ helpers do
   end
 
   def default_gems_version_matrix
-    version_matrix_for(DEFAULT_GEMS_JSON)
+    version_matrix_for(DEFAULT_GEMS_JSON, MATRIX_RUBY_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix
-    version_matrix_for(BUNDLED_GEMS_JSON)
+    version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_RUBY_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_supported_version_matrix
-    version_matrix_for(DEFAULT_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_supported_version_matrix
-    version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_SUPPORTED_RUBY_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_3_0
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_3_0_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_3_0_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_3_0
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_3_0_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_3_0_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_2_7
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_7_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_7_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_2_7
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_7_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_7_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_2_6
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_6_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_6_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_2_6
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_6_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_6_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_2_5
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_5_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_5_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_2_5
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_5_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_5_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_2_4
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_4_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_4_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_2_4
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_4_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_4_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_2_3
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_3_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_3_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_2_3
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_3_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_3_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_2_2
-    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_2_VERSIONS)
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_2_2_VERSIONS, "Default Gem")
   end
 
   def bundled_gems_version_matrix_2_2
-    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_2_VERSIONS)
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_2_2_VERSIONS, "Bundled Gem")
   end
 
   def new_default_gems_in(ruby_version)
@@ -596,7 +597,7 @@ helpers do
 
   def heading(current_page, gem_info = nil, ruby_version = nil)
     current_page.data.heading ||
-    gem_info && "Gem:<br/>#{ gem_info["gem"] }" ||
+    gem_info && "#{ gem_info["gem"] } Gem" ||
     ruby_version && "Standard Gems #{ruby_version}" ||
     "Ruby Standard Gems"
   end

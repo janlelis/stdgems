@@ -8,12 +8,13 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="description" content="Ruby's standard library is divided into default and bundled gems"/>
     <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+    <link rel="shortcut icon" href="/images/stdgems.favicon.png">
 
     <script>
 document.addEventListener('DOMContentLoaded', function(){
   ['h2', 'h3'].forEach(function(h){
     document.querySelectorAll(h).forEach(function(e){
-      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+      e.innerHTML = '<a href="#' + e.id + '">' + e.innerHTML + '</a>'
     })
   })
 })
@@ -23,12 +24,11 @@ document.addEventListener('DOMContentLoaded', function(){
   <body>
     <div class="world">
       <section class="post-header">
-        <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top"><%= heading(current_page, defined?(gem_info) && gem_info, defined?(ruby_version) && ruby_version) %></a></h1>
+        <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top"><%= heading(current_page, defined?(gem_info) && gem_info, defined?(ruby_version) && ruby_version) %></h1>
       </section>
 
      	<article class="post"><%= yield.sub(%r_<h1.*?</h1>_, '') %></article>
     </div>
-    <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
   </body>
 </html>
