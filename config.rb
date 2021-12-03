@@ -178,10 +178,10 @@ def hybrid_bundled_gems_json
 end
 
 def build_all_pages!
-  build_gem_pages_for! hybrid_default_gems_json, "hybrid_default"
-  build_gem_pages_for! hybrid_bundled_gems_json, "hybrid_bundled"
   build_gem_pages_for! DEFAULT_GEMS_JSON, "default"
   build_gem_pages_for! BUNDLED_GEMS_JSON, "bundled"
+  build_gem_pages_for! hybrid_default_gems_json, "hybrid_default"
+  build_gem_pages_for! hybrid_bundled_gems_json, "hybrid_bundled"
   build_version_pages!
   build_version_redirects!
 end
@@ -541,7 +541,7 @@ helpers do
 
     if gem_info["maintainer"]
       res << ["Current maintainer#{ gem_info["maintainer"].is_a?(Array) ? '(s)' : '' }: " + Array(gem_info["maintainer"]).join(", ")]
-    elsif gem_type != "bundled" && !gem_info["removed"]
+    elsif gem_type != "bundled" && gem_type != "hybrid_bundled" && !gem_info["removed"]
       res << ["This library is currently **unmaintained**"]
     end
 
@@ -552,6 +552,13 @@ helpers do
         "- #{ line[0] }"
       end
     }.join("\n")
+  end
+
+  def gem_notes(gem_info, gem_type)
+    gem_info = gem_info["default"] if gem_type == "hybrid_default"
+    gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
+
+    gem_info["notes"]
   end
 
   def gem_details_versions_list(gem_info)

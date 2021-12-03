@@ -10,10 +10,10 @@
 
 <%= gem_details(gem_info, gem_type) %>
 
-<% if gem_info["notes"] %>
+<% if gem_notes(gem_info, gem_type) %>
 ## Notes
 
-<%= gem_info["notes"] %>
+<%= gem_notes(gem_info, gem_type) %>
 <% end %>
 
 ## Gem Version
