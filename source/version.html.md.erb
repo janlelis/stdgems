@@ -3,17 +3,17 @@
 ## Default Gems
 {:.table-caption}
 
-Default Gem | Version | Description | Resources
-------------|---------|-------------|----------
+Default Gem | <%= ruby_version %> | <%= ruby_prev_version(ruby_version) %> | Description | Resources
+------------|---------------------|----------------------------------------|-------------|----------
 <%= default_gems_list(ruby_version) %>
-{:.table-20-10-45-X}
+{:.table-12-7-7-45-X}
 
 ## Bundled Gems
 {:.table-caption}
 
-Bundled Gem | Version | Description | Resources
-------------|---------|-------------|----------
+Bundled Gem | <%= ruby_version %> | <%= ruby_prev_version(ruby_version) %> | Description | Resources
+------------|---------------------|----------------------------------------|-------------|----------
 <%= bundled_gems_list(ruby_version) %>
-{:.table-20-10-45-X}
+{:.table-12-7-7-45-X}
 
 <%= partial 'footer' %>
