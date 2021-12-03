@@ -1,0 +1,909 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Standard Gems</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" />
+
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Ruby's standard library is divided into default and bundled gems"/>
+    <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+    <link rel="shortcut icon" href="/images/stdgems.favicon.png">
+
+    <script>
+document.addEventListener('DOMContentLoaded', function(){
+  ['h2', 'h3'].forEach(function(h){
+    document.querySelectorAll(h).forEach(function(e){
+      e.innerHTML = '<a href="#' + e.id + '">' + e.innerHTML + '</a>'
+    })
+  })
+})
+    </script>
+  </head>
+
+  <body>
+    <div class="world">
+      <section class="post-header">
+        <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top">Ruby Standard Gems</h1>
+      </section>
+
+     	<article class="post">
+
+<h2 id="section">3.0.0</h2>
+
+<h3 id="website-updates">Website Updates</h3>
+
+<ul>
+  <li>New website design</li>
+  <li>Gem version tables for a Ruby version now include an extra
+column with the gem version included in the previous Ruby
+version for quicker comparisons</li>
+  <li>Fix gems that appear as both, bundled and default gems</li>
+  <li>Remove Ruby 2.5 from supported Rubies table</li>
+  <li>Add new ALL VERSIONS table which includes every standard
+gem version of every Ruby since 2.2.0.</li>
+  <li>Add ChangeLog to website</li>
+</ul>
+
+<h3 id="gem-updates">Gem Updates</h3>
+
+<ul>
+  <li>Update Ruby 3.1's (preview) bundled &amp; default gems</li>
+</ul>
+
+<h2 id="section-1">2.8.0</h2>
+
+<p>Ruby releases: 3.0.3, 2.7.5, 2.6.9</p>
+
+<h3 id="default-gems">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 3.0's bundler, cgi, date, debug, drb, etc,
+fcntl, fiddle, io-wait, net-protocol, openssl, optparse,
+pp, psych, racc, rdoc, resolv, rinda, rubygems, stringio,
+strscan, zlib</li>
+  <li>Update Ruby 2.7's cgi, date, openssl</li>
+  <li>Update Ruby 2.6's date</li>
+</ul>
+
+<h3 id="bundled-gems">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 3.0's typeprof to 0.15.2</li>
+  <li>Update Ruby 3.0's rbs to 1.4.0</li>
+</ul>
+
+<h2 id="section-2">2.7.0</h2>
+
+<p>Ruby release: 3.0.0-preview1</p>
+
+<ul>
+  <li>Update Ruby 3.1's (preview) bundled gems
+    <ul>
+      <li>Add new debug gem</li>
+      <li>Move matrix, prime, and some net-* from default to bundled</li>
+    </ul>
+  </li>
+  <li>Update Ruby 3.1's (preview) default gems
+    <ul>
+      <li>Add error_highlight gem</li>
+      <li>Remove tracer, dbm, and gdbm</li>
+      <li>Add metadata for did_you_mean, drb, pathname, pp,
+prettyprint, readline, readline-ext, reline, resolv,
+resolv-replace, un, win32ole</li>
+    </ul>
+  </li>
+  <li>Other Ruby 3.1 changes:
+    <ul>
+      <li>Remove fiber standard library (built-in now)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="section-3">2.6.1</h2>
+
+<ul>
+  <li>Fix optparse version on Ruby 3.0 #9</li>
+  <li>Remove expect from list of standard libraries, since it is
+part of pty #7; Add note explaining this</li>
+</ul>
+
+<h2 id="section-4">2.6.0</h2>
+
+<p>Ruby releases: 3.0.2, 2.7.4, 2.6.8</p>
+
+<h3 id="default-gems-1">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 3.0's bundler to 2.2.22</li>
+  <li>Update Ruby 3.0's net-ftp to 0.1.2</li>
+  <li>Update Ruby 3.0's rdoc to 6.3.1</li>
+  <li>Update Ruby 2.7's rdoc to 6.2.1.1</li>
+  <li>Update Ruby 2.6's rdoc to 6.1.2.1</li>
+</ul>
+
+<h2 id="section-5">2.5.0</h2>
+
+<p>Ruby releases: 3.0.1, 2.7.3, 2.6.7, 2.5.9</p>
+
+<h3 id="default-gems-2">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 3.0's bundler to 2.2.15</li>
+  <li>Update Ruby 3.0's io-console to 0.5.7</li>
+  <li>Update Ruby 3.0's irb to 1.3.5</li>
+  <li>Update Ruby 3.0's reline to 0.2.5</li>
+  <li>Update Ruby 3.0's rubygems to 3.2.15</li>
+  <li>Update Ruby 3.0's tmpdir to 0.1.2</li>
+  <li>Update Ruby 2.7's rexml to 3.2.3.1</li>
+  <li>Update Ruby 2.7's rubygems to 3.1.6</li>
+  <li>Update Ruby 2.7's webrick to 1.6.1</li>
+  <li>Update Ruby 2.6's rexml to 3.1.9.1</li>
+  <li>Update Ruby 2.6's rubygems to 3.0.3.1</li>
+  <li>Update Ruby 2.6's webrick to 1.4.4</li>
+  <li>Update Ruby 2.5's rubygems to 2.7.6.3</li>
+  <li>Update Ruby 2.5's webrick to 1.4.2.1</li>
+</ul>
+
+<h3 id="bundled-gems-1">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 3.0's rexml to 3.2.5</li>
+  <li>Update Ruby 3.0's rbs to 1.0.4</li>
+  <li>Update Ruby 3.0's typeprof to 0.12.0</li>
+</ul>
+
+<h2 id="section-6">2.4.1</h2>
+
+<ul>
+  <li>Remove kconv from list of standard libraries, since it is
+part of nkf #6</li>
+</ul>
+
+<h2 id="section-7">2.4.0</h2>
+
+<ul>
+  <li>Ruby release: 3.0.0</li>
+</ul>
+
+<h3 id="default-gems-3">Default Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 final updates:
+benchmark, bundler, cgi, date, delegate, did_you_mean, english,
+etc, fiddle, fileutils, forwardable, getoptlong, irb, json,
+logger, mutex_m, net-ftp, net-http, net-imap, net-pop, observer,
+open3, pstore, psych, rdoc, reline, resolv, rubygems, set,
+singleton, tempfile, timeout, tmpdir, tracer, weakref, yaml</li>
+</ul>
+
+<h3 id="bundled-gems-2">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 final updates:
+rake, test-unit, typeprof</li>
+</ul>
+
+<h2 id="section-8">2.3.0</h2>
+
+<ul>
+  <li>Ruby release: 3.0.0-rc1</li>
+</ul>
+
+<h3 id="default-gems-4">Default Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 rc1 additional updates:
+bigdecimal, bundler, digest, fiddle, irb, json, matrix,
+prime, psych, reline, stringio, strscan</li>
+  <li>Ruby 3.0 rc1 additional gemifications:
+debug, digest, drb, pathname, pp, prettyprint,
+un, win32ole</li>
+  <li>Ruby 3.0 rc1 additional removals:
+webrick</li>
+  <li>Maintainer updates: irb, prime</li>
+</ul>
+
+<h3 id="bundled-gems-3">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 rc1 additional updates:
+rake, rbs, typeprof</li>
+</ul>
+
+<h2 id="section-9">2.2.0</h2>
+
+<ul>
+  <li>Ruby release: 3.0.0-preview2</li>
+</ul>
+
+<h3 id="default-gems-5">Default Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 preview2 additional updates:
+csv, fiddle, net-smtp, optparse, ostruct, racc,
+readline-ext, reline</li>
+  <li>Ruby 3.0 preview2 additional gemifications:
+debug, digest, drb, pathname, pp, prettyprint,
+un, win32ole</li>
+</ul>
+
+<h3 id="bundled-gems-4">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 preview2 additional updates:
+test-unit, rbs</li>
+  <li>Ruby 3.0 preview2 additional additions:
+typeprof</li>
+</ul>
+
+<h2 id="section-10">2.1.0</h2>
+
+<ul>
+  <li>Ruby release: 2.7.2</li>
+</ul>
+
+<h3 id="default-gems-6">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.7's irb to 1.2.6</li>
+  <li>Update Ruby 2.7's reline to 0.1.5</li>
+  <li>Update Ruby 2.7's rubygems to 3.1.4</li>
+</ul>
+
+<h2 id="section-11">2.0.1</h2>
+
+<ul>
+  <li>Fix: uri is not removed</li>
+</ul>
+
+<h2 id="section-12">2.0.0</h2>
+
+<h3 id="default-gems-7">Default Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 preview1 updates:
+bigdecimal, bundler, csv, date, fiddle, json, matrix, openssl,
+psych, rubygems, stringio, strscan</li>
+  <li>Ruby 3.0 preview1 gemifications:
+abbrev, base64, english, erb, find, io-nonblock, io-find,
+net-ftp, net-http, net-imap, net-protocol, nkf, open-uri,
+optparse, racc, resolv, resolv-replace, rinda, securerandom,
+set, shellwords, syslog, tempfile, time, tmpdir, tsort,
+weakref</li>
+  <li>Ruby 3.0 preview1 removals:
+sdbm</li>
+</ul>
+
+<h3 id="bundled-gems-5">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 3.0 preview1 updates:
+minitest, power_assert, test-unit</li>
+  <li>Ruby 3.0 preview1 removals:
+net-telnet, xmlrpc</li>
+  <li>Ruby 3.0 preview1 moved from default gems:
+rexml, rss</li>
+  <li>Ruby 3.0 preview1 additions:
+rbs</li>
+</ul>
+
+<h3 id="misc">Misc</h3>
+
+<ul>
+  <li>Remove sourceRepositoryIsUpstream flag from default gems</li>
+  <li>Add remaining rubygems links (all standard gems are now also published on rubygems.org)</li>
+  <li>Update repository links for bundler and power_assert</li>
+  <li>Monitor standard library is a native extension now</li>
+</ul>
+
+<h2 id="section-13">1.18.0</h2>
+
+<p>Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8</p>
+
+<h3 id="default-gems-8">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.7's bundler to 2.1.4</li>
+  <li>Update Ruby 2.7's io-console to 0.5.6</li>
+  <li>Update Ruby 2.7's irb to 1.2.3 and reline to 0.1.3</li>
+  <li>Add note to json gem about security update</li>
+</ul>
+
+<h3 id="bundled-gems-6">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.7's power_assert to 1.1.7</li>
+  <li>Update Ruby 2.6's rake to 12.3.3</li>
+  <li>Update Ruby 2.5's rake to 12.3.3</li>
+</ul>
+
+<h2 id="section-14">1.17.1</h2>
+
+<h3 id="default-gems-9">Default Gems</h3>
+
+<ul>
+  <li>Fix did_you_mean version</li>
+</ul>
+
+<h2 id="section-15">1.17.0</h2>
+
+<p>Ruby release: 2.7.0</p>
+
+<h3 id="default-gems-10">Default Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 final updates:
+bundler, io-console, irb, matrix, ostruct, prime, rdoc, readline, reline, rubygems</li>
+</ul>
+
+<h2 id="section-16">1.16.0</h2>
+
+<h3 id="default-gems-11">Default Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview updates (rc1):
+bundler, forwardable, io-console, json, rubygems</li>
+</ul>
+
+<h3 id="bundled-gems-7">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview updates (rc1):
+rake</li>
+</ul>
+
+<h2 id="section-17">1.15.0</h2>
+
+<h3 id="default-gems-12">Default Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview updates:
+date, dbm, etc, fileutils, forwardable, gdbm, io-console, irb, logger, reline, stringio,
+webrick, zlib</li>
+  <li>Gemify:
+uri</li>
+  <li>Remove:
+e2mm</li>
+  <li>Promote did_you_mean from bundled to default gem</li>
+</ul>
+
+<h2 id="section-18">1.14.1</h2>
+
+<h3 id="default-gems-13">Default Gems</h3>
+
+<ul>
+  <li>Correct "removed" flags</li>
+</ul>
+
+<h2 id="section-19">1.14.0</h2>
+
+<h3 id="default-gems-14">Default Gems</h3>
+
+<ul>
+  <li>Gemify:
+benchmark, cgi, delegate, getoptlong, net-pop, net-smtp, observer, open3, pstore,
+readline, readline-ext, singleton, timeout, yaml</li>
+  <li>Ruby 2.7 preview default gems updates:
+reline</li>
+</ul>
+
+<h3 id="bundled-gems-8">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview bundled gems updates:
+minitest</li>
+</ul>
+
+<h2 id="section-20">1.13.0</h2>
+
+<h3 id="default-gems-15">Default Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview updates:
+bigdecimal, csv, fileutils, io-console, reline, rexml, stringio, strscan</li>
+  <li>Ruby 2.7 removals:
+cmath, scanf, shell, sync, thwait</li>
+</ul>
+
+<h3 id="bundled-gems-9">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview bundled gems updates:
+did_you_mean, minitest, rake, test-unit</li>
+</ul>
+
+<h2 id="section-21">1.12.1</h2>
+
+<h3 id="default-gems-16">Default Gems</h3>
+
+<ul>
+  <li>Improve webrick note</li>
+</ul>
+
+<h2 id="section-22">1.12.0</h2>
+
+<p>Ruby releases 2.6.5, 2.5.7, 2.4.9, 2.4.8</p>
+
+<h3 id="default-gems-17">Default Gems</h3>
+
+<ul>
+  <li>Update webrick (see note)</li>
+</ul>
+
+<h2 id="section-23">1.11.0</h2>
+
+<p>Ruby releases 2.6.4, 2.5.6, 2.4.7</p>
+
+<h3 id="default-gems-18">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.7's rdoc to 6.2.0</li>
+  <li>Update Ruby 2.7's rexml to 3.2.2</li>
+  <li>Update Ruby 2.7's reline to 0.0.1</li>
+  <li>Update Ruby 2.6's rdoc to 6.1.2</li>
+  <li>Update Ruby 2.5's rdoc to 6.0.1.1</li>
+  <li>Update Ruby 2.4's rdoc to 5.0.1</li>
+</ul>
+
+<h3 id="bundled-gems-10">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.7's rake to 12.3.3</li>
+  <li>Update Ruby 2.7's power_assert to 1.1.5</li>
+</ul>
+
+<h2 id="section-24">1.10.0</h2>
+
+<p>Ruby preview release: 2.7.0</p>
+
+<h3 id="default-gems-19">Default Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview changes:
+Updates bigdecimal, bundler, irb, json, rubygems, rss</li>
+  <li>Update strscan's maintainer to Kouhei Sutou (kou)</li>
+  <li>Add reline gem</li>
+</ul>
+
+<h3 id="bundled-gems-11">Bundled Gems</h3>
+
+<ul>
+  <li>Ruby 2.7 preview changes: Updates power_assert, test-unit</li>
+</ul>
+
+<h3 id="other">Other</h3>
+
+<ul>
+  <li>Remove profiler &amp; profile</li>
+</ul>
+
+<h2 id="section-25">1.9.0</h2>
+
+<p>Ruby release: 2.6.2</p>
+
+<h3 id="default-gems-20">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's csv to 3.0.9</li>
+</ul>
+
+<h2 id="section-26">1.8.0</h2>
+
+<p>Ruby release: 2.4.6</p>
+
+<h3 id="default-gems-21">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.4's rubygems to 2.6.14.4</li>
+</ul>
+
+<h2 id="section-27">1.7.0</h2>
+
+<p>Ruby releases: 2.6.2, 2.5.4</p>
+
+<h3 id="default-gems-22">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's rubygems to 3.0.3</li>
+  <li>Update Ruby 2.5's rubygems to 2.7.6.2</li>
+</ul>
+
+<h2 id="section-28">1.6.0</h2>
+
+<p>Ruby release 2.6.1</p>
+
+<h3 id="default-gems-23">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's date to 2.0.0</li>
+  <li>Update Ruby 2.6's csv to 3.0.4</li>
+  <li>Fix Ruby 2.6's bigdecimal (it's 1.4.1)</li>
+</ul>
+
+<h2 id="section-29">1.5.0</h2>
+
+<p>Ruby releases: 2.6.0</p>
+
+<h3 id="default-gems-24">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's bigdecimal to 1.4.2</li>
+  <li>Update Ruby 2.6's csv to 3.0.2</li>
+  <li>Update Ruby 2.6's io-console to 0.4.7</li>
+  <li>Update Ruby 2.6's rexml to 3.1.9</li>
+  <li>Fix Ruby 2.6's rubygems version</li>
+</ul>
+
+<h3 id="bundled-gems-12">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's did_you_mean to 1.3.0</li>
+</ul>
+
+<h2 id="section-30">1.4.7</h2>
+
+<h3 id="default-gems-25">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's rubygems to 3.0.1</li>
+  <li>Update Ruby 2.6's csv to 3.0.2</li>
+  <li>Update Ruby 2.6's rexml to 3.1.8</li>
+</ul>
+
+<h2 id="section-31">1.4.6</h2>
+
+<h3 id="default-gems-26">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's irb to 1.0.0</li>
+  <li>Update Ruby 2.6's ipaddr to 1.2.2</li>
+</ul>
+
+<h2 id="section-32">1.4.5</h2>
+
+<h3 id="default-gems-27">Default Gems</h3>
+
+<ul>
+  <li>Fix typo in bundler version</li>
+  <li>Update Ruby 2.6's logger to 1.3.0</li>
+  <li>Update Ruby 2.6's openssl to 1.1.2</li>
+  <li>Update Ruby 2.6's sync to 0.5.0</li>
+  <li>Update rubygems links</li>
+</ul>
+
+<h2 id="section-33">1.4.4</h2>
+
+<h3 id="default-gems-28">Default Gems</h3>
+
+<ul>
+  <li>Downgrade Ruby 2.6's bundler to 1.17.2</li>
+</ul>
+
+<h3 id="bundler-gems">Bundler Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's rake to 12.3.1</li>
+  <li>Update Ruby 2.6's test-unit to 3.2.9</li>
+</ul>
+
+<h2 id="section-34">1.4.3</h2>
+
+<h3 id="default-gems-29">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's bigdecimal to 1.4.0</li>
+</ul>
+
+<h2 id="section-35">1.4.2</h2>
+
+<h3 id="default-gems-30">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's stringio to 0.0.2</li>
+</ul>
+
+<h2 id="section-36">1.4.1</h2>
+
+<h3 id="default-gems-31">Default Gems</h3>
+
+<ul>
+  <li>Ruby 2.6: Add bundler</li>
+</ul>
+
+<h2 id="section-37">1.4.0</h2>
+
+<p>Ruby releases: 2.5.3, 2.5.2, 2.4.5, 2.3.8</p>
+
+<h3 id="default-gems-32">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's openssl to 2.1.2</li>
+  <li>Fix Ruby 2.5's rdoc (it's 6.0.1)</li>
+  <li>Update Ruby 2.4's openssl to 2.0.9</li>
+  <li>Update Ruby 2.4's rubygems to 2.6.14.3</li>
+</ul>
+
+<h2 id="section-38">1.3.1</h2>
+
+<h3 id="default-gems-33">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.6's csv to 3.0.1</li>
+  <li>Update Ruby 2.6's psych to 3.1.0</li>
+  <li>Update Ruby 2.6's rdoc to 6.1.0</li>
+</ul>
+
+<h2 id="section-39">1.3.0</h2>
+
+<p>Ruby 2.6 (preview) changes</p>
+
+<h2 id="section-40">1.2.0</h2>
+
+<p>Ruby releases: 2.5.1, 2.4.4, 2.3.7, 2.2.10</p>
+
+<h3 id="default-gems-34">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.4's bigdecimal to 1.3.2</li>
+  <li>Update Ruby 2.4's openssl to 2.0.7</li>
+  <li>Update Ruby 2.5's rdoc to 6.0.3</li>
+  <li>Update Ruby 2.5's rubygems to 2.7.6</li>
+  <li>Update Ruby 2.4's rubygems to 2.6.14.1</li>
+  <li>Update Ruby 2.3's rubygems to 2.5.2.3</li>
+  <li>Update Ruby 2.2's rubygems to 2.4.5.4</li>
+</ul>
+
+<h2 id="section-41">1.1.2</h2>
+
+<h3 id="default-gems-35">Default Gems</h3>
+
+<ul>
+  <li>Update etc's, fcntl's, and zlib's maintainers</li>
+</ul>
+
+<h2 id="section-42">1.1.1</h2>
+
+<h3 id="default-gems-36">Default Gems</h3>
+
+<ul>
+  <li>Update csv's maintainer</li>
+</ul>
+
+<h2 id="section-43">1.1.0</h2>
+
+<ul>
+  <li>Add new libraries.json file which lists non-gemified standard libraries</li>
+</ul>
+
+<h2 id="section-44">1.0.0</h2>
+
+<p>Ruby 2.5 release</p>
+
+<h2 id="section-45">0.1.17</h2>
+
+<h3 id="default-gems-37">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's bigdecimal to 1.3.4</li>
+  <li>Update Ruby 2.5's rdoc to 6.0.1</li>
+  <li>Update Ruby 2.5's webrick to 1.4.2</li>
+  <li>Ruby 2.5's stringio is only at 0.0.1</li>
+</ul>
+
+<h2 id="section-46">0.1.16</h2>
+
+<h3 id="default-gems-38">Default Gems</h3>
+
+<ul>
+  <li>Remove digest (will not be gemified with Ruby 2.5)</li>
+  <li>Update Ruby 2.5's cmath to 1.0.0</li>
+  <li>Update Ruby 2.5's etc to 1.0.0</li>
+  <li>Update Ruby 2.5's fileutils to 1.0.2</li>
+  <li>Update Ruby 2.5's psych to 3.0.2</li>
+  <li>Update Ruby 2.5's stringio to 1.0.0</li>
+  <li>Update Ruby 2.5's strscan to 1.0.0</li>
+  <li>Update Ruby 2.5's webrick to 1.4.1</li>
+  <li>Improve rubygems' rubygems link</li>
+</ul>
+
+<h2 id="section-47">0.1.15</h2>
+
+<h3 id="default-gems-39">Default Gems</h3>
+
+<ul>
+  <li>Add rubygems itself as a default gem</li>
+</ul>
+
+<h2 id="section-48">0.1.14</h2>
+
+<h3 id="default-gems-40">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's bigdecimal to 1.3.3</li>
+  <li>Update Ruby 2.5's bundler to 1.16.1</li>
+  <li>Update Ruby 2.5's csv to 1.0.0</li>
+  <li>Update Ruby 2.5's date to 1.0.0</li>
+  <li>Update Ruby 2.5's fcntl to 1.0.0</li>
+  <li>Update Ruby 2.5's fileutils to 1.0.1</li>
+  <li>Update Ruby 2.5's sdbm to 1.0.0</li>
+  <li>Update Ruby 2.5's scanf to 1.0.0</li>
+  <li>Update Ruby 2.5's zlib to 1.0.0</li>
+  <li>Add Hiroshi SHIBATA (hsbt) as maintainer for bundler</li>
+  <li>Fix Ruby 2.4's json version: 2.0.4</li>
+  <li>Add Ruby 2.4's webrick version: 1.3.1</li>
+</ul>
+
+<h3 id="bundled-gems-13">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's did_you_mean to 1.2.0</li>
+  <li>Update Ruby 2.5's test-unit to 3.2.7</li>
+</ul>
+
+<h2 id="section-49">0.1.13</h2>
+
+<h3 id="default-gems-41">Default Gems</h3>
+
+<ul>
+  <li>Move rdoc repo to Ruby organization</li>
+</ul>
+
+<h2 id="section-50">0.1.12</h2>
+
+<h3 id="default-gems-42">Default Gems</h3>
+
+<ul>
+  <li>ipaddr is published on rubygems.org</li>
+</ul>
+
+<h3 id="bundled-gems-14">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's rake to 12.3.0</li>
+</ul>
+
+<h2 id="section-51">0.1.11</h2>
+
+<h3 id="default-gems-43">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's bundle to 1.16.0</li>
+  <li>Update Ruby 2.5's ipaddr to 1.2.0</li>
+</ul>
+
+<h3 id="bundled-gems-15">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's power_assert to 1.1.1</li>
+  <li>Update Ruby 2.5's rake to 12.2.1</li>
+  <li>Update Ruby 2.5's test-unit to 3.2.6</li>
+</ul>
+
+<h2 id="section-52">0.1.10</h2>
+
+<h3 id="default-gems-44">Default Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's openssl to 2.1.0</li>
+  <li>Update Ruby 2.5's zlib to 0.1.0</li>
+  <li>Update Ruby 2.5's csv to 0.1.0</li>
+  <li>Update Ruby 2.5's bundler to 1.15.4</li>
+</ul>
+
+<h3 id="bundled-gems-16">Bundled Gems</h3>
+
+<ul>
+  <li>Update Ruby 2.5's rake to 12.1.0</li>
+</ul>
+
+<h2 id="section-53">0.1.9</h2>
+
+<h3 id="default-gems-45">Default Gems</h3>
+
+<ul>
+  <li>Fix that Ruby 2.4.2 bundles openssl v2.0.5 (@pvalena)</li>
+</ul>
+
+<h2 id="section-54">0.1.8</h2>
+
+<ul>
+  <li>Please ignore</li>
+</ul>
+
+<h2 id="section-55">0.1.7</h2>
+
+<h3 id="default-gems-46">Default Gems</h3>
+
+<ul>
+  <li>Update versions for Ruby releases: 2.4.2, 2.3.5, 2.2.8</li>
+  <li>Fix &amp; improve bundler info</li>
+</ul>
+
+<h3 id="bundled-gems-17">Bundled Gems</h3>
+
+<ul>
+  <li>Fix minitest version for Ruby 2.3.x</li>
+</ul>
+
+<h2 id="section-56">0.1.6</h2>
+
+<h3 id="default-gems-47">Default Gems</h3>
+
+<ul>
+  <li>Add bundler</li>
+  <li>Update rdoc</li>
+</ul>
+
+<h3 id="bundled-gems-18">Bundled Gems</h3>
+
+<ul>
+  <li>Update openssl and minitest</li>
+</ul>
+
+<h2 id="section-57">0.1.5</h2>
+
+<h3 id="default-gems-48">Default Gems</h3>
+
+<ul>
+  <li>Mark ipaddr repository as upstream</li>
+  <li>Update OpenSSL version for 2.4 and 2.5</li>
+  <li>Current fileutils version is 0.7.2</li>
+</ul>
+
+<h3 id="bundled-gems-19">Bundled Gems</h3>
+
+<ul>
+  <li>2.5: Bump power_assert version</li>
+</ul>
+
+<h2 id="section-58">0.1.4</h2>
+
+<h3 id="default-gems-49">Default Gems</h3>
+
+<ul>
+  <li>2.5: Add digest</li>
+  <li>Fix broken Wikipedia links</li>
+</ul>
+
+<h2 id="section-59">0.1.3</h2>
+
+<h3 id="default-gems-50">Default Gems</h3>
+
+<ul>
+  <li>2.5: Add ipaddr</li>
+</ul>
+
+<h2 id="section-60">0.1.2</h2>
+
+<h3 id="default-gems-51">Default Gems</h3>
+
+<ul>
+  <li>New maintainer for webrick</li>
+  <li>2.5: Update openssl, json</li>
+</ul>
+
+<h3 id="bundled-gems-20">Bundled Gems</h3>
+
+<ul>
+  <li>2.5: Update did_you_mean, minitest, test-unit, xmlrpc</li>
+</ul>
+
+<h2 id="section-61">0.1.1</h2>
+
+<h3 id="default-gems-52">Default Gems</h3>
+
+<ul>
+  <li>Add source repository for io-console and stringio</li>
+</ul>
+
+<h2 id="section-62">0.1.0</h2>
+
+<ul>
+  <li>Initial release</li>
+</ul>
+</article>
+    </div>
+  </body>
+</html>

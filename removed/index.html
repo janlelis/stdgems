@@ -2,18 +2,19 @@
 <html>
   <head>
     <title>Standard Gems: Removed Default Gems</title>
-    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/all.css" rel="stylesheet" />
 
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="description" content="Ruby's standard library is divided into default and bundled gems"/>
     <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+    <link rel="shortcut icon" href="/images/stdgems.favicon.png">
 
     <script>
 document.addEventListener('DOMContentLoaded', function(){
   ['h2', 'h3'].forEach(function(h){
     document.querySelectorAll(h).forEach(function(e){
-      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+      e.innerHTML = '<a href="#' + e.id + '">' + e.innerHTML + '</a>'
     })
   })
 })
@@ -23,16 +24,18 @@ document.addEventListener('DOMContentLoaded', function(){
   <body>
     <div class="world">
       <section class="post-header">
-        <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top">Removed Default Gems</a></h1>
+        <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top">Removed Default Gems</h1>
       </section>
 
      	<article class="post"><p>The following libraries had been default gems before, but have now been removed from core Ruby.</p>
 
+<h2 class="table-caption" id="list-of-removed-default-gems">List of Removed Default Gems</h2>
+
 <table>
   <thead>
     <tr>
-      <th>Gem</th>
+      <th>Default Gem</th>
       <th>Description</th>
       <th>Resources</th>
     </tr>
@@ -41,12 +44,12 @@ document.addEventListener('DOMContentLoaded', function(){
     <tr>
       <td><a href="/cmath">cmath</a></td>
       <td>Trigonometric and transcendental functions for complex numbers</td>
-      <td><a href="https://rubygems.org/gems/cmath">RubyGems</a>, <a href="https://github.com/ruby/cmath">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/cmath/rdoc/CMath.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/cmath">RubyGems</a> · <a href="https://github.com/ruby/cmath">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/cmath/rdoc/CMath.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/dbm">dbm</a> <strong>c</strong></td>
       <td>Support for <a href="https://en.wikipedia.org/wiki/DBM_(computing)">DBM databases</a></td>
-      <td><a href="https://rubygems.org/gems/dbm">RubyGems</a>, <a href="https://github.com/ruby/dbm">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/dbm/rdoc/DBM.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/dbm">RubyGems</a> · <a href="https://github.com/ruby/dbm">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/dbm/rdoc/DBM.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/debug">debug</a></td>
@@ -56,87 +59,87 @@ document.addEventListener('DOMContentLoaded', function(){
     <tr>
       <td><a href="/e2mmap">e2mmap</a></td>
       <td>Abstraction around exception handling</td>
-      <td><a href="https://rubygems.org/gems/e2mmap">RubyGems</a>, <a href="https://github.com/ruby/e2mmap">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/e2mmap/rdoc/Exception2MessageMapper.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/e2mmap">RubyGems</a> · <a href="https://github.com/ruby/e2mmap">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/e2mmap/rdoc/Exception2MessageMapper.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/gdbm">gdbm</a> <strong>c</strong></td>
       <td>Support for <a href="https://en.wikipedia.org/wiki/Dbm">GDBM databases</a></td>
-      <td><a href="https://rubygems.org/gems/gdbm">RubyGems</a>, <a href="https://github.com/ruby/gdbm">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/gdbm/rdoc/GDBM.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/gdbm">RubyGems</a> · <a href="https://github.com/ruby/gdbm">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/gdbm/rdoc/GDBM.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/matrix">matrix</a></td>
       <td>Support for <a href="https://en.wikipedia.org/wiki/Matrix_%28mathematics%29">matrices</a></td>
-      <td><a href="https://rubygems.org/gems/matrix">RubyGems</a>, <a href="https://github.com/ruby/matrix">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/matrix">RubyGems</a> · <a href="https://github.com/ruby/matrix">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/net-ftp">net-ftp</a></td>
       <td>Support for FTP (<a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">File Transfer Protocol</a>)</td>
-      <td><a href="https://rubygems.org/gems/net-ftp">RubyGems</a>, <a href="https://github.com/ruby/net-ftp">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/ftp/rdoc/Net/FTP.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/net-ftp">RubyGems</a> · <a href="https://github.com/ruby/net-ftp">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/ftp/rdoc/Net/FTP.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/net-imap">net-imap</a></td>
       <td>Support for IMAP (<a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">Internet Message Access Protocol</a>)</td>
-      <td><a href="https://rubygems.org/gems/net-imap">RubyGems</a>, <a href="https://github.com/ruby/net-imap">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/imap/rdoc/Net/IMAP.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/net-imap">RubyGems</a> · <a href="https://github.com/ruby/net-imap">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/imap/rdoc/Net/IMAP.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/net-pop">net-pop</a></td>
       <td>Support for POP3 (<a href="https://en.wikipedia.org/wiki/Post_Office_Protocol">Post Office Protocol</a>)</td>
-      <td><a href="https://rubygems.org/gems/net-pop">RubyGems</a>, <a href="https://github.com/ruby/net-pop">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/pop/rdoc/Net/POP3.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/net-pop">RubyGems</a> · <a href="https://github.com/ruby/net-pop">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/pop/rdoc/Net/POP3.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/net-smtp">net-smtp</a></td>
       <td>Support for SMTP (<a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">Simple Mail Transfer Protocol</a>)</td>
-      <td><a href="https://rubygems.org/gems/net-smtp">RubyGems</a>, <a href="https://github.com/ruby/net-smtp">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/smtp/rdoc/Net/SMTP.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/net-smtp">RubyGems</a> · <a href="https://github.com/ruby/net-smtp">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/net/smtp/rdoc/Net/SMTP.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/prime">prime</a></td>
       <td>Access to prime numbers and prime factorization</td>
-      <td><a href="https://rubygems.org/gems/prime">RubyGems</a>, <a href="https://github.com/ruby/prime">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/prime">RubyGems</a> · <a href="https://github.com/ruby/prime">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/rexml">rexml</a></td>
       <td>Support for XML (<a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language</a>)</td>
-      <td><a href="https://rubygems.org/gems/rexml">RubyGems</a>, <a href="https://github.com/ruby/rexml">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/rexml">RubyGems</a> · <a href="https://github.com/ruby/rexml">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/rss">rss</a></td>
       <td>Support for RSS (<a href="https://en.wikipedia.org/wiki/RSS">Rich Site Summary</a>) and <a href="https://en.wikipedia.org/wiki/Atom_%28standard%29">Atom</a></td>
-      <td><a href="https://rubygems.org/gems/rss">RubyGems</a>, <a href="https://github.com/ruby/rss">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rss/rdoc/RSS.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/rss">RubyGems</a> · <a href="https://github.com/ruby/rss">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rss/rdoc/RSS.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/scanf">scanf</a></td>
       <td>Pure-Ruby <a href="https://en.wikipedia.org/wiki/Scanf_format_string">scanf</a> implementation</td>
-      <td><a href="https://rubygems.org/gems/scanf">RubyGems</a>, <a href="https://github.com/ruby/scanf">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/scanf/rdoc/Scanf.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/scanf">RubyGems</a> · <a href="https://github.com/ruby/scanf">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/scanf/rdoc/Scanf.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/sdbm">sdbm</a> <strong>c</strong></td>
       <td>Support for <a href="https://en.wikipedia.org/wiki/Dbm">SDBM databases</a></td>
-      <td><a href="https://rubygems.org/gems/sdbm">RubyGems</a>, <a href="https://github.com/ruby/sdbm">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/sdbm/rdoc/SDBM.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/sdbm">RubyGems</a> · <a href="https://github.com/ruby/sdbm">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/sdbm/rdoc/SDBM.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/shell">shell</a></td>
       <td>Provides a Ruby interface for interacting with the <a href="https://en.wikipedia.org/wiki/Bourne_shell">shell</a></td>
-      <td><a href="https://rubygems.org/gems/shell">RubyGems</a>, <a href="https://github.com/ruby/shell">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/shell/rdoc/Shell.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/shell">RubyGems</a> · <a href="https://github.com/ruby/shell">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/shell/rdoc/Shell.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/sync">sync</a></td>
       <td><a href="https://en.wikipedia.org/wiki/Two-phase_locking">Two-phase lock</a> with a counter for multi-threaded code</td>
-      <td><a href="https://rubygems.org/gems/sync">RubyGems</a>, <a href="https://github.com/ruby/sync">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/sync/rdoc/Sync_m.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/sync">RubyGems</a> · <a href="https://github.com/ruby/sync">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/sync/rdoc/Sync_m.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/thwait">thwait</a></td>
       <td>Waits for threads to finish</td>
-      <td><a href="https://rubygems.org/gems/thwait">RubyGems</a>, <a href="https://github.com/ruby/thwait">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/thwait/rdoc/ThWait.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/thwait">RubyGems</a> · <a href="https://github.com/ruby/thwait">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/thwait/rdoc/ThWait.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/tracer">tracer</a></td>
       <td>Outputs the <a href="https://en.wikipedia.org/wiki/Tracing_%28software%29">code execution trace</a> via <a href="https://ruby-doc.org/core/Kernel.html#method-i-set_trace_func">Kernel#set_trace_func</a></td>
-      <td><a href="https://rubygems.org/gems/tracer">RubyGems</a>, <a href="https://github.com/ruby/tracer">GitHub</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/tracer">RubyGems</a> · <a href="https://github.com/ruby/tracer">GitHub</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/webrick">webrick</a></td>
       <td>HTTP Server</td>
-      <td><a href="https://rubygems.org/gems/webrick">RubyGems</a>, <a href="https://github.com/ruby/webrick">GitHub</a>, <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/webrick/rdoc/WEBrick.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/webrick">RubyGems</a> · <a href="https://github.com/ruby/webrick">GitHub</a> · <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/webrick/rdoc/WEBrick.html">RDoc</a></td>
     </tr>
   </tbody>
 </table>
@@ -146,21 +149,20 @@ document.addEventListener('DOMContentLoaded', function(){
 <ul>
   <li><a href="/">General information about standard gems</a></li>
   <li>Gem list for Ruby: <a href="/3.1.0">3.1.0</a> (preview)</li>
-  <li>Gem list for Ruby: <a href="/3.0.3">3.0.3</a> - <a href="/3.0.2">3.0.2</a> - <a href="/3.0.1">3.0.1</a> - <a href="/3.0.0">3.0.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.7.5">2.7.5</a> - <a href="/2.7.4">2.7.4</a> - <a href="/2.7.3">2.7.3</a> - <a href="/2.7.2">2.7.2</a> - <a href="/2.7.1">2.7.1</a> - <a href="/2.7.0">2.7.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.6.9">2.6.9</a> - <a href="/2.6.8">2.6.8</a> - <a href="/2.6.7">2.6.7</a> - <a href="/2.6.6">2.6.6</a> - <a href="/2.6.5">2.6.5</a> - <a href="/2.6.4">2.6.4</a> - <a href="/2.6.3">2.6.3</a> - <a href="/2.6.2">2.6.2</a> - <a href="/2.6.1">2.6.1</a> - <a href="/2.6.0">2.6.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.5.9">2.5.9</a> - <a href="/2.5.8">2.5.8</a> - <a href="/2.5.7">2.5.7</a> - <a href="/2.5.6">2.5.6</a> - <a href="/2.5.5">2.5.5</a> - <a href="/2.5.4">2.5.4</a> - <a href="/2.5.3">2.5.3</a> - <a href="/2.5.2">2.5.2</a> - <a href="/2.5.1">2.5.1</a> - <a href="/2.5.0">2.5.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.4.10">2.4.10</a> - <a href="/2.4.9">2.4.9</a> - <a href="/2.4.8">2.4.8</a> - <a href="/2.4.7">2.4.7</a> - <a href="/2.4.6">2.4.6</a> - <a href="/2.4.5">2.4.5</a> - <a href="/2.4.4">2.4.4</a> - <a href="/2.4.3">2.4.3</a> - <a href="/2.4.2">2.4.2</a> - <a href="/2.4.1">2.4.1</a> - <a href="/2.4.0">2.4.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> - <a href="/2.3.7">2.3.7</a> - <a href="/2.3.6">2.3.6</a> - <a href="/2.3.5">2.3.5</a> - <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> - <a href="/2.2.9">2.2.9</a> - <a href="/2.2.8">2.2.8</a> - <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
-  <li>Compare versions: <a href="/compare">Main Rubies</a> - <a href="/compare/supported">Supported Rubies</a> - <a href="/compare/3.0">3.0</a> - <a href="/compare/2.7">2.7</a> - <a href="/compare/2.6">2.6</a> - <a href="/compare/2.5">2.5</a> - <a href="/compare/2.4">2.4</a> - <a href="/compare/2.3">2.3</a> - <a href="/compare/2.2">2.2</a></li>
-  <li>Gemified in: <a href="/new-in/3.1">3.1</a> - <a href="/new-in/3.0">3.0</a> - <a href="/new-in/2.7">2.7</a> - <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></li>
+  <li>Gem list for Ruby: <a href="/3.0.3">3.0.3</a> · <a href="/3.0.2">3.0.2</a> · <a href="/3.0.1">3.0.1</a> · <a href="/3.0.0">3.0.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.7.5">2.7.5</a> · <a href="/2.7.4">2.7.4</a> · <a href="/2.7.3">2.7.3</a> · <a href="/2.7.2">2.7.2</a> · <a href="/2.7.1">2.7.1</a> · <a href="/2.7.0">2.7.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.6.9">2.6.9</a> · <a href="/2.6.8">2.6.8</a> · <a href="/2.6.7">2.6.7</a> · <a href="/2.6.6">2.6.6</a> · <a href="/2.6.5">2.6.5</a> · <a href="/2.6.4">2.6.4</a> · <a href="/2.6.3">2.6.3</a> · <a href="/2.6.2">2.6.2</a> · <a href="/2.6.1">2.6.1</a> · <a href="/2.6.0">2.6.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.5.9">2.5.9</a> · <a href="/2.5.8">2.5.8</a> · <a href="/2.5.7">2.5.7</a> · <a href="/2.5.6">2.5.6</a> · <a href="/2.5.5">2.5.5</a> · <a href="/2.5.4">2.5.4</a> · <a href="/2.5.3">2.5.3</a> · <a href="/2.5.2">2.5.2</a> · <a href="/2.5.1">2.5.1</a> · <a href="/2.5.0">2.5.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.4.10">2.4.10</a> · <a href="/2.4.9">2.4.9</a> · <a href="/2.4.8">2.4.8</a> · <a href="/2.4.7">2.4.7</a> · <a href="/2.4.6">2.4.6</a> · <a href="/2.4.5">2.4.5</a> · <a href="/2.4.4">2.4.4</a> · <a href="/2.4.3">2.4.3</a> · <a href="/2.4.2">2.4.2</a> · <a href="/2.4.1">2.4.1</a> · <a href="/2.4.0">2.4.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> · <a href="/2.3.7">2.3.7</a> · <a href="/2.3.6">2.3.6</a> · <a href="/2.3.5">2.3.5</a> · <a href="/2.3.4">2.3.4</a> · <a href="/2.3.3">2.3.3</a> · <a href="/2.3.2">2.3.2</a> · <a href="/2.3.1">2.3.1</a> · <a href="/2.3.0">2.3.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> · <a href="/2.2.9">2.2.9</a> · <a href="/2.2.8">2.2.8</a> · <a href="/2.2.7">2.2.7</a> · <a href="/2.2.6">2.2.6</a> · <a href="/2.2.5">2.2.5</a> · <a href="/2.2.4">2.2.4</a> · <a href="/2.2.3">2.2.3</a> · <a href="/2.2.2">2.2.2</a> · <a href="/2.2.1">2.2.1</a> · <a href="/2.2.0">2.2.0</a></li>
+  <li>Compare versions: <a href="/compare">Main Rubies</a> · <a href="/compare/supported">Supported Rubies</a> · <a href="/compare/all">All Rubies</a> · <a href="/compare/3.0">3.0</a> · <a href="/compare/2.7">2.7</a> · <a href="/compare/2.6">2.6</a> · <a href="/compare/2.5">2.5</a> · <a href="/compare/2.4">2.4</a> · <a href="/compare/2.3">2.3</a> · <a href="/compare/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/3.1">3.1</a> · <a href="/new-in/3.0">3.0</a> · <a href="/new-in/2.7">2.7</a> · <a href="/new-in/2.6">2.6</a> · <a href="/new-in/2.5">2.5</a> · <a href="/new-in/2.4">2.4</a> · <a href="/new-in/2.3">2.3</a> · <a href="/new-in/2.2">2.2</a></li>
   <li>List of <a href="/unmaintained">unmaintained default gems</a> and list of <a href="/removed">removed default gems</a></li>
   <li>List of <a href="/libraries">not-yet-gemified standard libraries</a></li>
 </ul>
 
 </article>
     </div>
-    <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
   </body>
 </html>

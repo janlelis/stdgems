@@ -2,18 +2,19 @@
 <html>
   <head>
     <title>Standard Gems: Gemified in 2.6</title>
-    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/all.css" rel="stylesheet" />
 
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="description" content="Ruby's standard library is divided into default and bundled gems"/>
     <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+    <link rel="shortcut icon" href="/images/stdgems.favicon.png">
 
     <script>
 document.addEventListener('DOMContentLoaded', function(){
   ['h2', 'h3'].forEach(function(h){
     document.querySelectorAll(h).forEach(function(e){
-      e.innerHTML = '<' + h + ' id="' + e.id + '"><a href="#' + e.id + '">' + e.innerHTML + '</a></' + h + '>'
+      e.innerHTML = '<a href="#' + e.id + '">' + e.innerHTML + '</a>'
     })
   })
 })
@@ -23,19 +24,19 @@ document.addEventListener('DOMContentLoaded', function(){
   <body>
     <div class="world">
       <section class="post-header">
-        <a href="/" class="post-logo"><img src="/images/stdgems.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><a href="#top">Gemified in 2.6</a></h1>
+        <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top">Gemified in 2.6</h1>
       </section>
 
      	<article class="post">
 <p>The following libraries were made standard gems with Ruby 2.6:</p>
 
-<h2 id="new-default-gems">New Default Gems</h2>
+<h2 class="table-caption" id="new-default-gems">New Default Gems</h2>
 
 <table class="table-20-45-X">
   <thead>
     <tr>
-      <th>Gem</th>
+      <th>New Default Gem</th>
       <th>Description</th>
       <th>Resources</th>
     </tr>
@@ -44,105 +45,104 @@ document.addEventListener('DOMContentLoaded', function(){
     <tr>
       <td><a href="/bundler">bundler</a></td>
       <td><a href="https://bundler.io">Bundler</a> is the local package manager for Ruby applications</td>
-      <td><a href="https://rubygems.org/gems/bundler">RubyGems</a>, <a href="https://github.com/rubygems/rubygems/tree/master/bundler">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/bundler">CRuby</a>, <a href="https://www.rubydoc.info/gems/bundler">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/bundler">RubyGems</a> · <a href="https://github.com/rubygems/rubygems/tree/master/bundler">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/bundler">CRuby</a> · <a href="https://www.rubydoc.info/gems/bundler">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/e2mmap">e2mmap</a></td>
       <td>Abstraction around exception handling</td>
-      <td><a href="https://rubygems.org/gems/e2mmap">RubyGems</a>, <a href="https://github.com/ruby/e2mmap">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/e2mmap.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/e2mmap">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/e2mmap/rdoc/Exception2MessageMapper.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/e2mmap">RubyGems</a> · <a href="https://github.com/ruby/e2mmap">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/e2mmap.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/e2mmap">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/e2mmap/rdoc/Exception2MessageMapper.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/forwardable">forwardable</a></td>
       <td>Provides a way to <a href="https://en.wikipedia.org/wiki/Delegation_pattern">delegate</a> method calls. Also see <a href="http://radar.oreilly.com/2014/02/delegation-patterns-in-ruby.html">this overview of delegation in Ruby</a>, which contains an example</td>
-      <td><a href="https://rubygems.org/gems/forwardable">RubyGems</a>, <a href="https://github.com/ruby/forwardable">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/forwardable.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/forwardable">CRuby (2)</a>, <a href="https://github.com/ruby/ruby/tree/master/ext/rubyvm/lib/forwardable/impl.rb">CRuby (3)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/forwardable">RubyGems</a> · <a href="https://github.com/ruby/forwardable">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/forwardable.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/forwardable">CRuby (2)</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/rubyvm/lib/forwardable/impl.rb">CRuby (3)</a> · <a href="https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/irb">irb</a></td>
       <td>Interactive Ruby Console (<a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a>)</td>
-      <td><a href="https://rubygems.org/gems/irb">RubyGems</a>, <a href="https://github.com/ruby/irb">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/irb.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/irb">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/irb">RubyGems</a> · <a href="https://github.com/ruby/irb">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/irb.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/irb">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/logger">logger</a></td>
       <td><a href="https://ruby.janlelis.de/50-exploring-the-stdlib-logger">Logging utility</a></td>
-      <td><a href="https://rubygems.org/gems/logger">RubyGems</a>, <a href="https://github.com/ruby/logger">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/logger.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/logger">RubyGems</a> · <a href="https://github.com/ruby/logger">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/logger.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/matrix">matrix</a></td>
       <td>Support for <a href="https://en.wikipedia.org/wiki/Matrix_%28mathematics%29">matrices</a></td>
-      <td><a href="https://rubygems.org/gems/matrix">RubyGems</a>, <a href="https://github.com/ruby/matrix">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/matrix.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/matrix">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/matrix">RubyGems</a> · <a href="https://github.com/ruby/matrix">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/matrix.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/matrix">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/mutex_m">mutex_m</a></td>
       <td>A mixin that makes any object behave like a <a href="https://ruby-doc.org/core/Mutex.html">mutex</a></td>
-      <td><a href="https://rubygems.org/gems/mutex_m">RubyGems</a>, <a href="https://github.com/ruby/mutex_m">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/mutex_m.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/mutex_m">RubyGems</a> · <a href="https://github.com/ruby/mutex_m">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/mutex_m.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/ostruct">ostruct</a></td>
       <td>Wrapper around <a href="https://ruby-doc.org/core/Hash.html">Hash</a> which lets you read and set attributes with a method-based API</td>
-      <td><a href="https://rubygems.org/gems/ostruct">RubyGems</a>, <a href="https://github.com/ruby/ostruct">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/ostruct.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/ostruct">RubyGems</a> · <a href="https://github.com/ruby/ostruct">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ostruct.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/prime">prime</a></td>
       <td>Access to prime numbers and prime factorization</td>
-      <td><a href="https://rubygems.org/gems/prime">RubyGems</a>, <a href="https://github.com/ruby/prime">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/prime.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/prime">RubyGems</a> · <a href="https://github.com/ruby/prime">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/prime.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/rexml">rexml</a></td>
       <td>Support for XML (<a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language</a>)</td>
-      <td><a href="https://rubygems.org/gems/rexml">RubyGems</a>, <a href="https://github.com/ruby/rexml">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rexml">CRuby</a>, <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/rexml">RubyGems</a> · <a href="https://github.com/ruby/rexml">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/rexml">CRuby</a> · <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/rss">rss</a></td>
       <td>Support for RSS (<a href="https://en.wikipedia.org/wiki/RSS">Rich Site Summary</a>) and <a href="https://en.wikipedia.org/wiki/Atom_%28standard%29">Atom</a></td>
-      <td><a href="https://rubygems.org/gems/rss">RubyGems</a>, <a href="https://github.com/ruby/rss">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rss.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/rss">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rss/rdoc/RSS.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/rss">RubyGems</a> · <a href="https://github.com/ruby/rss">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/rss.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/rss">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib-2.7.4/libdoc/rss/rdoc/RSS.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/shell">shell</a></td>
       <td>Provides a Ruby interface for interacting with the <a href="https://en.wikipedia.org/wiki/Bourne_shell">shell</a></td>
-      <td><a href="https://rubygems.org/gems/shell">RubyGems</a>, <a href="https://github.com/ruby/shell">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/shell.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/shell">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/shell/rdoc/Shell.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/shell">RubyGems</a> · <a href="https://github.com/ruby/shell">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/shell.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/shell">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/shell/rdoc/Shell.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/sync">sync</a></td>
       <td><a href="https://en.wikipedia.org/wiki/Two-phase_locking">Two-phase lock</a> with a counter for multi-threaded code</td>
-      <td><a href="https://rubygems.org/gems/sync">RubyGems</a>, <a href="https://github.com/ruby/sync">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/sync.rb">CRuby</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/sync/rdoc/Sync_m.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/sync">RubyGems</a> · <a href="https://github.com/ruby/sync">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/sync.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/sync/rdoc/Sync_m.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/thwait">thwait</a></td>
       <td>Waits for threads to finish</td>
-      <td><a href="https://rubygems.org/gems/thwait">RubyGems</a>, <a href="https://github.com/ruby/thwait">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/thwait.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/thwait">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/thwait/rdoc/ThWait.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/thwait">RubyGems</a> · <a href="https://github.com/ruby/thwait">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/thwait.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/thwait">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib-2.6.8/libdoc/thwait/rdoc/ThWait.html">RDoc</a></td>
     </tr>
     <tr>
       <td><a href="/tracer">tracer</a></td>
       <td>Outputs the <a href="https://en.wikipedia.org/wiki/Tracing_%28software%29">code execution trace</a> via <a href="https://ruby-doc.org/core/Kernel.html#method-i-set_trace_func">Kernel#set_trace_func</a></td>
-      <td><a href="https://rubygems.org/gems/tracer">RubyGems</a>, <a href="https://github.com/ruby/tracer">GitHub</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tracer.rb">CRuby (1)</a>, <a href="https://github.com/ruby/ruby/tree/master/lib/tracer">CRuby (2)</a>, <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html">RDoc</a></td>
+      <td><a href="https://rubygems.org/gems/tracer">RubyGems</a> · <a href="https://github.com/ruby/tracer">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/tracer.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/tracer">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html">RDoc</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="new-bundled-gems">New Bundled Gems</h2>
+<h2 class="table-caption" id="new-bundled-gems">New Bundled Gems</h2>
 
-<p>No bundled gems were introduced in 2.6.</p>
+<center>No bundled gems were introduced in 2.6.</center>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
 
 <ul>
   <li><a href="/">General information about standard gems</a></li>
   <li>Gem list for Ruby: <a href="/3.1.0">3.1.0</a> (preview)</li>
-  <li>Gem list for Ruby: <a href="/3.0.3">3.0.3</a> - <a href="/3.0.2">3.0.2</a> - <a href="/3.0.1">3.0.1</a> - <a href="/3.0.0">3.0.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.7.5">2.7.5</a> - <a href="/2.7.4">2.7.4</a> - <a href="/2.7.3">2.7.3</a> - <a href="/2.7.2">2.7.2</a> - <a href="/2.7.1">2.7.1</a> - <a href="/2.7.0">2.7.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.6.9">2.6.9</a> - <a href="/2.6.8">2.6.8</a> - <a href="/2.6.7">2.6.7</a> - <a href="/2.6.6">2.6.6</a> - <a href="/2.6.5">2.6.5</a> - <a href="/2.6.4">2.6.4</a> - <a href="/2.6.3">2.6.3</a> - <a href="/2.6.2">2.6.2</a> - <a href="/2.6.1">2.6.1</a> - <a href="/2.6.0">2.6.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.5.9">2.5.9</a> - <a href="/2.5.8">2.5.8</a> - <a href="/2.5.7">2.5.7</a> - <a href="/2.5.6">2.5.6</a> - <a href="/2.5.5">2.5.5</a> - <a href="/2.5.4">2.5.4</a> - <a href="/2.5.3">2.5.3</a> - <a href="/2.5.2">2.5.2</a> - <a href="/2.5.1">2.5.1</a> - <a href="/2.5.0">2.5.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.4.10">2.4.10</a> - <a href="/2.4.9">2.4.9</a> - <a href="/2.4.8">2.4.8</a> - <a href="/2.4.7">2.4.7</a> - <a href="/2.4.6">2.4.6</a> - <a href="/2.4.5">2.4.5</a> - <a href="/2.4.4">2.4.4</a> - <a href="/2.4.3">2.4.3</a> - <a href="/2.4.2">2.4.2</a> - <a href="/2.4.1">2.4.1</a> - <a href="/2.4.0">2.4.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> - <a href="/2.3.7">2.3.7</a> - <a href="/2.3.6">2.3.6</a> - <a href="/2.3.5">2.3.5</a> - <a href="/2.3.4">2.3.4</a> - <a href="/2.3.3">2.3.3</a> - <a href="/2.3.2">2.3.2</a> - <a href="/2.3.1">2.3.1</a> - <a href="/2.3.0">2.3.0</a></li>
-  <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> - <a href="/2.2.9">2.2.9</a> - <a href="/2.2.8">2.2.8</a> - <a href="/2.2.7">2.2.7</a> - <a href="/2.2.6">2.2.6</a> - <a href="/2.2.5">2.2.5</a> - <a href="/2.2.4">2.2.4</a> - <a href="/2.2.3">2.2.3</a> - <a href="/2.2.2">2.2.2</a> - <a href="/2.2.1">2.2.1</a> - <a href="/2.2.0">2.2.0</a></li>
-  <li>Compare versions: <a href="/compare">Main Rubies</a> - <a href="/compare/supported">Supported Rubies</a> - <a href="/compare/3.0">3.0</a> - <a href="/compare/2.7">2.7</a> - <a href="/compare/2.6">2.6</a> - <a href="/compare/2.5">2.5</a> - <a href="/compare/2.4">2.4</a> - <a href="/compare/2.3">2.3</a> - <a href="/compare/2.2">2.2</a></li>
-  <li>Gemified in: <a href="/new-in/3.1">3.1</a> - <a href="/new-in/3.0">3.0</a> - <a href="/new-in/2.7">2.7</a> - <a href="/new-in/2.6">2.6</a> - <a href="/new-in/2.5">2.5</a> - <a href="/new-in/2.4">2.4</a> - <a href="/new-in/2.3">2.3</a> - <a href="/new-in/2.2">2.2</a></li>
+  <li>Gem list for Ruby: <a href="/3.0.3">3.0.3</a> · <a href="/3.0.2">3.0.2</a> · <a href="/3.0.1">3.0.1</a> · <a href="/3.0.0">3.0.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.7.5">2.7.5</a> · <a href="/2.7.4">2.7.4</a> · <a href="/2.7.3">2.7.3</a> · <a href="/2.7.2">2.7.2</a> · <a href="/2.7.1">2.7.1</a> · <a href="/2.7.0">2.7.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.6.9">2.6.9</a> · <a href="/2.6.8">2.6.8</a> · <a href="/2.6.7">2.6.7</a> · <a href="/2.6.6">2.6.6</a> · <a href="/2.6.5">2.6.5</a> · <a href="/2.6.4">2.6.4</a> · <a href="/2.6.3">2.6.3</a> · <a href="/2.6.2">2.6.2</a> · <a href="/2.6.1">2.6.1</a> · <a href="/2.6.0">2.6.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.5.9">2.5.9</a> · <a href="/2.5.8">2.5.8</a> · <a href="/2.5.7">2.5.7</a> · <a href="/2.5.6">2.5.6</a> · <a href="/2.5.5">2.5.5</a> · <a href="/2.5.4">2.5.4</a> · <a href="/2.5.3">2.5.3</a> · <a href="/2.5.2">2.5.2</a> · <a href="/2.5.1">2.5.1</a> · <a href="/2.5.0">2.5.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.4.10">2.4.10</a> · <a href="/2.4.9">2.4.9</a> · <a href="/2.4.8">2.4.8</a> · <a href="/2.4.7">2.4.7</a> · <a href="/2.4.6">2.4.6</a> · <a href="/2.4.5">2.4.5</a> · <a href="/2.4.4">2.4.4</a> · <a href="/2.4.3">2.4.3</a> · <a href="/2.4.2">2.4.2</a> · <a href="/2.4.1">2.4.1</a> · <a href="/2.4.0">2.4.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> · <a href="/2.3.7">2.3.7</a> · <a href="/2.3.6">2.3.6</a> · <a href="/2.3.5">2.3.5</a> · <a href="/2.3.4">2.3.4</a> · <a href="/2.3.3">2.3.3</a> · <a href="/2.3.2">2.3.2</a> · <a href="/2.3.1">2.3.1</a> · <a href="/2.3.0">2.3.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> · <a href="/2.2.9">2.2.9</a> · <a href="/2.2.8">2.2.8</a> · <a href="/2.2.7">2.2.7</a> · <a href="/2.2.6">2.2.6</a> · <a href="/2.2.5">2.2.5</a> · <a href="/2.2.4">2.2.4</a> · <a href="/2.2.3">2.2.3</a> · <a href="/2.2.2">2.2.2</a> · <a href="/2.2.1">2.2.1</a> · <a href="/2.2.0">2.2.0</a></li>
+  <li>Compare versions: <a href="/compare">Main Rubies</a> · <a href="/compare/supported">Supported Rubies</a> · <a href="/compare/all">All Rubies</a> · <a href="/compare/3.0">3.0</a> · <a href="/compare/2.7">2.7</a> · <a href="/compare/2.6">2.6</a> · <a href="/compare/2.5">2.5</a> · <a href="/compare/2.4">2.4</a> · <a href="/compare/2.3">2.3</a> · <a href="/compare/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/3.1">3.1</a> · <a href="/new-in/3.0">3.0</a> · <a href="/new-in/2.7">2.7</a> · <a href="/new-in/2.6">2.6</a> · <a href="/new-in/2.5">2.5</a> · <a href="/new-in/2.4">2.4</a> · <a href="/new-in/2.3">2.3</a> · <a href="/new-in/2.2">2.2</a></li>
   <li>List of <a href="/unmaintained">unmaintained default gems</a> and list of <a href="/removed">removed default gems</a></li>
   <li>List of <a href="/libraries">not-yet-gemified standard libraries</a></li>
 </ul>
 
 </article>
     </div>
-    <a href="https://github.com/janlelis/stdgems"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
   </body>
 </html>
