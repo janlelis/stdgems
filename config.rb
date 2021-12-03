@@ -189,6 +189,11 @@ end
 build_all_pages!
 
 helpers do
+  def ruby_prev_version(ruby_version)
+    return "-" if ruby_version === "2.2.0"
+    LISTED_RUBY_VERSIONS[LISTED_RUBY_VERSIONS.find_index(ruby_version) + 1]
+  end
+
   def current_ruby_version
     CURRENT_RUBY_VERSION
   end
@@ -231,15 +236,15 @@ helpers do
     res.join(" · ")
   end
 
-  def gem_list_for(source, ruby_version)
-    exact_ruby_version = ruby_version
-    major_ruby_version = ruby_version.to_f.to_s
+  def gem_list_for(source, exact_ruby_version, exact_prev_version)
+    major_ruby_version = exact_ruby_version.to_f.to_s
+    major_prev_version = exact_prev_version.to_f.to_s
 
     source.select{ |gem_info|
       gem_info["versions"][exact_ruby_version] ||
       gem_info["versions"][major_ruby_version]
     }.map{ |gem_info|
-      gem_info_row(gem_info, major_ruby_version, exact_ruby_version)
+      gem_info_row(gem_info, major_ruby_version, exact_ruby_version, major_prev_version, exact_prev_version)
     }.join("\n")
   end
 
@@ -268,12 +273,15 @@ helpers do
     }.join("\n")
   end
 
-  def gem_info_row(gem_info, major_ruby_version = nil, exact_ruby_version = nil)
+  def gem_info_row(gem_info, major_ruby_version = nil, exact_ruby_version = nil, major_prev_version = nil, exact_prev_version = nil)
     [
       "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
           (gem_info["native"] ? ' **c**' : ''),
       exact_ruby_version && gem_info["versions"][exact_ruby_version] ||
       major_ruby_version && gem_info["versions"][major_ruby_version],
+      exact_prev_version && gem_info["versions"][exact_prev_version] ||
+      major_prev_version && gem_info["versions"][major_prev_version] ||
+      (major_ruby_version ? "-" : nil),
       gem_info["description"],
       build_resource_list(gem_info)
     ].compact.join(" | ")
@@ -304,11 +312,11 @@ helpers do
   end
 
   def default_gems_list(ruby_version = CURRENT_RUBY_VERSION)
-    gem_list_for(DEFAULT_GEMS_JSON, ruby_version)
+    gem_list_for(DEFAULT_GEMS_JSON, ruby_version, ruby_prev_version(ruby_version))
   end
 
   def bundled_gems_list(ruby_version = CURRENT_RUBY_VERSION)
-    gem_list_for(BUNDLED_GEMS_JSON, ruby_version)
+    gem_list_for(BUNDLED_GEMS_JSON, ruby_version, ruby_prev_version(ruby_version))
   end
 
   def libraries_list
