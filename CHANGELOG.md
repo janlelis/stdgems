@@ -1,5 +1,23 @@
 # Change Log
 
+## 3.0.0
+
+### Website Updates
+
+- New website design
+- Gem version tables for a Ruby version now include an extra
+  column with the gem version included in the previous Ruby
+  version for quicker comparisons
+- Fix gems that appear as both, bundled and default gems
+- Remove Ruby 2.5 from supported Rubies table
+- Add new ALL VERSIONS table which includes every standard
+  gem version of every Ruby since 2.2.0.
+- Add ChangeLog to website
+
+### Gem Updates
+
+- Update Ruby 3.1's (preview) bundled & default gems
+
 ## 2.8.0
 
 Ruby releases: 3.0.3, 2.7.5, 2.6.9
