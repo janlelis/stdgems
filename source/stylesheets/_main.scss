@@ -11,7 +11,7 @@ $max-line-width: 1200px;
 }
 
 *:focus {
-  outline: 2px solid black;
+  outline: 3px solid black;
 }
 
 html {
@@ -158,6 +158,12 @@ table {
     }
     &:hover {
       background: none;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:focus-visible {
+      outline: 3px solid black;
     }
   }
 
