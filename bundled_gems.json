@@ -197,7 +197,7 @@
       "sourceRepository": "https://github.com/ruby/rbs",
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "versions": {
-        "3.1":   "1.7.0",
+        "3.1":   "1.8.0",
 
         "3.0":   "1.4.0",
         "3.0.2": "1.0.4",
@@ -257,7 +257,7 @@
       "sourceRepository": "https://github.com/ruby/typeprof",
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
       "versions": {
-        "3.1":   "0.20.3",
+        "3.1":   "0.20.4",
 
         "3.0":   "0.15.2",
         "3.0.2": "0.12.0",
