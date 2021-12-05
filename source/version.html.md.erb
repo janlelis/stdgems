@@ -1,5 +1,9 @@
 <%= dev_version_warning(ruby_version) %>
 
+<% if ruby_version =~ /\.0$/ %>
+Also see: [Gems introduced and removed in Ruby <%= ruby_version.to_f.to_s %>](/new-in/<%= ruby_version.to_f.to_s %>)
+<% end %>
+
 ## Default Gems
 {:.table-caption}
 
