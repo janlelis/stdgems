@@ -1,8 +1,8 @@
 # [stdgems.org](https://stdgems.org)
 
-## About the Gemified Standard Library
+## About Ruby's Gemified Standard Library
 
-Ruby's standard library is in the process of being gemified. More and more libraries will be turned into [RubyGems](https://rubygems.org), which can be updated independently from Ruby.
+Large portions of Ruby's standard library come in the form of [RubyGems](https://rubygems.org), which can be updated independently from Ruby.
 
 There are two different kinds of standard gems:
 
@@ -10,17 +10,15 @@ There are two different kinds of standard gems:
 
 - **Bundled gems:** The behavior of bundled gems is similar to normal gems, but they get automatically installed when you install Ruby. They can be uninstalled and they are maintained outside of Ruby core.
 
-## Gemification Progress
-
-As of Ruby 3.0, **<%= (stats[:gemified_percentage].round(3)*100).to_i %>%** (<%= stats[:gemified_count] %> of <%= stats[:total_count] %>) standard libraries have been gemified.
-
-Standard gems changes in Ruby: [3.1](/new-in/3.1) · [3.0](/new-in/3.0) · [2.7](/new-in/2.7) · [2.6](/new-in/2.6) · [2.5](/new-in/2.5) · [2.4](/new-in/2.4) · [2.3](/new-in/2.3) · [2.2](/new-in/2.2)
-
-Checkout [Hiroshi Shibata's talk at RubyConf 2017](https://www.youtube.com/watch?v=93nGROEgyEc) for more info. Also see [Ruby issue #5481](https://bugs.ruby-lang.org/issues/5481) for the current state of the gemification project.
+There are a few libraries that will stay non-gem **default libraries**, because they are very dependent on the specific Ruby version.
 
 ## Standard Gems Version Data
 
-Every Ruby version ships a specific set of default and bundled gems. The tables below list included gems of the current Ruby version **<%= current_ruby_version %>**. There is also [version comparison](/compare) that shows which Ruby version comes with which gem versions. The raw data is available as [default_gems.json](/default_gems.json) and [bundled_gems.json](/bundled_gems.json).
+Every Ruby version ships a specific set of default gems, default libraries, and bundled gems. The following tables show all standard libraries included in the current Ruby version **<%= current_ruby_version %>**. The data is also available as JSON:
+
+- [default_gems.json](/default_gems.json)
+- [bundled_gems.json](/bundled_gems.json)
+- [libraries.json](/libraries.json)
 
 ## Default Gems in Ruby <%= current_ruby_version %>
 {:.table-caption}
@@ -38,23 +36,22 @@ Default Gem | <%= current_ruby_version %> | <%= ruby_prev_version(current_ruby_v
 <%= bundled_gems_list %>
 {:.table-12-7-7-45-X}
 
-## Gems per Ruby Version
+## Default Libraries
+{:.table-caption}
+
+Default Library | Description | Resources
+--------|-------------|----------
+<%= libraries_list %>
+{:.table-20-X-25}
+
+## Gem Tables by Version
 
 <%= listed_ruby_versions.group_by{ |ruby_version| ruby_version.to_f }.map{ |_, ruby_versions| "- Gem list for Ruby: " + ruby_versions.map{ |ruby_version| "[#{ruby_version}](/#{ruby_version})" }.join(" · ") + (ruby_versions[0] > current_ruby_version ? " (preview)" : "") }.join("\n") %>
 - Compare versions: [Main Rubies](/compare) · [Supported Rubies](/compare/supported) · [All Rubies](/compare/all) · [3.0](/compare/3.0) · [2.7](/compare/2.7) · [2.6](/compare/2.6) · [2.5](/compare/2.5) · [2.4](/compare/2.4) · [2.3](/compare/2.3) · [2.2](/compare/2.2)
-
-
-## Unmaintained Default Gems
-
-See the [unmaintained page](/unmaintained) for a list of default gems lacking a maintainer…
-
-## Removed Standard Gems
-
-See the [removed page](/removed) for a list of default gems which are not part of Ruby, anymore.
-
-## Non-Gemified Standard Libraries
-
-A list of standard libraries which have not yet turned into gems can be found at [libraries](/libraries). The respective JSON file is at [libraries.json](/libraries.json).
+- Gemified in: [3.1](/new-in/3.1) · [3.0](/new-in/3.0) · [2.7](/new-in/2.7) · [2.6](/new-in/2.6) · [2.5](/new-in/2.5) · [2.4](/new-in/2.4) · [2.3](/new-in/2.3) · [2.2](/new-in/2.2)
+- List of [Non-Gem Default Libraries](/libraries)
+- List of [Unmaintained Default Gems](/unmaintained)
+- List of [Removed Default Gems](/removed)
 
 ## About stdgems.org
 
