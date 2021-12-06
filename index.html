@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
      	<article class="post">
 
-<h2 id="about-the-gemified-standard-library">About the Gemified Standard Library</h2>
+<h2 id="about-rubys-gemified-standard-library">About Ruby's Gemified Standard Library</h2>
 
-<p>Ruby's standard library is in the process of being gemified. More and more libraries will be turned into <a href="https://rubygems.org">RubyGems</a>, which can be updated independently from Ruby.</p>
+<p>Large portions of Ruby's standard library come in the form of <a href="https://rubygems.org">RubyGems</a>, which can be updated independently from Ruby.</p>
 
 <p>There are two different kinds of standard gems:</p>
 
@@ -46,17 +46,17 @@ document.addEventListener('DOMContentLoaded', function(){
   </li>
 </ul>
 
-<h2 id="gemification-progress">Gemification Progress</h2>
-
-<p>As of Ruby 3.0, <strong>91%</strong> (109 of 119) standard libraries have been gemified.</p>
-
-<p>Standard gems changes in Ruby: <a href="/new-in/3.1">3.1</a> · <a href="/new-in/3.0">3.0</a> · <a href="/new-in/2.7">2.7</a> · <a href="/new-in/2.6">2.6</a> · <a href="/new-in/2.5">2.5</a> · <a href="/new-in/2.4">2.4</a> · <a href="/new-in/2.3">2.3</a> · <a href="/new-in/2.2">2.2</a></p>
-
-<p>Checkout <a href="https://www.youtube.com/watch?v=93nGROEgyEc">Hiroshi Shibata's talk at RubyConf 2017</a> for more info. Also see <a href="https://bugs.ruby-lang.org/issues/5481">Ruby issue #5481</a> for the current state of the gemification project.</p>
+<p>There are a few libraries that will stay non-gem <strong>default libraries</strong>, because they are very dependent on the specific Ruby version.</p>
 
 <h2 id="standard-gems-version-data">Standard Gems Version Data</h2>
 
-<p>Every Ruby version ships a specific set of default and bundled gems. The tables below list included gems of the current Ruby version <strong>3.0.3</strong>. There is also <a href="/compare">version comparison</a> that shows which Ruby version comes with which gem versions. The raw data is available as <a href="/default_gems.json">default_gems.json</a> and <a href="/bundled_gems.json">bundled_gems.json</a>.</p>
+<p>Every Ruby version ships a specific set of default gems, default libraries, and bundled gems. The following tables show all standard libraries included in the current Ruby version <strong>3.0.3</strong>. The data is also available as JSON:</p>
+
+<ul>
+  <li><a href="/default_gems.json">default_gems.json</a></li>
+  <li><a href="/bundled_gems.json">bundled_gems.json</a></li>
+  <li><a href="/libraries.json">libraries.json</a></li>
+</ul>
 
 <h2 class="table-caption" id="default-gems-in-ruby-303">Default Gems in Ruby 3.0.3</h2>
 
@@ -706,7 +706,71 @@ document.addEventListener('DOMContentLoaded', function(){
   </tbody>
 </table>
 
-<h2 id="gems-per-ruby-version">Gems per Ruby Version</h2>
+<h2 class="table-caption" id="default-libraries">Default Libraries</h2>
+
+<table class="table-20-X-25">
+  <thead>
+    <tr>
+      <th>Default Library</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/coverage">coverage</a> <strong>c</strong></td>
+      <td>Measures <a href="https://en.wikipedia.org/wiki/Code_coverage">code coverage</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/coverage">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/mkmf">mkmf</a></td>
+      <td>Generates <a href="https://en.wikipedia.org/wiki/Makefile">Makefiles</a> for native <a href="https://github.com/ruby/ruby/blob/trunk/doc/extension.rdoc">C extensions</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/lib/mkmf.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/monitor">monitor</a> <strong>c</strong></td>
+      <td><a href="https://en.wikipedia.org/wiki/Monitor_%28synchronization%29">Monitors</a> for multi-threaded code</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/monitor">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/objspace">objspace</a> <strong>c</strong></td>
+      <td>Adds more statistics methods to <code>ObjectSpace</code></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/objspace">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/pty">pty</a> <strong>c</strong></td>
+      <td>Manages <a href="https://en.wikipedia.org/wiki/Pseudo_terminal">pseudo terminals</a>. Also includes the <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect">IO#expect method</a> via <code>require 'expect'</code>, which can be used to wait for a specific pattern to be read.</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/pty">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/rbconfig">rbconfig</a> <strong>c</strong></td>
+      <td><code>RbConfig</code> is a <a href="https://idiosyncratic-ruby.com/42-ruby-config.html">Ruby constant that contains compile time information</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="/ripper">ripper</a> <strong>c</strong></td>
+      <td>Ruby parser that creates a <a href="https://en.wikipedia.org/wiki/S-expression">symbolic expression tree</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/ripper">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/socket">socket</a> <strong>c</strong></td>
+      <td>Support for <a href="https://en.wikipedia.org/wiki/Unix_domain_socket">unix-</a> and <a href="https://en.wikipedia.org/wiki/Network_socket">network sockets</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/socket">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/unicode_normalize">unicode_normalize</a></td>
+      <td>Adds a <a href="https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/String.html#method-i-unicode_normalize">String#unicode_normalize</a> method which <a href="https://unicode.org/reports/tr15/">normalizes unicode strings</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/lib/unicode_normalize.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/unicode_normalize">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/win32">win32</a> <strong>c</strong></td>
+      <td>Let's you use Windows APIs, e.g. call functions in DLLs</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/win32">CRuby</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="gem-tables-by-version">Gem Tables by Version</h2>
 
 <ul>
   <li>Gem list for Ruby: <a href="/3.1.0">3.1.0</a> (preview)</li>
@@ -718,19 +782,11 @@ document.addEventListener('DOMContentLoaded', function(){
   <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> · <a href="/2.3.7">2.3.7</a> · <a href="/2.3.6">2.3.6</a> · <a href="/2.3.5">2.3.5</a> · <a href="/2.3.4">2.3.4</a> · <a href="/2.3.3">2.3.3</a> · <a href="/2.3.2">2.3.2</a> · <a href="/2.3.1">2.3.1</a> · <a href="/2.3.0">2.3.0</a></li>
   <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> · <a href="/2.2.9">2.2.9</a> · <a href="/2.2.8">2.2.8</a> · <a href="/2.2.7">2.2.7</a> · <a href="/2.2.6">2.2.6</a> · <a href="/2.2.5">2.2.5</a> · <a href="/2.2.4">2.2.4</a> · <a href="/2.2.3">2.2.3</a> · <a href="/2.2.2">2.2.2</a> · <a href="/2.2.1">2.2.1</a> · <a href="/2.2.0">2.2.0</a></li>
   <li>Compare versions: <a href="/compare">Main Rubies</a> · <a href="/compare/supported">Supported Rubies</a> · <a href="/compare/all">All Rubies</a> · <a href="/compare/3.0">3.0</a> · <a href="/compare/2.7">2.7</a> · <a href="/compare/2.6">2.6</a> · <a href="/compare/2.5">2.5</a> · <a href="/compare/2.4">2.4</a> · <a href="/compare/2.3">2.3</a> · <a href="/compare/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/3.1">3.1</a> · <a href="/new-in/3.0">3.0</a> · <a href="/new-in/2.7">2.7</a> · <a href="/new-in/2.6">2.6</a> · <a href="/new-in/2.5">2.5</a> · <a href="/new-in/2.4">2.4</a> · <a href="/new-in/2.3">2.3</a> · <a href="/new-in/2.2">2.2</a></li>
+  <li>List of <a href="/libraries">Non-Gem Default Libraries</a></li>
+  <li>List of <a href="/unmaintained">Unmaintained Default Gems</a></li>
+  <li>List of <a href="/removed">Removed Default Gems</a></li>
 </ul>
-
-<h2 id="unmaintained-default-gems">Unmaintained Default Gems</h2>
-
-<p>See the <a href="/unmaintained">unmaintained page</a> for a list of default gems lacking a maintainer…</p>
-
-<h2 id="removed-standard-gems">Removed Standard Gems</h2>
-
-<p>See the <a href="/removed">removed page</a> for a list of default gems which are not part of Ruby, anymore.</p>
-
-<h2 id="non-gemified-standard-libraries">Non-Gemified Standard Libraries</h2>
-
-<p>A list of standard libraries which have not yet turned into gems can be found at <a href="/libraries">libraries</a>. The respective JSON file is at <a href="/libraries.json">libraries.json</a>.</p>
 
 <h2 id="about-stdgemsorg">About stdgems.org</h2>
 
