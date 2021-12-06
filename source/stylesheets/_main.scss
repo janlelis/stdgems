@@ -30,8 +30,10 @@ body {
   padding: 2rem 1.6rem 1rem 1.6rem;
 }
 
-article > p {
-  max-width: $max-line-width;
+article {
+  > p, > ul {
+    max-width: $max-line-width;
+  }
 }
 
 a {
