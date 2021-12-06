@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top"><%= heading(current_page, defined?(gem_info) && gem_info, defined?(ruby_version) && ruby_version) %></h1>
+        <h1 class="post-heading" id="top"><%= heading(current_page, defined?(gem_info) && gem_info, defined?(gem_type) && gem_type, defined?(ruby_version) && ruby_version) %></h1>
       </section>
 
      	<article class="post"><%= yield.sub(%r_<h1.*?</h1>_, '') %></article>

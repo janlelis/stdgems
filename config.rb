@@ -139,6 +139,12 @@ def build_gem_pages_for!(source, gem_type)
   end
 end
 
+def build_library_pages_for!(source)
+  source.each do |gem_info|
+    proxy "/#{ gem_info["gem"] }/index.html", "/library.html", :locals => { :gem_info => gem_info, gem_type: "library" }, ignore: true
+  end
+end
+
 def build_version_pages!
   LISTED_RUBY_VERSIONS.each do |ruby_version|
     proxy "/#{ ruby_version }/index.html", "/version.html", :locals => { :ruby_version => ruby_version }, ignore: true
@@ -178,6 +184,7 @@ def hybrid_bundled_gems_json
 end
 
 def build_all_pages!
+  build_library_pages_for! LIBRARIES_JSON
   build_gem_pages_for! DEFAULT_GEMS_JSON, "default"
   build_gem_pages_for! BUNDLED_GEMS_JSON, "bundled"
   build_gem_pages_for! hybrid_default_gems_json, "hybrid_default"
@@ -322,7 +329,7 @@ helpers do
   def libraries_list
     LIBRARIES_JSON.map{ |gem_info|
       [
-        "#{ gem_info["gem"] }" +
+        "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
             (gem_info["native"] ? ' **c**' : ''),
         gem_info["description"],
         build_resource_list(gem_info)
@@ -526,23 +533,25 @@ helpers do
     end
 
     if gem_type == "hybrid_default"
-      res << ["This gem is a **default** gem, but was a **bundled** one before"]
+      res << ["This standard library is a **default gem**, but was a bundled one before"]
     elsif gem_type == "hybrid_bundled"
-      res << ["This gem is a **bundled** gem, but was a **default** one before"]
+      res << ["This standard library is a **bundled gem**, but was a default one before"]
     elsif gem_type == "bundled"
-      res << ["This gem is a **bundled** gem"]
+      res << ["This standard library is a **bundled gem**"]
+    elsif gem_type == "default"
+      res << ["This standard library is a **default gem**"]
     else
-      res << ["This gem is a **default** gem"]
+      res << ["This standard library is a **default library**, which is not versioned on its own"]
     end
 
     if gem_info["autoRequire"]
       res << ["The library **is required automatically**"]
     else
-      res << ["Call `require \"#{require_path_of(gem_info)}\"` to use this library"]
+      res << ["Use `require \"#{require_path_of(gem_info)}\"` to load this library"]
     end
 
     if gem_info["native"]
-      res << ["The library **contains** native extensions"]
+      res << ["The library **contains native extensions**"]
     else
       res << ["The library is written in Ruby, there are **no native extensions**"]
     end
@@ -550,7 +559,7 @@ helpers do
     if gem_info["maintainer"]
       res << ["Current maintainer#{ gem_info["maintainer"].is_a?(Array) ? '(s)' : '' }: " + Array(gem_info["maintainer"]).join(", ")]
     elsif gem_type != "bundled" && gem_type != "hybrid_bundled" && !gem_info["removed"]
-      res << ["This library is currently **unmaintained**"]
+      res << ["This library is **has no designated maintainer**"]
     end
 
     res.map{ |line|
@@ -619,9 +628,9 @@ helpers do
     end
   end
 
-  def heading(current_page, gem_info = nil, ruby_version = nil)
+  def heading(current_page, gem_info = nil, gem_type = nil, ruby_version = nil)
     current_page.data.heading ||
-    gem_info && "#{ gem_info["gem"] } Gem" ||
+    gem_info && "#{ gem_info["gem"] } #{gem_type === 'library' ? 'Library' : 'Gem'}" ||
     ruby_version && "Standard Gems #{ruby_version}" ||
     "Ruby Standard Gems"
   end
