@@ -41,7 +41,7 @@
       "gem": "objspace",
       "native": true,
       "autoRequire": false,
-      "description": "Adds more statistics methods to `ObjectSpace`",
+      "description": "Adds more statistics methods to `ObjectSpace`. Since Ruby 3.1, it also includes the `objspace/trace` debug utility.",
       "mriSourcePath": "ext/objspace",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html",
       "maintainer": null
