@@ -1351,6 +1351,21 @@
       }
     },
     {
+      "gem": "ruby2_keywords",
+      "native": false,
+      "autoRequire": true,
+      "description": "A shim gemspec to indicate that the Ruby implementation includes the `ruby2_keywords` method",
+      "mriSourcePath": null,
+      "sourceRepository": "https://github.com/ruby/ruby2_keywords",
+      "rubygemsLink": "https://rubygems.org/gems/ruby2_keywords",
+      "rdocLink": null,
+      "maintainer": null,
+      "notes": "Although `ruby2_keywords` is introduced as a default gem in Ruby 3.1, the `ruby2_keywords` method is available on earlier Ruby versions. See [the announcement](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) and [this blog post](https://eregon.me/blog/2021/02/13/correct-delegation-in-ruby-2-27-3.html) for information about how to use this feature.",
+      "versions": {
+        "3.1": "0.0.5"
+      }
+    },
+    {
       "gem": "rubygems",
       "native": false,
       "autoRequire": true,
