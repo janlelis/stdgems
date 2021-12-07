@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.0.1
+
+- Add ruby2_keywords gem to Ruby 3.1
+- Add (missing) continuation to libraries, still included in Ruby
+- Change website structure to highlight that some libraries
+  will not be gemified (and other website tweaks)
+
 ## 3.0.0
 
 ### Website Updates
