@@ -209,7 +209,7 @@ helpers do
     LISTED_RUBY_VERSIONS
   end
 
-  def build_resource_list(gem_info, mriSource = true)
+  def build_resource_list(gem_info)
     res = []
 
     if gem_info["rubygemsLink"]
@@ -220,7 +220,7 @@ helpers do
       res << "[GitHub](#{gem_info["sourceRepository"]})"
     end
 
-    if mriSource
+    if !gem_info["removed"]
       case gem_info["mriSourcePath"]
       when Array
         gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
@@ -448,13 +448,26 @@ helpers do
 
   def removed_default_gems
     DEFAULT_GEMS_JSON.select{ |gem_info|
-      gem_info["removed"]
+      gem_info["removed"] && BUNDLED_GEMS_JSON.none?{ |bundled_gem| bundled_gem["gem"] == gem_info["gem"] }
     }.map{ |gem_info|
       [
         "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
             (gem_info["native"] ? ' **c**' : ''),
         gem_info["description"],
-        build_resource_list(gem_info, false)
+        build_resource_list(gem_info)
+      ].compact.join(" | ")
+    }.join("\n")
+  end
+
+  def removed_bundled_gems
+    BUNDLED_GEMS_JSON.select{ |gem_info|
+      gem_info["removed"] && DEFAULT_GEMS_JSON.none?{ |default_gem| default_gem["gem"] == gem_info["gem"] }
+    }.map{ |gem_info|
+      [
+        "[#{ gem_info["gem"] }](/#{ gem_info["gem"] })" +
+            (gem_info["native"] ? ' **c**' : ''),
+        gem_info["description"],
+        build_resource_list(gem_info)
       ].compact.join(" | ")
     }.join("\n")
   end
@@ -496,7 +509,7 @@ helpers do
       res << ["Source repository", gem_info["sourceRepository"]]
     end
 
-    case gem_info["mriSourcePath"]
+    case !gem_info["removed"] && gem_info["mriSourcePath"]
     when Array
       gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
         res << ["CRuby source on GitHub (part #{index + 1})", (CRUBY_SOURCE_PREFIX + mriSourcePath)]
@@ -527,39 +540,43 @@ helpers do
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
     gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
     res = []
+    verb = "is"
 
     if gem_info["removed"]
-      res << ["The gem has been removed from Ruby and is **no longer available**"]
+      res << ["This standard library has been removed from Ruby and is **no longer available**"]
+      verb = "was"
     end
 
     if gem_type == "hybrid_default"
-      res << ["This standard library is a **default gem**, but was a bundled one before"]
+      res << ["This standard library #{verb} a **default gem**, but was a bundled one before"]
     elsif gem_type == "hybrid_bundled"
-      res << ["This standard library is a **bundled gem**, but was a default one before"]
+      res << ["This standard library #{verb} a **bundled gem**, but was a default one before"]
     elsif gem_type == "bundled"
-      res << ["This standard library is a **bundled gem**"]
+      res << ["This standard library #{verb} a **bundled gem**"]
     elsif gem_type == "default"
-      res << ["This standard library is a **default gem**"]
+      res << ["This standard library #{verb} a **default gem**"]
     else
-      res << ["This standard library is a **default library**, which is not versioned on its own"]
+      res << ["This standard library #{verb} a **default library**, which is not versioned on its own"]
     end
 
-    if gem_info["autoRequire"]
-      res << ["The library **is required automatically**"]
-    else
-      res << ["Use `require \"#{require_path_of(gem_info)}\"` to load this library"]
-    end
+    unless gem_info["removed"]
+      if gem_info["autoRequire"]
+        res << ["The library **is required automatically**"]
+      elsif !gem_info["removed"]
+        res << ["Use `require \"#{require_path_of(gem_info)}\"` to load this library"]
+      end
 
-    if gem_info["native"]
-      res << ["The library **contains native extensions**"]
-    else
-      res << ["The library is written in Ruby, there are **no native extensions**"]
-    end
+      if gem_info["native"]
+        res << ["The library **contains native extensions**"]
+      else
+        res << ["The library is written in Ruby, there are **no native extensions**"]
+      end
 
-    if gem_info["maintainer"]
-      res << ["Current maintainer#{ gem_info["maintainer"].is_a?(Array) ? '(s)' : '' }: " + Array(gem_info["maintainer"]).join(", ")]
-    elsif gem_type != "bundled" && gem_type != "hybrid_bundled" && !gem_info["removed"]
-      res << ["This library is **has no designated maintainer**"]
+      if gem_info["maintainer"]
+        res << ["Current maintainer#{ gem_info["maintainer"].is_a?(Array) ? '(s)' : '' }: " + Array(gem_info["maintainer"]).join(", ")]
+      elsif gem_type != "bundled" && gem_type != "hybrid_bundled" && !gem_info["removed"]
+        res << ["This library is **has no designated maintainer**"]
+      end
     end
 
     res.map{ |line|
