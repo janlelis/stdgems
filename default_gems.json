@@ -817,7 +817,7 @@
       "gem": "net-protocol",
       "native": false,
       "autoRequire": false,
-      "description": "Internal class for the other net-* libraries, going to be refactored/removed",
+      "description": "Internal class for the other net-* libraries",
       "mriSourcePath": "lib/net/protocol.rb",
       "sourceRepository": "https://github.com/ruby/net-protocol",
       "rubygemsLink": "https://rubygems.org/gems/net-protocol",

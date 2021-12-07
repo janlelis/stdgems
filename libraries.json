@@ -14,7 +14,7 @@
       "gem": "mkmf",
       "native": false,
       "autoRequire": false,
-      "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/trunk/doc/extension.rdoc)",
+      "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/master/doc/extension.rdoc)",
       "mriSourcePath": "lib/mkmf.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html",
       "maintainer": null
