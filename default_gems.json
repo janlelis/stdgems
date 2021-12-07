@@ -1027,7 +1027,7 @@
       "gem": "prettyprint",
       "native": false,
       "autoRequire": false,
-      "description": "Better object formatting and inspection. Also see the [/pp/](pp gem).",
+      "description": "Better object formatting and inspection. Also see the [pp gem](/pp/).",
       "mriSourcePath": "lib/prettyprint.rb",
       "sourceRepository": "https://github.com/ruby/prettyprint",
       "rubygemsLink": "https://rubygems.org/gems/prettyprint",
@@ -1130,7 +1130,6 @@
       "sourceRepository": "https://github.com/ruby/racc",
       "rubygemsLink": "https://rubygems.org/gems/racc",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html",
-      "notes": "Also see the [project's GitHub](https://github.com/tenderlove/racc)",
       "maintainer": "Aaron Patterson (tenderlove)",
       "versions": {
         "3.1": "1.6.0",
