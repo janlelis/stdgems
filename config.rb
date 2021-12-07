@@ -573,9 +573,9 @@ helpers do
       end
 
       if gem_info["maintainer"]
-        res << ["Current maintainer#{ gem_info["maintainer"].is_a?(Array) ? '(s)' : '' }: " + Array(gem_info["maintainer"]).join(", ")]
+        res << ["Current maintainer#{ gem_info["maintainer"].is_a?(Array) && gem_info["maintainer"].size > 1 ? 's' : '' }: " + Array(gem_info["maintainer"]).join(", ")]
       elsif gem_type != "bundled" && gem_type != "hybrid_bundled" && !gem_info["removed"]
-        res << ["This library is **has no designated maintainer**"]
+        res << ["This library **has no designated maintainer**"]
       end
     end
 
