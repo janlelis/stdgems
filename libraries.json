@@ -2,6 +2,15 @@
   "version": "3.0.0",
   "gems": [
     {
+      "gem": "continuation",
+      "native": true,
+      "autoRequire": false,
+      "description": "Adds the [goto](https://idiosyncratic-ruby.com/24-goto-fail.html)-like [Kernel#callcc](https://ruby-doc.org/core/Kernel.html#method-i-callcc)",
+      "mriSourcePath": "ext/continuation",
+      "rdocLink": null,
+      "maintainer": "Koichi Sasada (ko1)"
+    },
+    {
       "gem": "coverage",
       "native": true,
       "autoRequire": false,
