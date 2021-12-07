@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "gems": [
     {
       "gem": "abbrev",
@@ -817,7 +817,7 @@
       "gem": "net-protocol",
       "native": false,
       "autoRequire": false,
-      "description": "Internal class for the other net-* libraries, going to be refactored/removed",
+      "description": "Internal class for the other net-* libraries",
       "mriSourcePath": "lib/net/protocol.rb",
       "sourceRepository": "https://github.com/ruby/net-protocol",
       "rubygemsLink": "https://rubygems.org/gems/net-protocol",
@@ -1027,7 +1027,7 @@
       "gem": "prettyprint",
       "native": false,
       "autoRequire": false,
-      "description": "Better object formatting and inspection. Also see the [/pp/](pp gem).",
+      "description": "Better object formatting and inspection. Also see the [pp gem](/pp/).",
       "mriSourcePath": "lib/prettyprint.rb",
       "sourceRepository": "https://github.com/ruby/prettyprint",
       "rubygemsLink": "https://rubygems.org/gems/prettyprint",
@@ -1130,7 +1130,6 @@
       "sourceRepository": "https://github.com/ruby/racc",
       "rubygemsLink": "https://rubygems.org/gems/racc",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html",
-      "notes": "Also see the [project's GitHub](https://github.com/tenderlove/racc)",
       "maintainer": "Aaron Patterson (tenderlove)",
       "versions": {
         "3.1": "1.6.0",
@@ -1349,6 +1348,21 @@
       "versions": {
         "2.7": "0.2.8",
         "2.6": "0.2.7"
+      }
+    },
+    {
+      "gem": "ruby2_keywords",
+      "native": false,
+      "autoRequire": true,
+      "description": "A shim gemspec to indicate that the Ruby implementation includes the `ruby2_keywords` method",
+      "mriSourcePath": null,
+      "sourceRepository": "https://github.com/ruby/ruby2_keywords",
+      "rubygemsLink": "https://rubygems.org/gems/ruby2_keywords",
+      "rdocLink": null,
+      "maintainer": null,
+      "notes": "Although `ruby2_keywords` is introduced as a default gem in Ruby 3.1, the `ruby2_keywords` method is available on earlier Ruby versions. See [the announcement](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) and [this blog post](https://eregon.me/blog/2021/02/13/correct-delegation-in-ruby-2-27-3.html) for information about how to use this feature.",
+      "versions": {
+        "3.1": "0.0.5"
       }
     },
     {

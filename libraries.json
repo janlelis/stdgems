@@ -1,6 +1,15 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "gems": [
+    {
+      "gem": "continuation",
+      "native": true,
+      "autoRequire": false,
+      "description": "Adds the [goto](https://idiosyncratic-ruby.com/24-goto-fail.html)-like [Kernel#callcc](https://ruby-doc.org/core/Kernel.html#method-i-callcc)",
+      "mriSourcePath": "ext/continuation",
+      "rdocLink": null,
+      "maintainer": "Koichi Sasada (ko1)"
+    },
     {
       "gem": "coverage",
       "native": true,
@@ -14,7 +23,7 @@
       "gem": "mkmf",
       "native": false,
       "autoRequire": false,
-      "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/trunk/doc/extension.rdoc)",
+      "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/master/doc/extension.rdoc)",
       "mriSourcePath": "lib/mkmf.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html",
       "maintainer": null
@@ -32,7 +41,7 @@
       "gem": "objspace",
       "native": true,
       "autoRequire": false,
-      "description": "Adds more statistics methods to `ObjectSpace`",
+      "description": "Adds more statistics methods to `ObjectSpace`. Since Ruby 3.1, it also includes the `objspace/trace` debug utility.",
       "mriSourcePath": "ext/objspace",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html",
       "maintainer": null

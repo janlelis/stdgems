@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Standard Gems: delegate</title>
+    <title>Standard Gems: ruby2_keywords</title>
     <link href="/stylesheets/all3.css" rel="stylesheet" />
 
     <meta charset="utf-8">
@@ -26,18 +26,18 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top">delegate Gem</h1>
+        <h1 class="post-heading" id="top">ruby2_keywords Gem</h1>
       </section>
 
      	<article class="post"><h2 id="description">Description</h2>
 
-<p>Provides three ways to <a href="https://en.wikipedia.org/wiki/Delegation_pattern">delegate</a> method calls</p>
+<p>A shim gemspec to indicate that the Ruby implementation includes the <code>ruby2_keywords</code> method</p>
 
 <h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default gem</strong></li>
-  <li>Use <code>require "delegate"</code> to load this library</li>
+  <li>The library <strong>is required automatically</strong></li>
   <li>The library is written in Ruby, there are <strong>no native extensions</strong></li>
   <li>This library <strong>has no designated maintainer</strong></li>
 </ul>
@@ -45,17 +45,18 @@ document.addEventListener('DOMContentLoaded', function(){
 <h2 id="project-links">Project Links</h2>
 
 <ul>
-  <li><a href="https://rubygems.org/gems/delegate">Project on RubyGems</a></li>
-  <li><a href="https://github.com/ruby/delegate">Source repository</a></li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/lib/delegate.rb">CRuby source on GitHub</a></li>
-  <li><a href="https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html">RDoc API documentation</a></li>
+  <li><a href="https://rubygems.org/gems/ruby2_keywords">Project on RubyGems</a></li>
+  <li><a href="https://github.com/ruby/ruby2_keywords">Source repository</a></li>
 </ul>
+
+<h2 id="notes">Notes</h2>
+
+<p>Although <code>ruby2_keywords</code> is introduced as a default gem in Ruby 3.1, the <code>ruby2_keywords</code> method is available on earlier Ruby versions. See <a href="https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/">the announcement</a> and <a href="https://eregon.me/blog/2021/02/13/correct-delegation-in-ruby-2-27-3.html">this blog post</a> for information about how to use this feature.</p>
 
 <h2 id="gem-version">Gem Version</h2>
 
 <ul>
-  <li><strong>0.2.0</strong> in Ruby 3.0.0 .. 3.1.0</li>
-  <li><strong>0.1.0</strong> in Ruby 2.7.0 .. 2.7.5</li>
+  <li><strong>0.0.5</strong> in Ruby 3.1.0</li>
 </ul>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
