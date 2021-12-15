@@ -1,10 +1,12 @@
 # Change Log
 
-## 3.0.2 (unreleased)
+## 3.0.2
 
 - Update Ruby 3.1's (preview) bundled & default gems
-- Add instructions how you can disable some auto-required gems like
-  did_you_mean
+- Add instructions how you can disable some auto-required gems
+  like did_you_mean
+- Improve details website of a gem by adding proper version
+  tables and link gem versions on GitHub
 
 ## 3.0.1
 
