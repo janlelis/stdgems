@@ -62,7 +62,7 @@
       "description": "`RbConfig` is a [Ruby constant that contains compile time information](https://idiosyncratic-ruby.com/42-ruby-config.html)",
       "mriSourcePath": [
         "tool/mkconfig.rb",
-        "Makefile.in",
+        "template/Makefile.in",
         "ext/rbconfig/sizeof"
       ],
       "rdocLink": null,
