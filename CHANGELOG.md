@@ -3,6 +3,8 @@
 ## 3.0.2 (unreleased)
 
 - Update Ruby 3.1's (preview) bundled & default gems
+- Add instructions how you can disable some auto-required gems like
+  did_you_mean
 
 ## 3.0.1
 
