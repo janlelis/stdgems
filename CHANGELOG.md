@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.0.2 (unreleased)
+
+- Update Ruby 3.1's (preview) bundled & default gems
+
 ## 3.0.1
 
 - Add ruby2_keywords gem to Ruby 3.1
