@@ -596,6 +596,8 @@ helpers do
   end
 
   def gem_details_versions_list(gem_info)
+    "\n| #{ gem_info["gem"] } | Ruby |\n" \
+    "|----------------------|------|\n" +
     LISTED_RUBY_VERSIONS.map{ |ruby_version|
       exact_ruby_version = ruby_version
       major_ruby_version = ruby_version.to_f.to_s
@@ -615,8 +617,18 @@ helpers do
       else
         ruby_versions_range = ruby_versions_with_gem_version[0][0]
       end
-      "- **" + gem_version + "** in Ruby " + ruby_versions_range
-    }.join("\n")
+
+      if !gem_info["sourceRepository"]
+        linked_gem_version = gem_version
+      elsif gem_version =~ /(?<triple_version>[^\.](?:\..+?){2})\.(?<patch_level>.+)/
+        linked_gem_version = "<a href=\"#{ gem_info["sourceRepository"] }/tree/v#{ $~[:triple_version] }\">#{ $~[:triple_version] }</a>.**#{ $~[:patch_level] }**"
+      else
+        linked_gem_version = "<a href=\"#{ gem_info["sourceRepository"] }/tree/v#{ gem_version }\">#{ gem_version }</a>"
+      end
+
+      "| #{ linked_gem_version } | #{ ruby_versions_range } |"
+    }.join("\n") +
+    "\n{:.small-table .table-witdh-15-15}"
   end
 
   def gem_details_versions(gem_info, gem_type = nil)

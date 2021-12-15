@@ -80,6 +80,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 2rem;
 }
 
 p {
@@ -112,7 +113,6 @@ table {
     margin: 0;
     padding: 0.8rem 1.2rem;
     text-align: left;
-    text-align: left;
     vertical-align: top;
     z-index: 50;
     &:first-child, {
@@ -141,6 +141,18 @@ table {
 
   tr:nth-child(even) td {
     background: #ffffff;
+  }
+
+  &.small-table {
+    margin-left: 0;
+    min-width: auto;
+    border-left: 2px solid $action;
+    border-right: 2px solid $action;
+    td, th {
+      &:last-child {
+        text-align: right;
+      }
+    }
   }
 }
 
