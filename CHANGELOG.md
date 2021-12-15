@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.0.3
+
+- Fix optparse version for Ruby 3.1.0 and 3.0.3
+- Add sources for rbconfig.rb
+
 ## 3.0.2
 
 - Update Ruby 3.1's (preview) bundled & default gems
