@@ -1,5 +1,5 @@
 {
-  "version": "3.0.2",
+  "version": "3.0.3",
   "gems": [
     {
       "gem": "continuation",
@@ -60,6 +60,11 @@
       "native": true,
       "autoRequire": false,
       "description": "`RbConfig` is a [Ruby constant that contains compile time information](https://idiosyncratic-ruby.com/42-ruby-config.html)",
+      "mriSourcePath": [
+        "tool/mkconfig.rb",
+        "Makefile.in",
+        "ext/rbconfig/sizeof"
+      ],
       "rdocLink": null,
       "maintainer": null
     },
