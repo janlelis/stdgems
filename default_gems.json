@@ -1,5 +1,5 @@
 {
-  "version": "3.0.3",
+  "version": "3.0.4",
   "gems": [
     {
       "gem": "abbrev",
@@ -705,7 +705,7 @@
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
       "versions": {
-        "3.1": "1.4.4",
+        "3.1": "1.5.0",
         "3.0": "1.4.3",
         "2.7": "1.4.2",
         "2.6": "1.3.0"
@@ -1017,7 +1017,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.1": "0.2.1",
+        "3.1": "0.3.0",
 
         "3.0":   "0.2.1",
         "3.0.2": "0.1.0",
@@ -1087,7 +1087,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.1":   "4.0.2",
+        "3.1":   "4.0.3",
 
         "3.0":   "3.3.2",
         "3.0.2": "3.3.0",

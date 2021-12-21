@@ -1,5 +1,5 @@
 {
-  "version": "3.0.3",
+  "version": "3.0.4",
   "gems": [
     {
       "gem": "debug",
@@ -10,7 +10,7 @@
       "rubygemsLink": "https://rubygems.org/gems/debug",
       "notes": "This gem, which is bundled with Ruby 3.1 and later, is a new debugger that supersedes the old debug standard library/gem",
       "versions": {
-        "3.1": "1.3.4"
+        "3.1": "1.4.0"
       }
     },
     {
@@ -239,7 +239,7 @@
       "sourceRepository": "https://github.com/test-unit/test-unit",
       "rubygemsLink": "https://rubygems.org/gems/test-unit",
       "versions": {
-        "3.1": "3.5.2",
+        "3.1": "3.5.3",
         "3.0": "3.3.8",
         "2.7": "3.3.4",
         "2.6": "3.2.9",
@@ -257,7 +257,7 @@
       "sourceRepository": "https://github.com/ruby/typeprof",
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
       "versions": {
-        "3.1":   "0.20.4",
+        "3.1":   "0.21.0",
 
         "3.0":   "0.15.2",
         "3.0.2": "0.12.0",
