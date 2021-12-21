@@ -1,6 +1,6 @@
 # Change Log
 
-## 3.0.4 (unreleased)
+## 3.0.4
 
 - Update Ruby 3.1's (preview) bundled & default gems
 - Fix source for rbconfig.rb
