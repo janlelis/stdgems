@@ -1793,7 +1793,7 @@
       "gem": "weakref",
       "native": false,
       "autoRequire": false,
-      "description": "Explicitely allow objects to be garbage collected",
+      "description": "Explicitly allow objects to be garbage collected",
       "mriSourcePath": "lib/weakref.rb",
       "sourceRepository": "https://github.com/ruby/weakref",
       "rubygemsLink": "https://rubygems.org/gems/weakref",
