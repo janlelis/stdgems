@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.1.0 (unreleased)
+
+Ruby release: 3.1.0
+
+- Final Ruby 3.1.0 updates
+
 ## 3.0.4
 
 - Update Ruby 3.1's (preview) bundled & default gems

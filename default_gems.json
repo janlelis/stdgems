@@ -58,7 +58,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
-        "3.1":   "3.1.0",
+        "3.1":   "3.1.1",
         "3.0":   "3.0.0",
         "2.7":   "2.0.0",
         "2.6":   "1.4.1",
@@ -83,7 +83,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.1":   "2.3.0",
+        "3.1":   "2.3.3",
 
         "3.0":   "2.2.32",
         "3.0.2": "2.2.22",
@@ -162,7 +162,7 @@
         "Kouhei Sutou (kou)"
       ],
       "versions": {
-        "3.1":   "3.2.1",
+        "3.1":   "3.2.2",
         "3.0":   "3.1.9",
         "2.7":   "3.1.2",
         "2.6":   "3.0.9",
@@ -282,7 +282,7 @@
       "maintainer": "Yuki Nishijima (yuki24)",
       "notes": "- You can [prevent Ruby from loading this default gem](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-did_you_mean`",
       "versions": {
-        "3.1": "1.6.0",
+        "3.1": "1.6.1",
         "3.0": "1.5.0",
         "2.7": "1.4.0"
       }
@@ -390,7 +390,7 @@
       "maintainer": null,
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
-        "3.1": "0.2.0"
+        "3.1": "0.3.0"
       }
     },
     {
@@ -563,7 +563,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "3.1":   "0.5.9",
+        "3.1":   "0.5.10",
 
         "3.0":   "0.5.7",
         "3.0.0": "0.5.6",
@@ -644,7 +644,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "aycabta",
       "versions": {
-        "3.1":   "1.3.8",
+        "3.1":   "1.4.1",
 
         "3.0":   "1.3.5",
         "3.0.0": "1.3.0",
@@ -1159,7 +1159,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.1":     "6.3.2",
+        "3.1":     "6.4.0",
         "3.0":     "6.3.3",
         "3.0.2":   "6.3.1",
         "3.0.1":   "6.3.0",
@@ -1208,7 +1208,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
       "maintainer": "TAKAO Kouji (kouji)",
       "versions": {
-        "3.1": "0.0.2",
+        "3.1": "0.0.3",
         "3.0": "0.0.2",
         "2.7": "0.0.2"
       }
@@ -1225,7 +1225,7 @@
       "maintainer": "TAKAO Kouji (kouji)",
       "notes": "Was just called **readline** before Ruby 2.7.",
       "versions": {
-        "3.1": "0.1.3",
+        "3.1": "0.1.4",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
       }
@@ -1241,7 +1241,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/reline/rdoc/index.html",
       "maintainer": "aycabta",
       "versions": {
-        "3.1":   "0.2.8",
+        "3.1":   "0.3.0",
         "3.0":   "0.2.5",
         "3.0.0": "0.2.0",
         "2.7":   "0.1.5",
@@ -1385,7 +1385,7 @@
       ],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)]((https://idiosyncratic-ruby.com/71-nothing-to-disable.html)) with `$ ruby --disable-gems`",
       "versions": {
-        "3.1":     "3.3.0",
+        "3.1":     "3.3.3",
 
         "3.0":     "3.2.32",
         "3.0.2":   "3.2.15",
