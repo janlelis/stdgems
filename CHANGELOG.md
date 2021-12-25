@@ -1,10 +1,10 @@
 # Change Log
 
-## 3.1.0 (unreleased)
+## 3.1.0
 
 Ruby release: 3.1.0
 
-- Final Ruby 3.1.0 updates
+- Final Ruby 3.1.0 gem updates
 
 ## 3.0.4
 
