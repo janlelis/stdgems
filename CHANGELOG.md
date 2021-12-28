@@ -1,5 +1,9 @@
 # Change Log
 
+## Next (unreleased)
+
+- Add rdoc links (via rubydoc.info) to more gems
+
 ## 3.1.0
 
 Ruby release: 3.1.0

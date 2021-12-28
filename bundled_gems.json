@@ -8,6 +8,7 @@
       "description": "Command-line [debugger](https://en.wikipedia.org/wiki/Debugger)",
       "sourceRepository": "https://github.com/ruby/debug",
       "rubygemsLink": "https://rubygems.org/gems/debug",
+      "rdocLink": "https://www.rubydoc.info/gems/debug",
       "notes": "This gem, which is bundled with Ruby 3.1 and later, is a new debugger that supersedes the old debug standard library/gem",
       "versions": {
         "3.1": "1.4.0"
@@ -21,6 +22,7 @@
       "sourceRepository": "https://github.com/ruby/did_you_mean",
       "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
+      "rdocLink": "https://www.rubydoc.info/gems/did_you_mean",
       "versions": {
         "2.6": "1.3.0",
         "2.5": "1.2.0",
@@ -35,6 +37,7 @@
       "description": "Support for [matrices](https://en.wikipedia.org/wiki/Matrix_%28mathematics%29)",
       "sourceRepository": "https://github.com/ruby/matrix",
       "rubygemsLink": "https://rubygems.org/gems/matrix",
+      "rdocLink": "https://www.rubydoc.info/gems/matrix",
       "versions": {
         "3.1": "0.4.2"
       }
@@ -46,6 +49,7 @@
       "description": "Test/spec framework, comes with mocking and benchmark capabilities",
       "sourceRepository": "https://github.com/seattlerb/minitest",
       "rubygemsLink": "https://rubygems.org/gems/minitest",
+      "rdocLink": "https://www.rubydoc.info/gems/minitest",
       "versions": {
         "3.1": "5.15.0",
         "3.0": "5.14.2",
@@ -66,6 +70,7 @@
       "description": "Support for FTP ([File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol))",
       "sourceRepository": "https://github.com/ruby/net-ftp",
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
+      "rdocLink": "https://www.rubydoc.info/gems/net-ftp",
       "versions": {
         "3.1":   "0.1.3"
       }
@@ -77,6 +82,7 @@
       "description": "Support for IMAP ([Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol))",
       "sourceRepository": "https://github.com/ruby/net-imap",
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
+      "rdocLink": "https://www.rubydoc.info/gems/net-imap",
       "versions": {
         "3.1": "0.2.2"
       }
@@ -88,6 +94,7 @@
       "description": "Support for POP3 ([Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol))",
       "sourceRepository": "https://github.com/ruby/net-pop",
       "rubygemsLink": "https://rubygems.org/gems/net-pop",
+      "rdocLink": "https://www.rubydoc.info/gems/net-pop",
       "versions": {
         "3.1": "0.1.1"
       }
@@ -99,6 +106,7 @@
       "description": "Support for SMTP ([Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol))",
       "sourceRepository": "https://github.com/ruby/net-smtp",
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
+      "rdocLink": "https://www.rubydoc.info/gems/net-smtp",
       "versions": {
         "3.1": "0.3.1"
       }
@@ -111,6 +119,7 @@
       "sourceRepository": "https://github.com/ruby/net-telnet",
       "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/net-telnet",
+      "rdocLink": "https://www.rubydoc.info/gems/net-telnet",
       "versions": {
         "2.7": "0.2.0",
         "2.6": "0.2.0",
@@ -126,6 +135,7 @@
       "description": "Access to prime numbers and prime factorization",
       "sourceRepository": "https://github.com/ruby/prime",
       "rubygemsLink": "https://rubygems.org/gems/prime",
+      "rdocLink": "https://www.rubydoc.info/gems/prime",
       "versions": {
         "3.1": "0.1.2"
       }
@@ -137,6 +147,7 @@
       "description": "Debug tool that displays intermediate results of a method chain",
       "sourceRepository": "https://github.com/ruby/power_assert",
       "rubygemsLink": "https://rubygems.org/gems/power_assert",
+      "rdocLink": "https://www.rubydoc.info/gems/power_assert",
       "versions": {
         "3.1":   "2.0.1",
 
@@ -159,6 +170,7 @@
       "description": "A Ruby task runner, inspired by [make](https://en.wikipedia.org/wiki/Make_%28software%29)",
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
+      "rdocLink": "https://www.rubydoc.info/gems/rake",
       "versions": {
         "3.1":   "13.0.6",
 
@@ -196,6 +208,7 @@
       "description": "Released with Ruby 3.0, RBS is a way to declare types in Ruby. The gem allows parsing and processing type definitions written in RBS.",
       "sourceRepository": "https://github.com/ruby/rbs",
       "rubygemsLink": "https://rubygems.org/gems/rbs",
+      "rdocLink": "https://www.rubydoc.info/gems/rbs",
       "versions": {
         "3.1":   "2.0.0",
 
@@ -212,6 +225,7 @@
       "description": "Support for XML ([Extensible Markup Language](https://en.wikipedia.org/wiki/XML))",
       "sourceRepository": "https://github.com/ruby/rexml",
       "rubygemsLink": "https://rubygems.org/gems/rexml",
+      "rdocLink": "https://www.rubydoc.info/gems/rexml",
       "versions": {
         "3.1":   "3.2.5",
 
@@ -226,6 +240,7 @@
       "description": "Support for RSS ([Rich Site Summary](https://en.wikipedia.org/wiki/RSS)) and [Atom](https://en.wikipedia.org/wiki/Atom_%28standard%29)",
       "sourceRepository": "https://github.com/ruby/rss",
       "rubygemsLink": "https://rubygems.org/gems/rss",
+      "rdocLink": "https://www.rubydoc.info/gems/rss",
       "versions": {
         "3.1": "0.2.9",
         "3.0": "0.2.9"
@@ -238,6 +253,7 @@
       "description": "A xUnit family unit testing framework (compatibility layer for minitest)",
       "sourceRepository": "https://github.com/test-unit/test-unit",
       "rubygemsLink": "https://rubygems.org/gems/test-unit",
+      "rdocLink": "https://www.rubydoc.info/gems/test-unit",
       "versions": {
         "3.1": "3.5.3",
         "3.0": "3.3.8",
@@ -256,6 +272,7 @@
       "description": "Released with Ruby 3.0, typeprof allows you to [automatically generate RBS type annotations](https://github.com/ruby/typeprof/blob/master/doc/doc.md)",
       "sourceRepository": "https://github.com/ruby/typeprof",
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
+      "rdocLink": "https://www.rubydoc.info/gems/typeprof",
       "versions": {
         "3.1":   "0.21.1",
 
@@ -273,6 +290,7 @@
       "sourceRepository": "https://github.com/ruby/xmlrpc",
       "removed": true,
       "rubygemsLink": "https://rubygems.org/gems/xmlrpc",
+      "rdocLink": "https://www.rubydoc.info/gems/xmlrpc",
       "versions": {
         "2.7": "0.3.0",
         "2.6": "0.3.0",

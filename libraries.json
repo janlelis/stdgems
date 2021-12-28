@@ -107,7 +107,7 @@
       "autoRequire": false,
       "description": "Let's you use Windows APIs, e.g. call functions in DLLs",
       "mriSourcePath": "ext/win32",
-      "rdocLink": null,
+      "rdocLink": "https://www.rubydoc.info/stdlib/win32",
       "maintainer": "NAKAMURA Usaku (usa)"
     }
   ]
