@@ -435,6 +435,7 @@
         "lib/error_highlight.rb",
         "lib/error_highlight"
       ],
+      "jrubySourcePath": null,
       "sourceRepository": "https://github.com/ruby/error_highlight",
       "rubygemsLink": "https://rubygems.org/gems/error_highlight",
       "rdocLink": "https://www.rubydoc.info/gems/error_highlight",
