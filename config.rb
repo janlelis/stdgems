@@ -534,6 +534,10 @@ helpers do
     end
 
     unless gem_info["removed"]
+      if gem_type == "bundled" || gem_type == "hybrid_bundled"
+        res << ["To use with bundler, add this to your Gemfile: `gem \"#{ gem_info["gem"] }\"`"]
+      end
+
       if gem_info["autoRequire"]
         res << ["The library **is required automatically**"]
       elsif !gem_info["removed"]
