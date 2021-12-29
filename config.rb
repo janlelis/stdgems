@@ -503,7 +503,7 @@ helpers do
   def gem_description(gem_info, gem_type)
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
     gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
-    gem_info["description"]
+    gem_info["description"] + "\n\n" + build_resource_list(gem_info, :short)
   end
 
   def gem_details_properties(gem_info, gem_type)
