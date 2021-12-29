@@ -33,22 +33,38 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <p><a href="https://en.wikipedia.org/wiki/Monitor_%28synchronization%29">Monitors</a> for multi-threaded code</p>
 
+<p><a href="https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html">RDoc</a></p>
+
 <h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default library</strong>, which is not versioned on its own</li>
+  <li>The library is not published on RubyGems</li>
   <li>Use <code>require "monitor"</code> to load this library</li>
   <li>The library <strong>contains native extensions</strong></li>
   <li>Current maintainer: Koichi Sasada (ko1)</li>
 </ul>
 
-<h2 id="project-links">Project Links</h2>
+<h2 id="gem-sources">Gem Sources</h2>
 
-<ul>
-  <li>Project is not published on RubyGems</li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/ext/monitor">CRuby source on GitHub</a></li>
-  <li><a href="https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html">RDoc API documentation</a></li>
-</ul>
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CRuby</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/monitor">ext/monitor</a></td>
+    </tr>
+    <tr>
+      <td>JRuby</td>
+      <td><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/monitor.rb">lib/ruby/stdlib/monitor.rb</a><br /><a href="https://github.com/jruby/jruby/tree/master/core/src/main/java/org/jruby/ext/monitor">core/src/main/java/org/jruby/ext/monitor</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
 

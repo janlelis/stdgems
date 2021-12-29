@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "gems": [
     {
       "gem": "abbrev",
@@ -7,6 +7,7 @@
       "autoRequire": false,
       "description": "Finds the shortest unique abbreviation amongst many strings",
       "mriSourcePath": "lib/abbrev.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/abbrev",
       "rubygemsLink": "https://rubygems.org/gems/abbrev",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/abbrev/rdoc/Abbrev.html",
@@ -22,6 +23,7 @@
       "autoRequire": false,
       "description": "Encodes and decodes strings to a [Base64](https://en.wikipedia.org/wiki/Base64) representation. Implemented as a small wrapper around [String#unpack](https://idiosyncratic-ruby.com/4-what-the-pack.html)",
       "mriSourcePath": "lib/base64.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/base64",
       "rubygemsLink": "https://rubygems.org/gems/base64",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/base64/rdoc/Base64.html",
@@ -37,6 +39,7 @@
       "autoRequire": false,
       "description": "Benchmark utility: Measures and reports the time used to execute code",
       "mriSourcePath": "lib/benchmark.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/benchmark",
       "rubygemsLink": "https://rubygems.org/gems/benchmark",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html",
@@ -53,6 +56,11 @@
       "autoRequire": false,
       "description": "Support for arbitrary-precision floating point decimal arithmetic",
       "mriSourcePath": "ext/bigdecimal",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/bigdecimal.rb",
+        "lib/ruby/stdlib/bigdecimal",
+        "core/src/main/java/org/jruby/ext/bigdecimal"
+      ],
       "sourceRepository": "https://github.com/ruby/bigdecimal",
       "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
@@ -78,6 +86,7 @@
       "autoRequire": false,
       "description": "[Bundler](https://bundler.io) is the local package manager for Ruby applications",
       "mriSourcePath": "lib/bundler",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/rubygems/rubygems/tree/master/bundler",
       "rubygemsLink": "https://rubygems.org/gems/bundler",
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
@@ -105,6 +114,10 @@
         "lib/cgi.rb",
         "lib/cgi",
         "ext/cgi"
+      ],
+      "jrubySourcePath": [
+        true,
+        "core/src/main/java/org/jruby/ext/cgi/escape/CGIEscape.java"
       ],
       "sourceRepository": "https://github.com/ruby/cgi",
       "rubygemsLink": "https://rubygems.org/gems/cgi",
@@ -154,6 +167,7 @@
         "lib/csv.rb",
         "lib/csv"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/csv",
       "rubygemsLink": "https://rubygems.org/gems/csv",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
@@ -178,6 +192,11 @@
       "autoRequire": false,
       "description": "The [Date](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html) and [DateTime](https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html) classes",
       "mriSourcePath": "ext/date",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/date.rb",
+        "lib/ruby/stdlib/date",
+        "core/src/main/java/org/jruby/ext/date"
+      ],
       "sourceRepository": "https://github.com/ruby/date",
       "rubygemsLink": "https://rubygems.org/gems/date",
       "rdocLink": [
@@ -257,6 +276,7 @@
       "autoRequire": false,
       "description": "Provides three ways to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls",
       "mriSourcePath": "lib/delegate.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/delegate",
       "rubygemsLink": "https://rubygems.org/gems/delegate",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html",
@@ -276,6 +296,7 @@
         "lib/did_you_mean.rb",
         "lib/did_you_mean"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/did_you_mean",
       "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/did_you_mean/rdoc/DidYouMean.html",
@@ -293,6 +314,10 @@
       "autoRequire": false,
       "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
       "mriSourcePath": "ext/digest",
+      "jrubySourcePath": [
+        true,
+        "core/src/main/java/org/jruby/ext/digest"
+      ],
       "sourceRepository": "https://github.com/ruby/digest",
       "rubygemsLink": "https://rubygems.org/gems/digest",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
@@ -311,6 +336,7 @@
         "lib/drb.rb",
         "lib/drb"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/drb",
       "rubygemsLink": "https://rubygems.org/gems/drb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html",
@@ -348,6 +374,7 @@
       "autoRequire": false,
       "description": "[Readable aliases for special global variables](https://idiosyncratic-ruby.com/9-globalization.html)",
       "mriSourcePath": "lib/English.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/English.rb",
       "sourceRepository": "https://github.com/ruby/English",
       "rubygemsLink": "https://rubygems.org/gems/english",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html",
@@ -363,6 +390,7 @@
       "autoRequire": false,
       "description": "Templating engine for Ruby",
       "mriSourcePath": "lib/erb.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/erb",
       "rubygemsLink": "https://rubygems.org/gems/erb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/erb/rdoc/index.html",
@@ -384,9 +412,10 @@
         "lib/error_highlight.rb",
         "lib/error_highlight"
       ],
+      "jrubySourcePath": null,
       "sourceRepository": "https://github.com/ruby/error_highlight",
       "rubygemsLink": "https://rubygems.org/gems/error_highlight",
-      "rdocLink": null,
+      "rdocLink": "https://www.rubydoc.info/gems/error_highlight",
       "maintainer": null,
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
@@ -399,6 +428,10 @@
       "autoRequire": false,
       "description": "Access UNIX info from `/etc`",
       "mriSourcePath": "ext/etc",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/etc.rb",
+        "core/src/main/java/org/jruby/ext/etc"
+      ],
       "sourceRepository": "https://github.com/ruby/etc",
       "rubygemsLink": "https://rubygems.org/gems/etc",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
@@ -422,6 +455,10 @@
       "autoRequire": false,
       "description": "Loads values from the OS' `fcntl.h` to be used for low-level [file descriptor manipulation](https://en.wikipedia.org/wiki/File_descriptor) system calls with [IO#fcntl](https://ruby-doc.org/core/IO.html#method-i-fcntl) and [IO.sysopen](https://ruby-doc.org/core/IO.html#method-c-sysopen)",
       "mriSourcePath": "ext/fcntl",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/fcntl.rb",
+        "core/src/main/java/org/jruby/ext/fcntl"
+      ],
       "sourceRepository": "https://github.com/ruby/fcntl",
       "rubygemsLink": "https://rubygems.org/gems/fcntl",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
@@ -445,6 +482,10 @@
       "autoRequire": false,
       "description": "Support for FFI ([Foreign Function Interface](https://sourceware.org/libffi/))",
       "mriSourcePath": "ext/fiddle",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/fiddle.rb",
+        "lib/ruby/stdlib/fiddle"
+      ],
       "sourceRepository": "https://github.com/ruby/fiddle",
       "rubygemsLink": "https://rubygems.org/gems/fiddle",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
@@ -468,6 +509,10 @@
       "autoRequire": false,
       "description": "Utilities for working with the file system, such as copying, moving, or deleting files",
       "mriSourcePath": "lib/fileutils.rb",
+      "jrubySourcePath": [
+        true,
+        "lib/ruby/stdlib/fileutils"
+      ],
       "sourceRepository": "https://github.com/ruby/fileutils",
       "rubygemsLink": "https://rubygems.org/gems/fileutils",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
@@ -486,6 +531,7 @@
       "autoRequire": false,
       "description": "Finds all files in a given directory and its sub-directories",
       "mriSourcePath": "lib/find.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/find",
       "rubygemsLink": "https://rubygems.org/gems/find",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html",
@@ -506,6 +552,7 @@
         "lib/forwardable",
         "ext/rubyvm/lib/forwardable/impl.rb"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/forwardable",
       "rubygemsLink": "https://rubygems.org/gems/forwardable",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
@@ -541,6 +588,7 @@
       "autoRequire": false,
       "description": "[GNU getopt_long()](https://linux.die.net/man/3/getopt_long) style command-line option parsing",
       "mriSourcePath": "lib/getoptlong.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/getoptlong",
       "rubygemsLink": "https://rubygems.org/gems/getoptlong",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
@@ -557,6 +605,7 @@
       "autoRequire": false,
       "description": "Patches `IO` for simple and portable access to the console",
       "mriSourcePath": "ext/io/console",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/io-console",
       "rubygemsLink": "https://rubygems.org/gems/io-console",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html",
@@ -584,6 +633,10 @@
       "autoRequire": false,
       "description": "Allows to work with `IO` streams in a non-blocking way",
       "mriSourcePath": "ext/io/nonblock",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/io/nonblock.rb",
+        "core/src/main/java/org/jruby/ext/io/nonblock"
+      ],
       "sourceRepository": "https://github.com/ruby/io-nonblock",
       "rubygemsLink": "https://rubygems.org/gems/io-nonblock",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/nonblock/rdoc/IO.html",
@@ -599,6 +652,10 @@
       "autoRequire": false,
       "description": "Adds methods to wait until an `IO` stream becomes readable or writable",
       "mriSourcePath": "ext/io/wait",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/io/wait.rb",
+        "core/src/main/java/org/jruby/ext/io/wait"
+      ],
       "sourceRepository": "https://github.com/ruby/io-wait",
       "rubygemsLink": "https://rubygems.org/gems/io-wait",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/wait/rdoc/IO.html",
@@ -618,6 +675,7 @@
       "autoRequire": false,
       "description": "[IP address](https://en.wikipedia.org/wiki/IP_address) manipulation (IPv4 and IPv6)",
       "mriSourcePath": "lib/ipaddr.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/ipaddr",
       "rubygemsLink": "https://rubygems.org/gems/ipaddr",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
@@ -639,6 +697,7 @@
         "lib/irb.rb",
         "lib/irb"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/irb",
       "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
@@ -662,6 +721,7 @@
       "autoRequire": false,
       "description": "Support for JSON ([JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON))",
       "mriSourcePath": "ext/json",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/flori/json",
       "rubygemsLink": "https://rubygems.org/gems/json",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
@@ -699,6 +759,7 @@
       "autoRequire": false,
       "description": "[Logging utility](https://ruby.janlelis.de/50-exploring-the-stdlib-logger)",
       "mriSourcePath": "lib/logger.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/logger",
       "rubygemsLink": "https://rubygems.org/gems/logger",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
@@ -720,6 +781,7 @@
         "lib/matrix.rb",
         "lib/matrix"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/matrix",
       "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html",
@@ -737,6 +799,7 @@
       "autoRequire": false,
       "description": "A mixin that makes any object behave like a [mutex](https://ruby-doc.org/core/Mutex.html)",
       "mriSourcePath": "lib/mutex_m.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/mutex_m",
       "rubygemsLink": "https://rubygems.org/gems/mutex_m",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
@@ -754,6 +817,7 @@
       "autoRequire": false,
       "description": "Support for FTP ([File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol))",
       "mriSourcePath": "lib/net/ftp.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/net/ftp.rb",
       "sourceRepository": "https://github.com/ruby/net-ftp",
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/ftp/rdoc/Net/FTP.html",
@@ -775,6 +839,11 @@
         "lib/net/https.rb",
         "lib/net/http"
       ],
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/net/http.rb",
+        "lib/ruby/stdlib/net/https.rb",
+        "lib/ruby/stdlib/net/http"
+      ],
       "sourceRepository": "https://github.com/ruby/net-http",
       "rubygemsLink": "https://rubygems.org/gems/net-http",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/http/rdoc/Net/HTTP.html",
@@ -790,6 +859,7 @@
       "autoRequire": false,
       "description": "Support for IMAP ([Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol))",
       "mriSourcePath": "lib/net/imap.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/net/imap.rb",
       "sourceRepository": "https://github.com/ruby/net-imap",
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/imap/rdoc/Net/IMAP.html",
@@ -805,6 +875,7 @@
       "autoRequire": false,
       "description": "Support for POP3 ([Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol))",
       "mriSourcePath": "lib/net/pop.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/net/pop.rb",
       "sourceRepository": "https://github.com/ruby/net-pop",
       "rubygemsLink": "https://rubygems.org/gems/net-pop",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/pop/rdoc/Net/POP3.html",
@@ -821,6 +892,7 @@
       "autoRequire": false,
       "description": "Internal class for the other net-* libraries",
       "mriSourcePath": "lib/net/protocol.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/net/protocol.rb",
       "sourceRepository": "https://github.com/ruby/net-protocol",
       "rubygemsLink": "https://rubygems.org/gems/net-protocol",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/protocol/rdoc/index.html",
@@ -840,6 +912,7 @@
       "autoRequire": false,
       "description": "Support for SMTP ([Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol))",
       "mriSourcePath": "lib/net/smtp.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/net/smtp.rb",
       "sourceRepository": "https://github.com/ruby/net-smtp",
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/smtp/rdoc/Net/SMTP.html",
@@ -856,6 +929,10 @@
       "autoRequire": false,
       "description": "[Kanji](https://en.wikipedia.org/wiki/Kanji) encoding converter. Can also be used via the [Kconv.kconv method](https://github.com/ruby/nkf/blob/master/lib/kconv.rb).",
       "mriSourcePath": "ext/nkf",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/net/nkf.rb",
+        "core/src/main/java/org/jruby/ext/nkf"
+      ],
       "sourceRepository": "https://github.com/ruby/nkf",
       "rubygemsLink": "https://rubygems.org/gems/nkf",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/nkf/rdoc/NKF.html",
@@ -871,6 +948,7 @@
       "autoRequire": false,
       "description": "Implementation of the [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), a way to let interested other objects know o an objetc's updates",
       "mriSourcePath": "lib/observer.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/observer",
       "rubygemsLink": "https://rubygems.org/gems/observer",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
@@ -887,6 +965,7 @@
       "autoRequire": false,
       "description": "Simple spawning of child processes",
       "mriSourcePath": "lib/open3.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/open3.rb",
       "sourceRepository": "https://github.com/ruby/open3",
       "rubygemsLink": "https://rubygems.org/gems/open3",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html",
@@ -903,10 +982,12 @@
       "autoRequire": false,
       "description": "Wraps [OpenSSL](https://www.openssl.org/) for cryptographic functionality",
       "mriSourcePath": "ext/openssl",
+      "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/openssl",
       "rubygemsLink": "https://rubygems.org/gems/openssl",
       "rdocLink": "https://ruby.github.io/openssl/",
       "maintainer": "Kazuki Yamaguchi (rhe)",
+      "notes": "JRuby uses the Bouncy Castle-based [jruby-openssl gem](https://github.com/jruby/jruby-openssl) instead",
       "versions": {
         "3.1":   "3.0.0",
 
@@ -942,6 +1023,7 @@
       "autoRequire": false,
       "description": "Monkeypatches [Kernel#open](https://ruby-doc.org/core/Kernel.html#method-i-open) to support remote endpoints via `net/http` and `net/ftp`",
       "mriSourcePath": "lib/open-uri.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/open-uri",
       "rubygemsLink": "https://rubygems.org/gems/open-uri",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open-uri/rdoc/OpenURI.html",
@@ -961,6 +1043,7 @@
         "lib/optionparser.rb",
         "lib/optparse"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/optparse",
       "rubygemsLink": "https://rubygems.org/gems/optparse",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptParse.html",
@@ -980,6 +1063,7 @@
       "autoRequire": false,
       "description": "Wrapper around [Hash](https://ruby-doc.org/core/Hash.html) which lets you read and set attributes with a method-based API",
       "mriSourcePath": "lib/ostruct.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/ostruct",
       "rubygemsLink": "https://rubygems.org/gems/ostruct",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
@@ -997,6 +1081,10 @@
       "autoRequire": false,
       "description": "Wraps `File`, `FileTest`, `Dir`, and `FileUtils` to ease working with file system paths",
       "mriSourcePath": "ext/pathname",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/pathname.rb",
+        "core/src/main/java/org/jruby/ext/pathname"
+      ],
       "sourceRepository": "https://github.com/ruby/pathname",
       "rubygemsLink": "https://rubygems.org/gems/pathname",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pathname/rdoc/Pathname.html",
@@ -1012,6 +1100,7 @@
       "autoRequire": false,
       "description": "The `pp` print debugging helper via `require 'pp'`. It will format the result object in more readable way.",
       "mriSourcePath": "lib/pp.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/pp.rb",
       "sourceRepository": "https://github.com/ruby/pp",
       "rubygemsLink": "https://rubygems.org/gems/pp",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
@@ -1031,6 +1120,7 @@
       "autoRequire": false,
       "description": "Better object formatting and inspection. Also see the [pp gem](/pp/).",
       "mriSourcePath": "lib/prettyprint.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/prettyprint",
       "rubygemsLink": "https://rubygems.org/gems/prettyprint",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
@@ -1046,6 +1136,7 @@
       "autoRequire": false,
       "description": "Access to prime numbers and prime factorization",
       "mriSourcePath": "lib/prime.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/prime",
       "rubygemsLink": "https://rubygems.org/gems/prime",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html",
@@ -1063,6 +1154,7 @@
       "autoRequire": false,
       "description": "Transactional file storage for Ruby objects",
       "mriSourcePath": "lib/pstore.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/pstore",
       "rubygemsLink": "https://rubygems.org/gems/pstore",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html",
@@ -1079,6 +1171,7 @@
       "autoRequire": false,
       "description": "Support for YAML ([YAML Ain't Markup Language](https://en.wikipedia.org/wiki/YAML))",
       "mriSourcePath": "ext/psych",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/psych",
       "rubygemsLink": "https://rubygems.org/gems/psych",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
@@ -1129,6 +1222,7 @@
         "lib/racc/parser.rb",
         "ext/racc/cparse"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/racc",
       "rubygemsLink": "https://rubygems.org/gems/racc",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html",
@@ -1151,6 +1245,7 @@
         "lib/rdoc.rb",
         "lib/rdoc"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/rdoc",
       "rubygemsLink": "https://rubygems.org/gems/rdoc",
       "rdocLink": "https://ruby.github.io/rdoc/",
@@ -1203,10 +1298,12 @@
       "autoRequire": false,
       "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) [reline](https://stdgems.org/reline) will be used.",
       "mriSourcePath": "ext/readline",
+      "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/readline",
       "rubygemsLink": "https://rubygems.org/gems/readline",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
       "maintainer": "TAKAO Kouji (kouji)",
+      "notes": "JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
       "versions": {
         "3.1": "0.0.3",
         "3.0": "0.0.2",
@@ -1219,11 +1316,12 @@
       "autoRequire": false,
       "description": "Interface to [GNU Readline](https://directory.fsf.org/wiki/Readline) and [NetBSD Editline](https://thrysoee.dk/editline/)",
       "mriSourcePath": "ext/readline",
+      "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/readline-ext",
       "rubygemsLink": "https://rubygems.org/gems/readline-ext",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
       "maintainer": "TAKAO Kouji (kouji)",
-      "notes": "Was just called **readline** before Ruby 2.7.",
+      "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
       "versions": {
         "3.1": "0.1.4",
         "3.0": "0.1.1",
@@ -1236,6 +1334,7 @@
       "autoRequire": false,
       "description": "Ruby-only implementation of [GNU Readline](https://directory.fsf.org/wiki/Readline) / [NetBSD Editline](https://thrysoee.dk/editline/) ",
       "mriSourcePath": "lib/reline",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/reline",
       "rubygemsLink": "https://rubygems.org/gems/reline",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/reline/rdoc/index.html",
@@ -1257,6 +1356,7 @@
       "mriSourcePath": [
         "lib/resolv.rb"
       ],
+      "jrubySourcePath": "lib/ruby/stdlib/resolv.rb",
       "sourceRepository": "https://github.com/ruby/resolv",
       "rubygemsLink": "https://rubygems.org/gems/resolv",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
@@ -1278,6 +1378,7 @@
       "mriSourcePath": [
         "lib/resolv-replace.rb"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/resolv-replace",
       "rubygemsLink": "https://rubygems.org/gems/resolv-replace",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
@@ -1320,6 +1421,7 @@
       "autoRequire": false,
       "description": "Support fot the [Linda distributed computing paradigm](https://en.wikipedia.org/wiki/Linda_%28coordination_language%29) in [drb](https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html)",
       "mriSourcePath": "lib/rinda",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/rinda",
       "rubygemsLink": "https://rubygems.org/gems/rinda",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rinda/rdoc/Rinda.html",
@@ -1360,7 +1462,7 @@
       "mriSourcePath": null,
       "sourceRepository": "https://github.com/ruby/ruby2_keywords",
       "rubygemsLink": "https://rubygems.org/gems/ruby2_keywords",
-      "rdocLink": null,
+      "rdocLink": "https://www.rubydoc.info/gems/ruby2_keywords",
       "maintainer": null,
       "notes": "Although `ruby2_keywords` is introduced as a default gem in Ruby 3.1, the `ruby2_keywords` method is available on earlier Ruby versions. See [the announcement](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) and [this blog post](https://eregon.me/blog/2021/02/13/correct-delegation-in-ruby-2-27-3.html) for information about how to use this feature.",
       "versions": {
@@ -1375,6 +1477,10 @@
       "mriSourcePath": [
         "lib/rubygems.rb",
         "lib/rubygems"
+      ],
+      "jrubySourcePath": [
+        true,
+        "lib/ruby/stdlib/rubygems/defaults"
       ],
       "sourceRepository": "https://github.com/rubygems/rubygems",
       "rubygemsLink": "https://rubygems.org/gems/rubygems-update",
@@ -1486,6 +1592,10 @@
       "autoRequire": false,
       "description": "Provides crpytographical randomness from openssl or the OS",
       "mriSourcePath": "lib/securerandom.rb",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/securerandom.rb",
+        "core/src/main/java/org/jruby/ext/securerandom"
+      ],
       "sourceRepository": "https://github.com/ruby/securerandom",
       "rubygemsLink": "https://rubygems.org/gems/securerandom",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/securerandom/rdoc/SecureRandom.html",
@@ -1501,6 +1611,10 @@
       "autoRequire": false,
       "description": "Data structure for unordered collections without duplicates. Implemented on top of Hash. Also comes with `SortedSet` for ordered collections.",
       "mriSourcePath": "lib/set.rb",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/set.rb",
+        "core/src/main/java/org/jruby/ext/set"
+      ],
       "sourceRepository": "https://github.com/ruby/set",
       "rubygemsLink": "https://rubygems.org/gems/set",
       "rdocLink": [
@@ -1537,6 +1651,7 @@
       "autoRequire": false,
       "description": "Escape and manipulate commads to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
       "mriSourcePath": "lib/shellwords.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/shellwords",
       "rubygemsLink": "https://rubygems.org/gems/shellwords",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shellwords/rdoc/Shellwords.html",
@@ -1552,6 +1667,7 @@
       "autoRequire": false,
       "description": "Mixin for Ruby classes that should only have one instance",
       "mriSourcePath": "lib/singleton.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/singleton",
       "rubygemsLink": "https://rubygems.org/gems/singleton",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html",
@@ -1568,6 +1684,10 @@
       "autoRequire": false,
       "description": "Makes strings behave like IO objects",
       "mriSourcePath": "ext/stringio",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/stringio.rb",
+        "core/src/main/java/org/jruby/ext/stringio"
+      ],
       "sourceRepository": "https://github.com/ruby/stringio",
       "rubygemsLink": "https://rubygems.org/gems/stringio",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
@@ -1591,6 +1711,10 @@
       "autoRequire": false,
       "description": "Lexical string scanning",
       "mriSourcePath": "ext/strscan",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/strscan.rb",
+        "core/src/main/java/org/jruby/ext/strscan"
+      ],
       "sourceRepository": "https://github.com/ruby/strscan",
       "rubygemsLink": "https://rubygems.org/gems/strscan",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
@@ -1629,6 +1753,11 @@
       "autoRequire": false,
       "description": "Interface to the low-level [syslog](https://en.wikipedia.org/wiki/Syslog) logger",
       "mriSourcePath": "ext/syslog",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/syslog.rb",
+        "lib/ruby/stdlib/syslog",
+        "core/src/main/java/org/jruby/ext/syslog"
+      ],
       "sourceRepository": "https://github.com/ruby/syslog",
       "rubygemsLink": "https://rubygems.org/gems/syslog",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/syslog/rdoc/Syslog.html",
@@ -1644,6 +1773,10 @@
       "autoRequire": false,
       "description": "Simplifies OS independent creation of temporary files",
       "mriSourcePath": "lib/tempfile.rb",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/tempfile.rb",
+        "core/src/main/java/org/jruby/ext/tempfile"
+      ],
       "sourceRepository": "https://github.com/ruby/tempfile",
       "rubygemsLink": "https://rubygems.org/gems/tempfile",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html",
@@ -1677,6 +1810,7 @@
       "autoRequire": false,
       "description": "Adds more methods to `Time`",
       "mriSourcePath": "lib/time.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/time",
       "rubygemsLink": "https://rubygems.org/gems/time",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/time/rdoc/Time.html",
@@ -1692,6 +1826,10 @@
       "autoRequire": false,
       "description": "Auto-terminates code blocks after the time limit is reached",
       "mriSourcePath": "lib/timeout.rb",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/timeout.rb",
+        "core/src/main/java/org/jruby/ext/timeout"
+      ],
       "sourceRepository": "https://github.com/ruby/timeout",
       "rubygemsLink": "https://rubygems.org/gems/timeout",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html",
@@ -1710,6 +1848,7 @@
       "autoRequire": false,
       "description": "Adds a `Dir.mktmpdir` method for creating temporary directories OS independently",
       "mriSourcePath": "lib/tmpdir.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/tmpdir.rb",
       "sourceRepository": "https://github.com/ruby/tmpdir",
       "rubygemsLink": "https://rubygems.org/gems/tmpdir",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir",
@@ -1729,6 +1868,7 @@
         "lib/tracer.rb",
         "lib/tracer"
       ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/tracer",
       "rubygemsLink": "https://rubygems.org/gems/tracer",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html",
@@ -1746,6 +1886,7 @@
       "autoRequire": false,
       "description": "Topological sorting using [Tarjan’s algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm), which finds [strongly connected components](https://en.wikipedia.org/wiki/Strongly_connected_component) in [graphs](https://en.wikipedia.org/wiki/Graph_%28abstract_data_type%29)",
       "mriSourcePath": "lib/tsort.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/tsort",
       "rubygemsLink": "https://rubygems.org/gems/tsort",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tsort/rdoc/TSort.html",
@@ -1761,6 +1902,7 @@
       "autoRequire": false,
       "description": "[Utilities to replace common UNIX commands](https://idiosyncratic-ruby.com/6-run-ruby-run.html)",
       "mriSourcePath": "lib/un.rb",
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/un",
       "rubygemsLink": "https://rubygems.org/gems/un",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/un/rdoc/index.html",
@@ -1779,6 +1921,10 @@
         "lib/uri.rb",
         "lib/uri"
       ],
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/uri.rb",
+        "lib/ruby/stdlib/uri"
+      ],
       "sourceRepository": "https://github.com/ruby/uri",
       "rubygemsLink": "https://rubygems.org/gems/uri",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
@@ -1795,6 +1941,7 @@
       "autoRequire": false,
       "description": "Explicitly allow objects to be garbage collected",
       "mriSourcePath": "lib/weakref.rb",
+      "jrubySourcePath": "lib/ruby/stdlib/weakref.rb",
       "sourceRepository": "https://github.com/ruby/weakref",
       "rubygemsLink": "https://rubygems.org/gems/weakref",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html",
@@ -1854,6 +2001,7 @@
       "autoRequire": false,
       "description": "Windows [OLE automation](https://en.wikipedia.org/wiki/OLE_Automation) interface",
       "mriSourcePath": "ext/win32ole",
+      "jrubySourcePath": "lib/ruby/stdlib/win32ole.rb",
       "sourceRepository": "https://github.com/ruby/win32ole",
       "rubygemsLink": "https://rubygems.org/gems/win32ole",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/win32ole/rdoc/WIN32OLE.html",
@@ -1872,6 +2020,10 @@
         "lib/yaml.rb",
         "lib/yaml/dbm.rb",
         "lib/yaml/store.rb"
+      ],
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/yaml.rb",
+        "lib/ruby/stdlib/yaml"
       ],
       "sourceRepository": "https://github.com/ruby/yaml",
       "rubygemsLink": "https://rubygems.org/gems/yaml",
@@ -1896,6 +2048,10 @@
       "autoRequire": false,
       "description": "Interface to the [zlib compression library](https://en.wikipedia.org/wiki/Zlib)",
       "mriSourcePath": "ext/zlib",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/zlib.rb",
+        "core/src/main/java/org/jruby/ext/zlib"
+      ],
       "sourceRepository": "https://github.com/ruby/zlib",
       "rubygemsLink": "https://rubygems.org/gems/zlib",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",

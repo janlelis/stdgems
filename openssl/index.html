@@ -33,18 +33,45 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <p>Wraps <a href="https://www.openssl.org/">OpenSSL</a> for cryptographic functionality</p>
 
-<h2 id="info--links">Info &amp; Links</h2>
+<p><a href="https://rubygems.org/gems/openssl">RubyGems</a> · <a href="https://github.com/ruby/openssl">GitHub</a> · <a href="https://ruby.github.io/openssl/">RDoc</a></p>
+
+<h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default gem</strong></li>
   <li>Use <code>require "openssl"</code> to load this library</li>
   <li>The library <strong>contains native extensions</strong></li>
   <li>Current maintainer: Kazuki Yamaguchi (rhe)</li>
-  <li><a href="https://rubygems.org/gems/openssl">Project on RubyGems</a></li>
-  <li><a href="https://github.com/ruby/openssl">Source repository</a></li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/ext/openssl">CRuby source on GitHub</a></li>
-  <li><a href="https://ruby.github.io/openssl/">RDoc API documentation</a></li>
 </ul>
+
+<h2 id="gem-sources">Gem Sources</h2>
+
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gem Repository</td>
+      <td><a href="https://github.com/ruby/openssl">github.com/ruby/openssl</a></td>
+    </tr>
+    <tr>
+      <td>CRuby</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/openssl">ext/openssl</a></td>
+    </tr>
+    <tr>
+      <td>JRuby</td>
+      <td>not included</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="notes">Notes</h2>
+
+<p>JRuby uses the Bouncy Castle-based <a href="https://github.com/jruby/jruby-openssl">jruby-openssl gem</a> instead</p>
 
 <h2 id="gem-version">Gem Version</h2>
 

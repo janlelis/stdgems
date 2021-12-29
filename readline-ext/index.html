@@ -33,22 +33,48 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <p>Interface to <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> and <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></p>
 
-<h2 id="info--links">Info &amp; Links</h2>
+<p><a href="https://rubygems.org/gems/readline-ext">RubyGems</a> · <a href="https://github.com/ruby/readline-ext">GitHub</a> · <a href="https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html">RDoc</a></p>
+
+<h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default gem</strong></li>
   <li>Use <code>require "readline/ext"</code> to load this library</li>
   <li>The library <strong>contains native extensions</strong></li>
   <li>Current maintainer: TAKAO Kouji (kouji)</li>
-  <li><a href="https://rubygems.org/gems/readline-ext">Project on RubyGems</a></li>
-  <li><a href="https://github.com/ruby/readline-ext">Source repository</a></li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/ext/readline">CRuby source on GitHub</a></li>
-  <li><a href="https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html">RDoc API documentation</a></li>
 </ul>
+
+<h2 id="gem-sources">Gem Sources</h2>
+
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gem Repository</td>
+      <td><a href="https://github.com/ruby/readline-ext">github.com/ruby/readline-ext</a></td>
+    </tr>
+    <tr>
+      <td>CRuby</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/readline">ext/readline</a></td>
+    </tr>
+    <tr>
+      <td>JRuby</td>
+      <td>not included</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="notes">Notes</h2>
 
-<p>Was just called <strong>readline</strong> before Ruby 2.7.</p>
+<ul>
+  <li>Was just called <strong>readline</strong> before Ruby 2.7</li>
+  <li>JRuby uses the jline-based <a href="https://github.com/jruby/jruby-readline">jruby-readline gem</a> instead</li>
+</ul>
 
 <h2 id="gem-version">Gem Version</h2>
 

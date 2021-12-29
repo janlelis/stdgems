@@ -33,22 +33,38 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <p>Support for <a href="https://en.wikipedia.org/wiki/Unix_domain_socket">unix-</a> and <a href="https://en.wikipedia.org/wiki/Network_socket">network sockets</a></p>
 
+<p><a href="https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html">RDoc</a></p>
+
 <h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default library</strong>, which is not versioned on its own</li>
+  <li>The library is not published on RubyGems</li>
   <li>Use <code>require "socket"</code> to load this library</li>
   <li>The library <strong>contains native extensions</strong></li>
   <li>Current maintainers: Tanaka Akira (akr), API change needs matz's approval</li>
 </ul>
 
-<h2 id="project-links">Project Links</h2>
+<h2 id="gem-sources">Gem Sources</h2>
 
-<ul>
-  <li>Project is not published on RubyGems</li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/ext/socket">CRuby source on GitHub</a></li>
-  <li><a href="https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html">RDoc API documentation</a></li>
-</ul>
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CRuby</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/socket">ext/socket</a></td>
+    </tr>
+    <tr>
+      <td>JRuby</td>
+      <td><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/socket.rb">lib/ruby/stdlib/socket.rb</a><br /><a href="https://github.com/jruby/jruby/tree/master/core/src/main/java/org/jruby/ext/socket">core/src/main/java/org/jruby/ext/socket</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
 

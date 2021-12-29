@@ -45,57 +45,57 @@ document.addEventListener('DOMContentLoaded', function(){
     <tr>
       <td><a href="/continuation">continuation</a> <strong>c</strong></td>
       <td>Adds the <a href="https://idiosyncratic-ruby.com/24-goto-fail.html">goto</a>-like <a href="https://ruby-doc.org/core/Kernel.html#method-i-callcc">Kernel#callcc</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/continuation">CRuby</a> · <a href="https://ruby-doc.org/core/Continuation.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/core/Continuation.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/continuation">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/continuation.rb">JRuby</a></td>
     </tr>
     <tr>
       <td><a href="/coverage">coverage</a> <strong>c</strong></td>
       <td>Measures <a href="https://en.wikipedia.org/wiki/Code_coverage">code coverage</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/coverage">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/coverage">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/coverage.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/core/src/main/java/org/jruby/ext/coverage">JRuby (2)</a></td>
     </tr>
     <tr>
       <td><a href="/mkmf">mkmf</a></td>
       <td>Generates <a href="https://en.wikipedia.org/wiki/Makefile">Makefiles</a> for native <a href="https://github.com/ruby/ruby/blob/master/doc/extension.rdoc">C extensions</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/lib/mkmf.rb">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/mkmf.rb">CRuby</a></td>
     </tr>
     <tr>
       <td><a href="/monitor">monitor</a> <strong>c</strong></td>
       <td><a href="https://en.wikipedia.org/wiki/Monitor_%28synchronization%29">Monitors</a> for multi-threaded code</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/monitor">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/monitor">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/monitor.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/core/src/main/java/org/jruby/ext/monitor">JRuby (2)</a></td>
     </tr>
     <tr>
       <td><a href="/objspace">objspace</a> <strong>c</strong></td>
       <td>Adds more statistics methods to <code>ObjectSpace</code>. Since Ruby 3.1, it also includes the <code>objspace/trace</code> debug utility.</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/objspace">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/objspace">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/objspace.rb">JRuby</a></td>
     </tr>
     <tr>
       <td><a href="/pty">pty</a> <strong>c</strong></td>
       <td>Manages <a href="https://en.wikipedia.org/wiki/Pseudo_terminal">pseudo terminals</a>. Also includes the <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect">IO#expect method</a> via <code>require 'expect'</code>, which can be used to wait for a specific pattern to be read.</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/pty">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/pty">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/pty.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/expect.rb">JRuby (2)</a></td>
     </tr>
     <tr>
       <td><a href="/rbconfig">rbconfig</a> <strong>c</strong></td>
       <td><code>RbConfig</code> is a <a href="https://idiosyncratic-ruby.com/42-ruby-config.html">Ruby constant that contains compile time information</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/tool/mkconfig.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/template/Makefile.in">CRuby (2)</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/rbconfig/sizeof">CRuby (3)</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/tool/mkconfig.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/template/Makefile.in">CRuby (2)</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/rbconfig/sizeof">CRuby (3)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/rbconfig.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/rbconfig">JRuby (2)</a> · <a href="https://github.com/ruby/ruby/tree/master/core/src/main/java/org/jruby/ext/rbconfig">JRuby (3)</a></td>
     </tr>
     <tr>
       <td><a href="/ripper">ripper</a> <strong>c</strong></td>
       <td>Ruby parser that creates a <a href="https://en.wikipedia.org/wiki/S-expression">symbolic expression tree</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/ripper">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/ripper">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/ripper.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/ripper">JRuby (2)</a> · <a href="https://github.com/ruby/ruby/tree/master/core/src/main/java/org/jruby/ext/ripper">JRuby (3)</a></td>
     </tr>
     <tr>
       <td><a href="/socket">socket</a> <strong>c</strong></td>
       <td>Support for <a href="https://en.wikipedia.org/wiki/Unix_domain_socket">unix-</a> and <a href="https://en.wikipedia.org/wiki/Network_socket">network sockets</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/socket">CRuby</a> · <a href="https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/socket">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/socket.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/core/src/main/java/org/jruby/ext/socket">JRuby (2)</a></td>
     </tr>
     <tr>
       <td><a href="/unicode_normalize">unicode_normalize</a></td>
       <td>Adds a <a href="https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/String.html#method-i-unicode_normalize">String#unicode_normalize</a> method which <a href="https://unicode.org/reports/tr15/">normalizes unicode strings</a></td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/lib/unicode_normalize.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/unicode_normalize">CRuby (2)</a> · <a href="https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html">RDoc</a></td>
+      <td><a href="https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/unicode_normalize.rb">CRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/unicode_normalize">CRuby (2)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/unicode_normalize.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/unicode_normalize">JRuby (2)</a></td>
     </tr>
     <tr>
       <td><a href="/win32">win32</a> <strong>c</strong></td>
       <td>Let's you use Windows APIs, e.g. call functions in DLLs</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/ext/win32">CRuby</a></td>
+      <td><a href="https://www.rubydoc.info/stdlib/win32">RDoc</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/win32">CRuby</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/Win32API.rb">JRuby (1)</a> · <a href="https://github.com/ruby/ruby/tree/master/lib/ruby/stdlib/win32">JRuby (2)</a></td>
     </tr>
   </tbody>
 </table>

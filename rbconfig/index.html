@@ -37,19 +37,32 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <ul>
   <li>This standard library is a <strong>default library</strong>, which is not versioned on its own</li>
+  <li>The library is not published on RubyGems</li>
   <li>Use <code>require "rbconfig"</code> to load this library</li>
   <li>The library <strong>contains native extensions</strong></li>
   <li>This library <strong>has no designated maintainer</strong></li>
 </ul>
 
-<h2 id="project-links">Project Links</h2>
+<h2 id="gem-sources">Gem Sources</h2>
 
-<ul>
-  <li>Project is not published on RubyGems</li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/tool/mkconfig.rb">CRuby source on GitHub (part 1)</a></li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/template/Makefile.in">CRuby source on GitHub (part 2)</a></li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/ext/rbconfig/sizeof">CRuby source on GitHub (part 3)</a></li>
-</ul>
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CRuby</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/tool/mkconfig.rb">tool/mkconfig.rb</a><br /><a href="https://github.com/ruby/ruby/tree/master/template/Makefile.in">template/Makefile.in</a><br /><a href="https://github.com/ruby/ruby/tree/master/ext/rbconfig/sizeof">ext/rbconfig/sizeof</a></td>
+    </tr>
+    <tr>
+      <td>JRuby</td>
+      <td><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/rbconfig.rb">lib/ruby/stdlib/rbconfig.rb</a><br /><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/rbconfig">lib/ruby/stdlib/rbconfig</a><br /><a href="https://github.com/jruby/jruby/tree/master/core/src/main/java/org/jruby/ext/rbconfig">core/src/main/java/org/jruby/ext/rbconfig</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
 

@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "gems": [
     {
       "gem": "continuation",
@@ -7,6 +7,7 @@
       "autoRequire": false,
       "description": "Adds the [goto](https://idiosyncratic-ruby.com/24-goto-fail.html)-like [Kernel#callcc](https://ruby-doc.org/core/Kernel.html#method-i-callcc)",
       "mriSourcePath": "ext/continuation",
+      "jrubySourcePath": "lib/ruby/stdlib/continuation.rb",
       "rdocLink": "https://ruby-doc.org/core/Continuation.html",
       "maintainer": "Koichi Sasada (ko1)"
     },
@@ -16,6 +17,10 @@
       "autoRequire": false,
       "description": "Measures [code coverage](https://en.wikipedia.org/wiki/Code_coverage)",
       "mriSourcePath": "ext/coverage",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/coverage.rb",
+        "core/src/main/java/org/jruby/ext/coverage"
+      ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html",
       "maintainer": "Yusuke Endoh (mame)"
     },
@@ -25,6 +30,7 @@
       "autoRequire": false,
       "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/master/doc/extension.rdoc)",
       "mriSourcePath": "lib/mkmf.rb",
+      "jrubySourcePath": false,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html",
       "maintainer": null
     },
@@ -34,6 +40,10 @@
       "autoRequire": false,
       "description": "[Monitors](https://en.wikipedia.org/wiki/Monitor_%28synchronization%29) for multi-threaded code",
       "mriSourcePath": "ext/monitor",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/monitor.rb",
+        "core/src/main/java/org/jruby/ext/monitor"
+      ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html",
       "maintainer": "Koichi Sasada (ko1)"
     },
@@ -43,6 +53,7 @@
       "autoRequire": false,
       "description": "Adds more statistics methods to `ObjectSpace`. Since Ruby 3.1, it also includes the `objspace/trace` debug utility.",
       "mriSourcePath": "ext/objspace",
+      "jrubySourcePath": "lib/ruby/stdlib/objspace.rb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html",
       "maintainer": null
     },
@@ -52,6 +63,10 @@
       "autoRequire": false,
       "description": "Manages [pseudo terminals](https://en.wikipedia.org/wiki/Pseudo_terminal). Also includes the [IO#expect method](https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect) via `require 'expect'`, which can be used to wait for a specific pattern to be read.",
       "mriSourcePath": "ext/pty",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/pty.rb",
+        "lib/ruby/stdlib/expect.rb"
+      ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html",
       "maintainer": null
     },
@@ -65,6 +80,11 @@
         "template/Makefile.in",
         "ext/rbconfig/sizeof"
       ],
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/rbconfig.rb",
+        "lib/ruby/stdlib/rbconfig",
+        "core/src/main/java/org/jruby/ext/rbconfig"
+      ],
       "rdocLink": null,
       "maintainer": null
     },
@@ -74,6 +94,11 @@
       "autoRequire": false,
       "description": "Ruby parser that creates a [symbolic expression tree](https://en.wikipedia.org/wiki/S-expression)",
       "mriSourcePath": "ext/ripper",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/ripper.rb",
+        "lib/ruby/stdlib/ripper",
+        "core/src/main/java/org/jruby/ext/ripper"
+      ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html",
       "maintainer": null
     },
@@ -83,6 +108,10 @@
       "autoRequire": false,
       "description": "Support for [unix-](https://en.wikipedia.org/wiki/Unix_domain_socket) and [network sockets](https://en.wikipedia.org/wiki/Network_socket)",
       "mriSourcePath": "ext/socket",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/socket.rb",
+        "core/src/main/java/org/jruby/ext/socket"
+      ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html",
       "maintainer": [
         "Tanaka Akira (akr)",
@@ -98,6 +127,10 @@
         "lib/unicode_normalize.rb",
         "lib/unicode_normalize"
       ],
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/unicode_normalize.rb",
+        "lib/ruby/stdlib/unicode_normalize"
+      ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html",
       "maintainer": "Martin J. Dürst"
     },
@@ -107,7 +140,11 @@
       "autoRequire": false,
       "description": "Let's you use Windows APIs, e.g. call functions in DLLs",
       "mriSourcePath": "ext/win32",
-      "rdocLink": null,
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/Win32API.rb",
+        "lib/ruby/stdlib/win32"
+      ],
+      "rdocLink": "https://www.rubydoc.info/stdlib/win32",
       "maintainer": "NAKAMURA Usaku (usa)"
     }
   ]

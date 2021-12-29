@@ -33,22 +33,38 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <p>Manages <a href="https://en.wikipedia.org/wiki/Pseudo_terminal">pseudo terminals</a>. Also includes the <a href="https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect">IO#expect method</a> via <code>require 'expect'</code>, which can be used to wait for a specific pattern to be read.</p>
 
+<p><a href="https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html">RDoc</a></p>
+
 <h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default library</strong>, which is not versioned on its own</li>
+  <li>The library is not published on RubyGems</li>
   <li>Use <code>require "pty"</code> to load this library</li>
   <li>The library <strong>contains native extensions</strong></li>
   <li>This library <strong>has no designated maintainer</strong></li>
 </ul>
 
-<h2 id="project-links">Project Links</h2>
+<h2 id="gem-sources">Gem Sources</h2>
 
-<ul>
-  <li>Project is not published on RubyGems</li>
-  <li><a href="https://github.com/ruby/ruby/tree/master/ext/pty">CRuby source on GitHub</a></li>
-  <li><a href="https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html">RDoc API documentation</a></li>
-</ul>
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CRuby</td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/ext/pty">ext/pty</a></td>
+    </tr>
+    <tr>
+      <td>JRuby</td>
+      <td><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/pty.rb">lib/ruby/stdlib/pty.rb</a><br /><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/expect.rb">lib/ruby/stdlib/expect.rb</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="more-standard-gems">More Standard Gems</h2>
 
