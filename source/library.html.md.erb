@@ -2,13 +2,15 @@
 
 <%= gem_description(gem_info, gem_type) %>
 
+<%= build_resource_list(gem_info, :short) %>
+
 ## Info
 
 <%= gem_details_properties(gem_info, gem_type) %>
 
-## Project Links
+## Gem Sources
 
-<%= gem_details(gem_info, gem_type) %>
+<%= gem_sources(gem_info, gem_type) %>
 
 <% if gem_notes(gem_info, gem_type) %>
 ## Notes
