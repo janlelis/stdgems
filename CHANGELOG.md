@@ -1,9 +1,9 @@
 # Change Log
 
-## Next (unreleased)
+## 3.2.0
 
 - Add JRuby sources for default gems & libraries
-- Add rdoc links (via rubydoc.info) to more gems
+- Add RDoc links (via rubydoc.info) to more gems
 
 ## 3.1.0
 
