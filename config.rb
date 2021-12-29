@@ -15,6 +15,7 @@ BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
 LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
 CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/master/"
+JRUBY_SOURCE_PREFIX = "https://github.com/jruby/jruby/tree/master/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
@@ -209,7 +210,7 @@ helpers do
     LISTED_RUBY_VERSIONS
   end
 
-  def build_resource_list(gem_info)
+  def build_resource_list(gem_info, short = false)
     res = []
 
     if gem_info["rubygemsLink"]
@@ -220,7 +221,16 @@ helpers do
       res << "[GitHub](#{gem_info["sourceRepository"]})"
     end
 
-    if !gem_info["removed"]
+    case gem_info["rdocLink"]
+    when Array
+      gem_info["rdocLink"].each_with_index{ |rdocLink, index|
+        res << "[RDoc (#{index + 1})](#{rdocLink})"
+      }
+    when String
+      res << "[RDoc](#{gem_info["rdocLink"]})"
+    end
+
+    if !gem_info["removed"] && !short
       case gem_info["mriSourcePath"]
       when Array
         gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
@@ -229,15 +239,17 @@ helpers do
       when String
         res << "[CRuby](#{CRUBY_SOURCE_PREFIX + gem_info["mriSourcePath"]})"
       end
-    end
 
-    case gem_info["rdocLink"]
-    when Array
-      gem_info["rdocLink"].each_with_index{ |rdocLink, index|
-        res << "[RDoc (#{index + 1})](#{rdocLink})"
-      }
-    when String
-      res << "[RDoc](#{gem_info["rdocLink"]})"
+      case gem_info["jrubySourcePath"]
+      when String
+        res << "[JRuby](#{CRUBY_SOURCE_PREFIX + gem_info["jrubySourcePath"]})"
+      when true
+        # nothing
+      when Array
+        gem_info["jrubySourcePath"].reject{|jsp| jsp == true }.each_with_index{ |jrubySourcePath, index|
+          res << "[JRuby (#{index + 1})](#{CRUBY_SOURCE_PREFIX + jrubySourcePath})"
+        }
+      end
     end
 
     res.join(" · ")
@@ -494,48 +506,6 @@ helpers do
     gem_info["description"]
   end
 
-  def gem_details(gem_info, gem_type)
-    gem_info = gem_info["default"] if gem_type == "hybrid_default"
-    gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
-    res = []
-
-    if gem_info["rubygemsLink"]
-      res << ["Project on RubyGems", gem_info["rubygemsLink"]]
-    else
-      res << ["Project is not published on RubyGems"]
-    end
-
-    if gem_info["sourceRepository"]
-      res << ["Source repository", gem_info["sourceRepository"]]
-    end
-
-    case !gem_info["removed"] && gem_info["mriSourcePath"]
-    when Array
-      gem_info["mriSourcePath"].each_with_index{ |mriSourcePath, index|
-        res << ["CRuby source on GitHub (part #{index + 1})", (CRUBY_SOURCE_PREFIX + mriSourcePath)]
-      }
-    when String
-      res << ["CRuby source on GitHub", (CRUBY_SOURCE_PREFIX + gem_info["mriSourcePath"])]
-    end
-
-    case gem_info["rdocLink"]
-    when Array
-      gem_info["rdocLink"].each_with_index{ |rdocLink, index|
-        res << ["RDoc API documentation (part #{index + 1})", rdocLink]
-      }
-    when String
-      res << ["RDoc API documentation", gem_info["rdocLink"]]
-    end
-
-    res.map{ |line|
-      if line[1]
-        "- [#{ line[0] }](#{ line[1] })"
-      else
-        "- #{ line[0] }"
-      end
-    }.join("\n")
-  end
-
   def gem_details_properties(gem_info, gem_type)
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
     gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
@@ -557,6 +527,10 @@ helpers do
       res << ["This standard library #{verb} a **default gem**"]
     else
       res << ["This standard library #{verb} a **default library**, which is not versioned on its own"]
+    end
+
+    if !gem_info["rubygemsLink"]
+      res << ["The library #{verb} not published on RubyGems"]
     end
 
     unless gem_info["removed"]
@@ -587,6 +561,57 @@ helpers do
       end
     }.join("\n")
   end
+
+  def gem_sources(gem_info, gem_type)
+    gem_info = gem_info["default"] if gem_type == "hybrid_default"
+    gem_info = gem_info["bundled"] if gem_type == "hybrid_bundled"
+
+    res = "Source | Location\n" \
+          "-------|---------\n"
+
+    if gem_info["sourceRepository"]
+      res += "Gem Repository | [#{ gem_info["sourceRepository"].gsub(/^https?:\/\//, "") }](#{ gem_info["sourceRepository"] })\n"
+    end
+
+    if !gem_info["removed"]
+      if gem_info["mriSourcePath"]
+        res += "CRuby | "
+
+        case gem_info["mriSourcePath"]
+        when Array
+          res +=  gem_info["mriSourcePath"].map{ |mriSourcePath|
+            "[#{mriSourcePath}](#{CRUBY_SOURCE_PREFIX}#{mriSourcePath})"
+          }.join("<br>") + "\n"
+        when String
+          res += "[#{gem_info["mriSourcePath"]}](#{CRUBY_SOURCE_PREFIX}#{gem_info["mriSourcePath"]})\n"
+        end
+      end
+
+      if gem_info["jrubySourcePath"] || gem_info["jrubySourcePath"] == false
+        res += "JRuby | "
+
+        case gem_info["jrubySourcePath"]
+        when String
+          res += "[#{gem_info["jrubySourcePath"]}](#{JRUBY_SOURCE_PREFIX}#{gem_info["jrubySourcePath"]})\n"
+        when true
+          res += "from RubyGems\n"
+        when false
+          res += "not included\n"
+        when Array
+          res += gem_info["jrubySourcePath"].map{ |jrubySourcePath|
+            if jrubySourcePath == true
+              "from RubyGems with patches"
+            else
+              "[#{jrubySourcePath}](#{JRUBY_SOURCE_PREFIX}#{jrubySourcePath})"
+            end
+          }.join("<br>") + "\n"
+        end
+      end
+    end
+
+    res + "{:.small-table .table-witdh-15-15}"
+  end
+
 
   def gem_notes(gem_info, gem_type)
     gem_info = gem_info["default"] if gem_type == "hybrid_default"
