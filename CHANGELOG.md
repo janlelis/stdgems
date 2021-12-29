@@ -2,6 +2,7 @@
 
 ## Next (unreleased)
 
+- Add JRuby sources for default gems & libraries
 - Add rdoc links (via rubydoc.info) to more gems
 
 ## 3.1.0
