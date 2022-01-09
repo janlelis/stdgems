@@ -558,6 +558,18 @@ helpers do
       end
     end
 
+    if gem_info["alternatives"]
+      combined_alternatives = gem_info["alternatives"].map{ |alt_desc, alt_link|
+        if alt_link
+          "[#{alt_desc}](#{alt_link})"
+        else
+          alt_desc
+        end
+      }.join(", ")
+
+      res << ["Similar gems and alternatives: #{combined_alternatives}"]
+    end
+
     res.map{ |line|
       if line[1]
         "- [#{ line[0] }](/#{ line[1] })"
