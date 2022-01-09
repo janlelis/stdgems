@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.3.0 (unreleased)
+
+- Add alternatives / similar gems: Import from Idiosyncratic Ruby + update
+
 ## 3.2.0
 
 - Add JRuby sources for default gems & libraries

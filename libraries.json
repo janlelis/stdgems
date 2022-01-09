@@ -9,7 +9,11 @@
       "mriSourcePath": "ext/continuation",
       "jrubySourcePath": "lib/ruby/stdlib/continuation.rb",
       "rdocLink": "https://ruby-doc.org/core/Continuation.html",
-      "maintainer": "Koichi Sasada (ko1)"
+      "maintainer": "Koichi Sasada (ko1)",
+      "alternatives": {
+        "Concurrent Ruby": "https://github.com/ruby-concurrency/concurrent-ruby",
+        "Fiber": "https://ruby-doc.org/core/Fiber.html"
+      }
     },
     {
       "gem": "coverage",
@@ -100,7 +104,11 @@
         "core/src/main/java/org/jruby/ext/ripper"
       ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html",
-      "maintainer": null
+      "maintainer": null,
+      "alternatives": {
+        "parser": "https://github.com/whitequark/parser",
+        "ruby_parser": "https://github.com/seattlerb/ruby_parser"
+      }
     },
     {
       "gem": "socket",
@@ -132,7 +140,10 @@
         "lib/ruby/stdlib/unicode_normalize"
       ],
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html",
-      "maintainer": "Martin J. Dürst"
+      "maintainer": "Martin J. Dürst",
+      "alternatives": {
+        "unf": "https://github.com/knu/ruby-unf"
+      }
     },
     {
       "gem": "win32",
@@ -145,7 +156,12 @@
         "lib/ruby/stdlib/win32"
       ],
       "rdocLink": "https://www.rubydoc.info/stdlib/win32",
-      "maintainer": "NAKAMURA Usaku (usa)"
+      "maintainer": "NAKAMURA Usaku (usa)",
+      "alternatives": {
+        "win32-api": "https://github.com/cosmo0920/win32-api",
+        "FFI": "https://github.com/ffi/ffi",
+        "Fiddle": "https://stdgems.org/fiddle/"
+      }
     }
   ]
 }

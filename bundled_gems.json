@@ -10,6 +10,10 @@
       "rubygemsLink": "https://rubygems.org/gems/debug",
       "rdocLink": "https://www.rubydoc.info/gems/debug",
       "notes": "This gem, which is bundled with Ruby 3.1 and later, is a new debugger that supersedes the old debug standard library/gem",
+      "alternatives": {
+        "byebug": "https://github.com/deivid-rodriguez/byebug",
+        "debase": "https://github.com/ruby-debug/debase"
+      },
       "versions": {
         "3.1": "1.4.0"
       }
@@ -38,6 +42,9 @@
       "sourceRepository": "https://github.com/ruby/matrix",
       "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://www.rubydoc.info/gems/matrix",
+      "alternatives": {
+        "nmatrix": "https://github.com/SciRuby/nmatrix"
+      },
       "versions": {
         "3.1": "0.4.2"
       }
@@ -50,6 +57,9 @@
       "sourceRepository": "https://github.com/seattlerb/minitest",
       "rubygemsLink": "https://rubygems.org/gems/minitest",
       "rdocLink": "https://www.rubydoc.info/gems/minitest",
+      "alternatives": {
+        "rspec": "https://github.com/rspec/rspec-metagem"
+      },
       "versions": {
         "3.1": "5.15.0",
         "3.0": "5.14.2",
@@ -171,6 +181,9 @@
       "sourceRepository": "https://github.com/ruby/rake",
       "rubygemsLink": "https://rubygems.org/gems/rake",
       "rdocLink": "https://www.rubydoc.info/gems/rake",
+      "alternatives": {
+        "thor": "https://github.com/rails/thor"
+      },
       "versions": {
         "3.1":   "13.0.6",
 
@@ -254,6 +267,10 @@
       "sourceRepository": "https://github.com/test-unit/test-unit",
       "rubygemsLink": "https://rubygems.org/gems/test-unit",
       "rdocLink": "https://www.rubydoc.info/gems/test-unit",
+      "alternatives": {
+        "minitest": "https://stdgems/minitest",
+        "rspec": "https://github.com/rspec/rspec-metagem"
+      },
       "versions": {
         "3.1": "3.5.3",
         "3.0": "3.3.8",
