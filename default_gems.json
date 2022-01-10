@@ -1,5 +1,5 @@
 {
-  "version": "3.2.0",
+  "version": "3.3.0",
   "gems": [
     {
       "gem": "abbrev",
@@ -29,7 +29,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/base64/rdoc/Base64.html",
       "maintainer": "Yusuke Endoh (mame)",
       "alternatives": {
-        "Array#pack('m') / String#unpack(m)": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
+        "Array#pack('m') / String#unpack('m')": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
       },
       "versions": {
         "3.1": "0.1.1",

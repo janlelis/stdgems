@@ -1,6 +1,6 @@
 # Change Log
 
-## 3.3.0 (unreleased)
+## 3.3.0
 
 - Add alternatives / similar gems: Import from Idiosyncratic Ruby + update
 
