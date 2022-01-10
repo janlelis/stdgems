@@ -1,5 +1,5 @@
 {
-  "version": "3.2.0",
+  "version": "3.3.0",
   "gems": [
     {
       "gem": "abbrev",
@@ -28,6 +28,9 @@
       "rubygemsLink": "https://rubygems.org/gems/base64",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/base64/rdoc/Base64.html",
       "maintainer": "Yusuke Endoh (mame)",
+      "alternatives": {
+        "Array#pack('m') / String#unpack('m')": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.0"
@@ -44,6 +47,10 @@
       "rubygemsLink": "https://rubygems.org/gems/benchmark",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html",
       "maintainer": null,
+      "alternatives": {
+        "benchmark-ips": "https://github.com/evanphx/benchmark-ips",
+        "benchmark-driver": "https://github.com/benchmark-driver/benchmark-driver"
+      },
       "versions": {
         "3.1": "0.2.0",
         "3.0": "0.1.1",
@@ -126,6 +133,9 @@
         "Nobuyoshi Nakada (nobu) — native code"
       ],
       "notes": "Only the escape utilities are implemented as native extension.",
+      "alternatives": {
+        "rack": "https://github.com/rack/rack"
+      },
       "versions": {
         "3.1":   "0.3.1",
 
@@ -175,6 +185,9 @@
         "Kenta Murata (mrkn)",
         "Kouhei Sutou (kou)"
       ],
+      "alternatives": {
+        "smarter_csv": "https://github.com/tilo/smarter_csv"
+      },
       "versions": {
         "3.1":   "3.2.2",
         "3.0":   "3.1.9",
@@ -281,6 +294,9 @@
       "rubygemsLink": "https://rubygems.org/gems/delegate",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html",
       "maintainer": null,
+      "alternatives": {
+        "forwardable": "https://stdgems.org/forwardable/"
+      },
       "versions": {
         "3.1": "0.2.0",
         "3.0": "0.2.0",
@@ -322,6 +338,9 @@
       "rubygemsLink": "https://rubygems.org/gems/digest",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
       "maintainer": "Akinori MUSHA (knu)",
+      "alternatives": {
+        "OpenSSL::Digest": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL/Digest.html"
+      },
       "versions": {
         "3.1": "3.1.0",
         "3.0": "3.0.0"
@@ -398,6 +417,9 @@
         "Masatoshi SEKI (seki)",
         "Takashi Kokubun (k0kubun)"
       ],
+      "alternatives": {
+        "erubi": "https://github.com/jeremyevans/erubi"
+      },
       "versions": {
         "3.1": "2.2.3",
         "3.0": "2.2.0"
@@ -490,6 +512,9 @@
       "rubygemsLink": "https://rubygems.org/gems/fiddle",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
       "maintainer": "Aaron Patterson (tenderlove)",
+      "alternatives": {
+        "FFI": "https://github.com/ffi/ffi"
+      },
       "versions": {
         "3.1": "1.1.0",
 
@@ -537,6 +562,9 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html",
       "notes": "You can get a very similar result using: ```find .`.split($/)``",
       "maintainer": "Kazuki Tsujimoto (ktsj)",
+      "alternatives": {
+        "<code>`find .`.split($/)</code>": null
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.0"
@@ -593,6 +621,12 @@
       "rubygemsLink": "https://rubygems.org/gems/getoptlong",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
       "maintainer": null,
+      "alternatives": {
+        "optparse": "https://stdgems.org/optparse",
+        "slop": "https://github.com/leejarvis/slop",
+        "optimist": "https://github.com/ManageIQ/optimist",
+        "rationalist": "https://github.com/janlelis/rationalist"
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -680,6 +714,9 @@
       "rubygemsLink": "https://rubygems.org/gems/ipaddr",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
       "maintainer": "Akinori MUSHA (knu)",
+      "alternatives": {
+        "ipaddress": "https://github.com/ipaddress-gem/ipaddress"
+      },
       "versions": {
         "3.1": "1.2.3",
         "3.0": "1.2.2",
@@ -702,6 +739,11 @@
       "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
       "maintainer": "aycabta",
+      "alternatives": {
+        "pry": "https://github.com/pry/pry",
+        "rib": "https://github.com/godfat/rib",
+        "ripl": "https://github.com/cldwalker/ripl"
+      },
       "versions": {
         "3.1":   "1.4.1",
 
@@ -730,6 +772,10 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "notes": "- Latest Ruby releases for 2.4 / 2.5 / 2.6 / 2.7 contain a security fix (CVE-2020-16255) not included in the listed gem versions",
+      "alternatives": {
+        "oj": "https://github.com/ohler55/oj",
+        "yajl-ruby": "https://github.com/brianmario/yajl-ruby"
+      },
       "versions": {
         "3.1":   "2.6.1",
 
@@ -765,6 +811,15 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
+      "alternatives": {
+        "semantic_logger": "https://github.com/reidmorrison/semantic_logger",
+        "ougai": "https://github.com/tilfin/ougai",
+        "log4r": "https://github.com/colbygk/log4r",
+        "yell": "https://github.com/rudionrails/yell",
+        "lumberjack": "https://github.com/bdurand/lumberjack",
+        "logging": "https://github.com/TwP/logging",
+        "micrologger": "https://github.com/janlelis/micrologger"
+      },
       "versions": {
         "3.1": "1.5.0",
         "3.0": "1.4.3",
@@ -848,6 +903,14 @@
       "rubygemsLink": "https://rubygems.org/gems/net-http",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/http/rdoc/Net/HTTP.html",
       "maintainer": "NARUSE, Yui (naruse)",
+      "alternatives": {
+        "HTTP": "https://github.com/httprb/http",
+        "excon": "https://github.com/excon/excon",
+        "faraday": "https://github.com/lostisland/faraday",
+        "httparty": "https://github.com/jnunemaker/httparty",
+        "httpclient": "https://github.com/nahi/httpclient",
+        "em-http-request": "https://github.com/igrigorik/em-http-request"
+      },
       "versions": {
         "3.1": "0.2.0",
         "3.0": "0.1.1"
@@ -953,6 +1016,10 @@
       "rubygemsLink": "https://rubygems.org/gems/observer",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
       "maintainer": null,
+      "alternatives": {
+        "microevent": "https://github.com/janlelis/microevent.rb",
+        "signal_lamp": "https://github.com/JEG2/signal_lamp"
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -970,6 +1037,9 @@
       "rubygemsLink": "https://rubygems.org/gems/open3",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html",
       "maintainer": null,
+      "alternatives": {
+        "open4": "https://github.com/ahoward/open4"
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -1048,6 +1118,11 @@
       "rubygemsLink": "https://rubygems.org/gems/optparse",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptParse.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
+      "alternatives": {
+        "slop": "https://github.com/leejarvis/slop",
+        "optimist": "https://github.com/ManageIQ/optimist",
+        "rationalist": "https://github.com/janlelis/rationalist"
+      },
       "versions": {
         "3.1": "0.2.0",
 
@@ -1068,6 +1143,9 @@
       "rubygemsLink": "https://rubygems.org/gems/ostruct",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
       "maintainer": "Marc-André Lafortune (marcandre)",
+      "alternatives": {
+        "Hash": "https://ruby-doc.org/core/Hash.html"
+      },
       "versions": {
         "3.1": "0.5.2",
         "3.0": "0.3.1",
@@ -1089,6 +1167,9 @@
       "rubygemsLink": "https://rubygems.org/gems/pathname",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pathname/rdoc/Pathname.html",
       "maintainer": "Tanaka Akira (akr)",
+      "alternatives": {
+        "path": "https://github.com/eregon/path"
+      },
       "versions": {
         "3.1": "0.2.0",
         "3.0": "0.1.0"
@@ -1105,6 +1186,12 @@
       "rubygemsLink": "https://rubygems.org/gems/pp",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
       "maintainer": "Tanaka Akira (akr)",
+      "alternatives": {
+        "awesome_print": "https://github.com/awesome-print/awesome_print",
+        "amazing_print": "https://github.com/amazing-print/amazing_print",
+        "wirb": "https://github.com/janlelis/wirb#kernelwp",
+        "hirber": "https://github.com/hirber/hirber"
+      },
       "versions": {
         "3.1": "0.3.0",
 
@@ -1125,6 +1212,12 @@
       "rubygemsLink": "https://rubygems.org/gems/prettyprint",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
       "maintainer": "Tanaka Akira (akr)",
+      "alternatives": {
+        "awesome_print": "https://github.com/awesome-print/awesome_print",
+        "amazing_print": "https://github.com/amazing-print/amazing_print",
+        "wirb": "https://github.com/janlelis/wirb#kernelwp",
+        "hirber": "https://github.com/hirber/hirber"
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.0"
@@ -1227,6 +1320,12 @@
       "rubygemsLink": "https://rubygems.org/gems/racc",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html",
       "maintainer": "Aaron Patterson (tenderlove)",
+      "alternatives": {
+        "treetop": "https://github.com/cjheath/treetop",
+        "citrus": "https://github.com/mjackson/citrus",
+        "parslet": "https://github.com/kschiess/parslet",
+        "ebnf": "https://github.com/dryruby/ebnf"
+      },
       "versions": {
         "3.1": "1.6.0",
 
@@ -1253,6 +1352,9 @@
         "Eric Hodel (drbrain)",
         "Hiroshi SHIBATA (hsbt)"
       ],
+      "alternatives": {
+        "YARD": "https://yardoc.org/"
+      },
       "versions": {
         "3.1":     "6.4.0",
         "3.0":     "6.3.3",
@@ -1304,6 +1406,9 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
       "maintainer": "TAKAO Kouji (kouji)",
       "notes": "JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
+      "alternatives": {
+        "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
+      },
       "versions": {
         "3.1": "0.0.3",
         "3.0": "0.0.2",
@@ -1322,6 +1427,10 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
       "maintainer": "TAKAO Kouji (kouji)",
       "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
+      "alternatives": {
+        "reline": "https://stdgems.org/reline/",
+        "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
+      },
       "versions": {
         "3.1": "0.1.4",
         "3.0": "0.1.1",
@@ -1339,6 +1448,10 @@
       "rubygemsLink": "https://rubygems.org/gems/reline",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/reline/rdoc/index.html",
       "maintainer": "aycabta",
+      "alternatives": {
+        "readline-ext": "https://stdgems.org/readline-ext/",
+        "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
+      },
       "versions": {
         "3.1":   "0.3.0",
         "3.0":   "0.2.5",
@@ -1361,6 +1474,11 @@
       "rubygemsLink": "https://rubygems.org/gems/resolv",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
       "maintainer": "Tanaka Akira (akr)",
+      "alternatives": {
+        "RubyDNS": "https://github.com/socketry/rubydns",
+        "Net::DNS": "https://github.com/bluemonk/net-dns",
+        "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
+      },
       "versions": {
         "3.1": "0.2.1",
 
@@ -1383,6 +1501,11 @@
       "rubygemsLink": "https://rubygems.org/gems/resolv-replace",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
       "maintainer": "Tanaka Akira (akr)",
+      "alternatives": {
+        "RubyDNS": "https://github.com/socketry/rubydns",
+        "Net::DNS": "https://github.com/bluemonk/net-dns",
+        "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
+      },
       "versions": {
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -1399,6 +1522,10 @@
       "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html",
       "maintainer": "Kouhei Sutou (kou)",
       "removed": true,
+      "alternatives": {
+        "Nokogiri": "https://nokogiri.org",
+        "Oga": "https://github.com/YorickPeterse/oga"
+      },
       "versions": {
         "2.7":   "3.2.3.1",
         "2.7.2": "3.2.3",
@@ -1762,6 +1889,12 @@
       "rubygemsLink": "https://rubygems.org/gems/syslog",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/syslog/rdoc/Syslog.html",
       "maintainer": "Akinori MUSHA (knu)",
+      "alternatives": {
+        "syslogger": "https://github.com/crohr/syslogger",
+        "log4r": "https://github.com/colbygk/log4r/blob/master/lib/log4r/outputter/syslogoutputter.rb",
+        "lumberjack_syslog_device": "https://github.com/bdurand/lumberjack_syslog_device",
+        "yell-adapters-syslog": "https://github.com/rudionrails/yell/wiki/additional-adapters-syslog"
+      },
       "versions": {
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -1836,6 +1969,9 @@
       "maintainer": [
         "Yukihiro Matsumoto (matz)"
       ],
+      "alternatives": {
+        "Ultimate Guide to Ruby Timeouts": "https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts"
+      },
       "versions": {
         "3.1": "0.2.0",
         "3.0": "0.1.1",
@@ -1873,6 +2009,9 @@
       "rubygemsLink": "https://rubygems.org/gems/tracer",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
+      "alternatives": {
+        "TracePoint": "https://ruby-doc.org/core/TracePoint.html"
+      },
       "removed": true,
       "versions": {
         "3.0": "0.1.1",
@@ -1929,6 +2068,10 @@
       "rubygemsLink": "https://rubygems.org/gems/uri",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
       "maintainer": "YAMADA, Akira (akira)",
+      "alternatives": {
+        "addressable": "https://github.com/sporkmonger/addressable",
+        "ruby-uriparse": "https://github.com/tlewin/ruby-uriparser"
+      },
       "versions": {
         "3.1": "0.11.0",
         "3.0": "0.10.0",
@@ -1946,6 +2089,9 @@
       "rubygemsLink": "https://rubygems.org/gems/weakref",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html",
       "maintainer": null,
+      "alternatives": {
+        "ref": "https://github.com/ruby-concurrency/ref"
+      },
       "versions": {
         "3.1": "0.1.1",
         "3.0": "0.1.1"
@@ -1965,6 +2111,11 @@
       "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/webrick/rdoc/WEBrick.html",
       "maintainer": "Eric Wong (normalperson)",
       "notes": "**Please note:** Despite the gemspec stating otherwise, the webrick version included with Ruby might be more recent than version 1.4.2. For example, the webrick included in Ruby 2.6.5, 2.5.7, 2.4.9, and 2.4.8 does include security fixes for CVE-2019-16201 and CVE-2019-16254.",
+      "alternatives": {
+        "puma": "https://puma.io",
+        "thin": "https://github.com/macournoyer/thin",
+        "unicorn": "https://yhbt.net/unicorn.git/about/"
+      },
       "removed": true,
       "versions": {
         "2.7":   "1.6.1",
