@@ -19,9 +19,10 @@ JRUBY_SOURCE_PREFIX = "https://github.com/jruby/jruby/tree/master/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-CURRENT_RUBY_VERSION = '3.1.0'
+CURRENT_RUBY_VERSION = '3.1.1'
 
 RUBY_3_1_VERSIONS = %w[
+  3.1.1
   3.1.0
 ]
 
@@ -372,6 +373,14 @@ helpers do
 
   def bundled_gems_all_matrix
     version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_ALL_VERSIONS, "Bundled Gem")
+  end
+
+  def default_gems_version_matrix_3_1
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_3_1_VERSIONS, "Default Gem")
+  end
+
+  def bundled_gems_version_matrix_3_1
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_3_1_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_3_0
