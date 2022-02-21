@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.4.0 (unreleased)
+
+Ruby release: 3.1.1
+
+- Default gem updates: bundler, io-console, rubygems, ipaddr
+- Bundled gem updates: rbs, typeprof, net-imap
+
 ## 3.3.0
 
 - Add alternatives / similar gems: Import from Idiosyncratic Ruby + update

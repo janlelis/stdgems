@@ -99,7 +99,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.1":   "2.3.3",
+        "3.1":   "2.3.7",
+        "3.1.0": "2.3.3",
 
         "3.0":   "2.2.32",
         "3.0.2": "2.2.22",
@@ -645,7 +646,8 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "3.1":   "0.5.10",
+        "3.1":   "0.5.11",
+        "3.1.0": "0.5.10",
 
         "3.0":   "0.5.7",
         "3.0.0": "0.5.6",
@@ -717,7 +719,9 @@
         "ipaddress": "https://github.com/ipaddress-gem/ipaddress"
       },
       "versions": {
-        "3.1": "1.2.3",
+        "3.1":   "1.2.4",
+        "3.1.0": "1.2.3",
+
         "3.0": "1.2.2",
         "2.7": "1.2.2",
         "2.6": "1.2.2",
@@ -1617,7 +1621,8 @@
       ],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)]((https://idiosyncratic-ruby.com/71-nothing-to-disable.html)) with `$ ruby --disable-gems`",
       "versions": {
-        "3.1":     "3.3.3",
+        "3.1":     "3.3.7",
+        "3.1.0":   "3.3.3",
 
         "3.0":     "3.2.32",
         "3.0.2":   "3.2.15",
