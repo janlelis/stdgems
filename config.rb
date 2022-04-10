@@ -273,7 +273,7 @@ helpers do
     major_ruby_version = ruby_version.to_f.to_s
 
     source.select{ |gem_info|
-      gem_info["versions"].keys.min === major_ruby_version
+      gem_info["versions"].keys.min.to_f.to_s === major_ruby_version
     }.map{ |gem_info|
       gem_info_row(gem_info)
     }.join("\n")
@@ -288,7 +288,7 @@ helpers do
     ruby_version = previous_major_ruby_version(ruby_version.to_f.to_s)
 
     source.select{ |gem_info|
-      gem_info["versions"].keys.max === ruby_version
+      gem_info["versions"].keys.max.to_f.to_s === ruby_version
     }.map{ |gem_info|
       gem_info_row(gem_info)
     }.join("\n")
