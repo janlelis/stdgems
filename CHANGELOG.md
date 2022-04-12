@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.5.0 (unreleased)
+
+Ruby release: 3.1.2, 3.0.4, 2.7.6, 2.6.10
+
+- Update Ruby 3.0's bundler, prettyprint, rubygems, io-wait (in 3.0.3)
+- Update Ruby 2.6's date
+
 ## 3.4.0
 
 Ruby release: 3.1.1
