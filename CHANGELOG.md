@@ -1,6 +1,6 @@
 # Change Log
 
-## 3.6.0 (unreleased)
+## 3.6.0
 
 Ruby 3 preview release 1
 
