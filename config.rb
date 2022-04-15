@@ -140,6 +140,8 @@ STATS = {
   gemified_percentage: (DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size).to_f / (DEFAULT_GEMS_JSON.size + BUNDLED_GEMS_JSON.size + LIBRARIES_JSON.size),
 }
 
+GH_TAGS_NO_V_PREFIX = %w[test-unit]
+
 def grouped_ruby_versions
   LISTED_RUBY_VERSIONS.group_by{ |ruby_version| ruby_version.to_f }
 end
@@ -680,9 +682,9 @@ helpers do
       if !gem_info["sourceRepository"]
         linked_gem_version = gem_version
       elsif gem_version =~ /(?<triple_version>[^\.](?:\..+?){2})\.(?<patch_level>.+)/
-        linked_gem_version = "<a href=\"#{ gem_info["sourceRepository"] }/tree/v#{ $~[:triple_version] }\">#{ $~[:triple_version] }</a>.**#{ $~[:patch_level] }**"
+        linked_gem_version = "<a href=\"#{ gem_info["sourceRepository"] }/tree/#{ GH_TAGS_NO_V_PREFIX.include?(gem_info["gem"]) ? "" : "v" }#{ $~[:triple_version] }\">#{ $~[:triple_version] }</a>.**#{ $~[:patch_level] }**"
       else
-        linked_gem_version = "<a href=\"#{ gem_info["sourceRepository"] }/tree/v#{ gem_version }\">#{ gem_version }</a>"
+        linked_gem_version = "<a href=\"#{ gem_info["sourceRepository"] }/tree/#{ GH_TAGS_NO_V_PREFIX.include?(gem_info["gem"]) ? "" : "v" }#{ gem_version }\">#{ gem_version }</a>"
       end
 
       "| #{ linked_gem_version } | #{ ruby_versions_range } |"
