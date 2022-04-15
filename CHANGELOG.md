@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.6.0 (unreleased)
+
+Ruby 3 preview release 1
+
+- Default gem updates: bigdecimal, bundler, cgi, etc, io-wait, logger,
+                       net-protocol, ostruct, reline, rubygems,
+                       securerandom
+- Bundled gem updates: debug, rbs
+
 ## 3.5.0
 
 Ruby release: 3.1.2, 3.0.4, 2.7.6, 2.6.10
