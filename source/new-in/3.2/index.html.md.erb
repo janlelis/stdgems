@@ -1,0 +1,61 @@
+---
+ruby_version: 3.2
+heading: Gemified in 3.2
+title: Gemified in 3.2
+---
+
+<% ruby_version = current_page.data[:ruby_version].to_s %>
+
+<%= dev_version_warning(ruby_version) %>
+
+The following libraries were made standard gems with [Ruby <%= ruby_version %>.0](/<%= ruby_version %>.0)
+
+## New Default Gems
+{:.table-caption}
+
+<% new_default = new_default_gems_in(ruby_version) %>
+<% if new_default && !new_default.empty? %>
+New Default Gem | Description | Resources
+----------------|-------------|----------
+<%= new_default %>
+{:.table-20-45-X}
+<% else %>
+<center>No default gems were introduced in <%= ruby_version %>.</center>
+<% end %>
+
+<% removed_default = removed_default_gems_in(ruby_version) %>
+<% if removed_default && !removed_default.empty? %>
+## Default Gems Removed
+{:.table-caption}
+
+Removed Default Gem | Description | Resources
+--------------------|-------------|----------
+<%= removed_default %>
+{:.table-20-45-X}
+<% end %>
+
+## New Bundled Gems
+{:.table-caption}
+
+<% new_bundled = new_bundled_gems_in(ruby_version) %>
+<% if new_bundled && !new_bundled.empty? %>
+New Bundled Gem | Description | Resources
+----------------|-------------|----------
+<%= new_bundled %>
+{:.table-20-45-X}
+<% else %>
+<center>No bundled gems were introduced in <%= ruby_version %>.</center>
+<% end %>
+
+<% removed_bundled = removed_bundled_gems_in(ruby_version) %>
+<% if removed_bundled && !removed_bundled.empty? %>
+## Bundled Gems Removed
+{:.table-caption}
+
+Removed Bundled Gem | Description | Resources
+--------------------|-------------|----------
+<%= removed_bundled %>
+{:.table-20-45-X}
+<% end %>
+
+<%= partial "footer" %>
