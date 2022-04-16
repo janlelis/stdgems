@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.6.1
+
+- Fix Ruby 3.2's date
+
 ## 3.6.0
 
 Ruby 3 preview release 1
