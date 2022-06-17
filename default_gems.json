@@ -1700,7 +1700,7 @@
         "Eric Hodel (drbrain)",
         "Hiroshi SHIBATA (hsbt)"
       ],
-      "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)]((https://idiosyncratic-ruby.com/71-nothing-to-disable.html)) with `$ ruby --disable-gems`",
+      "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
         "3.2":     "3.4.0",
 
