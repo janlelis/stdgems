@@ -1,5 +1,5 @@
 {
-  "version": "3.6.1",
+  "version": "3.6.2",
   "gems": [
     {
       "gem": "debug",
@@ -44,7 +44,7 @@
       "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://www.rubydoc.info/gems/matrix",
       "alternatives": {
-        "nmatrix": "https://github.com/SciRuby/nmatrix"
+        "numo-narray": "https://github.com/ruby-numo/numo-narray"
       },
       "versions": {
         "3.2": "0.4.2",
