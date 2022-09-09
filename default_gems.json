@@ -229,7 +229,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "3.2":   "3.2.2",
+        "3.2":   "3.2.3",
 
         "3.1":   "3.2.2",
 
@@ -462,7 +462,7 @@
       "maintainer": null,
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
-        "3.2": "0.3.0",
+        "3.2": "0.4.0",
         "3.1": "0.3.0"
       }
     },
@@ -711,7 +711,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/nonblock/rdoc/IO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.2": "0.1.0",
+        "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
       }
@@ -731,7 +731,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/wait/rdoc/IO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.2": "0.2.2",
+        "3.2": "0.3.0",
 
         "3.1": "0.2.1",
 
@@ -821,7 +821,7 @@
         "yajl-ruby": "https://github.com/brianmario/yajl-ruby"
       },
       "versions": {
-        "3.2":   "2.6.1",
+        "3.2":   "2.6.2",
 
         "3.1":   "2.6.1",
 
@@ -867,7 +867,7 @@
         "micrologger": "https://github.com/janlelis/micrologger"
       },
       "versions": {
-        "3.2": "1.6.0",
+        "3.2": "1.5.1",
         "3.1": "1.5.0",
         "3.0": "1.4.3",
         "2.7": "1.4.2",
@@ -960,7 +960,7 @@
         "em-http-request": "https://github.com/igrigorik/em-http-request"
       },
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.2",
         "3.1": "0.2.0",
         "3.0": "0.1.1"
       }
@@ -1344,7 +1344,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.2":   "4.0.3",
+        "3.2":   "5.0.0",
 
         "3.1":   "4.0.3",
 
@@ -1840,7 +1840,7 @@
       ],
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
-        "3.2": "1.0.2",
+        "3.2": "1.0.3",
         "3.1": "1.0.2",
         "3.0": "1.0.1"
       }
@@ -1913,7 +1913,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.2": "3.0.1",
+        "3.2": "3.0.3",
 
         "3.1": "3.0.1",
 
@@ -1999,6 +1999,24 @@
       }
     },
     {
+      "gem": "syntax_suggest",
+      "native": false,
+      "autoRequire": false,
+      "description": "Assists with code recommendation to resolve Ruby syntax errors",
+      "mriSourcePath": [
+        "lib/syntax_suggest.rb",
+        "lib/syntax_suggest"
+      ],
+      "jrubySourcePath": true,
+      "sourceRepository": "https://github.com/ruby/syntax_suggest",
+      "rubygemsLink": "https://rubygems.org/gems/syntax_suggest",
+      "rdocLink": "https://rdoc.info/gems/syntax_suggest",
+      "maintainer": null,
+      "versions": {
+        "3.2": "0.0.1"
+      }
+    },
+    {
       "gem": "tempfile",
       "native": false,
       "autoRequire": false,
@@ -2073,7 +2091,7 @@
         "Ultimate Guide to Ruby Timeouts": "https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts"
       },
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.3.0",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
