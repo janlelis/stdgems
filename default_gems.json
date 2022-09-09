@@ -1998,6 +1998,24 @@
       }
     },
     {
+      "gem": "syntax_suggest",
+      "native": false,
+      "autoRequire": false,
+      "description": "Assists with code recommendation to resolve Ruby syntax errors",
+      "mriSourcePath": [
+        "lib/syntax_suggest.rb",
+        "lib/syntax_suggest"
+      ],
+      "jrubySourcePath": true,
+      "sourceRepository": "https://github.com/ruby/syntax_suggest",
+      "rubygemsLink": "https://rubygems.org/gems/syntax_suggest",
+      "rdocLink": "https://rdoc.info/gems/syntax_suggest",
+      "maintainer": null,
+      "versions": {
+        "3.2": "0.0.1"
+      }
+    },
+    {
       "gem": "tempfile",
       "native": false,
       "autoRequire": false,
