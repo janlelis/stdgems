@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.6.3
+
+- Update default & bundled gems to latest Ruby 3.2 preview release 3
+
 ## 3.6.2
 
 - Update altenative to matrix #15
@@ -11,7 +15,7 @@
 
 ## 3.6.0
 
-Ruby 3 preview release 1
+Ruby 3.2 preview release 1
 
 - Default gem updates: bigdecimal, bundler, cgi, etc, io-wait, logger,
                        net-protocol, ostruct, reline, rubygems,
