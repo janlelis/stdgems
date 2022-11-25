@@ -1,5 +1,15 @@
 # Change Log
 
+## 3.7.0 (unreleased)
+
+Ruby release: 3.1.3, 3.0.5, 2.7.7
+
+- Update Ruby 3.1's bundler, cgi, csv, net-http, openssl, optparse,
+                    psych, reline, rubygems, securerandom
+- Update Ruby 3.1's bundled gems: debug, rbs
+- Update Ruby 3.0's cgi, openssl, optparse
+- Update Ruby 2.7's cgi, openssl
+
 ## 3.6.3
 
 - Update default & bundled gems to latest Ruby 3.2 preview release 3
@@ -104,7 +114,7 @@ Ruby releases: 3.0.3, 2.7.5, 2.6.9
   fcntl, fiddle, io-wait, net-protocol, openssl, optparse,
   pp, psych, racc, rdoc, resolv, rinda, rubygems, stringio,
   strscan, zlib
-- Update Ruby 2.7's cgi, date, openssl
+- Update Ruby 2.7's cgi, date, openssl- Update Ruby 2.7's cgi, date, openssl
 - Update Ruby 2.6's date
 
 ### Bundled Gems
