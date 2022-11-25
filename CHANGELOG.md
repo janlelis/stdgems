@@ -1,6 +1,6 @@
 # Change Log
 
-## 3.7.0 (unreleased)
+## 3.7.0
 
 Ruby release: 3.1.3, 3.0.5, 2.7.7
 
