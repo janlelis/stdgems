@@ -1,5 +1,5 @@
 {
-  "version": "3.7.0",
+  "version": "3.7.1",
   "gems": [
     {
       "gem": "abbrev",
@@ -54,7 +54,7 @@
         "benchmark-driver": "https://github.com/benchmark-driver/benchmark-driver"
       },
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -76,7 +76,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
-        "3.2":   "3.1.2",
+        "3.2":   "3.1.3",
         "3.1":   "3.1.1",
         "3.0":   "3.0.0",
         "2.7":   "2.0.0",
@@ -147,7 +147,7 @@
         "rack": "https://github.com/rack/rack"
       },
       "versions": {
-        "3.2":   "0.3.5",
+        "3.2":   "0.3.6",
 
         "3.1":   "0.3.5",
         "3.1.2": "0.3.1",
@@ -246,7 +246,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "3.2":   "3.2.3",
+        "3.2":   "3.3.0",
 
         "3.1":   "3.2.2",
 
@@ -329,7 +329,7 @@
         "forwardable": "https://stdgems.org/forwardable/"
       },
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.3.0",
         "3.1": "0.2.0",
         "3.0": "0.2.0",
         "2.7": "0.1.0"
@@ -351,7 +351,7 @@
       "maintainer": "Yuki Nishijima (yuki24)",
       "notes": "- You can [prevent Ruby from loading this default gem](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-did_you_mean`",
       "versions": {
-        "3.2": "1.6.1",
+        "3.2": "1.6.2",
         "3.1": "1.6.1",
         "3.0": "1.5.0",
         "2.7": "1.4.0"
@@ -375,7 +375,7 @@
         "OpenSSL::Digest": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL/Digest.html"
       },
       "versions": {
-        "3.2": "3.1.0",
+        "3.2": "3.1.1",
         "3.1": "3.1.0",
         "3.0": "3.0.0"
       }
@@ -395,7 +395,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html",
       "maintainer": "Masatoshi SEKI (seki)",
       "versions": {
-        "3.2": "2.1.0",
+        "3.2": "2.1.1",
 
         "3.1": "2.1.0",
 
@@ -458,7 +458,7 @@
         "erubi": "https://github.com/jeremyevans/erubi"
       },
       "versions": {
-        "3.2": "3.0.0",
+        "3.2": "4.0.2",
         "3.1": "2.2.3",
         "3.0": "2.2.0"
       }
@@ -479,7 +479,7 @@
       "maintainer": null,
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
-        "3.2": "0.5.0",
+        "3.2": "0.5.1",
         "3.1": "0.3.0"
       }
     },
@@ -498,7 +498,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "maintainer": "Ruby core team",
       "versions": {
-        "3.2": "1.4.0",
+        "3.2": "1.4.1",
 
         "3.1": "1.3.0",
 
@@ -527,7 +527,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
       "maintainer": "Ruby core team",
       "versions": {
-        "3.2": "1.0.1",
+        "3.2": "1.0.2",
 
         "3.1": "1.0.1",
 
@@ -588,7 +588,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
       "maintainer": null,
       "versions": {
-        "3.2": "1.6.0",
+        "3.2": "1.7.0",
         "3.1": "1.6.0",
         "3.0": "1.5.0",
         "2.7": "1.4.1",
@@ -633,7 +633,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "3.2": "1.3.2",
+        "3.2": "1.3.3",
         "3.1": "1.3.2",
         "3.0": "1.3.2",
         "2.7": "1.3.1",
@@ -676,7 +676,7 @@
         "rationalist": "https://github.com/janlelis/rationalist"
       },
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.2.0",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -728,7 +728,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/nonblock/rdoc/IO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.2.0",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
       }
@@ -773,7 +773,7 @@
         "ipaddress": "https://github.com/ipaddress-gem/ipaddress"
       },
       "versions": {
-        "3.2":   "1.2.4",
+        "3.2":   "1.2.5",
 
         "3.1":   "1.2.4",
         "3.1.0": "1.2.3",
@@ -804,7 +804,7 @@
         "ripl": "https://github.com/cldwalker/ripl"
       },
       "versions": {
-        "3.2":   "1.4.2",
+        "3.2":   "1.5.1",
 
         "3.1":   "1.4.1",
 
@@ -884,7 +884,7 @@
         "micrologger": "https://github.com/janlelis/micrologger"
       },
       "versions": {
-        "3.2": "1.5.1",
+        "3.2": "1.5.2",
         "3.1": "1.5.0",
         "3.0": "1.4.3",
         "2.7": "1.4.2",
@@ -924,7 +924,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
         "2.7": "0.1.0",
@@ -977,7 +977,7 @@
         "em-http-request": "https://github.com/igrigorik/em-http-request"
       },
       "versions": {
-        "3.2":   "0.3.0",
+        "3.2":   "0.3.1",
 
         "3.1":   "0.3.0",
         "3.1.2": "0.2.0",
@@ -1032,7 +1032,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/protocol/rdoc/index.html",
       "maintainer": null,
       "versions": {
-        "3.2": "0.1.3",
+        "3.2": "0.2.0",
 
         "3.1": "0.1.2",
 
@@ -1074,7 +1074,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/nkf/rdoc/NKF.html",
       "maintainer": "NARUSE, Yui (narse)",
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.0"
       }
@@ -1184,7 +1184,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open-uri/rdoc/OpenURI.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.3.0",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
       }
@@ -1210,7 +1210,7 @@
         "rationalist": "https://github.com/janlelis/rationalist"
       },
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.3.0",
 
         "3.1": "0.2.0",
 
@@ -1262,7 +1262,7 @@
         "path": "https://github.com/eregon/path"
       },
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
       }
@@ -1285,7 +1285,7 @@
         "hirber": "https://github.com/hirber/hirber"
       },
       "versions": {
-        "3.2": "0.3.0",
+        "3.2": "0.4.0",
 
         "3.1": "0.3.0",
 
@@ -1354,7 +1354,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html",
       "maintainer": null,
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -1434,7 +1434,7 @@
         "ebnf": "https://github.com/dryruby/ebnf"
       },
       "versions": {
-        "3.2": "1.6.0",
+        "3.2": "1.6.1",
 
         "3.1": "1.6.0",
 
@@ -1465,7 +1465,7 @@
         "YARD": "https://yardoc.org/"
       },
       "versions": {
-        "3.2":     "6.4.0",
+        "3.2":     "6.5.0",
         "3.1":     "6.4.0",
         "3.0":     "6.3.3",
         "3.0.2":   "6.3.1",
@@ -1599,7 +1599,7 @@
         "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
       },
       "versions": {
-        "3.2": "0.2.1",
+        "3.2": "0.2.2",
 
         "3.1": "0.2.1",
 
@@ -1859,7 +1859,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/securerandom/rdoc/SecureRandom.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.2":   "0.2.0",
+        "3.2":   "0.2.1",
 
         "3.1":   "0.2.0",
         "3.1.2": "0.1.1",
@@ -2138,7 +2138,7 @@
         "Ultimate Guide to Ruby Timeouts": "https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts"
       },
       "versions": {
-        "3.2": "0.3.0",
+        "3.2": "0.3.1",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -2156,7 +2156,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir",
       "maintainer": null,
       "versions": {
-        "3.2":   "0.1.2",
+        "3.2":   "0.1.3",
         "3.1":   "0.1.2",
         "3.0":   "0.1.2",
         "3.0.0": "0.1.1"
@@ -2198,7 +2198,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tsort/rdoc/TSort.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.2": "0.1.0",
+        "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
       }
@@ -2215,7 +2215,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/un/rdoc/index.html",
       "maintainer": "WATANABE Hirofumi (eban)",
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
       }
@@ -2242,7 +2242,7 @@
         "ruby-uriparse": "https://github.com/tlewin/ruby-uriparser"
       },
       "versions": {
-        "3.2": "0.11.0",
+        "3.2": "0.12.0",
         "3.1": "0.11.0",
         "3.0": "0.10.0",
         "2.7": "0.10.0"
@@ -2329,7 +2329,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/win32ole/rdoc/WIN32OLE.html",
       "maintainer": "Masaki Suketa (suke)",
       "versions": {
-        "3.2": "1.8.8",
+        "3.2": "1.8.9",
         "3.1": "1.8.8",
         "3.0": "1.8.8"
       }
@@ -2381,7 +2381,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
-        "3.2": "2.1.1",
+        "3.2": "3.0.0",
 
         "3.1": "2.1.1",
 
