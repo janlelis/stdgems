@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.7.1 (unreleased)
+
+- Update default & bundled gems to Ruby 3.2 release candidate 1
+
 ## 3.7.0
 
 Ruby release: 3.1.3, 3.0.5, 2.7.7
