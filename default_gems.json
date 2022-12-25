@@ -554,6 +554,7 @@
       "rubygemsLink": "https://rubygems.org/gems/fiddle",
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
       "maintainer": "Aaron Patterson (tenderlove)",
+      "notes": "Starting with Ruby 3.2, libffi is not bundled with Ruby anymore",
       "alternatives": {
         "FFI": "https://github.com/ffi/ffi"
       },
@@ -1373,6 +1374,7 @@
         "Aaron Patterson (tenderlove)",
         "Hiroshi SHIBATA (hsbt)"
       ],
+      "notes": "Starting with Ruby 3.2, libyaml is not bundled with Ruby anymore",
       "versions": {
         "3.2":   "5.0.1",
 
