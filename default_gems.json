@@ -1885,6 +1885,7 @@
         "https://ruby-doc.org/stdlib/libdoc/set/rdoc/SortedSet.html"
       ],
       "maintainer": "Akinori MUSHA (knu)",
+      "notes": "Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)",
       "versions": {
         "3.2": "1.0.3",
         "3.1": "1.0.2",
