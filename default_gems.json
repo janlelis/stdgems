@@ -103,7 +103,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.2":   "2.4.0",
+        "3.2":   "2.4.1",
 
         "3.1":   "2.3.26",
         "3.1.2": "2.3.7",
@@ -208,7 +208,7 @@
         "smarter_csv": "https://github.com/tilo/smarter_csv"
       },
       "versions": {
-        "3.2":   "3.2.5",
+        "3.2":   "3.2.6",
 
         "3.1":   "3.2.5",
         "3.1.2": "3.2.2",
@@ -246,7 +246,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "3.2":   "3.3.0",
+        "3.2":   "3.3.3",
 
         "3.1":   "3.2.2",
 
@@ -351,7 +351,7 @@
       "maintainer": "Yuki Nishijima (yuki24)",
       "notes": "- You can [prevent Ruby from loading this default gem](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-did_you_mean`",
       "versions": {
-        "3.2": "1.6.2",
+        "3.2": "1.6.3",
         "3.1": "1.6.1",
         "3.0": "1.5.0",
         "2.7": "1.4.0"
@@ -435,7 +435,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html",
       "maintainer": null,
       "versions": {
-        "3.2": "0.7.1",
+        "3.2": "0.7.2",
         "3.1": "0.7.1",
         "3.0": "0.7.1"
       }
@@ -497,7 +497,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
       "maintainer": "Ruby core team",
       "versions": {
-        "3.2": "1.4.1",
+        "3.2": "1.4.2",
 
         "3.1": "1.3.0",
 
@@ -694,7 +694,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "3.2":   "0.5.11",
+        "3.2":   "0.6.0",
 
         "3.1":   "0.5.11",
         "3.1.0": "0.5.10",
@@ -803,7 +803,7 @@
         "ripl": "https://github.com/cldwalker/ripl"
       },
       "versions": {
-        "3.2":   "1.5.1",
+        "3.2":   "1.6.2",
 
         "3.1":   "1.4.1",
 
@@ -837,7 +837,7 @@
         "yajl-ruby": "https://github.com/brianmario/yajl-ruby"
       },
       "versions": {
-        "3.2":   "2.6.2",
+        "3.2":   "2.6.3",
 
         "3.1":   "2.6.1",
 
@@ -883,7 +883,7 @@
         "micrologger": "https://github.com/janlelis/micrologger"
       },
       "versions": {
-        "3.2": "1.5.2",
+        "3.2": "1.5.3",
         "3.1": "1.5.0",
         "3.0": "1.4.3",
         "2.7": "1.4.2",
@@ -976,7 +976,7 @@
         "em-http-request": "https://github.com/igrigorik/em-http-request"
       },
       "versions": {
-        "3.2":   "0.3.1",
+        "3.2":   "0.3.2",
 
         "3.1":   "0.3.0",
         "3.1.2": "0.2.0",
@@ -1031,7 +1031,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/protocol/rdoc/index.html",
       "maintainer": null,
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.1",
 
         "3.1": "0.1.2",
 
@@ -1115,7 +1115,7 @@
         "open4": "https://github.com/ahoward/open4"
       },
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -1209,7 +1209,7 @@
         "rationalist": "https://github.com/janlelis/rationalist"
       },
       "versions": {
-        "3.2": "0.3.0",
+        "3.2": "0.3.1",
 
         "3.1": "0.2.0",
 
@@ -1374,7 +1374,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.2":   "5.0.0",
+        "3.2":   "5.0.1",
 
         "3.1":   "4.0.4",
         "3.1.2": "4.0.3",
@@ -1433,7 +1433,7 @@
         "ebnf": "https://github.com/dryruby/ebnf"
       },
       "versions": {
-        "3.2": "1.6.1",
+        "3.2": "1.6.2",
 
         "3.1": "1.6.0",
 
@@ -1542,7 +1542,7 @@
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
       "versions": {
-        "3.2": "0.1.4",
+        "3.2": "0.1.5",
         "3.1": "0.1.4",
         "3.0": "0.1.1",
         "2.7": "0.1.0"
@@ -1564,7 +1564,7 @@
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
       "versions": {
-        "3.2":   "0.3.1",
+        "3.2":   "0.3.2",
 
         "3.1":   "0.3.1",
         "3.1.2": "0.3.0",
@@ -1627,7 +1627,7 @@
         "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
       },
       "versions": {
-        "3.2": "0.1.0",
+        "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
       }
@@ -1742,7 +1742,7 @@
       ],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
-        "3.2":     "3.4.0",
+        "3.2":     "3.4.1",
 
         "3.1":     "3.3.26",
         "3.1.2":   "3.3.7",
@@ -1858,7 +1858,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/securerandom/rdoc/SecureRandom.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.2":   "0.2.1",
+        "3.2":   "0.2.2",
 
         "3.1":   "0.2.0",
         "3.1.2": "0.1.1",
@@ -1959,7 +1959,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.2": "3.0.3",
+        "3.2": "3.0.4",
 
         "3.1": "3.0.1",
 
@@ -1988,7 +1988,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "3.2": "3.0.1",
+        "3.2": "3.0.5",
 
         "3.1": "3.0.1",
 
@@ -2039,7 +2039,7 @@
         "yell-adapters-syslog": "https://github.com/rudionrails/yell/wiki/additional-adapters-syslog"
       },
       "versions": {
-        "3.2": "0.1.0",
+        "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
       }
@@ -2059,7 +2059,7 @@
       "rdocLink": "https://rdoc.info/gems/syntax_suggest",
       "maintainer": null,
       "versions": {
-        "3.2": "0.0.1"
+        "3.2": "1.0.2"
       }
     },
     {
@@ -2077,7 +2077,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html",
       "maintainer": null,
       "versions": {
-        "3.2": "0.1.2",
+        "3.2": "0.1.3",
         "3.1": "0.1.2",
         "3.0": "0.1.1"
       }
@@ -2112,7 +2112,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc/time/rdoc/Time.html",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
       }
@@ -2262,7 +2262,7 @@
         "ref": "https://github.com/ruby-concurrency/ref"
       },
       "versions": {
-        "3.2": "0.1.1",
+        "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1"
       }
@@ -2359,7 +2359,7 @@
         "Hiroshi SHIBATA (hsbt)"
       ],
       "versions": {
-        "3.2": "0.2.0",
+        "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
         "2.7": "0.1.0"

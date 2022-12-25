@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.8.0 (unreleased)
+
+Ruby release: 3.2.0
+
+- Final Ruby 3.2.0 gem updates
+
 ## 3.7.1
 
 - Update default & bundled gems to Ruby 3.2 release candidate 1
