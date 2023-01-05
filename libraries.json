@@ -1,5 +1,5 @@
 {
-  "version": "3.8.0",
+  "version": "3.8.1",
   "gems": [
     {
       "gem": "continuation",
@@ -25,7 +25,7 @@
         "lib/ruby/stdlib/coverage.rb",
         "core/src/main/java/org/jruby/ext/coverage"
       ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/coverage/rdoc/Coverage.html",
+      "rdocLink": "https://rubyapi.org/o/coverage",
       "maintainer": "Yusuke Endoh (mame)"
     },
     {
@@ -35,7 +35,7 @@
       "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/master/doc/extension.rdoc)",
       "mriSourcePath": "lib/mkmf.rb",
       "jrubySourcePath": false,
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mkmf/rdoc/MakeMakefile.html",
+      "rdocLink": "https://rubyapi.org/o/makemakefile",
       "maintainer": null
     },
     {
@@ -48,7 +48,7 @@
         "lib/ruby/stdlib/monitor.rb",
         "core/src/main/java/org/jruby/ext/monitor"
       ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/monitor/rdoc/Monitor.html",
+      "rdocLink": "https://rubyapi.org/o/monitor",
       "maintainer": "Koichi Sasada (ko1)"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Adds more statistics methods to `ObjectSpace`. Since Ruby 3.1, it also includes the `objspace/trace` debug utility.",
       "mriSourcePath": "ext/objspace",
       "jrubySourcePath": "lib/ruby/stdlib/objspace.rb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/objspace/rdoc/ObjectSpace.html",
+      "rdocLink": "https://www.rubydoc.info/stdlib/objspace/ObjectSpace",
       "maintainer": null
     },
     {
@@ -71,7 +71,7 @@
         "lib/ruby/stdlib/pty.rb",
         "lib/ruby/stdlib/expect.rb"
       ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pty/rdoc/PTY.html",
+      "rdocLink": "https://rubyapi.org/o/pty",
       "maintainer": null
     },
     {
@@ -103,7 +103,7 @@
         "lib/ruby/stdlib/ripper",
         "core/src/main/java/org/jruby/ext/ripper"
       ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ripper/rdoc/Ripper.html",
+      "rdocLink": "https://rubyapi.org/o/ripper",
       "maintainer": null,
       "alternatives": {
         "parser": "https://github.com/whitequark/parser",
@@ -120,7 +120,7 @@
         "lib/ruby/stdlib/socket.rb",
         "core/src/main/java/org/jruby/ext/socket"
       ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html",
+      "rdocLink": "https://rubyapi.org/o/socket",
       "maintainer": [
         "Tanaka Akira (akr)",
         "API change needs matz's approval"
@@ -130,7 +130,7 @@
       "gem": "unicode_normalize",
       "native": false,
       "autoRequire": true,
-      "description": "Adds a [String#unicode_normalize](https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/String.html#method-i-unicode_normalize) method which [normalizes unicode strings](https://unicode.org/reports/tr15/)",
+      "description": "Adds a [String#unicode_normalize](https://rubyapi.org/o/string#method-i-unicode_normalize) method which [normalizes unicode strings](https://unicode.org/reports/tr15/)",
       "mriSourcePath": [
         "lib/unicode_normalize.rb",
         "lib/unicode_normalize"
@@ -139,7 +139,10 @@
         "lib/ruby/stdlib/unicode_normalize.rb",
         "lib/ruby/stdlib/unicode_normalize"
       ],
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/unicode_normalize/rdoc/UnicodeNormalize.html",
+      "rdocLink": [
+        "https://www.rubydoc.info/stdlib/unicode_normalize/UnicodeNormalize",
+        "https://rubyapi.org/o/string#method-i-unicode_normalize"
+      ],
       "maintainer": "Martin J. Dürst",
       "alternatives": {
         "unf": "https://github.com/knu/ruby-unf"
@@ -155,7 +158,7 @@
         "lib/ruby/stdlib/Win32API.rb",
         "lib/ruby/stdlib/win32"
       ],
-      "rdocLink": "https://www.rubydoc.info/stdlib/win32",
+      "rdocLink": "https://rubyapi.org/o/win32",
       "maintainer": "NAKAMURA Usaku (usa)",
       "alternatives": {
         "win32-api": "https://github.com/cosmo0920/win32-api",

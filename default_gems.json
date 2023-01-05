@@ -1,5 +1,5 @@
 {
-  "version": "3.8.0",
+  "version": "3.8.1",
   "gems": [
     {
       "gem": "abbrev",
@@ -10,7 +10,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/abbrev",
       "rubygemsLink": "https://rubygems.org/gems/abbrev",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/abbrev/rdoc/Abbrev.html",
+      "rdocLink": "https://rubyapi.org/o/abbrev",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
         "3.2": "0.1.0",
@@ -27,7 +27,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/base64",
       "rubygemsLink": "https://rubygems.org/gems/base64",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/base64/rdoc/Base64.html",
+      "rdocLink": "https://rubyapi.org/o/base64",
       "maintainer": "Yusuke Endoh (mame)",
       "alternatives": {
         "Array#pack('m') / String#unpack('m')": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
@@ -47,7 +47,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/benchmark",
       "rubygemsLink": "https://rubygems.org/gems/benchmark",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/Benchmark.html",
+      "rdocLink": "https://rubyapi.org/o/benchmark",
       "maintainer": null,
       "alternatives": {
         "benchmark-ips": "https://github.com/evanphx/benchmark-ips",
@@ -73,7 +73,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/bigdecimal",
       "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/bigdecimal/rdoc/BigDecimal.html",
+      "rdocLink": "https://rubyapi.org/o/bigdecimal",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
         "3.2":   "3.1.3",
@@ -138,7 +138,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/cgi",
       "rubygemsLink": "https://rubygems.org/gems/cgi",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/cgi/rdoc/CGI.html",
+      "rdocLink": "https://rubyapi.org/o/cgi",
       "maintainer": [
         "Nobuyoshi Nakada (nobu) — native code"
       ],
@@ -199,7 +199,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/csv",
       "rubygemsLink": "https://rubygems.org/gems/csv",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html",
+      "rdocLink": "https://rubyapi.org/o/csv",
       "maintainer": [
         "Kenta Murata (mrkn)",
         "Kouhei Sutou (kou)"
@@ -231,7 +231,7 @@
       "gem": "date",
       "native": true,
       "autoRequire": false,
-      "description": "The [Date](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html) and [DateTime](https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html) classes",
+      "description": "The [Date](https://rubyapi.org/o/date) and [DateTime](https://rubyapi.org/o/datetime) classes",
       "mriSourcePath": "ext/date",
       "jrubySourcePath": [
         "lib/ruby/stdlib/date.rb",
@@ -241,8 +241,8 @@
       "sourceRepository": "https://github.com/ruby/date",
       "rubygemsLink": "https://rubygems.org/gems/date",
       "rdocLink": [
-        "https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html",
-        "https://ruby-doc.org/stdlib/libdoc/date/rdoc/DateTime.html"
+        "https://rubyapi.org/o/date",
+        "https://rubyapi.org/o/datetime"
       ],
       "maintainer": null,
       "versions": {
@@ -323,7 +323,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/delegate",
       "rubygemsLink": "https://rubygems.org/gems/delegate",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/delegate/rdoc/Delegator.html",
+      "rdocLink": "https://rubyapi.org/o/delegator",
       "maintainer": null,
       "alternatives": {
         "forwardable": "https://stdgems.org/forwardable/"
@@ -347,7 +347,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/did_you_mean",
       "rubygemsLink": "https://rubygems.org/gems/did_you_mean",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/did_you_mean/rdoc/DidYouMean.html",
+      "rdocLink": "https://rubyapi.org/o/didyoumean",
       "maintainer": "Yuki Nishijima (yuki24)",
       "notes": "- You can [prevent Ruby from loading this default gem](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-did_you_mean`",
       "versions": {
@@ -369,7 +369,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/digest",
       "rubygemsLink": "https://rubygems.org/gems/digest",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/digest/rdoc/Digest.html",
+      "rdocLink": "https://rubyapi.org/o/digest",
       "maintainer": "Akinori MUSHA (knu)",
       "alternatives": {
         "OpenSSL::Digest": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL/Digest.html"
@@ -392,7 +392,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/drb",
       "rubygemsLink": "https://rubygems.org/gems/drb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html",
+      "rdocLink": "https://rubyapi.org/o/drb",
       "maintainer": "Masatoshi SEKI (seki)",
       "versions": {
         "3.2": "2.1.1",
@@ -432,7 +432,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/English.rb",
       "sourceRepository": "https://github.com/ruby/English",
       "rubygemsLink": "https://rubygems.org/gems/english",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/English/rdoc/English.html",
+      "rdocLink": "https://rubyapi.org/o/english",
       "maintainer": null,
       "versions": {
         "3.2": "0.7.2",
@@ -449,7 +449,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/erb",
       "rubygemsLink": "https://rubygems.org/gems/erb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/erb/rdoc/index.html",
+      "rdocLink": "https://rubyapi.org/o/erb",
       "maintainer": [
         "Masatoshi SEKI (seki)",
         "Takashi Kokubun (k0kubun)"
@@ -495,7 +495,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/etc",
       "rubygemsLink": "https://rubygems.org/gems/etc",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/etc/rdoc/Etc.html",
+      "rdocLink": "https://rubyapi.org/o/etc",
       "maintainer": "Ruby core team",
       "versions": {
         "3.2": "1.4.2",
@@ -524,7 +524,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/fcntl",
       "rubygemsLink": "https://rubygems.org/gems/fcntl",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fcntl/rdoc/Fcntl.html",
+      "rdocLink": "https://rubyapi.org/o/fcntl",
       "maintainer": "Ruby core team",
       "versions": {
         "3.2": "1.0.2",
@@ -553,7 +553,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/fiddle",
       "rubygemsLink": "https://rubygems.org/gems/fiddle",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fiddle/rdoc/Fiddle.html",
+      "rdocLink": "https://rubyapi.org/o/fiddle",
       "maintainer": "Aaron Patterson (tenderlove)",
       "notes": "Starting with Ruby 3.2, libffi is not bundled with Ruby anymore",
       "alternatives": {
@@ -586,7 +586,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/fileutils",
       "rubygemsLink": "https://rubygems.org/gems/fileutils",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html",
+      "rdocLink": "https://rubyapi.org/o/fileutils",
       "maintainer": null,
       "versions": {
         "3.2": "1.7.0",
@@ -606,7 +606,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/find",
       "rubygemsLink": "https://rubygems.org/gems/find",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/find/rdoc/Find.html",
+      "rdocLink": "https://rubyapi.org/o/find",
       "notes": "You can get a very similar result using: ```find .`.split($/)``",
       "maintainer": "Kazuki Tsujimoto (ktsj)",
       "alternatives": {
@@ -631,7 +631,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/forwardable",
       "rubygemsLink": "https://rubygems.org/gems/forwardable",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/forwardable/rdoc/Forwardable.html",
+      "rdocLink": "https://rubyapi.org/o/forwardable",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
         "3.2": "1.3.3",
@@ -668,7 +668,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/getoptlong",
       "rubygemsLink": "https://rubygems.org/gems/getoptlong",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/getoptlong/rdoc/GetoptLong.html",
+      "rdocLink": "https://rubyapi.org/o/getoptlong",
       "maintainer": null,
       "alternatives": {
         "optparse": "https://stdgems.org/optparse",
@@ -692,7 +692,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/io-console",
       "rubygemsLink": "https://rubygems.org/gems/io-console",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/console/rdoc/IO.html",
+      "rdocLink": "https://www.rubydoc.info/gems/io-console",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
@@ -726,7 +726,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/io-nonblock",
       "rubygemsLink": "https://rubygems.org/gems/io-nonblock",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/nonblock/rdoc/IO.html",
+      "rdocLink": "https://www.rubydoc.info/gems/io-nonblock",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "3.2": "0.2.0",
@@ -746,7 +746,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/io-wait",
       "rubygemsLink": "https://rubygems.org/gems/io-wait",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/io/wait/rdoc/IO.html",
+      "rdocLink": "https://www.rubydoc.info/gems/io-wait",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "3.2": "0.3.0",
@@ -768,7 +768,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/ipaddr",
       "rubygemsLink": "https://rubygems.org/gems/ipaddr",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ipaddr/rdoc/IPAddr.html",
+      "rdocLink": "https://rubyapi.org/o/ipaddr",
       "maintainer": "Akinori MUSHA (knu)",
       "alternatives": {
         "ipaddress": "https://github.com/ipaddress-gem/ipaddress"
@@ -797,7 +797,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/irb",
       "rubygemsLink": "https://rubygems.org/gems/irb",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/irb/rdoc/IRB.html",
+      "rdocLink": "https://www.rubydoc.info/gems/irb",
       "maintainer": "aycabta",
       "alternatives": {
         "pry": "https://github.com/pry/pry",
@@ -828,7 +828,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/flori/json",
       "rubygemsLink": "https://rubygems.org/gems/json",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/json/rdoc/JSON.html",
+      "rdocLink": "https://rubyapi.org/o/json",
       "maintainer": [
         "NARUSE", "Yui (naruse)",
         "Hiroshi SHIBATA (hsbt)"
@@ -872,7 +872,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/logger",
       "rubygemsLink": "https://rubygems.org/gems/logger",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/logger/rdoc/Logger.html",
+      "rdocLink": "https://rubyapi.org/o/logger",
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
       "alternatives": {
@@ -922,7 +922,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/mutex_m",
       "rubygemsLink": "https://rubygems.org/gems/mutex_m",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/mutex_m/rdoc/Mutex_m.html",
+      "rdocLink": "https://rubyapi.org/o/mutex_m",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
         "3.2": "0.1.2",
@@ -967,7 +967,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/net-http",
       "rubygemsLink": "https://rubygems.org/gems/net-http",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/net/http/rdoc/Net/HTTP.html",
+      "rdocLink": "https://rubyapi.org/o/net/http",
       "maintainer": "NARUSE, Yui (naruse)",
       "alternatives": {
         "HTTP": "https://github.com/httprb/http",
@@ -1072,7 +1072,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/nkf",
       "rubygemsLink": "https://rubygems.org/gems/nkf",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/nkf/rdoc/NKF.html",
+      "rdocLink": "https://rubyapi.org/o/nkf",
       "maintainer": "NARUSE, Yui (narse)",
       "versions": {
         "3.2": "0.1.2",
@@ -1089,7 +1089,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/observer",
       "rubygemsLink": "https://rubygems.org/gems/observer",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/observer/rdoc/Observable.html",
+      "rdocLink": "https://rubyapi.org/o/observable",
       "maintainer": null,
       "alternatives": {
         "microevent": "https://github.com/janlelis/microevent.rb",
@@ -1111,7 +1111,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/open3.rb",
       "sourceRepository": "https://github.com/ruby/open3",
       "rubygemsLink": "https://rubygems.org/gems/open3",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open3/rdoc/Open3.html",
+      "rdocLink": "https://rubyapi.org/o/open3",
       "maintainer": null,
       "alternatives": {
         "open4": "https://github.com/ahoward/open4"
@@ -1182,7 +1182,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/open-uri",
       "rubygemsLink": "https://rubygems.org/gems/open-uri",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/open-uri/rdoc/OpenURI.html",
+      "rdocLink": "https://rubyapi.org/o/openuri",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "3.2": "0.3.0",
@@ -1203,7 +1203,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/optparse",
       "rubygemsLink": "https://rubygems.org/gems/optparse",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptParse.html",
+      "rdocLink": "https://rubyapi.org/o/optionparser",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "alternatives": {
         "slop": "https://github.com/leejarvis/slop",
@@ -1232,7 +1232,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/ostruct",
       "rubygemsLink": "https://rubygems.org/gems/ostruct",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/ostruct/rdoc/OpenStruct.html",
+      "rdocLink": "https://rubyapi.org/o/openstruct",
       "maintainer": "Marc-André Lafortune (marcandre)",
       "alternatives": {
         "Hash": "https://ruby-doc.org/core/Hash.html"
@@ -1257,7 +1257,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/pathname",
       "rubygemsLink": "https://rubygems.org/gems/pathname",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pathname/rdoc/Pathname.html",
+      "rdocLink": "https://rubyapi.org/o/pathname",
       "maintainer": "Tanaka Akira (akr)",
       "alternatives": {
         "path": "https://github.com/eregon/path"
@@ -1277,7 +1277,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/pp.rb",
       "sourceRepository": "https://github.com/ruby/pp",
       "rubygemsLink": "https://rubygems.org/gems/pp",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
+      "rdocLink": "https://rubyapi.org/o/pp",
       "maintainer": "Tanaka Akira (akr)",
       "alternatives": {
         "awesome_print": "https://github.com/awesome-print/awesome_print",
@@ -1305,7 +1305,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/prettyprint",
       "rubygemsLink": "https://rubygems.org/gems/prettyprint",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/prettyprint/rdoc/PrettyPrint.html",
+      "rdocLink": "https://rubyapi.org/o/prettyprint",
       "maintainer": "Tanaka Akira (akr)",
       "alternatives": {
         "awesome_print": "https://github.com/awesome-print/awesome_print",
@@ -1352,7 +1352,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/pstore",
       "rubygemsLink": "https://rubygems.org/gems/pstore",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/pstore/rdoc/PStore.html",
+      "rdocLink": "https://rubyapi.org/o/pstore",
       "maintainer": null,
       "versions": {
         "3.2": "0.1.2",
@@ -1370,7 +1370,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/psych",
       "rubygemsLink": "https://rubygems.org/gems/psych",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/psych/rdoc/Psych.html",
+      "rdocLink": "https://rubyapi.org/o/psych",
       "maintainer": [
         "Aaron Patterson (tenderlove)",
         "Hiroshi SHIBATA (hsbt)"
@@ -1427,7 +1427,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/racc",
       "rubygemsLink": "https://rubygems.org/gems/racc",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/racc/parser/rdoc/Racc.html",
+      "rdocLink": "https://rubyapi.org/o/racc",
       "maintainer": "Aaron Patterson (tenderlove)",
       "alternatives": {
         "treetop": "https://github.com/cjheath/treetop",
@@ -1515,7 +1515,7 @@
       "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/readline",
       "rubygemsLink": "https://rubygems.org/gems/readline",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
+      "rdocLink": "https://rubyapi.org/o/readline",
       "maintainer": "TAKAO Kouji (kouji)",
       "notes": "JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
       "alternatives": {
@@ -1537,7 +1537,7 @@
       "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/readline-ext",
       "rubygemsLink": "https://rubygems.org/gems/readline-ext",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/readline/rdoc/Readline.html",
+      "rdocLink": "https://rubyapi.org/o/readline",
       "maintainer": "TAKAO Kouji (kouji)",
       "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
       "alternatives": {
@@ -1560,7 +1560,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/reline",
       "rubygemsLink": "https://rubygems.org/gems/reline",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/reline/rdoc/index.html",
+      "rdocLink": "https://rubyapi.org/o/reline",
       "maintainer": "aycabta",
       "alternatives": {
         "readline-ext": "https://stdgems.org/readline-ext/",
@@ -1593,7 +1593,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/resolv.rb",
       "sourceRepository": "https://github.com/ruby/resolv",
       "rubygemsLink": "https://rubygems.org/gems/resolv",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
+      "rdocLink": "https://rubyapi.org/o/resolv",
       "maintainer": "Tanaka Akira (akr)",
       "alternatives": {
         "RubyDNS": "https://github.com/socketry/rubydns",
@@ -1622,7 +1622,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/resolv-replace",
       "rubygemsLink": "https://rubygems.org/gems/resolv-replace",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/resolv/rdoc/Resolv.html",
+      "rdocLink": "https://rubyapi.org/o/resolv",
       "maintainer": "Tanaka Akira (akr)",
       "alternatives": {
         "RubyDNS": "https://github.com/socketry/rubydns",
@@ -1675,7 +1675,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/rinda",
       "rubygemsLink": "https://rubygems.org/gems/rinda",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rinda/rdoc/Rinda.html",
+      "rdocLink": "https://ruby-doc.org/3.2.0/stdlibs/rinda/table_of_contents.html",
       "maintainer": "Masatoshi SEKI (seki)",
       "versions": {
         "3.2": "0.1.1",
@@ -1738,7 +1738,7 @@
       ],
       "sourceRepository": "https://github.com/rubygems/rubygems",
       "rubygemsLink": "https://rubygems.org/gems/rubygems-update",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/rubygems/rdoc/Gem.html",
+      "rdocLink": "https://rubyapi.org/o/gem",
       "maintainer": [
         "Eric Hodel (drbrain)",
         "Hiroshi SHIBATA (hsbt)"
@@ -1858,7 +1858,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/securerandom",
       "rubygemsLink": "https://rubygems.org/gems/securerandom",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/securerandom/rdoc/SecureRandom.html",
+      "rdocLink": "https://rubyapi.org/o/securerandom",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "3.2":   "0.2.2",
@@ -1883,12 +1883,9 @@
       ],
       "sourceRepository": "https://github.com/ruby/set",
       "rubygemsLink": "https://rubygems.org/gems/set",
-      "rdocLink": [
-        "https://ruby-doc.org/stdlib/libdoc/set/rdoc/Set.html",
-        "https://ruby-doc.org/stdlib/libdoc/set/rdoc/SortedSet.html"
-      ],
+      "rdocLink": "https://rubyapi.org/o/set",
       "maintainer": "Akinori MUSHA (knu)",
-      "notes": "Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)",
+      "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-The SortedSet class has been extracted to the [sorted_set gem](https://github.com/knu/sorted_set)",
       "versions": {
         "3.2": "1.0.3",
         "3.1": "1.0.2",
@@ -1922,7 +1919,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/shellwords",
       "rubygemsLink": "https://rubygems.org/gems/shellwords",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/shellwords/rdoc/Shellwords.html",
+      "rdocLink": "https://rubyapi.org/o/shellwords",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
         "3.2": "0.1.0",
@@ -1939,7 +1936,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/singleton",
       "rubygemsLink": "https://rubygems.org/gems/singleton",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/singleton/rdoc/Singleton.html",
+      "rdocLink": "https://rubyapi.org/o/singleton",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
         "3.2": "0.1.1",
@@ -1960,7 +1957,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/stringio",
       "rubygemsLink": "https://rubygems.org/gems/stringio",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/stringio/rdoc/StringIO.html",
+      "rdocLink": "https://rubyapi.org/o/stringio",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "3.2": "3.0.4",
@@ -1989,7 +1986,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/strscan",
       "rubygemsLink": "https://rubygems.org/gems/strscan",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/strscan/rdoc/StringScanner.html",
+      "rdocLink": "https://rubyapi.org/o/stringscanner",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
         "3.2": "3.0.5",
@@ -2034,7 +2031,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/syslog",
       "rubygemsLink": "https://rubygems.org/gems/syslog",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/syslog/rdoc/Syslog.html",
+      "rdocLink": "https://rubyapi.org/o/syslog",
       "maintainer": "Akinori MUSHA (knu)",
       "alternatives": {
         "syslogger": "https://github.com/crohr/syslogger",
@@ -2060,7 +2057,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/syntax_suggest",
       "rubygemsLink": "https://rubygems.org/gems/syntax_suggest",
-      "rdocLink": "https://rdoc.info/gems/syntax_suggest",
+      "rdocLink": "https://rubyapi.org/o/syntaxsuggest",
       "maintainer": null,
       "versions": {
         "3.2": "1.0.2"
@@ -2078,7 +2075,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/tempfile",
       "rubygemsLink": "https://rubygems.org/gems/tempfile",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tempfile/rdoc/Tempfile.html",
+      "rdocLink": "https://rubyapi.org/o/tempfile",
       "maintainer": null,
       "versions": {
         "3.2": "0.1.3",
@@ -2113,7 +2110,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/time",
       "rubygemsLink": "https://rubygems.org/gems/time",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/time/rdoc/Time.html",
+      "rdocLink": "https://www.rubydoc.info/stdlib/time/Time",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "3.2": "0.2.1",
@@ -2133,7 +2130,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/timeout",
       "rubygemsLink": "https://rubygems.org/gems/timeout",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/timeout/rdoc/Timeout.html",
+      "rdocLink": "https://rubyapi.org/o/timeout",
       "maintainer": [
         "Yukihiro Matsumoto (matz)"
       ],
@@ -2156,7 +2153,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/tmpdir.rb",
       "sourceRepository": "https://github.com/ruby/tmpdir",
       "rubygemsLink": "https://rubygems.org/gems/tmpdir",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tmpdir/rdoc/Dir.html#method-c-mktmpdir",
+      "rdocLink": "https://www.rubydoc.info/stdlib/tmpdir/Dir",
       "maintainer": null,
       "versions": {
         "3.2":   "0.1.3",
@@ -2198,7 +2195,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/tsort",
       "rubygemsLink": "https://rubygems.org/gems/tsort",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/tsort/rdoc/TSort.html",
+      "rdocLink": "https://rubyapi.org/o/tsort",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "3.2": "0.1.1",
@@ -2215,7 +2212,7 @@
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/un",
       "rubygemsLink": "https://rubygems.org/gems/un",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/un/rdoc/index.html",
+      "rdocLink": "https://www.rubydoc.info/stdlib/un",
       "maintainer": "WATANABE Hirofumi (eban)",
       "versions": {
         "3.2": "0.2.1",
@@ -2238,7 +2235,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/uri",
       "rubygemsLink": "https://rubygems.org/gems/uri",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/uri/rdoc/URI.html",
+      "rdocLink": "https://rubyapi.org/o/uri",
       "maintainer": "YAMADA, Akira (akira)",
       "alternatives": {
         "addressable": "https://github.com/sporkmonger/addressable",
@@ -2260,7 +2257,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/weakref.rb",
       "sourceRepository": "https://github.com/ruby/weakref",
       "rubygemsLink": "https://rubygems.org/gems/weakref",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/weakref/rdoc/WeakRef.html",
+      "rdocLink": "https://rubyapi.org/o/weakref",
       "maintainer": null,
       "alternatives": {
         "ref": "https://github.com/ruby-concurrency/ref"
@@ -2329,7 +2326,7 @@
       "jrubySourcePath": "lib/ruby/stdlib/win32ole.rb",
       "sourceRepository": "https://github.com/ruby/win32ole",
       "rubygemsLink": "https://rubygems.org/gems/win32ole",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/win32ole/rdoc/WIN32OLE.html",
+      "rdocLink": "https://rubyapi.org/o/win32ole",
       "maintainer": "Masaki Suketa (suke)",
       "versions": {
         "3.2": "1.8.9",
@@ -2354,9 +2351,9 @@
       "sourceRepository": "https://github.com/ruby/yaml",
       "rubygemsLink": "https://rubygems.org/gems/yaml",
       "rdocLink": [
-        "https://ruby-doc.org/stdlib-2.6.5/libdoc/yaml/rdoc/YAML.html",
-        "https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/DBM.html",
-        "https://ruby-doc.org/stdlib/libdoc/yaml/rdoc/YAML/Store.html"
+        "https://rubyapi.org/o/yaml",
+        "https://rubyapi.org/o/yaml/dbm",
+        "https://rubyapi.org/o/yaml/store"
       ],
       "maintainer": [
         "Aaron Patterson (tenderlove)",
@@ -2381,7 +2378,7 @@
       ],
       "sourceRepository": "https://github.com/ruby/zlib",
       "rubygemsLink": "https://rubygems.org/gems/zlib",
-      "rdocLink": "https://ruby-doc.org/stdlib/libdoc/zlib/rdoc/Zlib.html",
+      "rdocLink": "https://rubyapi.org/o/zlib",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
         "3.2": "3.0.0",
