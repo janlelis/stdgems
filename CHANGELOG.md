@@ -1,6 +1,6 @@
 # Change Log
 
-## 3.8.1 (unreleased)
+## 3.8.1
 
 - Fix RDoc links; point most of them to rubyapi.org
 
