@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.8.1 (unreleased)
+
+- Fix RDoc links; point most of them to rubyapi.org
+
 ## 3.8.0
 
 Ruby release: 3.2.0
