@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.8.2
+
+- abbrev in Ruby 3.2 is 0.1.1 #18
+
 ## 3.8.1
 
 - Fix RDoc links; point most of them to rubyapi.org
