@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.9.0
+
+Ruby release: 3.2.1
+
+- Update Ruby 3.2's bundler, rubygems
+
 ## 3.8.2
 
 - abbrev in Ruby 3.2 is 0.1.1 #18

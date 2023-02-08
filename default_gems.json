@@ -1,5 +1,5 @@
 {
-  "version": "3.8.2",
+  "version": "3.9.0",
   "gems": [
     {
       "gem": "abbrev",
@@ -103,7 +103,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.2":   "2.4.1",
+        "3.2":   "2.4.6",
+        "3.2.0": "2.4.1",
 
         "3.1":   "2.3.26",
         "3.1.2": "2.3.7",
@@ -1744,7 +1745,8 @@
       ],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
-        "3.2":     "3.4.1",
+        "3.2":     "3.4.6",
+        "3.2.0":   "3.4.1",
 
         "3.1":     "3.3.26",
         "3.1.2":   "3.3.7",
