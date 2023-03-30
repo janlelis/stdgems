@@ -19,14 +19,16 @@ JRUBY_SOURCE_PREFIX = "https://github.com/jruby/jruby/tree/master/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-CURRENT_RUBY_VERSION = '3.2.1'
+CURRENT_RUBY_VERSION = '3.2.2'
 
 RUBY_3_2_VERSIONS = %w[
+  3.2.2
   3.2.1
   3.2.0
 ]
 
 RUBY_3_1_VERSIONS = %w[
+  3.1.4
   3.1.3
   3.1.2
   3.1.1
@@ -34,6 +36,7 @@ RUBY_3_1_VERSIONS = %w[
 ]
 
 RUBY_3_0_VERSIONS = %w[
+  3.0.6
   3.0.5
   3.0.4
   3.0.3
@@ -43,6 +46,7 @@ RUBY_3_0_VERSIONS = %w[
 ]
 
 RUBY_2_7_VERSIONS = %w[
+  2.7.8
   2.7.7
   2.7.6
   2.7.5
@@ -135,8 +139,7 @@ MATRIX_RUBY_VERSIONS = %w[3.2 3.1 3.0 2.7 2.6 2.5 2.4 2.3 2.2]
 MATRIX_SUPPORTED_RUBY_VERSIONS = \
   RUBY_3_2_VERSIONS[0,3] +
   RUBY_3_1_VERSIONS[0,3] +
-  RUBY_3_0_VERSIONS[0,3] +
-  RUBY_2_7_VERSIONS[0,3]
+  RUBY_3_0_VERSIONS[0,3]
 MATRIX_ALL_VERSIONS = LISTED_RUBY_VERSIONS
 
 STATS = {
