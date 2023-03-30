@@ -1,5 +1,15 @@
 # Change Log
 
+## 3.10.0 (unreleased)
+
+Ruby release: 3.2.2, 3.1.4, 3.0.6, 2.7.8
+
+- Update Ruby 3.2's bundler, rubygems, time, uri
+- Update Ruby 3.1's time, uri
+- Update Ruby 3.0's time, uri
+- Fix uri version for other Ruby 3.0s
+- Update Ruby 2.7's uri
+
 ## 3.9.0
 
 Ruby release: 3.2.1
@@ -29,7 +39,7 @@ Ruby release: 3.2.0
 Ruby release: 3.1.3, 3.0.5, 2.7.7
 
 - Update Ruby 3.1's bundler, cgi, csv, net-http, openssl, optparse,
-                    psych, reline, rubygems, securerandom
+  psych, reline, rubygems, securerandom
 - Update Ruby 3.1's bundled gems: debug, rbs
 - Update Ruby 3.0's cgi, openssl, optparse
 - Update Ruby 2.7's cgi, openssl
@@ -52,8 +62,8 @@ Ruby release: 3.1.3, 3.0.5, 2.7.7
 Ruby 3.2 preview release 1
 
 - Default gem updates: bigdecimal, bundler, cgi, etc, io-wait, logger,
-                       net-protocol, ostruct, reline, rubygems,
-                       securerandom
+  net-protocol, ostruct, reline, rubygems,
+  securerandom
 - Bundled gem updates: debug, rbs
 
 ## 3.5.0
@@ -152,7 +162,7 @@ Ruby release: 3.0.0-preview1
 
 - Update Ruby 3.1's (preview) bundled gems
   - Add new debug gem
-  - Move matrix, prime, and some net-* from default to bundled
+  - Move matrix, prime, and some net-\* from default to bundled
 - Update Ruby 3.1's (preview) default gems
   - Add error_highlight gem
   - Remove tracer, dbm, and gdbm
