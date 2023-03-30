@@ -1,5 +1,5 @@
 {
-  "version": "3.9.0",
+  "version": "3.10.0",
   "gems": [
     {
       "gem": "continuation",
@@ -121,20 +121,14 @@
         "core/src/main/java/org/jruby/ext/socket"
       ],
       "rdocLink": "https://rubyapi.org/o/socket",
-      "maintainer": [
-        "Tanaka Akira (akr)",
-        "API change needs matz's approval"
-      ]
+      "maintainer": ["Tanaka Akira (akr)", "API change needs matz's approval"]
     },
     {
       "gem": "unicode_normalize",
       "native": false,
       "autoRequire": true,
       "description": "Adds a [String#unicode_normalize](https://rubyapi.org/o/string#method-i-unicode_normalize) method which [normalizes unicode strings](https://unicode.org/reports/tr15/)",
-      "mriSourcePath": [
-        "lib/unicode_normalize.rb",
-        "lib/unicode_normalize"
-      ],
+      "mriSourcePath": ["lib/unicode_normalize.rb", "lib/unicode_normalize"],
       "jrubySourcePath": [
         "lib/ruby/stdlib/unicode_normalize.rb",
         "lib/ruby/stdlib/unicode_normalize"
