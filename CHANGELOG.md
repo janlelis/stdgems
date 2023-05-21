@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.11.0 (unreleased)
+
+Update bundled gems for Ruby 3.3 preview release 1
+
 ## 3.10.0
 
 Ruby release: 3.2.2, 3.1.4, 3.0.6, 2.7.8
