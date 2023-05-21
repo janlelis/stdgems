@@ -2,7 +2,7 @@
 
 ## 3.11.0 (unreleased)
 
-Update bundled gems for Ruby 3.3 preview release 1
+Update default and bundled gems for Ruby 3.3 preview release 1
 
 ## 3.10.0
 
