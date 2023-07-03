@@ -1885,7 +1885,7 @@
       "gem": "set",
       "native": false,
       "autoRequire": false,
-      "description": "Data structure for unordered collections without duplicates. Implemented on top of Hash. Also comes with `SortedSet` for ordered collections.",
+      "description": "Data structure for unordered collections without duplicates. Implemented on top of Hash.",
       "mriSourcePath": "lib/set.rb",
       "jrubySourcePath": [
         "lib/ruby/stdlib/set.rb",
@@ -1895,7 +1895,7 @@
       "rubygemsLink": "https://rubygems.org/gems/set",
       "rdocLink": "https://rubyapi.org/o/set",
       "maintainer": "Akinori MUSHA (knu)",
-      "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-The SortedSet class has been extracted to the [sorted_set gem](https://github.com/knu/sorted_set)",
+      "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
       "versions": {
         "3.3": "1.0.3",
         "3.2": "1.0.3",
