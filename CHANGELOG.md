@@ -1,5 +1,10 @@
 # Change Log
 
+## Next (unreleased)
+
+- Add top-level "info" field to JSON files
+- Clarify the set vs sorted_set situation
+
 ## 3.11.0
 
 Update default and bundled gems for Ruby 3.3 preview release 1

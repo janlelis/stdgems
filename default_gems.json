@@ -1,5 +1,6 @@
 {
   "version": "3.11.0",
+  "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
       "gem": "abbrev",

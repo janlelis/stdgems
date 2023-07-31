@@ -1,5 +1,6 @@
 {
   "version": "3.11.0",
+  "info": "These non-gem libraries are part of a Ruby installation, can always be require directly and cannot be removed.",
   "gems": [
     {
       "gem": "continuation",
