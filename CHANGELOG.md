@@ -1,9 +1,16 @@
 # Change Log
 
-## Next (unreleased)
+## 4.0.0
+
+New JSON file:
+
+  stdgems.json - a single API for all standard libraries and gems
+
+Other changes:
 
 - Add top-level "info" field to JSON files
 - Clarify the set vs sorted_set situation
+- Remove maintainers from removed gems
 
 ## 3.11.0
 
