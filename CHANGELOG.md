@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.0.1
+
+- Use camelCase for new fields in stdgems.json
+
 ## 4.0.0
 
 New JSON file:

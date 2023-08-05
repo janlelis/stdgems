@@ -19,7 +19,7 @@ task :stdgems_json do
     # copy over data, add type to json
     stdgems[gem_name] = {
       "gem" => gem_name,
-      "current_type" => "library",
+      "currentType" => "library",
       **library
     }
   }
@@ -27,14 +27,14 @@ task :stdgems_json do
   bundled_gems.each{ |bundled_gem|
     gem_name = bundled_gem["gem"]
 
-    # add prev_type only if it was default gem before
+    # add prevType only if it was default gem before
     was_default_gem = !bundled_gem["removed"] && default_gems.map{ |default_gem| default_gem["gem"] }.include?(gem_name)
 
     # copy over data, add type to json
     stdgems[gem_name] = {
       "gem" => gem_name,
-      "current_type" => "bundled",
-      **(was_default_gem ? { "prev_type" => "default"} : {}),
+      "currentType" => "bundled",
+      **(was_default_gem ? { "prevType" => "default"} : {}),
       **bundled_gem
     }
 
@@ -49,7 +49,7 @@ task :stdgems_json do
       # copy over data if no bundled gem of this name exists
       stdgems[gem_name] = {
         "gem" => gem_name,
-        "current_type" => "default",
+        "currentType" => "default",
         **default_gem
       }
 
@@ -58,11 +58,11 @@ task :stdgems_json do
     else
       # or merge data
       bundled_gem = stdgems[gem_name]
-      is_now_bundled = bundled_gem["prev_type"] == "default"
-      is_now_default = bundled_gem["prev_type"] == nil
+      is_now_bundled = bundled_gem["prevType"] == "default"
+      is_now_default = bundled_gem["prevType"] == nil
 
-      bundled_gem.delete("current_type")
-      bundled_gem.delete("prev_type")
+      bundled_gem.delete("currentType")
+      bundled_gem.delete("prevType")
       bundled_gem.delete("removed")
 
       bundled_gem_versions = bundled_gem["versions"]["bundled"]
@@ -70,8 +70,8 @@ task :stdgems_json do
 
       stdgems[gem_name] = {
         "gem" => gem_name,
-        "current_type" => is_now_default ? "default" : "bundled",
-        "prev_type" => is_now_default ? "bundled" : "default",
+        "currentType" => is_now_default ? "default" : "bundled",
+        "prevType" => is_now_default ? "bundled" : "default",
         **(is_now_default ? default_gem : bundled_gem),
         "versions" => {
           "default" => default_gem_versions,

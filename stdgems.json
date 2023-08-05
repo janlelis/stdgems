@@ -4,7 +4,7 @@
   "gems": {
     "abbrev": {
       "gem": "abbrev",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Finds the shortest unique abbreviation amongst many strings",
@@ -25,7 +25,7 @@
     },
     "base64": {
       "gem": "base64",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Encodes and decodes strings to a [Base64](https://en.wikipedia.org/wiki/Base64) representation. Implemented as a small wrapper around [String#unpack](https://idiosyncratic-ruby.com/4-what-the-pack.html)",
@@ -49,7 +49,7 @@
     },
     "benchmark": {
       "gem": "benchmark",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Benchmark utility: Measures and reports the time used to execute code",
@@ -75,7 +75,7 @@
     },
     "bigdecimal": {
       "gem": "bigdecimal",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for arbitrary-precision floating point decimal arithmetic",
@@ -110,7 +110,7 @@
     },
     "bundler": {
       "gem": "bundler",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[Bundler](https://bundler.io) is the local package manager for Ruby applications",
@@ -143,7 +143,7 @@
     },
     "cgi": {
       "gem": "cgi",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for CGI ([Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface))",
@@ -193,7 +193,7 @@
     },
     "cmath": {
       "gem": "cmath",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Trigonometric and transcendental functions for complex numbers",
@@ -211,7 +211,7 @@
     },
     "continuation": {
       "gem": "continuation",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Adds the [goto](https://idiosyncratic-ruby.com/24-goto-fail.html)-like [Kernel#callcc](https://ruby-doc.org/core/Kernel.html#method-i-callcc)",
@@ -226,7 +226,7 @@
     },
     "coverage": {
       "gem": "coverage",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Measures [code coverage](https://en.wikipedia.org/wiki/Code_coverage)",
@@ -240,7 +240,7 @@
     },
     "csv": {
       "gem": "csv",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
@@ -279,7 +279,7 @@
     },
     "date": {
       "gem": "date",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "The [Date](https://rubyapi.org/o/date) and [DateTime](https://rubyapi.org/o/datetime) classes",
@@ -328,7 +328,7 @@
     },
     "dbm": {
       "gem": "dbm",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for [DBM databases](https://en.wikipedia.org/wiki/DBM_(computing))",
@@ -348,8 +348,8 @@
     },
     "debug": {
       "gem": "debug",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Command-line [debugger](https://en.wikipedia.org/wiki/Debugger)",
@@ -380,7 +380,7 @@
     },
     "delegate": {
       "gem": "delegate",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Provides three ways to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls",
@@ -405,8 +405,8 @@
     },
     "did_you_mean": {
       "gem": "did_you_mean",
-      "current_type": "default",
-      "prev_type": "bundled",
+      "currentType": "default",
+      "prevType": "bundled",
       "native": false,
       "autoRequire": true,
       "description": "Patches error messages to suggest correct spelling of methods/classes/variables",
@@ -438,7 +438,7 @@
     },
     "digest": {
       "gem": "digest",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Provides common [hash functions](https://en.wikipedia.org/wiki/Hash_function) like MD5, SHA1, SHA2, or RIPEMD-160",
@@ -465,7 +465,7 @@
     },
     "drb": {
       "gem": "drb",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Distributed object system for Ruby",
@@ -492,7 +492,7 @@
     },
     "e2mmap": {
       "gem": "e2mmap",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Abstraction around exception handling",
@@ -512,7 +512,7 @@
     },
     "english": {
       "gem": "english",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[Readable aliases for special global variables](https://idiosyncratic-ruby.com/9-globalization.html)",
@@ -533,7 +533,7 @@
     },
     "erb": {
       "gem": "erb",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Templating engine for Ruby",
@@ -560,7 +560,7 @@
     },
     "error_highlight": {
       "gem": "error_highlight",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": true,
       "description": "Improves error messages with additional debug info",
@@ -583,7 +583,7 @@
     },
     "etc": {
       "gem": "etc",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Access UNIX info from `/etc`",
@@ -613,7 +613,7 @@
     },
     "fcntl": {
       "gem": "fcntl",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Loads values from the OS' `fcntl.h` to be used for low-level [file descriptor manipulation](https://en.wikipedia.org/wiki/File_descriptor) system calls with [IO#fcntl](https://ruby-doc.org/core/IO.html#method-i-fcntl) and [IO.sysopen](https://ruby-doc.org/core/IO.html#method-c-sysopen)",
@@ -643,7 +643,7 @@
     },
     "fiddle": {
       "gem": "fiddle",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for FFI ([Foreign Function Interface](https://sourceware.org/libffi/))",
@@ -677,7 +677,7 @@
     },
     "fileutils": {
       "gem": "fileutils",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Utilities for working with the file system, such as copying, moving, or deleting files",
@@ -704,7 +704,7 @@
     },
     "find": {
       "gem": "find",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Finds all files in a given directory and its sub-directories",
@@ -729,7 +729,7 @@
     },
     "forwardable": {
       "gem": "forwardable",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Provides a way to [delegate](https://en.wikipedia.org/wiki/Delegation_pattern) method calls. Also see [this overview of delegation in Ruby](http://radar.oreilly.com/2014/02/delegation-patterns-in-ruby.html), which contains an example",
@@ -756,7 +756,7 @@
     },
     "gdbm": {
       "gem": "gdbm",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for [GDBM databases](https://en.wikipedia.org/wiki/Dbm)",
@@ -776,7 +776,7 @@
     },
     "getoptlong": {
       "gem": "getoptlong",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[GNU getopt_long()](https://linux.die.net/man/3/getopt_long) style command-line option parsing",
@@ -804,7 +804,7 @@
     },
     "io-console": {
       "gem": "io-console",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Patches `IO` for simple and portable access to the console",
@@ -835,7 +835,7 @@
     },
     "io-nonblock": {
       "gem": "io-nonblock",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Allows to work with `IO` streams in a non-blocking way",
@@ -859,7 +859,7 @@
     },
     "io-wait": {
       "gem": "io-wait",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Adds methods to wait until an `IO` stream becomes readable or writable",
@@ -886,7 +886,7 @@
     },
     "ipaddr": {
       "gem": "ipaddr",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[IP address](https://en.wikipedia.org/wiki/IP_address) manipulation (IPv4 and IPv6)",
@@ -914,7 +914,7 @@
     },
     "irb": {
       "gem": "irb",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Interactive Ruby Console ([REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop))",
@@ -948,7 +948,7 @@
     },
     "json": {
       "gem": "json",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for JSON ([JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON))",
@@ -990,7 +990,7 @@
     },
     "logger": {
       "gem": "logger",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[Logging utility](https://ruby.janlelis.de/50-exploring-the-stdlib-logger)",
@@ -1023,8 +1023,8 @@
     },
     "matrix": {
       "gem": "matrix",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for [matrices](https://en.wikipedia.org/wiki/Matrix_%28mathematics%29)",
@@ -1049,7 +1049,7 @@
     },
     "minitest": {
       "gem": "minitest",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "Test/spec framework, comes with mocking and benchmark capabilities",
@@ -1078,7 +1078,7 @@
     },
     "mkmf": {
       "gem": "mkmf",
-      "current_type": "library",
+      "currentType": "library",
       "native": false,
       "autoRequire": false,
       "description": "Generates [Makefiles](https://en.wikipedia.org/wiki/Makefile) for native [C extensions](https://github.com/ruby/ruby/blob/master/doc/extension.rdoc)",
@@ -1089,7 +1089,7 @@
     },
     "monitor": {
       "gem": "monitor",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "[Monitors](https://en.wikipedia.org/wiki/Monitor_%28synchronization%29) for multi-threaded code",
@@ -1103,7 +1103,7 @@
     },
     "mutex_m": {
       "gem": "mutex_m",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "A mixin that makes any object behave like a [mutex](https://ruby-doc.org/core/Mutex.html)",
@@ -1126,8 +1126,8 @@
     },
     "net-ftp": {
       "gem": "net-ftp",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for FTP ([File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol))",
@@ -1149,7 +1149,7 @@
     },
     "net-http": {
       "gem": "net-http",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for HTTP ([Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol))",
@@ -1189,8 +1189,8 @@
     },
     "net-imap": {
       "gem": "net-imap",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for IMAP ([Internet Message Access Protocol](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol))",
@@ -1211,8 +1211,8 @@
     },
     "net-pop": {
       "gem": "net-pop",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for POP3 ([Post Office Protocol](https://en.wikipedia.org/wiki/Post_Office_Protocol))",
@@ -1233,7 +1233,7 @@
     },
     "net-protocol": {
       "gem": "net-protocol",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Internal class for the other net-* libraries",
@@ -1257,8 +1257,8 @@
     },
     "net-smtp": {
       "gem": "net-smtp",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for SMTP ([Simple Mail Transfer Protocol](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol))",
@@ -1278,7 +1278,7 @@
     },
     "net-telnet": {
       "gem": "net-telnet",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "Support for [Telnet](https://en.wikipedia.org/wiki/Telnet)",
@@ -1298,7 +1298,7 @@
     },
     "nkf": {
       "gem": "nkf",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "[Kanji](https://en.wikipedia.org/wiki/Kanji) encoding converter. Can also be used via the [Kconv.kconv method](https://github.com/ruby/nkf/blob/master/lib/kconv.rb).",
@@ -1322,7 +1322,7 @@
     },
     "objspace": {
       "gem": "objspace",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Adds more statistics methods to `ObjectSpace`. Since Ruby 3.1, it also includes the `objspace/trace` debug utility.",
@@ -1333,7 +1333,7 @@
     },
     "observer": {
       "gem": "observer",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Implementation of the [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), a way to let interested other objects know o an objetc's updates",
@@ -1359,7 +1359,7 @@
     },
     "open-uri": {
       "gem": "open-uri",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Monkeypatches [Kernel#open](https://ruby-doc.org/core/Kernel.html#method-i-open) to support remote endpoints via `net/http` and `net/ftp`",
@@ -1380,7 +1380,7 @@
     },
     "open3": {
       "gem": "open3",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Simple spawning of child processes",
@@ -1405,7 +1405,7 @@
     },
     "openssl": {
       "gem": "openssl",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Wraps [OpenSSL](https://www.openssl.org/) for cryptographic functionality",
@@ -1453,7 +1453,7 @@
     },
     "optparse": {
       "gem": "optparse",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Command-line option parser",
@@ -1488,7 +1488,7 @@
     },
     "ostruct": {
       "gem": "ostruct",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Wrapper around [Hash](https://ruby-doc.org/core/Hash.html) which lets you read and set attributes with a method-based API",
@@ -1514,7 +1514,7 @@
     },
     "pathname": {
       "gem": "pathname",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Wraps `File`, `FileTest`, `Dir`, and `FileUtils` to ease working with file system paths",
@@ -1541,7 +1541,7 @@
     },
     "power_assert": {
       "gem": "power_assert",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "Debug tool that displays intermediate results of a method chain",
@@ -1566,7 +1566,7 @@
     },
     "pp": {
       "gem": "pp",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "The `pp` print debugging helper via `require 'pp'`. It will format the result object in more readable way.",
@@ -1596,7 +1596,7 @@
     },
     "prettyprint": {
       "gem": "prettyprint",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Better object formatting and inspection. Also see the [pp gem](/pp/).",
@@ -1627,8 +1627,8 @@
     },
     "prime": {
       "gem": "prime",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Access to prime numbers and prime factorization",
@@ -1650,7 +1650,7 @@
     },
     "pstore": {
       "gem": "pstore",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Transactional file storage for Ruby objects",
@@ -1672,7 +1672,7 @@
     },
     "psych": {
       "gem": "psych",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for YAML ([YAML Ain't Markup Language](https://en.wikipedia.org/wiki/YAML))",
@@ -1722,7 +1722,7 @@
     },
     "pty": {
       "gem": "pty",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Manages [pseudo terminals](https://en.wikipedia.org/wiki/Pseudo_terminal). Also includes the [IO#expect method](https://ruby-doc.org/stdlib-3.0.2/libdoc/pty/rdoc/IO.html#method-i-expect) via `require 'expect'`, which can be used to wait for a specific pattern to be read.",
@@ -1736,7 +1736,7 @@
     },
     "racc": {
       "gem": "racc",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Bindings for Racc, a [YACC](https://en.wikipedia.org/wiki/Yacc)-like [LALR(1) parser generator](https://en.wikipedia.org/wiki/LALR_parser_generator)",
@@ -1769,7 +1769,7 @@
     },
     "rake": {
       "gem": "rake",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "A Ruby task runner, inspired by [make](https://en.wikipedia.org/wiki/Make_%28software%29)",
@@ -1809,7 +1809,7 @@
     },
     "rbconfig": {
       "gem": "rbconfig",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "`RbConfig` is a [Ruby constant that contains compile time information](https://idiosyncratic-ruby.com/42-ruby-config.html)",
@@ -1828,7 +1828,7 @@
     },
     "rbs": {
       "gem": "rbs",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "Released with Ruby 3.0, RBS is a way to declare types in Ruby. The gem allows parsing and processing type definitions written in RBS.",
@@ -1852,7 +1852,7 @@
     },
     "rdoc": {
       "gem": "rdoc",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Ruby documentation generator",
@@ -1916,7 +1916,7 @@
     },
     "readline": {
       "gem": "readline",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) [reline](https://stdgems.org/reline) will be used.",
@@ -1942,7 +1942,7 @@
     },
     "readline-ext": {
       "gem": "readline-ext",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Interface to [GNU Readline](https://directory.fsf.org/wiki/Readline) and [NetBSD Editline](https://thrysoee.dk/editline/)",
@@ -1968,7 +1968,7 @@
     },
     "reline": {
       "gem": "reline",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Ruby-only implementation of [GNU Readline](https://directory.fsf.org/wiki/Readline) / [NetBSD Editline](https://thrysoee.dk/editline/) ",
@@ -2000,7 +2000,7 @@
     },
     "resolv": {
       "gem": "resolv",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Thread-aware [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) resolver",
@@ -2031,7 +2031,7 @@
     },
     "resolv-replace": {
       "gem": "resolv-replace",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Will replace [Socket](https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html)'s DNS with [resolv](https://stdgems.org/resolv)",
@@ -2059,8 +2059,8 @@
     },
     "rexml": {
       "gem": "rexml",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for XML ([Extensible Markup Language](https://en.wikipedia.org/wiki/XML))",
@@ -2093,7 +2093,7 @@
     },
     "rinda": {
       "gem": "rinda",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support fot the [Linda distributed computing paradigm](https://en.wikipedia.org/wiki/Linda_%28coordination_language%29) in [drb](https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html)",
@@ -2117,7 +2117,7 @@
     },
     "ripper": {
       "gem": "ripper",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Ruby parser that creates a [symbolic expression tree](https://en.wikipedia.org/wiki/S-expression)",
@@ -2136,8 +2136,8 @@
     },
     "rss": {
       "gem": "rss",
-      "current_type": "bundled",
-      "prev_type": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Support for RSS ([Rich Site Summary](https://en.wikipedia.org/wiki/RSS)) and [Atom](https://en.wikipedia.org/wiki/Atom_%28standard%29)",
@@ -2159,7 +2159,7 @@
     },
     "ruby2_keywords": {
       "gem": "ruby2_keywords",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": true,
       "description": "A shim gemspec to indicate that the Ruby implementation includes the `ruby2_keywords` method",
@@ -2179,7 +2179,7 @@
     },
     "rubygems": {
       "gem": "rubygems",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": true,
       "description": "[RubyGems](https://rubygems.org) allows you to download, install, and use Ruby software packages on your system",
@@ -2267,7 +2267,7 @@
     },
     "scanf": {
       "gem": "scanf",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Pure-Ruby [scanf](https://en.wikipedia.org/wiki/Scanf_format_string) implementation",
@@ -2285,7 +2285,7 @@
     },
     "sdbm": {
       "gem": "sdbm",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for [SDBM databases](https://en.wikipedia.org/wiki/Dbm)",
@@ -2304,7 +2304,7 @@
     },
     "securerandom": {
       "gem": "securerandom",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Provides crpytographical randomness from openssl or the OS",
@@ -2331,7 +2331,7 @@
     },
     "set": {
       "gem": "set",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Data structure for unordered collections without duplicates. Implemented on top of Hash.",
@@ -2356,7 +2356,7 @@
     },
     "shell": {
       "gem": "shell",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Provides a Ruby interface for interacting with the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
@@ -2376,7 +2376,7 @@
     },
     "shellwords": {
       "gem": "shellwords",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Escape and manipulate commads to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
@@ -2397,7 +2397,7 @@
     },
     "singleton": {
       "gem": "singleton",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Mixin for Ruby classes that should only have one instance",
@@ -2419,7 +2419,7 @@
     },
     "socket": {
       "gem": "socket",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Support for [unix-](https://en.wikipedia.org/wiki/Unix_domain_socket) and [network sockets](https://en.wikipedia.org/wiki/Network_socket)",
@@ -2436,7 +2436,7 @@
     },
     "stringio": {
       "gem": "stringio",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Makes strings behave like IO objects",
@@ -2466,7 +2466,7 @@
     },
     "strscan": {
       "gem": "strscan",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Lexical string scanning",
@@ -2496,7 +2496,7 @@
     },
     "sync": {
       "gem": "sync",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[Two-phase lock](https://en.wikipedia.org/wiki/Two-phase_locking) with a counter for multi-threaded code",
@@ -2513,7 +2513,7 @@
     },
     "syntax_suggest": {
       "gem": "syntax_suggest",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Assists with code recommendation to resolve Ruby syntax errors",
@@ -2535,7 +2535,7 @@
     },
     "syslog": {
       "gem": "syslog",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Interface to the low-level [syslog](https://en.wikipedia.org/wiki/Syslog) logger",
@@ -2566,7 +2566,7 @@
     },
     "tempfile": {
       "gem": "tempfile",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Simplifies OS independent creation of temporary files",
@@ -2590,7 +2590,7 @@
     },
     "test-unit": {
       "gem": "test-unit",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "A xUnit family unit testing framework (compatibility layer for minitest)",
@@ -2618,7 +2618,7 @@
     },
     "thwait": {
       "gem": "thwait",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Waits for threads to finish",
@@ -2638,7 +2638,7 @@
     },
     "time": {
       "gem": "time",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Adds more methods to `Time`",
@@ -2671,7 +2671,7 @@
     },
     "timeout": {
       "gem": "timeout",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Auto-terminates code blocks after the time limit is reached",
@@ -2701,7 +2701,7 @@
     },
     "tmpdir": {
       "gem": "tmpdir",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Adds a `Dir.mktmpdir` method for creating temporary directories OS independently",
@@ -2723,7 +2723,7 @@
     },
     "tracer": {
       "gem": "tracer",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Outputs the [code execution trace](https://en.wikipedia.org/wiki/Tracing_%28software%29) via [Kernel#set_trace_func](https://ruby-doc.org/core/Kernel.html#method-i-set_trace_func)",
@@ -2749,7 +2749,7 @@
     },
     "tsort": {
       "gem": "tsort",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Topological sorting using [Tarjan’s algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm), which finds [strongly connected components](https://en.wikipedia.org/wiki/Strongly_connected_component) in [graphs](https://en.wikipedia.org/wiki/Graph_%28abstract_data_type%29)",
@@ -2770,7 +2770,7 @@
     },
     "typeprof": {
       "gem": "typeprof",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "Released with Ruby 3.0, typeprof allows you to [automatically generate RBS type annotations](https://github.com/ruby/typeprof/blob/master/doc/doc.md)",
@@ -2792,7 +2792,7 @@
     },
     "un": {
       "gem": "un",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[Utilities to replace common UNIX commands](https://idiosyncratic-ruby.com/6-run-ruby-run.html)",
@@ -2813,7 +2813,7 @@
     },
     "unicode_normalize": {
       "gem": "unicode_normalize",
-      "current_type": "library",
+      "currentType": "library",
       "native": false,
       "autoRequire": true,
       "description": "Adds a [String#unicode_normalize](https://rubyapi.org/o/string#method-i-unicode_normalize) method which [normalizes unicode strings](https://unicode.org/reports/tr15/)",
@@ -2836,7 +2836,7 @@
     },
     "uri": {
       "gem": "uri",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[URI](https://en.wikipedia.org/wiki/Uniform_resource_identifier)/URL manipulation",
@@ -2888,7 +2888,7 @@
     },
     "weakref": {
       "gem": "weakref",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Explicitly allow objects to be garbage collected",
@@ -2912,7 +2912,7 @@
     },
     "webrick": {
       "gem": "webrick",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "HTTP Server",
@@ -2960,7 +2960,7 @@
     },
     "win32": {
       "gem": "win32",
-      "current_type": "library",
+      "currentType": "library",
       "native": true,
       "autoRequire": false,
       "description": "Let's you use Windows APIs, e.g. call functions in DLLs",
@@ -2979,7 +2979,7 @@
     },
     "win32ole": {
       "gem": "win32ole",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Windows [OLE automation](https://en.wikipedia.org/wiki/OLE_Automation) interface",
@@ -3000,7 +3000,7 @@
     },
     "xmlrpc": {
       "gem": "xmlrpc",
-      "current_type": "bundled",
+      "currentType": "bundled",
       "native": false,
       "autoRequire": false,
       "description": "[Remote Procedure Calls via XML and HTTP](https://en.wikipedia.org/wiki/XML-RPC)",
@@ -3019,7 +3019,7 @@
     },
     "yaml": {
       "gem": "yaml",
-      "current_type": "default",
+      "currentType": "default",
       "native": false,
       "autoRequire": false,
       "description": "`require 'yaml'` will load the [psych default gem](https://stdgems.org/psych/), **yaml/dbm** is a wrapper around [DBM](https://stdgems.org/dbm/) using YAML serialization, and **yaml/store** lets you use [pstore](https://stdgems.org/pstore/) with YAML",
@@ -3055,7 +3055,7 @@
     },
     "zlib": {
       "gem": "zlib",
-      "current_type": "default",
+      "currentType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Interface to the [zlib compression library](https://en.wikipedia.org/wiki/Zlib)",
