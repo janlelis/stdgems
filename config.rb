@@ -14,6 +14,7 @@ BUNDLED_GEMS_FILE = File.read("bundled_gems.json")
 BUNDLED_GEMS_JSON = JSON.parse(BUNDLED_GEMS_FILE)["gems"]
 LIBRARIES_FILE = File.read("libraries.json")
 LIBRARIES_JSON = JSON.parse(LIBRARIES_FILE)["gems"]
+STDGEMS_FILE = File.read("stdgems.json")
 CRUBY_SOURCE_PREFIX = "https://github.com/ruby/ruby/tree/master/"
 JRUBY_SOURCE_PREFIX = "https://github.com/jruby/jruby/tree/master/"
 
@@ -535,6 +536,10 @@ helpers do
 
   def libraries_json
     LIBRARIES_FILE
+  end
+
+  def stdgems_json
+    STDGEMS_FILE
   end
 
   def stats
