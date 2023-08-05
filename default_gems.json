@@ -1,5 +1,6 @@
 {
-  "version": "3.11.0",
+  "version": "4.0.1",
+  "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
       "gem": "abbrev",
@@ -184,7 +185,6 @@
       "sourceRepository": "https://github.com/ruby/cmath",
       "rubygemsLink": "https://rubygems.org/gems/cmath",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/cmath/rdoc/CMath.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "2.6": "1.0.0",
@@ -288,7 +288,6 @@
       "sourceRepository": "https://github.com/ruby/dbm",
       "rubygemsLink": "https://rubygems.org/gems/dbm",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/dbm/rdoc/DBM.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "3.0": "1.1.0",
@@ -306,7 +305,6 @@
       "sourceRepository": null,
       "rubygemsLink": null,
       "rdocLink": "https://ruby-doc.org/stdlib/libdoc-3.0.2/debug/rdoc/DEBUGGER__.html",
-      "maintainer": null,
       "notes": "Replaced by a new debugger library with the same name",
       "removed": true,
       "versions": {
@@ -412,7 +410,6 @@
       "sourceRepository": "https://github.com/ruby/e2mmap",
       "rubygemsLink": "https://rubygems.org/gems/e2mmap",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/e2mmap/rdoc/Exception2MessageMapper.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)",
       "removed": true,
       "versions": {
         "2.6": "0.1.0"
@@ -488,7 +485,7 @@
       "sourceRepository": "https://github.com/ruby/etc",
       "rubygemsLink": "https://rubygems.org/gems/etc",
       "rdocLink": "https://rubyapi.org/o/etc",
-      "maintainer": "Ruby core team",
+      "maintainer": null,
       "versions": {
         "3.3": "1.4.2",
 
@@ -519,7 +516,7 @@
       "sourceRepository": "https://github.com/ruby/fcntl",
       "rubygemsLink": "https://rubygems.org/gems/fcntl",
       "rdocLink": "https://rubyapi.org/o/fcntl",
-      "maintainer": "Ruby core team",
+      "maintainer": null,
       "versions": {
         "3.3": "1.0.2",
 
@@ -648,7 +645,6 @@
       "sourceRepository": "https://github.com/ruby/gdbm",
       "rubygemsLink": "https://rubygems.org/gems/gdbm",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/gdbm/rdoc/GDBM.html",
-      "maintainer": "Yukihiro Matsumoto (matz)",
       "removed": true,
       "versions": {
         "3.0": "2.1.0",
@@ -907,7 +903,6 @@
       "sourceRepository": "https://github.com/ruby/matrix",
       "rubygemsLink": "https://rubygems.org/gems/matrix",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/matrix/rdoc/index.html",
-      "maintainer": "Marc-André Lafortune (marcandre)",
       "removed": true,
       "versions": {
         "3.0": "0.3.1",
@@ -945,7 +940,6 @@
       "sourceRepository": "https://github.com/ruby/net-ftp",
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/ftp/rdoc/Net/FTP.html",
-      "maintainer": "Shugo Maeda (shugo)",
       "removed": true,
       "versions": {
         "3.0": "0.1.2",
@@ -999,7 +993,6 @@
       "sourceRepository": "https://github.com/ruby/net-imap",
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/imap/rdoc/Net/IMAP.html",
-      "maintainer": "Shugo Maeda (shugo)",
       "removed": true,
       "versions": {
         "3.0": "0.1.1"
@@ -1015,7 +1008,6 @@
       "sourceRepository": "https://github.com/ruby/net-pop",
       "rubygemsLink": "https://rubygems.org/gems/net-pop",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/pop/rdoc/Net/POP3.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "3.0": "0.1.1",
@@ -1056,7 +1048,6 @@
       "sourceRepository": "https://github.com/ruby/net-smtp",
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/smtp/rdoc/Net/SMTP.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "3.0": "0.2.1",
@@ -1352,7 +1343,6 @@
       "sourceRepository": "https://github.com/ruby/prime",
       "rubygemsLink": "https://rubygems.org/gems/prime",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/prime/rdoc/Prime.html",
-      "maintainer": "Marc-André Lafortune (marcandre)",
       "removed": true,
       "versions": {
         "3.0": "0.1.2",
@@ -1550,7 +1540,6 @@
       "sourceRepository": "https://github.com/ruby/readline-ext",
       "rubygemsLink": "https://rubygems.org/gems/readline-ext",
       "rdocLink": "https://rubyapi.org/o/readline",
-      "maintainer": "TAKAO Kouji (kouji)",
       "removed": true,
       "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
       "alternatives": {
@@ -1658,7 +1647,6 @@
       "sourceRepository": "https://github.com/ruby/rexml",
       "rubygemsLink": "https://rubygems.org/gems/rexml",
       "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/rexml/rdoc/REXML.html",
-      "maintainer": "Kouhei Sutou (kou)",
       "removed": true,
       "alternatives": {
         "Nokogiri": "https://nokogiri.org",
@@ -1713,7 +1701,6 @@
       "sourceRepository": "https://github.com/ruby/rss",
       "rubygemsLink": "https://rubygems.org/gems/rss",
       "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/rss/rdoc/RSS.html",
-      "maintainer": "Kouhei Sutou (kou)",
       "removed": true,
       "versions": {
         "2.7": "0.2.8",
@@ -1831,7 +1818,6 @@
       "sourceRepository": "https://github.com/ruby/scanf",
       "rubygemsLink": "https://rubygems.org/gems/scanf",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/scanf/rdoc/Scanf.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "2.6": "1.0.0",
@@ -1847,7 +1833,6 @@
       "sourceRepository": "https://github.com/ruby/sdbm",
       "rubygemsLink": "https://rubygems.org/gems/sdbm",
       "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/sdbm/rdoc/SDBM.html",
-      "maintainer": "Yukihiro Matsumoto (matz)",
       "removed": true,
       "versions": {
         "2.7": "1.0.0",
@@ -1913,7 +1898,6 @@
       "sourceRepository": "https://github.com/ruby/shell",
       "rubygemsLink": "https://rubygems.org/gems/shell",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/shell/rdoc/Shell.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "2.6": "0.7"
@@ -2027,7 +2011,6 @@
       "sourceRepository": "https://github.com/ruby/sync",
       "rubygemsLink": "https://rubygems.org/gems/sync",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/sync/rdoc/Sync_m.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "2.6": "0.5.0"
@@ -2107,7 +2090,6 @@
       "sourceRepository": "https://github.com/ruby/thwait",
       "rubygemsLink": "https://rubygems.org/gems/thwait",
       "rdocLink": "https://ruby-doc.org/stdlib-2.6.8/libdoc/thwait/rdoc/ThWait.html",
-      "maintainer": null,
       "removed": true,
       "versions": {
         "2.6": "0.1.0"
@@ -2200,7 +2182,6 @@
       "sourceRepository": "https://github.com/ruby/tracer",
       "rubygemsLink": "https://rubygems.org/gems/tracer",
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/tracer/rdoc/Tracer.html",
-      "maintainer": "Keiju ISHITSUKA (keiju)",
       "alternatives": {
         "TracePoint": "https://ruby-doc.org/core/TracePoint.html"
       },
@@ -2324,7 +2305,6 @@
       "sourceRepository": "https://github.com/ruby/webrick",
       "rubygemsLink": "https://rubygems.org/gems/webrick",
       "rdocLink": "https://ruby-doc.org/stdlib-2.7.4/libdoc/webrick/rdoc/WEBrick.html",
-      "maintainer": "Eric Wong (normalperson)",
       "notes": "**Please note:** Despite the gemspec stating otherwise, the webrick version included with Ruby might be more recent than version 1.4.2. For example, the webrick included in Ruby 2.6.5, 2.5.7, 2.4.9, and 2.4.8 does include security fixes for CVE-2019-16201 and CVE-2019-16254.",
       "alternatives": {
         "puma": "https://puma.io",
