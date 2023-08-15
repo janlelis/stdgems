@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.0.0 (unreleased)
+
+Adjust new stdgems.json API: Make list of gems an Array
+
 ## 4.0.1
 
 - Use camelCase for new fields in stdgems.json
@@ -8,7 +12,7 @@
 
 New JSON file:
 
-  stdgems.json - a single API for all standard libraries and gems
+stdgems.json - a single API for all standard libraries and gems
 
 Other changes:
 

@@ -81,7 +81,7 @@ task :stdgems_json do
     end
   }
 
-  stdgems_file["gems"] = stdgems.to_a.sort.to_h
+  stdgems_file["gems"] = stdgems.to_a.sort.map(&:last)
   File.write(stdgems_out_filename, JSON.pretty_generate(stdgems_file))
   puts "Done"
 end
