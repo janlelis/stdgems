@@ -1,8 +1,8 @@
 {
-  "version": "4.0.1",
+  "version": "5.0.0",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
-  "gems": {
-    "abbrev": {
+  "gems": [
+    {
       "gem": "abbrev",
       "currentType": "default",
       "native": false,
@@ -23,7 +23,7 @@
         }
       }
     },
-    "base64": {
+    {
       "gem": "base64",
       "currentType": "default",
       "native": false,
@@ -47,7 +47,7 @@
         }
       }
     },
-    "benchmark": {
+    {
       "gem": "benchmark",
       "currentType": "default",
       "native": false,
@@ -73,7 +73,7 @@
         }
       }
     },
-    "bigdecimal": {
+    {
       "gem": "bigdecimal",
       "currentType": "default",
       "native": true,
@@ -108,7 +108,7 @@
         }
       }
     },
-    "bundler": {
+    {
       "gem": "bundler",
       "currentType": "default",
       "native": false,
@@ -141,7 +141,7 @@
         }
       }
     },
-    "cgi": {
+    {
       "gem": "cgi",
       "currentType": "default",
       "native": true,
@@ -191,7 +191,7 @@
         }
       }
     },
-    "cmath": {
+    {
       "gem": "cmath",
       "currentType": "default",
       "native": false,
@@ -209,7 +209,7 @@
         }
       }
     },
-    "continuation": {
+    {
       "gem": "continuation",
       "currentType": "library",
       "native": true,
@@ -224,7 +224,7 @@
         "Fiber": "https://ruby-doc.org/core/Fiber.html"
       }
     },
-    "coverage": {
+    {
       "gem": "coverage",
       "currentType": "library",
       "native": true,
@@ -238,7 +238,7 @@
       "rdocLink": "https://rubyapi.org/o/coverage",
       "maintainer": "Yusuke Endoh (mame)"
     },
-    "csv": {
+    {
       "gem": "csv",
       "currentType": "default",
       "native": false,
@@ -277,7 +277,7 @@
         }
       }
     },
-    "date": {
+    {
       "gem": "date",
       "currentType": "default",
       "native": true,
@@ -326,7 +326,7 @@
         }
       }
     },
-    "dbm": {
+    {
       "gem": "dbm",
       "currentType": "default",
       "native": true,
@@ -346,7 +346,7 @@
         }
       }
     },
-    "debug": {
+    {
       "gem": "debug",
       "currentType": "bundled",
       "prevType": "default",
@@ -378,7 +378,7 @@
         }
       }
     },
-    "delegate": {
+    {
       "gem": "delegate",
       "currentType": "default",
       "native": false,
@@ -403,7 +403,7 @@
         }
       }
     },
-    "did_you_mean": {
+    {
       "gem": "did_you_mean",
       "currentType": "default",
       "prevType": "bundled",
@@ -436,7 +436,7 @@
         }
       }
     },
-    "digest": {
+    {
       "gem": "digest",
       "currentType": "default",
       "native": true,
@@ -463,7 +463,7 @@
         }
       }
     },
-    "drb": {
+    {
       "gem": "drb",
       "currentType": "default",
       "native": false,
@@ -490,7 +490,7 @@
         }
       }
     },
-    "e2mmap": {
+    {
       "gem": "e2mmap",
       "currentType": "default",
       "native": false,
@@ -510,7 +510,7 @@
         }
       }
     },
-    "english": {
+    {
       "gem": "english",
       "currentType": "default",
       "native": false,
@@ -531,7 +531,7 @@
         }
       }
     },
-    "erb": {
+    {
       "gem": "erb",
       "currentType": "default",
       "native": false,
@@ -558,7 +558,7 @@
         }
       }
     },
-    "error_highlight": {
+    {
       "gem": "error_highlight",
       "currentType": "default",
       "native": false,
@@ -581,7 +581,7 @@
         }
       }
     },
-    "etc": {
+    {
       "gem": "etc",
       "currentType": "default",
       "native": true,
@@ -611,7 +611,7 @@
         }
       }
     },
-    "fcntl": {
+    {
       "gem": "fcntl",
       "currentType": "default",
       "native": true,
@@ -641,7 +641,7 @@
         }
       }
     },
-    "fiddle": {
+    {
       "gem": "fiddle",
       "currentType": "default",
       "native": true,
@@ -675,7 +675,7 @@
         }
       }
     },
-    "fileutils": {
+    {
       "gem": "fileutils",
       "currentType": "default",
       "native": false,
@@ -702,7 +702,7 @@
         }
       }
     },
-    "find": {
+    {
       "gem": "find",
       "currentType": "default",
       "native": false,
@@ -727,7 +727,7 @@
         }
       }
     },
-    "forwardable": {
+    {
       "gem": "forwardable",
       "currentType": "default",
       "native": false,
@@ -754,7 +754,7 @@
         }
       }
     },
-    "gdbm": {
+    {
       "gem": "gdbm",
       "currentType": "default",
       "native": true,
@@ -774,7 +774,7 @@
         }
       }
     },
-    "getoptlong": {
+    {
       "gem": "getoptlong",
       "currentType": "default",
       "native": false,
@@ -802,7 +802,7 @@
         }
       }
     },
-    "io-console": {
+    {
       "gem": "io-console",
       "currentType": "default",
       "native": true,
@@ -833,7 +833,7 @@
         }
       }
     },
-    "io-nonblock": {
+    {
       "gem": "io-nonblock",
       "currentType": "default",
       "native": true,
@@ -857,7 +857,7 @@
         }
       }
     },
-    "io-wait": {
+    {
       "gem": "io-wait",
       "currentType": "default",
       "native": true,
@@ -884,7 +884,7 @@
         }
       }
     },
-    "ipaddr": {
+    {
       "gem": "ipaddr",
       "currentType": "default",
       "native": false,
@@ -912,7 +912,7 @@
         }
       }
     },
-    "irb": {
+    {
       "gem": "irb",
       "currentType": "default",
       "native": false,
@@ -946,7 +946,7 @@
         }
       }
     },
-    "json": {
+    {
       "gem": "json",
       "currentType": "default",
       "native": true,
@@ -988,7 +988,7 @@
         }
       }
     },
-    "logger": {
+    {
       "gem": "logger",
       "currentType": "default",
       "native": false,
@@ -1021,7 +1021,7 @@
         }
       }
     },
-    "matrix": {
+    {
       "gem": "matrix",
       "currentType": "bundled",
       "prevType": "default",
@@ -1047,7 +1047,7 @@
         }
       }
     },
-    "minitest": {
+    {
       "gem": "minitest",
       "currentType": "bundled",
       "native": false,
@@ -1076,7 +1076,7 @@
         }
       }
     },
-    "mkmf": {
+    {
       "gem": "mkmf",
       "currentType": "library",
       "native": false,
@@ -1087,7 +1087,7 @@
       "rdocLink": "https://rubyapi.org/o/makemakefile",
       "maintainer": null
     },
-    "monitor": {
+    {
       "gem": "monitor",
       "currentType": "library",
       "native": true,
@@ -1101,7 +1101,7 @@
       "rdocLink": "https://rubyapi.org/o/monitor",
       "maintainer": "Koichi Sasada (ko1)"
     },
-    "mutex_m": {
+    {
       "gem": "mutex_m",
       "currentType": "default",
       "native": false,
@@ -1124,7 +1124,7 @@
         }
       }
     },
-    "net-ftp": {
+    {
       "gem": "net-ftp",
       "currentType": "bundled",
       "prevType": "default",
@@ -1147,7 +1147,7 @@
         }
       }
     },
-    "net-http": {
+    {
       "gem": "net-http",
       "currentType": "default",
       "native": false,
@@ -1187,7 +1187,7 @@
         }
       }
     },
-    "net-imap": {
+    {
       "gem": "net-imap",
       "currentType": "bundled",
       "prevType": "default",
@@ -1209,7 +1209,7 @@
         }
       }
     },
-    "net-pop": {
+    {
       "gem": "net-pop",
       "currentType": "bundled",
       "prevType": "default",
@@ -1231,7 +1231,7 @@
         }
       }
     },
-    "net-protocol": {
+    {
       "gem": "net-protocol",
       "currentType": "default",
       "native": false,
@@ -1255,7 +1255,7 @@
         }
       }
     },
-    "net-smtp": {
+    {
       "gem": "net-smtp",
       "currentType": "bundled",
       "prevType": "default",
@@ -1276,7 +1276,7 @@
         }
       }
     },
-    "net-telnet": {
+    {
       "gem": "net-telnet",
       "currentType": "bundled",
       "native": false,
@@ -1296,7 +1296,7 @@
         }
       }
     },
-    "nkf": {
+    {
       "gem": "nkf",
       "currentType": "default",
       "native": true,
@@ -1320,7 +1320,7 @@
         }
       }
     },
-    "objspace": {
+    {
       "gem": "objspace",
       "currentType": "library",
       "native": true,
@@ -1331,7 +1331,7 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/objspace/ObjectSpace",
       "maintainer": null
     },
-    "observer": {
+    {
       "gem": "observer",
       "currentType": "default",
       "native": false,
@@ -1357,7 +1357,7 @@
         }
       }
     },
-    "open-uri": {
+    {
       "gem": "open-uri",
       "currentType": "default",
       "native": false,
@@ -1378,7 +1378,7 @@
         }
       }
     },
-    "open3": {
+    {
       "gem": "open3",
       "currentType": "default",
       "native": false,
@@ -1403,7 +1403,7 @@
         }
       }
     },
-    "openssl": {
+    {
       "gem": "openssl",
       "currentType": "default",
       "native": true,
@@ -1451,7 +1451,7 @@
         }
       }
     },
-    "optparse": {
+    {
       "gem": "optparse",
       "currentType": "default",
       "native": false,
@@ -1486,7 +1486,7 @@
         }
       }
     },
-    "ostruct": {
+    {
       "gem": "ostruct",
       "currentType": "default",
       "native": false,
@@ -1512,7 +1512,7 @@
         }
       }
     },
-    "pathname": {
+    {
       "gem": "pathname",
       "currentType": "default",
       "native": true,
@@ -1539,7 +1539,7 @@
         }
       }
     },
-    "power_assert": {
+    {
       "gem": "power_assert",
       "currentType": "bundled",
       "native": false,
@@ -1564,7 +1564,7 @@
         }
       }
     },
-    "pp": {
+    {
       "gem": "pp",
       "currentType": "default",
       "native": false,
@@ -1594,7 +1594,7 @@
         }
       }
     },
-    "prettyprint": {
+    {
       "gem": "prettyprint",
       "currentType": "default",
       "native": false,
@@ -1625,7 +1625,7 @@
         }
       }
     },
-    "prime": {
+    {
       "gem": "prime",
       "currentType": "bundled",
       "prevType": "default",
@@ -1648,7 +1648,7 @@
         }
       }
     },
-    "pstore": {
+    {
       "gem": "pstore",
       "currentType": "default",
       "native": false,
@@ -1670,7 +1670,7 @@
         }
       }
     },
-    "psych": {
+    {
       "gem": "psych",
       "currentType": "default",
       "native": true,
@@ -1720,7 +1720,7 @@
         }
       }
     },
-    "pty": {
+    {
       "gem": "pty",
       "currentType": "library",
       "native": true,
@@ -1734,7 +1734,7 @@
       "rdocLink": "https://rubyapi.org/o/pty",
       "maintainer": null
     },
-    "racc": {
+    {
       "gem": "racc",
       "currentType": "default",
       "native": true,
@@ -1767,7 +1767,7 @@
         }
       }
     },
-    "rake": {
+    {
       "gem": "rake",
       "currentType": "bundled",
       "native": false,
@@ -1807,7 +1807,7 @@
         }
       }
     },
-    "rbconfig": {
+    {
       "gem": "rbconfig",
       "currentType": "library",
       "native": true,
@@ -1826,7 +1826,7 @@
       "rdocLink": null,
       "maintainer": null
     },
-    "rbs": {
+    {
       "gem": "rbs",
       "currentType": "bundled",
       "native": false,
@@ -1850,7 +1850,7 @@
         }
       }
     },
-    "rdoc": {
+    {
       "gem": "rdoc",
       "currentType": "default",
       "native": false,
@@ -1914,7 +1914,7 @@
         }
       }
     },
-    "readline": {
+    {
       "gem": "readline",
       "currentType": "default",
       "native": false,
@@ -1940,7 +1940,7 @@
         }
       }
     },
-    "readline-ext": {
+    {
       "gem": "readline-ext",
       "currentType": "default",
       "native": true,
@@ -1966,7 +1966,7 @@
         }
       }
     },
-    "reline": {
+    {
       "gem": "reline",
       "currentType": "default",
       "native": false,
@@ -1998,7 +1998,7 @@
         }
       }
     },
-    "resolv": {
+    {
       "gem": "resolv",
       "currentType": "default",
       "native": false,
@@ -2029,7 +2029,7 @@
         }
       }
     },
-    "resolv-replace": {
+    {
       "gem": "resolv-replace",
       "currentType": "default",
       "native": false,
@@ -2057,7 +2057,7 @@
         }
       }
     },
-    "rexml": {
+    {
       "gem": "rexml",
       "currentType": "bundled",
       "prevType": "default",
@@ -2091,7 +2091,7 @@
         }
       }
     },
-    "rinda": {
+    {
       "gem": "rinda",
       "currentType": "default",
       "native": false,
@@ -2115,7 +2115,7 @@
         }
       }
     },
-    "ripper": {
+    {
       "gem": "ripper",
       "currentType": "library",
       "native": true,
@@ -2134,7 +2134,7 @@
         "ruby_parser": "https://github.com/seattlerb/ruby_parser"
       }
     },
-    "rss": {
+    {
       "gem": "rss",
       "currentType": "bundled",
       "prevType": "default",
@@ -2157,7 +2157,7 @@
         }
       }
     },
-    "ruby2_keywords": {
+    {
       "gem": "ruby2_keywords",
       "currentType": "default",
       "native": false,
@@ -2177,7 +2177,7 @@
         }
       }
     },
-    "rubygems": {
+    {
       "gem": "rubygems",
       "currentType": "default",
       "native": false,
@@ -2265,7 +2265,7 @@
         }
       }
     },
-    "scanf": {
+    {
       "gem": "scanf",
       "currentType": "default",
       "native": false,
@@ -2283,7 +2283,7 @@
         }
       }
     },
-    "sdbm": {
+    {
       "gem": "sdbm",
       "currentType": "default",
       "native": true,
@@ -2302,7 +2302,7 @@
         }
       }
     },
-    "securerandom": {
+    {
       "gem": "securerandom",
       "currentType": "default",
       "native": false,
@@ -2329,7 +2329,7 @@
         }
       }
     },
-    "set": {
+    {
       "gem": "set",
       "currentType": "default",
       "native": false,
@@ -2354,7 +2354,7 @@
         }
       }
     },
-    "shell": {
+    {
       "gem": "shell",
       "currentType": "default",
       "native": false,
@@ -2374,7 +2374,7 @@
         }
       }
     },
-    "shellwords": {
+    {
       "gem": "shellwords",
       "currentType": "default",
       "native": false,
@@ -2395,7 +2395,7 @@
         }
       }
     },
-    "singleton": {
+    {
       "gem": "singleton",
       "currentType": "default",
       "native": false,
@@ -2417,7 +2417,7 @@
         }
       }
     },
-    "socket": {
+    {
       "gem": "socket",
       "currentType": "library",
       "native": true,
@@ -2434,7 +2434,7 @@
         "API change needs matz's approval"
       ]
     },
-    "stringio": {
+    {
       "gem": "stringio",
       "currentType": "default",
       "native": true,
@@ -2464,7 +2464,7 @@
         }
       }
     },
-    "strscan": {
+    {
       "gem": "strscan",
       "currentType": "default",
       "native": true,
@@ -2494,7 +2494,7 @@
         }
       }
     },
-    "sync": {
+    {
       "gem": "sync",
       "currentType": "default",
       "native": false,
@@ -2511,7 +2511,7 @@
         }
       }
     },
-    "syntax_suggest": {
+    {
       "gem": "syntax_suggest",
       "currentType": "default",
       "native": false,
@@ -2533,7 +2533,7 @@
         }
       }
     },
-    "syslog": {
+    {
       "gem": "syslog",
       "currentType": "default",
       "native": true,
@@ -2564,7 +2564,7 @@
         }
       }
     },
-    "tempfile": {
+    {
       "gem": "tempfile",
       "currentType": "default",
       "native": false,
@@ -2588,7 +2588,7 @@
         }
       }
     },
-    "test-unit": {
+    {
       "gem": "test-unit",
       "currentType": "bundled",
       "native": false,
@@ -2616,7 +2616,7 @@
         }
       }
     },
-    "thwait": {
+    {
       "gem": "thwait",
       "currentType": "default",
       "native": false,
@@ -2636,7 +2636,7 @@
         }
       }
     },
-    "time": {
+    {
       "gem": "time",
       "currentType": "default",
       "native": false,
@@ -2669,7 +2669,7 @@
         }
       }
     },
-    "timeout": {
+    {
       "gem": "timeout",
       "currentType": "default",
       "native": false,
@@ -2699,7 +2699,7 @@
         }
       }
     },
-    "tmpdir": {
+    {
       "gem": "tmpdir",
       "currentType": "default",
       "native": false,
@@ -2721,7 +2721,7 @@
         }
       }
     },
-    "tracer": {
+    {
       "gem": "tracer",
       "currentType": "default",
       "native": false,
@@ -2747,7 +2747,7 @@
         }
       }
     },
-    "tsort": {
+    {
       "gem": "tsort",
       "currentType": "default",
       "native": false,
@@ -2768,7 +2768,7 @@
         }
       }
     },
-    "typeprof": {
+    {
       "gem": "typeprof",
       "currentType": "bundled",
       "native": false,
@@ -2790,7 +2790,7 @@
         }
       }
     },
-    "un": {
+    {
       "gem": "un",
       "currentType": "default",
       "native": false,
@@ -2811,7 +2811,7 @@
         }
       }
     },
-    "unicode_normalize": {
+    {
       "gem": "unicode_normalize",
       "currentType": "library",
       "native": false,
@@ -2834,7 +2834,7 @@
         "unf": "https://github.com/knu/ruby-unf"
       }
     },
-    "uri": {
+    {
       "gem": "uri",
       "currentType": "default",
       "native": false,
@@ -2886,7 +2886,7 @@
         }
       }
     },
-    "weakref": {
+    {
       "gem": "weakref",
       "currentType": "default",
       "native": false,
@@ -2910,7 +2910,7 @@
         }
       }
     },
-    "webrick": {
+    {
       "gem": "webrick",
       "currentType": "default",
       "native": false,
@@ -2958,7 +2958,7 @@
         }
       }
     },
-    "win32": {
+    {
       "gem": "win32",
       "currentType": "library",
       "native": true,
@@ -2977,7 +2977,7 @@
         "Fiddle": "https://stdgems.org/fiddle/"
       }
     },
-    "win32ole": {
+    {
       "gem": "win32ole",
       "currentType": "default",
       "native": true,
@@ -2998,7 +2998,7 @@
         }
       }
     },
-    "xmlrpc": {
+    {
       "gem": "xmlrpc",
       "currentType": "bundled",
       "native": false,
@@ -3017,7 +3017,7 @@
         }
       }
     },
-    "yaml": {
+    {
       "gem": "yaml",
       "currentType": "default",
       "native": false,
@@ -3053,7 +3053,7 @@
         }
       }
     },
-    "zlib": {
+    {
       "gem": "zlib",
       "currentType": "default",
       "native": true,
@@ -3083,5 +3083,5 @@
         }
       }
     }
-  }
+  ]
 }
