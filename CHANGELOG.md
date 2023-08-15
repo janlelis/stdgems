@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.0.0 (unreleased)
+## 5.0.0
 
 Adjust new stdgems.json API: Make list of gems an Array
 
