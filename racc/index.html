@@ -38,8 +38,10 @@ document.addEventListener('DOMContentLoaded', function(){
 <h2 id="info">Info</h2>
 
 <ul>
-  <li>This standard library has been removed from Ruby and is <strong>no longer available</strong></li>
-  <li>This standard library was a <strong>bundled gem</strong></li>
+  <li>This standard library is a <strong>bundled gem</strong>, but was a default one before</li>
+  <li>To use with bundler, add this to your Gemfile: <code>gem "racc"</code></li>
+  <li>Use <code>require "racc"</code> to load this library</li>
+  <li>The library <strong>contains native extensions</strong></li>
   <li>Similar gems and alternatives: <a href="https://github.com/cjheath/treetop">treetop</a>, <a href="https://github.com/mjackson/citrus">citrus</a>, <a href="https://github.com/kschiess/parslet">parslet</a>, <a href="https://github.com/dryruby/ebnf">ebnf</a></li>
 </ul>
 
@@ -62,6 +64,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <h2 id="gem-version">Gem Version</h2>
 
+<h3 id="as-bundled-gem">As Bundled Gem</h3>
+
 <table class="small-table table-witdh-15-15">
   <thead>
     <tr>
@@ -73,6 +77,35 @@ document.addEventListener('DOMContentLoaded', function(){
     <tr>
       <td><a href="https://github.com/ruby/racc/tree/v1.7.1">1.7.1</a></td>
       <td>3.3.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="as-default-gem">As Default Gem</h3>
+
+<table class="small-table table-witdh-15-15">
+  <thead>
+    <tr>
+      <th>racc</th>
+      <th>Ruby</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/ruby/racc/tree/v1.6.2">1.6.2</a></td>
+      <td>3.2.0 .. 3.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ruby/racc/tree/v1.6.0">1.6.0</a></td>
+      <td>3.1.0 .. 3.1.4</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ruby/racc/tree/v1.5.2">1.5.2</a></td>
+      <td>3.0.3 .. 3.0.6</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ruby/racc/tree/v1.5.1">1.5.1</a></td>
+      <td>3.0.0 .. 3.0.2</td>
     </tr>
   </tbody>
 </table>
