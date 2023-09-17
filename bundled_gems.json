@@ -71,7 +71,7 @@
         "rspec": "https://github.com/rspec/rspec-metagem"
       },
       "versions": {
-        "3.3": "5.18.0",
+        "3.3": "5.20.0",
         "3.2": "5.16.3",
         "3.1": "5.15.0",
         "3.0": "5.14.2",
@@ -108,7 +108,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://www.rubydoc.info/gems/net-imap",
       "versions": {
-        "3.3": "0.3.4",
+        "3.3": "0.3.7",
         "3.2": "0.3.4",
         "3.1": "0.2.3",
         "3.1.0": "0.2.2"
@@ -137,6 +137,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
       "rdocLink": "https://www.rubydoc.info/gems/net-smtp",
       "versions": {
+        "3.3": "0.3.3",
         "3.2": "0.3.3",
         "3.1": "0.3.1"
       }
@@ -272,7 +273,7 @@
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "rdocLink": "https://www.rubydoc.info/gems/rbs",
       "versions": {
-        "3.3": "3.1.0",
+        "3.3": "3.2.1",
 
         "3.2": "2.8.2",
 
@@ -296,7 +297,7 @@
       "rubygemsLink": "https://rubygems.org/gems/rexml",
       "rdocLink": "https://www.rubydoc.info/gems/rexml",
       "versions": {
-        "3.3": "3.2.5",
+        "3.3": "3.2.6",
 
         "3.2": "3.2.5",
 
@@ -315,7 +316,7 @@
       "rubygemsLink": "https://rubygems.org/gems/rss",
       "rdocLink": "https://www.rubydoc.info/gems/rss",
       "versions": {
-        "3.3": "0.2.9",
+        "3.3": "0.3.0",
         "3.2": "0.2.9",
         "3.1": "0.2.9",
         "3.0": "0.2.9"
@@ -334,7 +335,7 @@
         "rspec": "https://github.com/rspec/rspec-metagem"
       },
       "versions": {
-        "3.3": "3.5.7",
+        "3.3": "3.6.1",
         "3.2": "3.5.7",
         "3.1": "3.5.3",
         "3.0": "3.3.8",
@@ -355,7 +356,7 @@
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
       "rdocLink": "https://www.rubydoc.info/gems/typeprof",
       "versions": {
-        "3.3": "0.21.7",
+        "3.3": "0.21.8",
 
         "3.2": "0.21.3",
 
