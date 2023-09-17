@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.1.0 (unreleased)
+## 5.1.0
 
 Update default and bundled gems for Ruby 3.3 preview release 2
 
