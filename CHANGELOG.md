@@ -1,12 +1,18 @@
 # Change Log
 
+## 5.1.0 (unreleased)
+
+Update default and bundled gems for Ruby 3.3 preview release 2
+
+- racc is moved from default gem to bundled gem
+
 ## 5.0.0
 
 Adjust new stdgems.json API: Make list of gems an Array
 
 ## 4.0.1
 
-- Use camelCase for new fields in stdgems.json
+Use camelCase for new fields in stdgems.json
 
 ## 4.0.0
 

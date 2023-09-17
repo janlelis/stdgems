@@ -200,6 +200,25 @@
       }
     },
     {
+      "gem": "racc",
+      "native": true,
+      "autoRequire": false,
+      "description": "Bindings for Racc, a [YACC](https://en.wikipedia.org/wiki/Yacc)-like [LALR(1) parser generator](https://en.wikipedia.org/wiki/LALR_parser_generator)",
+      "sourceRepository": "https://github.com/ruby/racc",
+      "rubygemsLink": "https://rubygems.org/gems/racc",
+      "rdocLink": "https://rubyapi.org/o/racc",
+      "removed": true,
+      "alternatives": {
+        "treetop": "https://github.com/cjheath/treetop",
+        "citrus": "https://github.com/mjackson/citrus",
+        "parslet": "https://github.com/kschiess/parslet",
+        "ebnf": "https://github.com/dryruby/ebnf"
+      },
+      "versions": {
+        "3.3": "1.7.1"
+      }
+    },
+    {
       "gem": "rake",
       "native": false,
       "autoRequire": false,

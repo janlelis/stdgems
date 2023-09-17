@@ -1431,6 +1431,7 @@
       "sourceRepository": "https://github.com/ruby/racc",
       "rubygemsLink": "https://rubygems.org/gems/racc",
       "rdocLink": "https://rubyapi.org/o/racc",
+      "removed": true,
       "maintainer": "Aaron Patterson (tenderlove)",
       "alternatives": {
         "treetop": "https://github.com/cjheath/treetop",
@@ -1439,8 +1440,6 @@
         "ebnf": "https://github.com/dryruby/ebnf"
       },
       "versions": {
-        "3.3": "1.6.2",
-
         "3.2": "1.6.2",
 
         "3.1": "1.6.0",
