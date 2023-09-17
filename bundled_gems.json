@@ -208,7 +208,6 @@
       "sourceRepository": "https://github.com/ruby/racc",
       "rubygemsLink": "https://rubygems.org/gems/racc",
       "rdocLink": "https://rubyapi.org/o/racc",
-      "removed": true,
       "alternatives": {
         "treetop": "https://github.com/cjheath/treetop",
         "citrus": "https://github.com/mjackson/citrus",
