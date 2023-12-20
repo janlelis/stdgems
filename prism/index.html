@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Standard Gems: base64</title>
+    <title>Standard Gems: prism</title>
     <link href="/stylesheets/all3.css" rel="stylesheet" />
 
     <meta charset="utf-8">
@@ -26,23 +26,23 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="world">
       <section class="post-header">
         <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
-        <h1 class="post-heading" id="top">base64 Gem</h1>
+        <h1 class="post-heading" id="top">prism Gem</h1>
       </section>
 
      	<article class="post"><h2 id="description">Description</h2>
 
-<p>Encodes and decodes strings to a <a href="https://en.wikipedia.org/wiki/Base64">Base64</a> representation. Implemented as a small wrapper around <a href="https://idiosyncratic-ruby.com/4-what-the-pack.html">String#unpack</a></p>
+<p>Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language</p>
 
-<p><a href="https://rubygems.org/gems/base64">RubyGems</a> · <a href="https://github.com/ruby/base64">GitHub</a> · <a href="https://rubyapi.org/o/base64">RDoc</a></p>
+<p><a href="https://rubygems.org/gems/prism">RubyGems</a> · <a href="https://github.com/ruby/prism">GitHub</a> · <a href="https://gemdocs.org/gems/prism/0.19.0/">RDoc</a></p>
 
 <h2 id="info">Info</h2>
 
 <ul>
   <li>This standard library is a <strong>default gem</strong></li>
-  <li>Use <code>require "base64"</code> to load this library</li>
-  <li>The library is written in Ruby, there are <strong>no native extensions</strong></li>
-  <li>Current maintainer: Yusuke Endoh (mame)</li>
-  <li>Similar gems and alternatives: <a href="https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045">Array#pack('m') / String#unpack('m')</a></li>
+  <li>Use <code>require "prism"</code> to load this library</li>
+  <li>The library <strong>contains native extensions</strong></li>
+  <li>Current maintainers: Kevin Newton (kddnewton), Jemma Issroff (jemmaissroff)</li>
+  <li>Similar gems and alternatives: <a href="https://stdgems.org/ripper">ripper</a>, <a href="https://github.com/whitequark/parser">parser</a>, <a href="https://github.com/seattlerb/ruby_parser">ruby_parser</a></li>
 </ul>
 
 <h2 id="gem-sources">Gem Sources</h2>
@@ -57,15 +57,15 @@ document.addEventListener('DOMContentLoaded', function(){
   <tbody>
     <tr>
       <td>Gem Repository</td>
-      <td><a href="https://github.com/ruby/base64">github.com/ruby/base64</a></td>
+      <td><a href="https://github.com/ruby/prism">github.com/ruby/prism</a></td>
     </tr>
     <tr>
       <td>CRuby</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/lib/base64.rb">lib/base64.rb</a></td>
+      <td><a href="https://github.com/ruby/ruby/tree/master/prism_compile.c">prism_compile.c</a><br /><a href="https://github.com/ruby/ruby/tree/master/prism_compile.h">prism_compile.h</a><br /><a href="https://github.com/ruby/ruby/tree/master/prism_init.c">prism_init.c</a><br /><a href="https://github.com/ruby/ruby/tree/master/prism">prism</a><br /><a href="https://github.com/ruby/ruby/tree/master/lib/prism">lib/prism</a></td>
     </tr>
     <tr>
       <td>JRuby</td>
-      <td>from RubyGems</td>
+      <td>not included</td>
     </tr>
   </tbody>
 </table>
@@ -75,22 +75,14 @@ document.addEventListener('DOMContentLoaded', function(){
 <table class="small-table table-witdh-15-15">
   <thead>
     <tr>
-      <th>base64</th>
+      <th>prism</th>
       <th>Ruby</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/ruby/base64/tree/v0.2.0">0.2.0</a></td>
+      <td><a href="https://github.com/ruby/prism/tree/v0.19.0">0.19.0</a></td>
       <td>3.3.0</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/ruby/base64/tree/v0.1.1">0.1.1</a></td>
-      <td>3.1.0 .. 3.2.2</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/ruby/base64/tree/v0.1.0">0.1.0</a></td>
-      <td>3.0.0 .. 3.0.6</td>
     </tr>
   </tbody>
 </table>
