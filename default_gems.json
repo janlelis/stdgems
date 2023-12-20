@@ -1272,6 +1272,35 @@
       }
     },
     {
+      "gem": "prism",
+      "native": true,
+      "autoRequire": false,
+      "description": "Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language",
+      "mriSourcePath": [
+        "prism_compile.c",
+        "prism_compile.h",
+        "prism_init.c",
+        "prism",
+        "lib/prism"
+      ],
+      "jrubySourcePath": false,
+      "sourceRepository": "https://github.com/ruby/prism",
+      "rubygemsLink": "https://rubygems.org/gems/prism",
+      "rdocLink": "https://gemdocs.org/gems/prism/0.19.0/",
+      "maintainer": [
+        "Kevin Newton (kddnewton)",
+        "Jemma Issroff (jemmaissroff)"
+      ],
+      "alternatives": {
+        "ripper": "https://stdgems.org/ripper",
+        "parser": "https://github.com/whitequark/parser",
+        "ruby_parser": "https://github.com/seattlerb/ruby_parser"
+      },
+      "versions": {
+        "3.3": "0.19.0"
+      }
+    },
+    {
       "gem": "pp",
       "native": false,
       "autoRequire": false,
