@@ -13,6 +13,7 @@
       "rubygemsLink": "https://rubygems.org/gems/abbrev",
       "rdocLink": "https://rubyapi.org/o/abbrev",
       "maintainer": "Akinori MUSHA (knu)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.3": "0.1.1",
         "3.2": "0.1.1",
@@ -31,6 +32,7 @@
       "rubygemsLink": "https://rubygems.org/gems/base64",
       "rdocLink": "https://rubyapi.org/o/base64",
       "maintainer": "Yusuke Endoh (mame)",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "Array#pack('m') / String#unpack('m')": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
       },
@@ -79,6 +81,7 @@
       "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
       "rdocLink": "https://rubyapi.org/o/bigdecimal",
       "maintainer": "Kenta Murata (mrkn)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.3": "3.1.5",
         "3.2": "3.1.3",
@@ -202,6 +205,7 @@
       "rubygemsLink": "https://rubygems.org/gems/csv",
       "rdocLink": "https://rubyapi.org/o/csv",
       "maintainer": ["Kenta Murata (mrkn)", "Kouhei Sutou (kou)"],
+      "willBecomeBundledGem": true,
       "alternatives": {
         "smarter_csv": "https://github.com/tilo/smarter_csv"
       },
@@ -388,6 +392,7 @@
       "rubygemsLink": "https://rubygems.org/gems/drb",
       "rdocLink": "https://rubyapi.org/o/drb",
       "maintainer": "Masatoshi SEKI (seki)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.3": "2.2.0",
 
@@ -663,6 +668,7 @@
       "rubygemsLink": "https://rubygems.org/gems/getoptlong",
       "rdocLink": "https://rubyapi.org/o/getoptlong",
       "maintainer": null,
+      "willBecomeBundledGem": true,
       "alternatives": {
         "optparse": "https://stdgems.org/optparse",
         "slop": "https://github.com/leejarvis/slop",
@@ -920,6 +926,7 @@
       "rubygemsLink": "https://rubygems.org/gems/mutex_m",
       "rdocLink": "https://rubyapi.org/o/mutex_m",
       "maintainer": "Keiju ISHITSUKA (keiju)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.3": "0.2.0",
         "3.2": "0.1.2",
@@ -1067,6 +1074,7 @@
       "rubygemsLink": "https://rubygems.org/gems/nkf",
       "rdocLink": "https://rubyapi.org/o/nkf",
       "maintainer": "NARUSE, Yui (narse)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.3": "0.1.3",
         "3.2": "0.1.2",
@@ -1085,6 +1093,7 @@
       "rubygemsLink": "https://rubygems.org/gems/observer",
       "rdocLink": "https://rubyapi.org/o/observable",
       "maintainer": null,
+      "willBecomeBundledGem": true,
       "alternatives": {
         "microevent": "https://github.com/janlelis/microevent.rb",
         "signal_lamp": "https://github.com/JEG2/signal_lamp"
@@ -1653,6 +1662,7 @@
       "rubygemsLink": "https://rubygems.org/gems/resolv-replace",
       "rdocLink": "https://rubyapi.org/o/resolv",
       "maintainer": "Tanaka Akira (akr)",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "RubyDNS": "https://github.com/socketry/rubydns",
         "Net::DNS": "https://github.com/bluemonk/net-dns",
@@ -1706,6 +1716,7 @@
       "rubygemsLink": "https://rubygems.org/gems/rinda",
       "rdocLink": "https://ruby-doc.org/3.2.0/stdlibs/rinda/table_of_contents.html",
       "maintainer": "Masatoshi SEKI (seki)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.3": "0.2.0",
 
@@ -2058,6 +2069,7 @@
       "rubygemsLink": "https://rubygems.org/gems/syslog",
       "rdocLink": "https://rubyapi.org/o/syslog",
       "maintainer": "Akinori MUSHA (knu)",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "syslogger": "https://github.com/crohr/syslogger",
         "log4r": "https://github.com/colbygk/log4r/blob/master/lib/log4r/outputter/syslogoutputter.rb",

@@ -2,14 +2,13 @@
 
 ## 5.1.1 (unreleased)
 
-Update default and bundled gems for Ruby 3.3 release candidate 1
-
+- Update default and bundled gems for Ruby 3.3 release candidate 1
 - Add prism default gem
+- Add "willBecomeBundledGem" flags
 
 ## 5.1.0
 
-Update default and bundled gems for Ruby 3.3 preview release 2
-
+- Update default and bundled gems for Ruby 3.3 preview release 2
 - racc is moved from default gem to bundled gem
 
 ## 5.0.0
