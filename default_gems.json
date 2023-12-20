@@ -35,7 +35,7 @@
         "Array#pack('m') / String#unpack('m')": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
       },
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.2.0",
         "3.2": "0.1.1",
         "3.1": "0.1.1",
         "3.0": "0.1.0"
@@ -57,7 +57,7 @@
         "benchmark-driver": "https://github.com/benchmark-driver/benchmark-driver"
       },
       "versions": {
-        "3.3": "0.2.1",
+        "3.3": "0.3.0",
         "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
@@ -80,7 +80,7 @@
       "rdocLink": "https://rubyapi.org/o/bigdecimal",
       "maintainer": "Kenta Murata (mrkn)",
       "versions": {
-        "3.3": "3.1.4",
+        "3.3": "3.1.5",
         "3.2": "3.1.3",
         "3.1": "3.1.1",
         "3.0": "3.0.0",
@@ -150,7 +150,7 @@
         "rack": "https://github.com/rack/rack"
       },
       "versions": {
-        "3.3": "0.3.6",
+        "3.3": "0.4.1",
 
         "3.2": "0.3.6",
 
@@ -246,7 +246,7 @@
       ],
       "maintainer": null,
       "versions": {
-        "3.3": "3.3.3",
+        "3.3": "3.3.4",
 
         "3.2": "3.3.3",
 
@@ -329,7 +329,7 @@
         "forwardable": "https://stdgems.org/forwardable/"
       },
       "versions": {
-        "3.3": "0.3.0",
+        "3.3": "0.3.1",
         "3.2": "0.3.0",
         "3.1": "0.2.0",
         "3.0": "0.2.0",
@@ -389,7 +389,7 @@
       "rdocLink": "https://rubyapi.org/o/drb",
       "maintainer": "Masatoshi SEKI (seki)",
       "versions": {
-        "3.3": "2.1.1",
+        "3.3": "2.2.0",
 
         "3.2": "2.1.1",
 
@@ -427,7 +427,7 @@
       "rdocLink": "https://rubyapi.org/o/english",
       "maintainer": null,
       "versions": {
-        "3.3": "0.7.2",
+        "3.3": "0.8.0",
         "3.2": "0.7.2",
         "3.1": "0.7.1",
         "3.0": "0.7.1"
@@ -466,7 +466,7 @@
       "maintainer": null,
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
-        "3.3": "0.5.1",
+        "3.3": "0.6.0",
         "3.2": "0.5.1",
         "3.1": "0.3.0"
       }
@@ -486,7 +486,7 @@
       "rdocLink": "https://rubyapi.org/o/etc",
       "maintainer": null,
       "versions": {
-        "3.3": "1.4.2",
+        "3.3": "1.4.3",
 
         "3.2": "1.4.2",
 
@@ -517,7 +517,7 @@
       "rdocLink": "https://rubyapi.org/o/fcntl",
       "maintainer": null,
       "versions": {
-        "3.3": "1.0.2",
+        "3.3": "1.1.0",
 
         "3.2": "1.0.2",
 
@@ -580,7 +580,7 @@
       "rdocLink": "https://rubyapi.org/o/fileutils",
       "maintainer": null,
       "versions": {
-        "3.3": "1.7.1",
+        "3.3": "1.7.2",
         "3.2": "1.7.0",
         "3.1": "1.6.0",
         "3.0": "1.5.0",
@@ -605,7 +605,7 @@
         "<code>`find .`.split($/)</code>": null
       },
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.2.0",
         "3.2": "0.1.1",
         "3.1": "0.1.1",
         "3.0": "0.1.0"
@@ -670,7 +670,7 @@
         "rationalist": "https://github.com/janlelis/rationalist"
       },
       "versions": {
-        "3.3": "0.2.0",
+        "3.3": "0.2.1",
         "3.2": "0.2.0",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -690,7 +690,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "3.3": "0.6.0",
+        "3.3": "0.6.1",
 
         "3.2": "0.6.0",
 
@@ -803,7 +803,7 @@
         "ripl": "https://github.com/cldwalker/ripl"
       },
       "versions": {
-        "3.3": "1.8.1",
+        "3.3": "1.10.1",
 
         "3.2": "1.6.2",
 
@@ -836,7 +836,7 @@
         "yajl-ruby": "https://github.com/brianmario/yajl-ruby"
       },
       "versions": {
-        "3.3": "2.6.3",
+        "3.3": "2.7.1",
 
         "3.2": "2.6.3",
 
@@ -884,7 +884,7 @@
         "micrologger": "https://github.com/janlelis/micrologger"
       },
       "versions": {
-        "3.3": "1.5.3",
+        "3.3": "1.6.0",
         "3.2": "1.5.3",
         "3.1": "1.5.0",
         "3.0": "1.4.3",
@@ -921,7 +921,7 @@
       "rdocLink": "https://rubyapi.org/o/mutex_m",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
-        "3.3": "0.1.2",
+        "3.3": "0.2.0",
         "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -970,7 +970,7 @@
         "em-http-request": "https://github.com/igrigorik/em-http-request"
       },
       "versions": {
-        "3.3": "0.3.2",
+        "3.3": "0.4.0",
 
         "3.2": "0.3.2",
 
@@ -1025,7 +1025,7 @@
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/protocol/rdoc/index.html",
       "maintainer": null,
       "versions": {
-        "3.3": "0.2.1",
+        "3.3": "0.2.2",
 
         "3.2": "0.2.1",
 
@@ -1112,7 +1112,7 @@
         "open4": "https://github.com/ahoward/open4"
       },
       "versions": {
-        "3.3": "0.1.2",
+        "3.3": "0.2.0",
         "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -1132,7 +1132,7 @@
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "notes": "JRuby uses the Bouncy Castle-based [jruby-openssl gem](https://github.com/jruby/jruby-openssl) instead",
       "versions": {
-        "3.3": "3.1.0",
+        "3.3": "3.2.0",
 
         "3.2": "3.1.0",
 
@@ -1183,7 +1183,7 @@
       "rdocLink": "https://rubyapi.org/o/openuri",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.3": "0.3.0",
+        "3.3": "0.4.1",
         "3.2": "0.3.0",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
@@ -1239,7 +1239,7 @@
         "Hash": "https://ruby-doc.org/core/Hash.html"
       },
       "versions": {
-        "3.3": "0.5.5",
+        "3.3": "0.6.0",
         "3.2": "0.5.5",
         "3.1": "0.5.2",
         "3.0": "0.3.1",
@@ -1265,7 +1265,7 @@
         "path": "https://github.com/eregon/path"
       },
       "versions": {
-        "3.3": "0.2.1",
+        "3.3": "0.3.0",
         "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
@@ -1318,7 +1318,7 @@
         "hirber": "https://github.com/hirber/hirber"
       },
       "versions": {
-        "3.3": "0.4.0",
+        "3.3": "0.5.0",
 
         "3.2": "0.4.0",
 
@@ -1348,7 +1348,7 @@
         "hirber": "https://github.com/hirber/hirber"
       },
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.2.0",
 
         "3.2": "0.1.1",
 
@@ -1390,7 +1390,7 @@
       "rdocLink": "https://rubyapi.org/o/pstore",
       "maintainer": null,
       "versions": {
-        "3.3": "0.1.2",
+        "3.3": "0.1.3",
         "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -1410,7 +1410,7 @@
       "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA (hsbt)"],
       "notes": "Starting with Ruby 3.2, libyaml is not bundled with Ruby anymore",
       "versions": {
-        "3.3": "5.1.0",
+        "3.3": "5.1.1.1",
 
         "3.2": "5.0.1",
 
@@ -1494,7 +1494,7 @@
         "YARD": "https://yardoc.org/"
       },
       "versions": {
-        "3.3": "6.5.0",
+        "3.3": "6.6.1",
         "3.2": "6.5.0",
         "3.1": "6.4.0",
         "3.0": "6.3.3",
@@ -1596,7 +1596,7 @@
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
       "versions": {
-        "3.3": "0.3.8",
+        "3.3": "0.4.0",
 
         "3.2": "0.3.2",
 
@@ -1707,7 +1707,7 @@
       "rdocLink": "https://ruby-doc.org/3.2.0/stdlibs/rinda/table_of_contents.html",
       "maintainer": "Masatoshi SEKI (seki)",
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.2.0",
 
         "3.2": "0.1.1",
 
@@ -1882,7 +1882,7 @@
       "rdocLink": "https://rubyapi.org/o/securerandom",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.3": "0.2.2",
+        "3.3": "0.3.0",
 
         "3.2": "0.2.2",
 
@@ -1910,7 +1910,7 @@
       "maintainer": "Akinori MUSHA (knu)",
       "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
       "versions": {
-        "3.3": "1.0.3",
+        "3.3": "1.0.4",
         "3.2": "1.0.3",
         "3.1": "1.0.2",
         "3.0": "1.0.1"
@@ -1942,7 +1942,7 @@
       "rdocLink": "https://rubyapi.org/o/shellwords",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
-        "3.3": "0.1.0",
+        "3.3": "0.2.0",
         "3.2": "0.1.0",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -1960,7 +1960,7 @@
       "rdocLink": "https://rubyapi.org/o/singleton",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.2.0",
         "3.2": "0.1.1",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -1982,7 +1982,7 @@
       "rdocLink": "https://rubyapi.org/o/stringio",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.3": "3.0.9",
+        "3.3": "3.1.0",
 
         "3.2": "3.0.4",
 
@@ -2013,7 +2013,7 @@
       "rdocLink": "https://rubyapi.org/o/stringscanner",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "3.3": "3.0.7",
+        "3.3": "3.0.8",
 
         "3.2": "3.0.5",
 
@@ -2083,7 +2083,7 @@
       "rdocLink": "https://rubyapi.org/o/syntaxsuggest",
       "maintainer": null,
       "versions": {
-        "3.3": "1.1.0",
+        "3.3": "2.0.0",
         "3.2": "1.0.2"
       }
     },
@@ -2102,7 +2102,7 @@
       "rdocLink": "https://rubyapi.org/o/tempfile",
       "maintainer": null,
       "versions": {
-        "3.3": "0.1.3",
+        "3.3": "0.2.1",
         "3.2": "0.1.3",
         "3.1": "0.1.2",
         "3.0": "0.1.1"
@@ -2134,7 +2134,7 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/time/Time",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.3": "0.2.2",
+        "3.3": "0.3.0",
 
         "3.2": "0.2.2",
         "3.2.1": "0.2.1",
@@ -2173,7 +2173,7 @@
         "Ultimate Guide to Ruby Timeouts": "https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts"
       },
       "versions": {
-        "3.3": "0.4.0",
+        "3.3": "0.4.1",
         "3.2": "0.3.1",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
@@ -2192,7 +2192,7 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/tmpdir/Dir",
       "maintainer": null,
       "versions": {
-        "3.3": "0.1.3",
+        "3.3": "0.2.0",
         "3.2": "0.1.3",
         "3.1": "0.1.2",
         "3.0": "0.1.2",
@@ -2231,7 +2231,7 @@
       "rdocLink": "https://rubyapi.org/o/tsort",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.2.0",
         "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -2249,7 +2249,7 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/un",
       "maintainer": "WATANABE Hirofumi (eban)",
       "versions": {
-        "3.3": "0.2.1",
+        "3.3": "0.3.0",
         "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.0"
@@ -2271,7 +2271,7 @@
         "ruby-uriparse": "https://github.com/tlewin/ruby-uriparser"
       },
       "versions": {
-        "3.3": "0.12.2",
+        "3.3": "0.13.0",
 
         "3.2": "0.12.1",
         "3.2.1": "0.12.0",
@@ -2317,7 +2317,7 @@
         "ref": "https://github.com/ruby-concurrency/ref"
       },
       "versions": {
-        "3.3": "0.1.2",
+        "3.3": "0.1.3",
         "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1"
@@ -2380,7 +2380,7 @@
       "rdocLink": "https://rubyapi.org/o/win32ole",
       "maintainer": "Masaki Suketa (suke)",
       "versions": {
-        "3.3": "1.8.9",
+        "3.3": "1.8.10",
         "3.2": "1.8.9",
         "3.1": "1.8.8",
         "3.0": "1.8.8"
@@ -2402,7 +2402,7 @@
       ],
       "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA (hsbt)"],
       "versions": {
-        "3.3": "0.2.1",
+        "3.3": "0.3.0",
         "3.2": "0.2.1",
         "3.1": "0.2.0",
         "3.0": "0.1.1",
@@ -2424,7 +2424,7 @@
       "rdocLink": "https://rubyapi.org/o/zlib",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
-        "3.3": "3.0.0",
+        "3.3": "3.1.0",
 
         "3.2": "3.0.0",
 

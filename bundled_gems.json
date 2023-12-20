@@ -16,7 +16,7 @@
         "debase": "https://github.com/ruby-debug/debase"
       },
       "versions": {
-        "3.3": "1.8.0",
+        "3.3": "1.9.0",
 
         "3.2": "1.7.1",
 
@@ -94,7 +94,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
       "rdocLink": "https://www.rubydoc.info/gems/net-ftp",
       "versions": {
-        "3.3": "0.2.0",
+        "3.3": "0.3.3",
         "3.2": "0.2.0",
         "3.1": "0.1.3"
       }
@@ -108,7 +108,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://www.rubydoc.info/gems/net-imap",
       "versions": {
-        "3.3": "0.3.7",
+        "3.3": "0.4.8",
         "3.2": "0.3.4",
         "3.1": "0.2.3",
         "3.1.0": "0.2.2"
@@ -137,7 +137,7 @@
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
       "rdocLink": "https://www.rubydoc.info/gems/net-smtp",
       "versions": {
-        "3.3": "0.3.3",
+        "3.3": "0.4.0",
         "3.2": "0.3.3",
         "3.1": "0.3.1"
       }
@@ -215,7 +215,7 @@
         "ebnf": "https://github.com/dryruby/ebnf"
       },
       "versions": {
-        "3.3": "1.7.1"
+        "3.3": "1.7.3"
       }
     },
     {
@@ -230,7 +230,7 @@
         "thor": "https://github.com/rails/thor"
       },
       "versions": {
-        "3.3": "13.0.6",
+        "3.3": "13.1.0",
 
         "3.2": "13.0.6",
 
@@ -272,7 +272,7 @@
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "rdocLink": "https://www.rubydoc.info/gems/rbs",
       "versions": {
-        "3.3": "3.2.1",
+        "3.3": "3.3.2",
 
         "3.2": "2.8.2",
 

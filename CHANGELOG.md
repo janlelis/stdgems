@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.1.1 (unreleased)
+
+Update default and bundled gems for Ruby 3.3 release candidate 1
+
+- Add prism default gem
+
 ## 5.1.0
 
 Update default and bundled gems for Ruby 3.3 preview release 2
