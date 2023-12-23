@@ -575,6 +575,10 @@ helpers do
       res << ["This standard library #{verb} a **default library**, which is not versioned on its own"]
     end
 
+    if gem_info["willBecomeBundledGem"]
+      res << ["The gem type will be changed to bundled gem in a future version of Ruby"]
+    end
+
     if !gem_info["rubygemsLink"]
       res << ["The library #{verb} not published on RubyGems"]
     end
