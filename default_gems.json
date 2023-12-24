@@ -802,7 +802,12 @@
       "sourceRepository": "https://github.com/ruby/irb",
       "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://www.rubydoc.info/gems/irb",
-      "maintainer": "aycabta",
+      "maintainer": [
+        "Stan Lo (st0012)",
+        "Tomoya Ishida (tompng)",
+        "Mari Imaizumi (ima1zumi)",
+        "Hitoshi Hasumi (hasumikin)"
+      ],
       "alternatives": {
         "pry": "https://github.com/pry/pry",
         "rib": "https://github.com/godfat/rib",
@@ -1599,7 +1604,12 @@
       "sourceRepository": "https://github.com/ruby/reline",
       "rubygemsLink": "https://rubygems.org/gems/reline",
       "rdocLink": "https://rubyapi.org/o/reline",
-      "maintainer": "aycabta",
+      "maintainer": [
+        "Stan Lo (st0012)",
+        "Tomoya Ishida (tompng)",
+        "Mari Imaizumi (ima1zumi)",
+        "Hitoshi Hasumi (hasumikin)"
+      ],
       "alternatives": {
         "readline-ext": "https://stdgems.org/readline-ext/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
@@ -2277,7 +2287,7 @@
       "sourceRepository": "https://github.com/ruby/uri",
       "rubygemsLink": "https://rubygems.org/gems/uri",
       "rdocLink": "https://rubyapi.org/o/uri",
-      "maintainer": "YAMADA, Akira (akira)",
+      "maintainer": "NARUSE, Yui (naruse)",
       "alternatives": {
         "addressable": "https://github.com/sporkmonger/addressable",
         "ruby-uriparse": "https://github.com/tlewin/ruby-uriparser"
