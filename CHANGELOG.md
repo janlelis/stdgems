@@ -2,7 +2,10 @@
 
 ## 5.3.0 (unreleased)
 
-- Update maintainers
+Ruby release: 3.3.0
+
+- Final updates of default and bundled gems for Ruby 3.3
+- Update maintainers for irb, reline, uri
 
 ## 5.2.0
 
