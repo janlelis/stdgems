@@ -1,5 +1,5 @@
 {
-  "version": "5.2.0",
+  "version": "5.3.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
@@ -15,7 +15,7 @@
       "maintainer": "Akinori MUSHA (knu)",
       "willBecomeBundledGem": true,
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.1.2",
         "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -111,7 +111,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.3": "2.5.0",
+        "3.3": "2.5.3",
 
         "3.2": "2.4.10",
         "3.2.1": "2.4.6",
@@ -697,7 +697,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
-        "3.3": "0.6.1",
+        "3.3": "0.7.1",
 
         "3.2": "0.6.0",
 
@@ -732,7 +732,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/io-nonblock",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.3": "0.2.0",
+        "3.3": "0.3.0",
         "3.2": "0.2.0",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -753,7 +753,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/io-wait",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.3": "0.3.0",
+        "3.3": "0.3.1",
 
         "3.2": "0.3.0",
 
@@ -780,7 +780,7 @@
         "ipaddress": "https://github.com/ipaddress-gem/ipaddress"
       },
       "versions": {
-        "3.3": "1.2.5",
+        "3.3": "1.2.6",
 
         "3.2": "1.2.5",
 
@@ -803,14 +803,19 @@
       "sourceRepository": "https://github.com/ruby/irb",
       "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://www.rubydoc.info/gems/irb",
-      "maintainer": "aycabta",
+      "maintainer": [
+        "Stan Lo (st0012)",
+        "Tomoya Ishida (tompng)",
+        "Mari Imaizumi (ima1zumi)",
+        "Hitoshi Hasumi (hasumikin)"
+      ],
       "alternatives": {
         "pry": "https://github.com/pry/pry",
         "rib": "https://github.com/godfat/rib",
         "ripl": "https://github.com/cldwalker/ripl"
       },
       "versions": {
-        "3.3": "1.10.1",
+        "3.3": "1.11.0",
 
         "3.2": "1.6.2",
 
@@ -1100,7 +1105,7 @@
         "signal_lamp": "https://github.com/JEG2/signal_lamp"
       },
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.1.2",
         "3.2": "0.1.1",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -1122,7 +1127,7 @@
         "open4": "https://github.com/ahoward/open4"
       },
       "versions": {
-        "3.3": "0.2.0",
+        "3.3": "0.2.1",
         "3.2": "0.1.2",
         "3.1": "0.1.1",
         "3.0": "0.1.1",
@@ -1420,7 +1425,7 @@
       "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA (hsbt)"],
       "notes": "Starting with Ruby 3.2, libyaml is not bundled with Ruby anymore",
       "versions": {
-        "3.3": "5.1.1.1",
+        "3.3": "5.1.2",
 
         "3.2": "5.0.1",
 
@@ -1504,7 +1509,7 @@
         "YARD": "https://yardoc.org/"
       },
       "versions": {
-        "3.3": "6.6.1",
+        "3.3": "6.6.2",
         "3.2": "6.5.0",
         "3.1": "6.4.0",
         "3.0": "6.3.3",
@@ -1548,7 +1553,7 @@
       "gem": "readline",
       "native": false,
       "autoRequire": false,
-      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) [reline](https://stdgems.org/reline) will be used.",
+      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) default gem [reline](https://stdgems.org/reline) will be used.",
       "mriSourcePath": "ext/readline",
       "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/readline",
@@ -1560,7 +1565,7 @@
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
       "versions": {
-        "3.3": "0.0.3",
+        "3.3": "0.0.4",
         "3.2": "0.0.3",
         "3.1": "0.0.3",
         "3.0": "0.0.2",
@@ -1600,13 +1605,18 @@
       "sourceRepository": "https://github.com/ruby/reline",
       "rubygemsLink": "https://rubygems.org/gems/reline",
       "rdocLink": "https://rubyapi.org/o/reline",
-      "maintainer": "aycabta",
+      "maintainer": [
+        "Stan Lo (st0012)",
+        "Tomoya Ishida (tompng)",
+        "Mari Imaizumi (ima1zumi)",
+        "Hitoshi Hasumi (hasumikin)"
+      ],
       "alternatives": {
         "readline-ext": "https://stdgems.org/readline-ext/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
       "versions": {
-        "3.3": "0.4.0",
+        "3.3": "0.4.1",
 
         "3.2": "0.3.2",
 
@@ -1640,7 +1650,7 @@
         "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
       },
       "versions": {
-        "3.3": "0.2.2",
+        "3.3": "0.3.0",
 
         "3.2": "0.2.2",
 
@@ -1776,7 +1786,7 @@
       "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
-        "3.3": "3.5.0",
+        "3.3": "3.5.3",
 
         "3.2": "3.4.10",
         "3.2.1": "3.4.6",
@@ -1894,7 +1904,7 @@
       "rdocLink": "https://rubyapi.org/o/securerandom",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
-        "3.3": "0.3.0",
+        "3.3": "0.3.1",
 
         "3.2": "0.2.2",
 
@@ -1922,7 +1932,7 @@
       "maintainer": "Akinori MUSHA (knu)",
       "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
       "versions": {
-        "3.3": "1.0.4",
+        "3.3": "1.1.0",
         "3.2": "1.0.3",
         "3.1": "1.0.2",
         "3.0": "1.0.1"
@@ -2025,7 +2035,7 @@
       "rdocLink": "https://rubyapi.org/o/stringscanner",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "3.3": "3.0.8",
+        "3.3": "3.0.7",
 
         "3.2": "3.0.5",
 
@@ -2078,7 +2088,7 @@
         "yell-adapters-syslog": "https://github.com/rudionrails/yell/wiki/additional-adapters-syslog"
       },
       "versions": {
-        "3.3": "0.1.1",
+        "3.3": "0.1.2",
         "3.2": "0.1.1",
         "3.1": "0.1.0",
         "3.0": "0.1.0"
@@ -2278,7 +2288,7 @@
       "sourceRepository": "https://github.com/ruby/uri",
       "rubygemsLink": "https://rubygems.org/gems/uri",
       "rdocLink": "https://rubyapi.org/o/uri",
-      "maintainer": "YAMADA, Akira (akira)",
+      "maintainer": "NARUSE, Yui (naruse)",
       "alternatives": {
         "addressable": "https://github.com/sporkmonger/addressable",
         "ruby-uriparse": "https://github.com/tlewin/ruby-uriparser"
