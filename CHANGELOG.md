@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.3.0 (unreleased)
+## 5.3.0
 
 Ruby release: 3.3.0
 
