@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.4.0 (unreleased)
+
+Ruby release: 3.2.3
+
+- Update default gems: bundler, net-http, rubygems, uri
+- Update bundled gems: net-ftp, net-imap, net-smtp
+
 ## 5.3.0
 
 Ruby release: 3.3.0
