@@ -1,5 +1,5 @@
 {
-  "version": "5.3.0",
+  "version": "5.4.0",
   "info": "Bundled gems get automatically installed alongside Ruby, but can be removed. When using bundler, they need to be added to the project's Gemfile.",
   "gems": [
     {
@@ -94,9 +94,14 @@
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
       "rdocLink": "https://www.rubydoc.info/gems/net-ftp",
       "versions": {
-        "3.3": "0.3.3",
-        "3.2": "0.2.0",
-        "3.1": "0.1.3"
+        "3.3":   "0.3.3",
+
+        "3.2":   "0.2.1",
+        "3.2.2": "0.2.0",
+        "3.2.1": "0.2.0",
+        "3.2.0": "0.2.0",
+
+        "3.1":   "0.1.3"
       }
     },
     {
@@ -108,9 +113,14 @@
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://www.rubydoc.info/gems/net-imap",
       "versions": {
-        "3.3": "0.4.8",
-        "3.2": "0.3.4",
-        "3.1": "0.2.3",
+        "3.3":   "0.4.8",
+
+        "3.2":   "0.3.4.1",
+        "3.2.2": "0.3.4",
+        "3.2.1": "0.3.4",
+        "3.2.0": "0.3.4",
+
+        "3.1":   "0.2.3",
         "3.1.0": "0.2.2"
       }
     },
@@ -138,7 +148,12 @@
       "rdocLink": "https://www.rubydoc.info/gems/net-smtp",
       "versions": {
         "3.3": "0.4.0",
-        "3.2": "0.3.3",
+
+        "3.2":   "0.3.4",
+        "3.2.2": "0.3.3",
+        "3.2.1": "0.3.3",
+        "3.2.0": "0.3.3",
+
         "3.1": "0.3.1"
       }
     },
