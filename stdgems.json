@@ -2444,7 +2444,7 @@
       "currentType": "default",
       "native": false,
       "autoRequire": false,
-      "description": "Escape and manipulate commads to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
+      "description": "Escape and manipulate commands to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
       "mriSourcePath": "lib/shellwords.rb",
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/shellwords",
