@@ -270,7 +270,7 @@ helpers do
 
       case gem_info["jrubySourcePath"]
       when String
-        res << "[JRuby](#{CRUBY_SOURCE_PREFIX + gem_info["jrubySourcePath"]})"
+        res << "[JRuby](#{JRUBY_SOURCE_PREFIX + gem_info["jrubySourcePath"]})"
       when true
         # nothing
       when Array
