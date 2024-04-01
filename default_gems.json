@@ -1897,7 +1897,7 @@
       "gem": "securerandom",
       "native": false,
       "autoRequire": false,
-      "description": "Provides crpytographical randomness from openssl or the OS",
+      "description": "Provides cryptographical randomness from openssl or the OS",
       "mriSourcePath": "lib/securerandom.rb",
       "jrubySourcePath": [
         "lib/ruby/stdlib/securerandom.rb",
