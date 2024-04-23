@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.5.0
+
+Ruby release: 3.3.1
+
+- Update default gems: bundler, net-http, rdoc, rubygems,
+- Update bundled gems: net-ftp, net-imap, net-smtp
+- Fix version of bundled net-imap for Ruby 3.3.0
+
+
 ## 5.4.0
 
 Ruby release: 3.2.3
