@@ -1,5 +1,5 @@
 {
-  "version": "5.4.0",
+  "version": "5.5.0",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
   "gems": [
     {
@@ -125,7 +125,8 @@
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
         "default": {
-          "3.3": "2.5.3",
+          "3.3": "2.5.9",
+          "3.3.0": "2.5.3",
           "3.2": "2.4.19",
           "3.2.2": "2.4.10",
           "3.2.1": "2.4.6",
@@ -1154,7 +1155,8 @@
           "3.0.0": "0.1.1"
         },
         "bundled": {
-          "3.3": "0.3.3",
+          "3.3": "0.3.4",
+          "3.3.0": "0.3.3",
           "3.2": "0.2.1",
           "3.2.2": "0.2.0",
           "3.2.1": "0.2.0",
@@ -1193,7 +1195,8 @@
       },
       "versions": {
         "default": {
-          "3.3": "0.4.0",
+          "3.3": "0.4.1",
+          "3.3.0": "0.4.0",
           "3.2": "0.4.1",
           "3.2.2": "0.3.2",
           "3.2.1": "0.3.2",
@@ -1221,7 +1224,7 @@
           "3.0": "0.1.1"
         },
         "bundled": {
-          "3.3": "0.4.8",
+          "3.3.0": "0.4.9",
           "3.2": "0.3.4.1",
           "3.2.2": "0.3.4",
           "3.2.1": "0.3.4",
@@ -1293,7 +1296,8 @@
           "2.7": "0.1.0"
         },
         "bundled": {
-          "3.3": "0.4.0",
+          "3.3": "0.4.0.1",
+          "3.3.0": "0.4.0",
           "3.2": "0.3.4",
           "3.2.2": "0.3.3",
           "3.2.1": "0.3.3",
@@ -1930,7 +1934,8 @@
       },
       "versions": {
         "default": {
-          "3.3": "6.6.2",
+          "3.3": "6.6.3.1",
+          "3.3.0": "6.6.2",
           "3.2": "6.5.0",
           "3.1": "6.4.0",
           "3.0": "6.3.3",
@@ -2265,7 +2270,8 @@
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
         "default": {
-          "3.3": "3.5.3",
+          "3.3": "3.5.9",
+          "3.3.0": "3.5.3",
           "3.2": "3.4.19",
           "3.2.2": "3.4.10",
           "3.2.1": "3.4.6",
@@ -2372,7 +2378,7 @@
       "currentType": "default",
       "native": false,
       "autoRequire": false,
-      "description": "Provides crpytographical randomness from openssl or the OS",
+      "description": "Provides cryptographical randomness from openssl or the OS",
       "mriSourcePath": "lib/securerandom.rb",
       "jrubySourcePath": [
         "lib/ruby/stdlib/securerandom.rb",
@@ -2444,7 +2450,7 @@
       "currentType": "default",
       "native": false,
       "autoRequire": false,
-      "description": "Escape and manipulate commads to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
+      "description": "Escape and manipulate commands to be run in the [shell](https://en.wikipedia.org/wiki/Bourne_shell)",
       "mriSourcePath": "lib/shellwords.rb",
       "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/shellwords",
