@@ -1,5 +1,5 @@
 {
-  "version": "5.5.0",
+  "version": "5.6.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {

@@ -1,12 +1,16 @@
 # Change Log
 
-## 5.6.0 (unreleased)
+## 5.6.0
 
 Ruby releases: 3.2.4, 3.1.5, 3.0.7
 
 - Update 3.2 default gem: rdoc
+
 - Update 3.1 default gems: bundler, cgi, net-http, rdoc, rubygems, stringio, uri
 - Update 3.1 bundled gems: net-ftp, net-imap, net-smtp
+
+- Update 3.0 default gems: rdoc, stringio
+- Update 3.0 bundled gems: power_assert
 
 ## 5.5.0
 
