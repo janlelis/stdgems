@@ -1,5 +1,5 @@
 {
-  "version": "5.4.0",
+  "version": "5.5.0",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
   "gems": []
 }
