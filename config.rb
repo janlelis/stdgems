@@ -278,7 +278,7 @@ helpers do
         # nothing
       when Array
         gem_info["jrubySourcePath"].reject{|jsp| jsp == true }.each_with_index{ |jrubySourcePath, index|
-          res << "[JRuby (#{index + 1})](#{CRUBY_SOURCE_PREFIX + jrubySourcePath})"
+          res << "[JRuby (#{index + 1})](#{JRUBY_SOURCE_PREFIX + jrubySourcePath})"
         }
       end
     end
