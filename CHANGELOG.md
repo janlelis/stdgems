@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.6.1
+
+Fix Ruby 3.3 bundled versions for debug, net-imap, rbs, typeprof
+
 ## 5.6.0
 
 Ruby releases: 3.2.4, 3.1.5, 3.0.7
