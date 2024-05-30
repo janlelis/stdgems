@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.7.0 - unreleased
+
+Ruby releases: 3.3.2, 3.1.6
+
+- Update 3.3's irb, reline, zlib
+- No version changes in 3.1.6
+
 ## 5.6.1
 
 Fix Ruby 3.3 bundled versions for debug, net-imap, rbs, typeprof
