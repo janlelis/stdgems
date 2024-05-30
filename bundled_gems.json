@@ -1,5 +1,5 @@
 {
-  "version": "5.6.1",
+  "version": "5.7.0",
   "info": "Bundled gems get automatically installed alongside Ruby, but can be removed. When using bundler, they need to be added to the project's Gemfile.",
   "gems": [
     {
