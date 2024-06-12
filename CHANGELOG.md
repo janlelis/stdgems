@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.8.0 (unreleased)
+
+Ruby releases: 3.3.3
+
+- Update 3.3's default gems: bundler, rubygems, stringio, strscan
+- Update 3.3's bundled gems: rexml
+
 ## 5.7.0
 
 Ruby releases: 3.3.2, 3.1.6
