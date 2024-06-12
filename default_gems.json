@@ -1,5 +1,5 @@
 {
-  "version": "5.7.0",
+  "version": "5.8.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
@@ -111,7 +111,9 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "3.3":   "2.5.9",
+        "3.3":   "2.5.11",
+        "3.3.2": "2.5.9",
+        "3.3.1": "2.5.9",
         "3.3.0": "2.5.3",
 
         "3.2":   "2.4.19",
@@ -1825,7 +1827,9 @@
       "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
-        "3.3":   "3.5.9",
+        "3.3":   "3.5.11",
+        "3.3.2": "3.5.9",
+        "3.3.1": "3.5.9",
         "3.3.0": "3.5.3",
 
         "3.2":   "3.4.19",
@@ -2047,7 +2051,10 @@
       "rdocLink": "https://rubyapi.org/o/stringio",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
-        "3.3":   "3.1.0",
+        "3.3":   "3.1.1",
+        "3.3.2": "3.1.0",
+        "3.3.1": "3.1.0",
+        "3.3.0": "3.1.0",
 
         "3.2":   "3.0.4",
 
@@ -2087,20 +2094,25 @@
       "rdocLink": "https://rubyapi.org/o/stringscanner",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
-        "3.3": "3.0.7",
+        "3.3":   "3.0.9",
+        "3.3.2": "3.0.7",
+        "3.3.1": "3.0.7",
+        "3.3.0": "3.0.7",
 
-        "3.2": "3.0.5",
+        "3.2":   "3.0.5",
 
-        "3.1": "3.0.1",
+        "3.1":   "3.0.1",
 
-        "3.0": "3.0.1",
+        "3.0":   "3.0.1",
         "3.0.2": "3.0.0",
         "3.0.1": "3.0.0",
         "3.0.0": "3.0.0",
 
-        "2.7": "1.0.3",
-        "2.6": "1.0.0",
-        "2.5": "1.0.0"
+        "2.7":   "1.0.3",
+
+        "2.6":   "1.0.0",
+        
+        "2.5":   "1.0.0"
       }
     },
     {
