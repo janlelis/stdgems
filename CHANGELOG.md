@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.8.0 (unreleased)
+## 5.8.0
 
 Ruby releases: 3.3.3
 

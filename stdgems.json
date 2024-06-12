@@ -1,5 +1,5 @@
 {
-  "version": "5.7.0",
+  "version": "5.8.0",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
   "gems": [
     {
@@ -125,7 +125,9 @@
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
         "default": {
-          "3.3": "2.5.9",
+          "3.3": "2.5.11",
+          "3.3.2": "2.5.9",
+          "3.3.1": "2.5.9",
           "3.3.0": "2.5.3",
           "3.2": "2.4.19",
           "3.2.2": "2.4.10",
@@ -2192,7 +2194,10 @@
           "2.6.0": "3.1.9"
         },
         "bundled": {
-          "3.3": "3.2.6",
+          "3.3": "3.2.8",
+          "3.3.2": "3.2.6",
+          "3.3.1": "3.2.6",
+          "3.3.0": "3.2.6",
           "3.2": "3.2.5",
           "3.1": "3.2.5",
           "3.0": "3.2.5",
@@ -2311,7 +2316,9 @@
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
         "default": {
-          "3.3": "3.5.9",
+          "3.3": "3.5.11",
+          "3.3.2": "3.5.9",
+          "3.3.1": "3.5.9",
           "3.3.0": "3.5.3",
           "3.2": "3.4.19",
           "3.2.2": "3.4.10",
@@ -2565,7 +2572,10 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "default": {
-          "3.3": "3.1.0",
+          "3.3": "3.1.1",
+          "3.3.2": "3.1.0",
+          "3.3.1": "3.1.0",
+          "3.3.0": "3.1.0",
           "3.2": "3.0.4",
           "3.1": "3.0.1.2",
           "3.1.4": "3.0.1",
@@ -2604,7 +2614,10 @@
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
         "default": {
-          "3.3": "3.0.7",
+          "3.3": "3.0.9",
+          "3.3.2": "3.0.7",
+          "3.3.1": "3.0.7",
+          "3.3.0": "3.0.7",
           "3.2": "3.0.5",
           "3.1": "3.0.1",
           "3.0": "3.0.1",
