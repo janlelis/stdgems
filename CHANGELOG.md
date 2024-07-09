@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.8.1
+
+Ruby releases: 3.3.4
+
+No standard gem changes, but add note about missing dependencies to:
+net-pop, net-ftp, net-imap, and prime
+
 ## 5.8.0
 
 Ruby releases: 3.3.3
