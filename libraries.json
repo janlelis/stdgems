@@ -1,5 +1,5 @@
 {
-  "version": "5.8.0",
+  "version": "5.8.1",
   "info": "These non-gem libraries are part of a Ruby installation, can always be require directly and cannot be removed.",
   "gems": [
     {

@@ -1,5 +1,5 @@
 {
-  "version": "5.8.0",
+  "version": "5.8.1",
   "info": "Bundled gems get automatically installed alongside Ruby, but can be removed. When using bundler, they need to be added to the project's Gemfile.",
   "gems": [
     {
@@ -93,6 +93,7 @@
       "sourceRepository": "https://github.com/ruby/net-ftp",
       "rubygemsLink": "https://rubygems.org/gems/net-ftp",
       "rdocLink": "https://www.rubydoc.info/gems/net-ftp",
+      "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
         "3.3":   "0.3.4",
         "3.3.0": "0.3.3",
@@ -118,6 +119,7 @@
       "sourceRepository": "https://github.com/ruby/net-imap",
       "rubygemsLink": "https://rubygems.org/gems/net-imap",
       "rdocLink": "https://www.rubydoc.info/gems/net-imap",
+      "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
         "3.3":   "0.4.9.1",
         "3.3.0": "0.4.9",
@@ -139,6 +141,7 @@
       "sourceRepository": "https://github.com/ruby/net-pop",
       "rubygemsLink": "https://rubygems.org/gems/net-pop",
       "rdocLink": "https://www.rubydoc.info/gems/net-pop",
+      "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
         "3.3": "0.1.2",
         "3.2": "0.1.2",
@@ -195,6 +198,7 @@
       "sourceRepository": "https://github.com/ruby/prime",
       "rubygemsLink": "https://rubygems.org/gems/prime",
       "rdocLink": "https://www.rubydoc.info/gems/prime",
+      "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
         "3.3": "0.1.2",
         "3.2": "0.1.2",
