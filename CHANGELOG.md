@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.9.0
+
+Ruby releases: 3.2.5
+
+No default gem changes, bump bundled gem rexml
+
 ## 5.8.1
 
 Ruby releases: 3.3.4
