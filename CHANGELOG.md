@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.10.0 (unreleased)
+
+Ruby releases: 3.3.5
+
+- Update 3.3's default gems: bundler, rubygems, uri
+- Update 3.3's bundled gems: rexml, rss
+
 ## 5.9.0
 
 Ruby releases: 3.2.5
