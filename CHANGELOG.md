@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.11.0 (unreleased)
+## 5.11.0
 
 Add default and bundled gems for Ruby 3.4 preview release 2
 
