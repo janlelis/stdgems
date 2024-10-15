@@ -3,6 +3,60 @@
   "info": "Bundled gems get automatically installed alongside Ruby, but can be removed. When using bundler, they need to be added to the project's Gemfile.",
   "gems": [
     {
+      "gem": "abbrev",
+      "native": false,
+      "autoRequire": false,
+      "description": "Finds the shortest unique abbreviation amongst many strings",
+      "sourceRepository": "https://github.com/ruby/abbrev",
+      "rubygemsLink": "https://rubygems.org/gems/abbrev",
+      "rdocLink": "https://rubyapi.org/o/abbrev",
+      "versions": {
+        "3.4": "0.1.2"
+      }
+    },
+    {
+      "gem": "base64",
+      "native": false,
+      "autoRequire": false,
+      "description": "Encodes and decodes strings to a [Base64](https://en.wikipedia.org/wiki/Base64) representation. Implemented as a small wrapper around [String#unpack](https://idiosyncratic-ruby.com/4-what-the-pack.html)",
+      "sourceRepository": "https://github.com/ruby/base64",
+      "rubygemsLink": "https://rubygems.org/gems/base64",
+      "rdocLink": "https://rubyapi.org/o/base64",
+      "alternatives": {
+        "Array#pack('m') / String#unpack('m')": "https://idiosyncratic-ruby.com/4-what-the-pack.html#m--base64-encoding-rfc-2045"
+      },
+      "versions": {
+        "3.4": "0.2.0"
+      }
+    },
+    {
+      "gem": "bigdecimal",
+      "native": true,
+      "autoRequire": false,
+      "description": "Support for arbitrary-precision floating point decimal arithmetic",
+      "sourceRepository": "https://github.com/ruby/bigdecimal",
+      "rubygemsLink": "https://rubygems.org/gems/bigdecimal",
+      "rdocLink": "https://rubyapi.org/o/bigdecimal",
+      "versions": {
+        "3.4": "3.1.8"
+      }
+    },
+    {
+      "gem": "csv",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support for CSV ([Comma-separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))",
+      "sourceRepository": "https://github.com/ruby/csv",
+      "rubygemsLink": "https://rubygems.org/gems/csv",
+      "rdocLink": "https://rubyapi.org/o/csv",
+      "alternatives": {
+        "smarter_csv": "https://github.com/tilo/smarter_csv"
+      },
+      "versions": {
+        "3.4": "3.3.0"
+      }
+    },
+    {
       "gem": "debug",
       "native": true,
       "autoRequire": false,
@@ -16,6 +70,8 @@
         "debase": "https://github.com/ruby-debug/debase"
       },
       "versions": {
+        "3.4": "1.9.2",
+
         "3.3": "1.9.1",
 
         "3.2": "1.7.1",
@@ -43,6 +99,36 @@
       }
     },
     {
+      "gem": "drb",
+      "native": false,
+      "autoRequire": false,
+      "description": "Distributed object system for Ruby",
+      "sourceRepository": "https://github.com/ruby/drb",
+      "rubygemsLink": "https://rubygems.org/gems/drb",
+      "rdocLink": "https://rubyapi.org/o/drb",
+      "versions": {
+        "3.4": "2.2.1"
+      }
+    },
+    {
+      "gem": "getoptlong",
+      "native": false,
+      "autoRequire": false,
+      "description": "[GNU getopt_long()](https://linux.die.net/man/3/getopt_long) style command-line option parsing",
+      "sourceRepository": "https://github.com/ruby/getoptlong",
+      "rubygemsLink": "https://rubygems.org/gems/getoptlong",
+      "rdocLink": "https://rubyapi.org/o/getoptlong",
+      "alternatives": {
+        "optparse": "https://stdgems.org/optparse",
+        "slop": "https://github.com/leejarvis/slop",
+        "optimist": "https://github.com/ManageIQ/optimist",
+        "rationalist": "https://github.com/janlelis/rationalist"
+      },
+      "versions": {
+        "3.4": "0.2.1"
+      }
+    },
+    {
       "gem": "matrix",
       "native": false,
       "autoRequire": false,
@@ -54,6 +140,7 @@
         "numo-narray": "https://github.com/ruby-numo/numo-narray"
       },
       "versions": {
+        "3.4": "0.4.2",
         "3.3": "0.4.2",
         "3.2": "0.4.2",
         "3.1": "0.4.2"
@@ -71,6 +158,7 @@
         "rspec": "https://github.com/rspec/rspec-metagem"
       },
       "versions": {
+        "3.4": "5.25.1",
         "3.3": "5.20.0",
         "3.2": "5.16.3",
         "3.1": "5.15.0",
@@ -86,6 +174,18 @@
       }
     },
     {
+      "gem": "mutex_m",
+      "native": false,
+      "autoRequire": false,
+      "description": "A mixin that makes any object behave like a [mutex](https://ruby-doc.org/core/Mutex.html)",
+      "sourceRepository": "https://github.com/ruby/mutex_m",
+      "rubygemsLink": "https://rubygems.org/gems/mutex_m",
+      "rdocLink": "https://rubyapi.org/o/mutex_m",
+      "versions": {
+        "3.4": "0.2.0"
+      }
+    },
+    {
       "gem": "net-ftp",
       "native": false,
       "autoRequire": false,
@@ -95,6 +195,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/net-ftp",
       "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
+        "3.4":   "0.3.8",
+
         "3.3":   "0.3.4",
         "3.3.0": "0.3.3",
 
@@ -121,6 +223,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/net-imap",
       "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
+        "3.4":   "0.4.17",
+
         "3.3":   "0.4.9.1",
         "3.3.0": "0.4.9",
 
@@ -143,6 +247,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/net-pop",
       "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
+        "3.4": "0.1.2",
         "3.3": "0.1.2",
         "3.2": "0.1.2",
         "3.1": "0.1.1"
@@ -157,6 +262,8 @@
       "rubygemsLink": "https://rubygems.org/gems/net-smtp",
       "rdocLink": "https://www.rubydoc.info/gems/net-smtp",
       "versions": {
+        "3.4":   "0.5.0",
+
         "3.3":   "0.4.0.1",
         "3.3.0": "0.4.0",
 
@@ -191,6 +298,34 @@
       }
     },
     {
+      "gem": "nkf",
+      "native": true,
+      "autoRequire": false,
+      "description": "[Kanji](https://en.wikipedia.org/wiki/Kanji) encoding converter. Can also be used via the [Kconv.kconv method](https://github.com/ruby/nkf/blob/master/lib/kconv.rb).",
+      "sourceRepository": "https://github.com/ruby/nkf",
+      "rubygemsLink": "https://rubygems.org/gems/nkf",
+      "rdocLink": "https://rubyapi.org/o/nkf",
+      "versions": {
+        "3.4": "0.2.0"
+      }
+    },
+    {
+      "gem": "observer",
+      "native": false,
+      "autoRequire": false,
+      "description": "Implementation of the [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), a way to let interested other objects know o an objetc's updates",
+      "sourceRepository": "https://github.com/ruby/observer",
+      "rubygemsLink": "https://rubygems.org/gems/observer",
+      "rdocLink": "https://rubyapi.org/o/observable",
+      "alternatives": {
+        "microevent": "https://github.com/janlelis/microevent.rb",
+        "signal_lamp": "https://github.com/JEG2/signal_lamp"
+      },
+      "versions": {
+        "3.4": "0.1.2"
+      }
+    },
+    {
       "gem": "prime",
       "native": false,
       "autoRequire": false,
@@ -200,6 +335,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/prime",
       "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
+        "3.4": "0.1.2",
         "3.3": "0.1.2",
         "3.2": "0.1.2",
         "3.1": "0.1.2"
@@ -214,6 +350,8 @@
       "rubygemsLink": "https://rubygems.org/gems/power_assert",
       "rdocLink": "https://www.rubydoc.info/gems/power_assert",
       "versions": {
+        "3.4":   "2.0.4",
+
         "3.3":   "2.0.3",
 
         "3.2":   "2.0.3",
@@ -258,6 +396,7 @@
         "ebnf": "https://github.com/dryruby/ebnf"
       },
       "versions": {
+        "3.4": "1.8.1",
         "3.3": "1.7.3"
       }
     },
@@ -273,6 +412,8 @@
         "thor": "https://github.com/rails/thor"
       },
       "versions": {
+        "3.4": "13.2.1",
+
         "3.3": "13.1.0",
 
         "3.2": "13.0.6",
@@ -315,6 +456,8 @@
       "rubygemsLink": "https://rubygems.org/gems/rbs",
       "rdocLink": "https://www.rubydoc.info/gems/rbs",
       "versions": {
+        "3.4": "3.6.1",
+
         "3.3": "3.4.0",
 
         "3.2": "2.8.2",
@@ -331,6 +474,35 @@
       }
     },
     {
+      "gem": "repl_type_completor",
+      "native": false,
+      "autoRequire": false,
+      "description": "Creates [RBS](/rbs)-based code-completions to enhance the IRB (or any other Ruby read-eval-print-loop) usage experience",
+      "sourceRepository": "https://github.com/ruby/repl_type_completor",
+      "rubygemsLink": "https://rubygems.org/gems/repl_type_completor",
+      "rdocLink": "https://rubydoc.info/gems/repl_type_completor",
+      "versions": {
+        "3.4": "0.1.7"
+      }
+    },
+    {
+      "gem": "resolv-replace",
+      "native": false,
+      "autoRequire": false,
+      "description": "Will replace [Socket](https://ruby-doc.org/stdlib/libdoc/socket/rdoc/Socket.html)'s DNS with [resolv](https://stdgems.org/resolv)",
+      "sourceRepository": "https://github.com/ruby/resolv-replace",
+      "rubygemsLink": "https://rubygems.org/gems/resolv-replace",
+      "rdocLink": "https://rubyapi.org/o/resolv",
+      "alternatives": {
+        "RubyDNS": "https://github.com/socketry/rubydns",
+        "Net::DNS": "https://github.com/bluemonk/net-dns",
+        "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
+      },
+      "versions": {
+        "3.4": "0.1.1"
+      }
+    },
+    {
       "gem": "rexml",
       "native": false,
       "autoRequire": false,
@@ -339,6 +511,8 @@
       "rubygemsLink": "https://rubygems.org/gems/rexml",
       "rdocLink": "https://www.rubydoc.info/gems/rexml",
       "versions": {
+        "3.4":   "3.3.8",
+
         "3.3":   "3.3.6",
         "3.3.4": "3.2.8",
         "3.3.3": "3.2.8",
@@ -360,6 +534,18 @@
       }
     },
     {
+      "gem": "rinda",
+      "native": false,
+      "autoRequire": false,
+      "description": "Support fot the [Linda distributed computing paradigm](https://en.wikipedia.org/wiki/Linda_%28coordination_language%29) in [drb](https://ruby-doc.org/stdlib/libdoc/drb/rdoc/index.html)",
+      "sourceRepository": "https://github.com/ruby/rinda",
+      "rubygemsLink": "https://rubygems.org/gems/rinda",
+      "rdocLink": "https://ruby-doc.org/3.2.0/stdlibs/rinda/table_of_contents.html",
+      "versions": {
+        "3.4": "0.2.0"
+      }
+    },
+    {
       "gem": "rss",
       "native": false,
       "autoRequire": false,
@@ -368,6 +554,8 @@
       "rubygemsLink": "https://rubygems.org/gems/rss",
       "rdocLink": "https://www.rubydoc.info/gems/rss",
       "versions": {
+        "3.4":   "0.3.1",
+
         "3.3":   "0.3.1",
         "3.3.4": "0.3.0",
         "3.3.3": "0.3.0",
@@ -393,6 +581,7 @@
         "rspec": "https://github.com/rspec/rspec-metagem"
       },
       "versions": {
+        "3.4": "3.6.2",
         "3.3": "3.6.1",
         "3.2": "3.5.7",
         "3.1": "3.5.3",
@@ -406,6 +595,24 @@
       }
     },
     {
+      "gem": "syslog",
+      "native": true,
+      "autoRequire": false,
+      "description": "Interface to the low-level [syslog](https://en.wikipedia.org/wiki/Syslog) logger",
+      "sourceRepository": "https://github.com/ruby/syslog",
+      "rubygemsLink": "https://rubygems.org/gems/syslog",
+      "rdocLink": "https://rubyapi.org/o/syslog",
+      "alternatives": {
+        "syslogger": "https://github.com/crohr/syslogger",
+        "log4r": "https://github.com/colbygk/log4r/blob/master/lib/log4r/outputter/syslogoutputter.rb",
+        "lumberjack_syslog_device": "https://github.com/bdurand/lumberjack_syslog_device",
+        "yell-adapters-syslog": "https://github.com/rudionrails/yell/wiki/additional-adapters-syslog"
+      },
+      "versions": {
+        "3.4": "0.1.2"
+      }
+    },
+    {
       "gem": "typeprof",
       "native": false,
       "autoRequire": false,
@@ -414,6 +621,8 @@
       "rubygemsLink": "https://rubygems.org/gems/typeprof",
       "rdocLink": "https://www.rubydoc.info/gems/typeprof",
       "versions": {
+        "3.4": "0.21.11",
+
         "3.3": "0.21.9",
 
         "3.2": "0.21.3",

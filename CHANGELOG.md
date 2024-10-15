@@ -1,5 +1,32 @@
 # Change Log
 
+## 5.11.0 (unreleased)
+
+Add default and bundled gems for Ruby 3.4 preview release 2
+
+Gem movements: default to bundled
+
+- mutex_m
+- getoptlong
+- base64
+- bigdecimal
+- observer
+- abbrev
+- resolv-replace
+- rinda
+- drb
+- nkf
+- syslog
+- csv
+
+New bundled gems
+
+- repl_type_completor
+
+Other changes
+
+- The json gem repository is now part of the Ruby organization
+
 ## 5.10.0
 
 Ruby releases: 3.3.5
