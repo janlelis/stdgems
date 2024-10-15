@@ -22,6 +22,11 @@ STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
 CURRENT_RUBY_VERSION = '3.3.5'
 
+
+RUBY_3_4_VERSIONS = %w[
+  3.4.0
+]
+
 RUBY_3_3_VERSIONS = %w[
   3.3.5
   3.3.4
@@ -141,6 +146,7 @@ RUBY_2_2_VERSIONS = %w[
 ]
 
 LISTED_RUBY_VERSIONS = \
+  RUBY_3_4_VERSIONS +
   RUBY_3_3_VERSIONS +
   RUBY_3_2_VERSIONS +
   RUBY_3_1_VERSIONS +
@@ -152,7 +158,7 @@ LISTED_RUBY_VERSIONS = \
   RUBY_2_3_VERSIONS +
   RUBY_2_2_VERSIONS
 
-MATRIX_RUBY_VERSIONS = %w[3.3 3.2 3.1 3.0 2.7 2.6 2.5 2.4 2.3 2.2]
+MATRIX_RUBY_VERSIONS = %w[3.4 3.3 3.2 3.1 3.0 2.7 2.6 2.5 2.4 2.3 2.2]
 MATRIX_SUPPORTED_RUBY_VERSIONS = \
   RUBY_3_3_VERSIONS[0,3] +
   RUBY_3_2_VERSIONS[0,3] +
@@ -408,6 +414,14 @@ helpers do
 
   def bundled_gems_all_matrix
     version_matrix_for(BUNDLED_GEMS_JSON, MATRIX_ALL_VERSIONS, "Bundled Gem")
+  end
+
+  def default_gems_version_matrix_3_4
+    version_matrix_for(DEFAULT_GEMS_JSON, RUBY_3_4_VERSIONS, "Default Gem")
+  end
+
+  def bundled_gems_version_matrix_3_4
+    version_matrix_for(BUNDLED_GEMS_JSON, RUBY_3_4_VERSIONS, "Bundled Gem")
   end
 
   def default_gems_version_matrix_3_3
