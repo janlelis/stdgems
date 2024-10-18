@@ -25,3 +25,8 @@ This repository contains four JSON files:
 The first two files contain data about all default and bundled gems and which Ruby version comes with which version of the gem. The third file contains data about all the non-gemified standard libraries. The fourth JSON combines the above ones into a single unified list.
 
 Go to [stdgems.org](https://stdgems.org) to easily browse the standard gem data and more info.
+
+
+## Access Version Data from Ruby
+
+You can use Taichi Ishitani's [stdgems_version](https://github.com/taichi-ishitani/stdgems-version) gem.
