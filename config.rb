@@ -37,6 +37,7 @@ RUBY_3_3_VERSIONS = %w[
 ]
 
 RUBY_3_2_VERSIONS = %w[
+  3.2.6
   3.2.5
   3.2.4
   3.2.3
