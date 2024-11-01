@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.12.0
+
+Ruby releases: 3.2.6
+
+- Update 3.2's default gems: uri
+- Update 3.2's bundled gems: rexml, rss
+
 ## 5.11.0
 
 Add default and bundled gems for Ruby 3.4 preview release 2
