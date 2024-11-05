@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.13.0
+
+Ruby releases: 3.3.6
+
+- Update 3.2's default gems: bundler, rubygems, json, syntax_suggest, reline
+- Update 3.2's bundled gems: rexml, debug
+
 ## 5.12.0
 
 Ruby releases: 3.2.6
