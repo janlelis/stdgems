@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.14.0 (unreleased)
+
+Ruby releases: 3.4.0
+
+- Final updates of default and bundled gems for Ruby 3.4
+
 ## 5.13.0
 
 Ruby releases: 3.3.6
