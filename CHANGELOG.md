@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.14.0 (unreleased)
+## 5.14.0
 
 Ruby releases: 3.4.0
 
