@@ -1429,7 +1429,7 @@
       "prevType": "default",
       "native": false,
       "autoRequire": false,
-      "description": "Implementation of the [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), a way to let interested other objects know o an objetc's updates",
+      "description": "The [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern) (also known as publish/subscribe) provides a simple mechanism for one object to inform a set of interested third-party objects when its state changes.",
       "sourceRepository": "https://github.com/ruby/observer",
       "rubygemsLink": "https://rubygems.org/gems/observer",
       "rdocLink": "https://rubyapi.org/o/observable",
