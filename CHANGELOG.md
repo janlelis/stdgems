@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.15.0 (unreleased)
+## 5.15.0
 
 Ruby releases: 3.2.8, 3.1.7 (see git diff for changes)
 
