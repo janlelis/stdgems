@@ -1,5 +1,10 @@
 # Change Log
 
+## Next
+
+Add "willBecomeBundledGem" to default gems that will become bundled gems
+in Ruby 3.5
+
 ## 5.15.0
 
 Ruby releases: 3.2.8, 3.1.7 (see git diff for changes)

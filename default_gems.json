@@ -52,6 +52,7 @@
       "rubygemsLink": "https://rubygems.org/gems/benchmark",
       "rdocLink": "https://rubyapi.org/o/benchmark",
       "maintainer": null,
+      "willBecomeBundledGem": true,
       "alternatives": {
         "benchmark-ips": "https://github.com/evanphx/benchmark-ips",
         "benchmark-driver": "https://github.com/benchmark-driver/benchmark-driver"
@@ -586,6 +587,7 @@
       "rdocLink": "https://rubyapi.org/o/fiddle",
       "maintainer": "Aaron Patterson (tenderlove)",
       "notes": "Starting with Ruby 3.2, libffi is not bundled with Ruby anymore",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "FFI": "https://github.com/ffi/ffi"
       },
@@ -862,6 +864,7 @@
         "Mari Imaizumi (ima1zumi)",
         "Hitoshi Hasumi (hasumikin)"
       ],
+      "willBecomeBundledGem": true,
       "alternatives": {
         "pry": "https://github.com/pry/pry",
         "rib": "https://github.com/godfat/rib",
@@ -951,6 +954,7 @@
       "rdocLink": "https://rubyapi.org/o/logger",
       "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "maintainer": "Naotoshi Seo (sonots)",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "semantic_logger": "https://github.com/reidmorrison/semantic_logger",
         "ougai": "https://github.com/tilfin/ougai",
@@ -1593,6 +1597,7 @@
       "rubygemsLink": "https://rubygems.org/gems/rdoc",
       "rdocLink": "https://ruby.github.io/rdoc/",
       "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
+      "willBecomeBundledGem": true,
       "alternatives": {
         "YARD": "https://yardoc.org/"
       },
@@ -1674,6 +1679,7 @@
       "rdocLink": "https://rubyapi.org/o/readline",
       "maintainer": "TAKAO Kouji (kouji)",
       "notes": "JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
@@ -1698,6 +1704,7 @@
       "rdocLink": "https://rubyapi.org/o/readline",
       "removed": true,
       "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
+      "willBecomeBundledGem": true,
       "alternatives": {
         "reline": "https://stdgems.org/reline/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
@@ -2602,6 +2609,7 @@
       "rubygemsLink": "https://rubygems.org/gems/win32ole",
       "rdocLink": "https://rubyapi.org/o/win32ole",
       "maintainer": "Masaki Suketa (suke)",
+      "willBecomeBundledGem": true,
       "versions": {
         "3.4": "1.9.1",
         "3.3": "1.8.10",
