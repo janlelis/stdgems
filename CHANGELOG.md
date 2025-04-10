@@ -1,9 +1,9 @@
 # Change Log
 
-## 5.16.0 (unreleased)
+## 5.16.0
 
 - Ruby release 3.3.8 changes
-- Fix versions for io/console
+- Fix Ruby 3.3 versions for io-console
 - Add "willBecomeBundledGem" to default gems that will become bundled gems
   in Ruby 3.5
 
