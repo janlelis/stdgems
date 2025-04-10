@@ -1,5 +1,5 @@
 {
-  "version": "5.15.0",
+  "version": "5.16.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
@@ -165,7 +165,15 @@
       "versions": {
         "3.4":   "0.4.1",
 
-        "3.3":   "0.4.1",
+        "3.3":   "0.4.2",
+        "3.3.7": "0.4.1",
+        "3.3.6": "0.4.1",
+        "3.3.5": "0.4.1",
+        "3.3.4": "0.4.1",
+        "3.3.3": "0.4.1",
+        "3.3.2": "0.4.1",
+        "3.3.1": "0.4.1",
+        "3.3.0": "0.4.1",
 
         "3.2":   "0.3.7",
         "3.2.7": "0.3.6",
@@ -734,17 +742,10 @@
       "rubygemsLink": "https://rubygems.org/gems/io-console",
       "rdocLink": "https://www.rubydoc.info/gems/io-console",
       "maintainer": "Nobuyuki Nakada (nobu)",
-      "notes": "There is also the old [GitHub repo](https://github.com/nobu/io-console), but it is out of sync.",
       "versions": {
         "3.4":   "0.8.0",
 
-        "3.3":   "0.7.2",
-        "3.3.5": "0.7.1",
-        "3.3.4": "0.7.1",
-        "3.3.3": "0.7.1",
-        "3.3.2": "0.7.1",
-        "3.3.1": "0.7.1",
-        "3.3.0": "0.7.1",
+        "3.3":   "0.7.1",
 
         "3.2":   "0.6.0",
 
@@ -911,7 +912,7 @@
       "versions": {
         "3.4":   "2.9.1",
 
-        "3.3.6": "2.7.2",
+        "3.3":   "2.7.2",
         "3.3.5": "2.7.1",
         "3.3.4": "2.7.1",
         "3.3.3": "2.7.1",
