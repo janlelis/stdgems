@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.17.0 (unreleased)
+
+Ruby releases: 3.4.3
+
 ## 5.16.0
 
 - Ruby release 3.3.8 changes
