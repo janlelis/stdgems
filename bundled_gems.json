@@ -1,5 +1,5 @@
 {
-  "version": "5.16.0",
+  "version": "5.17.0",
   "info": "Bundled gems get automatically installed alongside Ruby, but can be removed. When using bundler, they need to be added to the project's Gemfile.",
   "gems": [
     {
@@ -229,7 +229,9 @@
       "rdocLink": "https://www.rubydoc.info/gems/net-imap",
       "notes": "The version included in Ruby 3.3.3 was missing its dependencies (fixed in Ruby 3.3.4).",
       "versions": {
-        "3.4":   "0.5.4",
+        "3.4":   "0.5.6",
+        "3.4.1": "0.5.4",
+        "3.4.0": "0.5.4",
 
         "3.3":   "0.4.19",
         "3.3.7": "0.4.9.1",
