@@ -1,5 +1,5 @@
 {
-  "version": "5.17.0",
+  "version": "5.17.1",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
   "gems": [
     {
@@ -3191,7 +3191,10 @@
           "3.4.2": "1.0.2",
           "3.4.1": "1.0.2",
           "3.4.0": "1.0.2",
-          "3.3": "0.13.1",
+          "3.3": "0.13.2",
+          "3.3.7": "0.13.1",
+          "3.3.6": "0.13.1",
+          "3.3.5": "0.13.1",
           "3.3.4": "0.13.0",
           "3.3.3": "0.13.0",
           "3.3.2": "0.13.0",
