@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.17.1
+
+- Fix that Ruby 3.8 uses uri v0.13.2, thanks @Aqualon
+
 ## 5.17.0
 
 Ruby release: 3.4.3
