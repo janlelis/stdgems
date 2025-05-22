@@ -1,5 +1,5 @@
 {
-  "version": "5.17.1",
+  "version": "5.18.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
@@ -492,7 +492,8 @@
       "rdocLink": "https://rubyapi.org/o/erb",
       "maintainer": ["Masatoshi SEKI (seki)", "Takashi Kokubun (k0kubun)"],
       "alternatives": {
-        "erubi": "https://github.com/jeremyevans/erubi"
+        "erubi": "https://github.com/jeremyevans/erubi",
+        "herb": "https://herb-tools.dev"
       },
       "versions": {
         "3.4": "4.0.4",
