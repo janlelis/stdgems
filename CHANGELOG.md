@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.18.0
+
+Ruby releases: 3.4.4, net-imap update, thanks @sdwolfz
+
 ## 5.17.1
 
 - Fix that Ruby 3.8 uses uri v0.13.2, thanks @Aqualon
