@@ -1,5 +1,13 @@
 # Change Log
 
+## 5.19.0
+
+Ruby releases: 3.4.5, 3.3.9, 3.2.9
+
+- Update 3.4's: bundler, etc, io-\*, rdoc, resolv, rubygems, debug
+- Update 3.3's: net-imap
+- Update 3.2's: net-imap
+
 ## 5.18.0
 
 Ruby releases: 3.4.4, net-imap update, thanks @sdwolfz
