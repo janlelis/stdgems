@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.20.0
+
+Ruby release 3.4.6: Update prism
+
 ## 5.19.0
 
 Ruby releases: 3.4.5, 3.3.9, 3.2.9
