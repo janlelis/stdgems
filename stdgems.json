@@ -1,5 +1,5 @@
 {
-  "version": "5.20.0",
+  "version": "5.21.0",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
   "gems": [
     {
@@ -620,7 +620,6 @@
         "lib/error_highlight.rb",
         "lib/error_highlight"
       ],
-      "jrubySourcePath": null,
       "sourceRepository": "https://github.com/ruby/error_highlight",
       "rubygemsLink": "https://rubygems.org/gems/error_highlight",
       "rdocLink": "https://www.rubydoc.info/gems/error_highlight",
@@ -3238,7 +3237,11 @@
       },
       "versions": {
         "default": {
-          "3.4": "1.0.3",
+          "3.4": "1.0.4",
+          "3.4.6": "1.0.3",
+          "3.4.5": "1.0.3",
+          "3.4.4": "1.0.3",
+          "3.4.3": "1.0.3",
           "3.4.2": "1.0.2",
           "3.4.1": "1.0.2",
           "3.4.0": "1.0.2",
