@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.21.0
+
+Ruby release 3.4.7: Update uri
+
 ## 5.20.0
 
 Ruby release 3.4.6: Update prism
