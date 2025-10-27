@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.22.0
+
+Ruby release 3.3.10: Update rexml, openssl, uri
+
 ## 5.21.0
 
 Ruby release 3.4.7: Update uri
