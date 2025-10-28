@@ -2,7 +2,7 @@
 
 ## About the Gemified Standard Library
 
-Large portions of Ruby's standard library come in the form of [RubyGems](https://rubygems.org), which can be updated independently from Ruby.
+Large portions of Ruby's standard library come in the form of [RubyGems](https://github.com/ruby/rubygems/), which can be updated independently from Ruby.
 
 There are two different kinds of standard gems:
 
