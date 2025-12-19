@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.23.0
+
+Ruby release 3.4.8: Update openssl, prism, rexml
+
 ## 5.22.0
 
 Ruby release 3.3.10: Update rexml, openssl, uri
