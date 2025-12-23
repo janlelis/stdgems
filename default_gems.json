@@ -51,12 +51,11 @@
       "sourceRepository": "https://github.com/ruby/benchmark",
       "rubygemsLink": "https://rubygems.org/gems/benchmark",
       "rdocLink": "https://rubyapi.org/o/benchmark",
-      "maintainer": null,
-      "willBecomeBundledGem": true,
       "alternatives": {
         "benchmark-ips": "https://github.com/evanphx/benchmark-ips",
         "benchmark-driver": "https://github.com/benchmark-driver/benchmark-driver"
       },
+      "removed": true,
       "versions": {
         "3.4": "0.4.0",
         "3.3": "0.3.0",
@@ -606,12 +605,11 @@
       "sourceRepository": "https://github.com/ruby/fiddle",
       "rubygemsLink": "https://rubygems.org/gems/fiddle",
       "rdocLink": "https://rubyapi.org/o/fiddle",
-      "maintainer": "Aaron Patterson (tenderlove)",
       "notes": "Starting with Ruby 3.2, libffi is not bundled with Ruby anymore",
-      "willBecomeBundledGem": true,
       "alternatives": {
         "FFI": "https://github.com/ffi/ffi"
       },
+      "removed": true,
       "versions": {
         "3.4": "1.1.6",
 
@@ -891,18 +889,12 @@
       "sourceRepository": "https://github.com/ruby/irb",
       "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://www.rubydoc.info/gems/irb",
-      "maintainer": [
-        "Stan Lo (st0012)",
-        "Tomoya Ishida (tompng)",
-        "Mari Imaizumi (ima1zumi)",
-        "Hitoshi Hasumi (hasumikin)"
-      ],
-      "willBecomeBundledGem": true,
       "alternatives": {
         "pry": "https://github.com/pry/pry",
         "rib": "https://github.com/godfat/rib",
         "ripl": "https://github.com/cldwalker/ripl"
       },
+      "removed": true,
       "versions": {
         "3.4":   "1.14.3",
 
@@ -985,9 +977,7 @@
       "sourceRepository": "https://github.com/ruby/logger",
       "rubygemsLink": "https://rubygems.org/gems/logger",
       "rdocLink": "https://rubyapi.org/o/logger",
-      "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
-      "maintainer": "Naotoshi Seo (sonots)",
-      "willBecomeBundledGem": true,
+      "notes": "- There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
       "alternatives": {
         "semantic_logger": "https://github.com/reidmorrison/semantic_logger",
         "ougai": "https://github.com/tilfin/ougai",
@@ -997,6 +987,7 @@
         "logging": "https://github.com/TwP/logging",
         "micrologger": "https://github.com/janlelis/micrologger"
       },
+      "removed": true,
       "versions": {
         "3.4": "1.6.4",
         "3.3": "1.6.0",
@@ -1383,10 +1374,10 @@
       "sourceRepository": "https://github.com/ruby/ostruct",
       "rubygemsLink": "https://rubygems.org/gems/ostruct",
       "rdocLink": "https://rubyapi.org/o/openstruct",
-      "maintainer": "Marc-André Lafortune (marcandre)",
       "alternatives": {
         "Hash": "https://ruby-doc.org/core/Hash.html"
       },
+      "removed": true,
       "versions": {
         "3.4": "0.6.1",
         "3.3": "0.6.0",
@@ -1553,7 +1544,7 @@
       "sourceRepository": "https://github.com/ruby/pstore",
       "rubygemsLink": "https://rubygems.org/gems/pstore",
       "rdocLink": "https://rubyapi.org/o/pstore",
-      "maintainer": null,
+      "removed": true,
       "versions": {
         "3.4": "0.1.4",
         "3.3": "0.1.3",
@@ -1656,11 +1647,10 @@
       "sourceRepository": "https://github.com/ruby/rdoc",
       "rubygemsLink": "https://rubygems.org/gems/rdoc",
       "rdocLink": "https://ruby.github.io/rdoc/",
-      "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
-      "willBecomeBundledGem": true,
       "alternatives": {
         "YARD": "https://yardoc.org/"
       },
+      "removed": true,
       "versions": {
         "3.4":   "6.14.0",
         "3.4.4": "6.10.0",
@@ -1736,18 +1726,17 @@
       "gem": "readline",
       "native": false,
       "autoRequire": false,
-      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) default gem [reline](https://stdgems.org/reline) will be used.",
+      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) bundled gem [reline](https://stdgems.org/reline) will be used.",
       "mriSourcePath": "ext/readline",
       "jrubySourcePath": false,
       "sourceRepository": "https://github.com/ruby/readline",
       "rubygemsLink": "https://rubygems.org/gems/readline",
       "rdocLink": "https://rubyapi.org/o/readline",
-      "maintainer": "TAKAO Kouji (kouji)",
       "notes": "JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
-      "willBecomeBundledGem": true,
       "alternatives": {
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
+      "removed": true,
       "versions": {
         "3.4": "0.0.4",
         "3.3": "0.0.4",
@@ -1767,13 +1756,12 @@
       "sourceRepository": "https://github.com/ruby/readline-ext",
       "rubygemsLink": "https://rubygems.org/gems/readline-ext",
       "rdocLink": "https://rubyapi.org/o/readline",
-      "removed": true,
       "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
-      "willBecomeBundledGem": true,
       "alternatives": {
         "reline": "https://stdgems.org/reline/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
+      "removed": true,
       "versions": {
         "3.2": "0.1.5",
         "3.1": "0.1.4",
@@ -1791,12 +1779,6 @@
       "sourceRepository": "https://github.com/ruby/reline",
       "rubygemsLink": "https://rubygems.org/gems/reline",
       "rdocLink": "https://rubyapi.org/o/reline",
-      "maintainer": [
-        "Stan Lo (st0012)",
-        "Tomoya Ishida (tompng)",
-        "Mari Imaizumi (ima1zumi)",
-        "Hitoshi Hasumi (hasumikin)"
-      ],
       "alternatives": {
         "readline-ext": "https://stdgems.org/readline-ext/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
@@ -2695,8 +2677,7 @@
       "sourceRepository": "https://github.com/ruby/win32ole",
       "rubygemsLink": "https://rubygems.org/gems/win32ole",
       "rdocLink": "https://rubyapi.org/o/win32ole",
-      "maintainer": "Masaki Suketa (suke)",
-      "willBecomeBundledGem": true,
+      "removed": true,
       "versions": {
         "3.4": "1.9.1",
         "3.3": "1.8.10",

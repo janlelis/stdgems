@@ -2,8 +2,20 @@
 
 ## Next
 
-Add Ruby preview release:
+Add Ruby 4.0 preview release:
 
+- Move from default to bundled gems:
+  - benchmark
+  - fiddle
+  - irb
+  - logger
+  - ostruct
+  - pstore
+  - rdoc
+  - readline
+  - reline
+  - win32ole
+- Update other bundled gems
 - Change CGI to non-native
 
 ## 5.23.0
