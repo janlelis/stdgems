@@ -1,5 +1,11 @@
 # Change Log
 
+## Next
+
+Add Ruby preview release:
+
+- Change CGI to non-native
+
 ## 5.23.0
 
 Ruby release 3.4.8: Update openssl, prism, rexml

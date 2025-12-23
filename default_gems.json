@@ -151,19 +151,16 @@
     },
     {
       "gem": "cgi",
-      "native": true,
+      "native": false,
       "autoRequire": false,
       "description": "Support for CGI ([Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface))",
       "mriSourcePath": ["lib/cgi.rb", "lib/cgi", "ext/cgi"],
-      "jrubySourcePath": [
-        true,
-        "core/src/main/java/org/jruby/ext/cgi/escape/CGIEscape.java"
-      ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/cgi",
       "rubygemsLink": "https://rubygems.org/gems/cgi",
       "rdocLink": "https://rubyapi.org/o/cgi",
-      "maintainer": ["Nobuyoshi Nakada (nobu) — native code"],
-      "notes": "Only the escape utilities are implemented as native extension.",
+      "maintainer": null,
+      "notes": "Starting with Ruby 4.0, the escape utilites (found at `cgi/escape`) are not implemented as native extensions, anymore.",
       "alternatives": {
         "rack": "https://github.com/rack/rack"
       },
