@@ -1383,7 +1383,7 @@
         "rationalist": "https://github.com/janlelis/rationalist"
       },
       "versions": {
-        "4.0": "0.7.0",
+        "4.0": "0.8.1",
 
         "3.4": "0.6.0",
 
@@ -1438,10 +1438,11 @@
       "sourceRepository": "https://github.com/ruby/pathname",
       "rubygemsLink": "https://rubygems.org/gems/pathname",
       "rdocLink": "https://rubyapi.org/o/pathname",
-      "maintainer": "Tanaka Akira (akr)",
+      "notes": "In Ruby 4.0 [pathname was made part of core Ruby](https://bugs.ruby-lang.org/issues/17473). There is also an additional [non-gem library](/libraries) called `pathname` which adds a few methods to the **Pathname** class.",
       "alternatives": {
         "path": "https://github.com/eregon/path"
       },
+      "removed": true,
       "versions": {
         "3.4": "0.4.0",
         "3.3": "0.3.0",

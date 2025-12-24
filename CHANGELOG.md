@@ -17,7 +17,8 @@ Add Ruby 4.0 preview release:
   - win32ole
 - Update other default & bundled gems
 - Remove cgi gem in favor of non-gem `cgi/escape` library
-- Remove set gem (implemented in core now), add `set/subclass_compatible` library
+- Remove set gem (now implemented in core), add `set/subclass_compatible` library
+- Remove pathname gem (now implemened in core), add `pathname` library for bonus methods
 
 ## 5.23.0
 
