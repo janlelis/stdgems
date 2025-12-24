@@ -80,12 +80,9 @@
       "gem": "pathname",
       "native": false,
       "autoRequire": false,
-      "description": "Provides extra methods for the `Pathname` class: `#find` (→ [find](https://stdgems.org/find)), `#rmtree` (→ [`FileUtils.rm_rf`](https://stdgems.org/fileutils)), and `#mktmpdir` (→ [tmpdir](https://stdgems.org/tmpdir))",
+      "description": "Provides extra methods for the `Pathname` class: [`#find`](https://stdgems.org/find), [`#rmtree`](https://stdgems.org/fileutils), and [`#mktmpdir`](https://stdgems.org/tmpdir)",
       "mriSourcePath": "lib/pathname.rb",
-      "jrubySourcePath": [
-        "lib/ruby/stdlib/pathname.rb",
-        "core/src/main/java/org/jruby/ext/pathname"
-      ],
+      "jrubySourcePath": false,
       "rdocLink": "https://rubyapi.org/o/pathname",
       "notes": "In Ruby 4.0 [pathname was made part of core Ruby](https://bugs.ruby-lang.org/issues/17473). This non-gem library adds a few methods to the **Pathname** class.",
       "maintainer": null,

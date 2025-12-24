@@ -38,10 +38,8 @@ document.addEventListener('DOMContentLoaded', function(){
 <h2 id="info">Info</h2>
 
 <ul>
-  <li>This standard library is a <strong>default gem</strong></li>
-  <li>Use <code>require "set"</code> to load this library</li>
-  <li>The library is written in Ruby, there are <strong>no native extensions</strong></li>
-  <li>Current maintainer: Akinori MUSHA (knu)</li>
+  <li>This standard library has been removed from Ruby and is <strong>no longer available</strong></li>
+  <li>This standard library was a <strong>default gem</strong></li>
 </ul>
 
 <h2 id="gem-sources">Gem Sources</h2>
@@ -58,23 +56,16 @@ document.addEventListener('DOMContentLoaded', function(){
       <td>Gem Repository</td>
       <td><a href="https://github.com/ruby/set">github.com/ruby/set</a></td>
     </tr>
-    <tr>
-      <td>CRuby</td>
-      <td><a href="https://github.com/ruby/ruby/tree/master/lib/set.rb">lib/set.rb</a></td>
-    </tr>
-    <tr>
-      <td>JRuby</td>
-      <td><a href="https://github.com/jruby/jruby/tree/master/lib/ruby/stdlib/set.rb">lib/ruby/stdlib/set.rb</a><br /><a href="https://github.com/jruby/jruby/tree/master/core/src/main/java/org/jruby/ext/set">core/src/main/java/org/jruby/ext/set</a></td>
-    </tr>
   </tbody>
 </table>
 
 <h2 id="notes">Notes</h2>
 
 <ul>
-  <li>Since Ruby 4.0, <a href="https://bugs.ruby-lang.org/issues/21216"><code>Set</code> is implemented in core Ruby</a>. A Ruby-based implementation is still included as non-gem library at <code>set/subclass_compatible</code>.</li>
-  <li>Although this default gem is not automatically required, it will be autoloaded as soon you use the <code>Set</code> constant or the <code>to_set</code> method (Ruby 3.2+)
--Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the <a href="https://github.com/knu/sorted_set">sorted_set gem</a>)</li>
+  <li>Since Ruby 4.0, <a href="https://bugs.ruby-lang.org/issues/21216"><code>Set</code> is implemented in core Ruby</a>.</li>
+  <li>A Ruby-based implementation is still included as non-gem library at <a href="https://stdgems.org/set-subclass_compatible/"><code>set/subclass_compatible</code></a>.</li>
+  <li>Although this default gem is not automatically required, it will be autoloaded as soon you use the <code>Set</code> constant or the <code>to_set</code> method (Ruby 3.2+)</li>
+  <li>Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the <a href="https://github.com/knu/sorted_set">sorted_set gem</a>)</li>
 </ul>
 
 <h2 id="gem-version">Gem Version</h2>
