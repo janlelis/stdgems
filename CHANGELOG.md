@@ -15,8 +15,9 @@ Add Ruby 4.0 preview release:
   - readline
   - reline
   - win32ole
-- Update other bundled gems
-- Change CGI to non-native
+- Update other default & bundled gems
+- Remove cgi gem in favor of non-gem `cgi/escape` library
+- Remove set gem (implemented in core now), add `set/subclass_compatible` library
 
 ## 5.23.0
 

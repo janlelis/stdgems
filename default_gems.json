@@ -109,6 +109,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
+        "4.0":   "4.0.3",
+
         "3.4":   "2.6.9",
         "3.4.4": "2.6.7",
         "3.4.3": "2.6.7",
@@ -158,11 +160,11 @@
       "sourceRepository": "https://github.com/ruby/cgi",
       "rubygemsLink": "https://rubygems.org/gems/cgi",
       "rdocLink": "https://rubyapi.org/o/cgi",
-      "maintainer": null,
-      "notes": "Starting with Ruby 4.0, the escape utilites (found at `cgi/escape`) are not implemented as native extensions, anymore.",
+      "notes": "[Removed with Ruby 4.0.](https://bugs.ruby-lang.org/issues/21258) The gem's escape utilites have been moved to a non-gem library at `cgi/escape`.",
       "alternatives": {
         "rack": "https://github.com/rack/rack"
       },
+      "removed": true,
       "versions": {
         "3.4":   "0.4.2",
         "3.4.2": "0.4.1",
@@ -285,6 +287,8 @@
       ],
       "maintainer": null,
       "versions": {
+        "4.0": "3.5.1",
+
         "3.4": "3.4.1",
 
         "3.3": "3.3.4",
@@ -370,6 +374,7 @@
         "forwardable": "https://stdgems.org/forwardable/"
       },
       "versions": {
+        "4.0": "0.6.1",
         "3.4": "0.4.0",
         "3.3": "0.3.1",
         "3.2": "0.3.0",
@@ -391,6 +396,7 @@
       "maintainer": "Yuki Nishijima (yuki24)",
       "notes": "- You can [prevent Ruby from loading this default gem](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-did_you_mean`",
       "versions": {
+        "4.0": "2.0.0",
         "3.4": "2.0.0",
         "3.3": "1.6.3",
         "3.2": "1.6.3",
@@ -414,6 +420,7 @@
         "OpenSSL::Digest": "https://ruby-doc.org/stdlib/libdoc/openssl/rdoc/OpenSSL/Digest.html"
       },
       "versions": {
+        "4.0": "3.2.1",
         "3.4": "3.2.0",
         "3.3": "3.1.1",
         "3.2": "3.1.1",
@@ -471,6 +478,7 @@
       "rdocLink": "https://rubyapi.org/o/english",
       "maintainer": null,
       "versions": {
+        "4.0": "0.8.1",
         "3.4": "0.8.0",
         "3.3": "0.8.0",
         "3.2": "0.7.2",
@@ -494,6 +502,7 @@
         "herb": "https://herb-tools.dev"
       },
       "versions": {
+        "4.0": "6.0.1",
         "3.4": "4.0.4",
         "3.3": "4.0.3",
         "3.2": "4.0.2",
@@ -513,6 +522,7 @@
       "maintainer": null,
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
+        "4.0": "0.7.1",
         "3.4": "0.7.0",
         "3.3": "0.6.0",
         "3.2": "0.5.1",
@@ -534,6 +544,8 @@
       "rdocLink": "https://rubyapi.org/o/etc",
       "maintainer": null,
       "versions": {
+        "4.0":   "1.4.6",
+
         "3.4":   "1.4.6",
         "3.4.4": "1.4.5",
         "3.4.3": "1.4.5",
@@ -574,6 +586,8 @@
       "rdocLink": "https://rubyapi.org/o/fcntl",
       "maintainer": null,
       "versions": {
+        "4.0": "1.3.0",
+
         "3.4": "1.2.0",
 
         "3.3": "1.1.0",
@@ -641,6 +655,7 @@
       "rdocLink": "https://rubyapi.org/o/fileutils",
       "maintainer": null,
       "versions": {
+        "4.0": "1.8.0",
         "3.4": "1.7.3",
         "3.3": "1.7.2",
         "3.2": "1.7.0",
@@ -667,6 +682,7 @@
         "<code>`find .`.split($/)</code>": null
       },
       "versions": {
+        "4.0": "0.2.0",
         "3.4": "0.2.0",
         "3.3": "0.2.0",
         "3.2": "0.1.1",
@@ -690,6 +706,7 @@
       "rdocLink": "https://rubyapi.org/o/forwardable",
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
+        "4.0": "1.4.0",
         "3.4": "1.3.3",
         "3.3": "1.3.3",
         "3.2": "1.3.3",
@@ -753,6 +770,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/io-console",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
+        "4.0":   "0.8.2",
+
         "3.4":   "0.8.1",
         "3.4.4": "0.8.0",
         "3.4.3": "0.8.0",
@@ -799,6 +818,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/io-nonblock",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
+        "4.0":   "0.3.2",
+
         "3.4":   "0.3.2",
         "3.4.4": "0.3.1",
         "3.4.3": "0.3.1",
@@ -830,6 +851,8 @@
       "rdocLink": "https://www.rubydoc.info/gems/io-wait",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
+        "4.0":   "0.4.0",
+
         "3.4":   "0.3.2",
         "3.4.4": "0.3.1",
         "3.4.3": "0.3.1",
@@ -864,6 +887,8 @@
         "ipaddress": "https://github.com/ipaddress-gem/ipaddress"
       },
       "versions": {
+        "4.0": "1.2.8",
+
         "3.4": "1.2.7",
 
         "3.3": "1.2.6",
@@ -933,6 +958,8 @@
         "yajl-ruby": "https://github.com/brianmario/yajl-ruby"
       },
       "versions": {
+        "4.0":   "2.18.0",
+
         "3.4":   "2.9.1",
 
         "3.3":   "2.7.2",
@@ -1076,6 +1103,8 @@
         "em-http-request": "https://github.com/igrigorik/em-http-request"
       },
       "versions": {
+        "4.0":   "0.9.1",
+
         "3.4":   "0.6.0",
 
         "3.3":   "0.4.1",
@@ -1139,6 +1168,8 @@
       "rdocLink": "https://ruby-doc.org/stdlib-3.0.2/libdoc/net/protocol/rdoc/index.html",
       "maintainer": null,
       "versions": {
+        "4.0": "0.2.2",
+
         "3.4": "0.2.2",
 
         "3.3": "0.2.2",
@@ -1228,6 +1259,7 @@
         "open4": "https://github.com/ahoward/open4"
       },
       "versions": {
+        "4.0": "0.2.1",
         "3.4": "0.2.1",
         "3.3": "0.2.1",
         "3.2": "0.1.2",
@@ -1249,6 +1281,8 @@
       "maintainer": "Kazuki Yamaguchi (rhe)",
       "notes": "JRuby uses the Bouncy Castle-based [jruby-openssl gem](https://github.com/jruby/jruby-openssl) instead",
       "versions": {
+        "4.0": "4.0.0",
+
         "3.4": "3.3.1",
         "3.4.7": "3.3.0",
         "3.4.6": "3.3.0",
@@ -1320,6 +1354,7 @@
       "rdocLink": "https://rubyapi.org/o/openuri",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
+        "4.0": "0.5.0",
         "3.4": "0.5.0",
         "3.3": "0.4.1",
         "3.2": "0.3.0",
@@ -1348,6 +1383,8 @@
         "rationalist": "https://github.com/janlelis/rationalist"
       },
       "versions": {
+        "4.0": "0.7.0",
+
         "3.4": "0.6.0",
 
         "3.3": "0.4.0",
@@ -1414,45 +1451,6 @@
       }
     },
     {
-      "gem": "prism",
-      "native": true,
-      "autoRequire": false,
-      "description": "Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language",
-      "mriSourcePath": [
-        "prism_compile.c",
-        "prism_compile.h",
-        "prism_init.c",
-        "prism",
-        "lib/prism"
-      ],
-      "jrubySourcePath": false,
-      "sourceRepository": "https://github.com/ruby/prism",
-      "rubygemsLink": "https://rubygems.org/gems/prism",
-      "rdocLink": "https://gemdocs.org/gems/prism/0.19.0/",
-      "maintainer": [
-        "Kevin Newton (kddnewton)",
-        "Jemma Issroff (jemmaissroff)"
-      ],
-      "alternatives": {
-        "ripper": "https://stdgems.org/ripper",
-        "parser": "https://github.com/whitequark/parser",
-        "ruby_parser": "https://github.com/seattlerb/ruby_parser"
-      },
-      "versions": {
-        "3.4":   "1.5.2",
-        "3.4.7": "1.5.1",
-        "3.4.6": "1.5.1",
-        "3.4.5": "1.2.0",
-        "3.4.4": "1.2.0",
-        "3.4.3": "1.2.0",
-        "3.4.2": "1.2.0",
-        "3.4.1": "1.2.0",
-        "3.4.0": "1.2.0",
-
-        "3.3":   "0.19.0"
-      }
-    },
-    {
       "gem": "pp",
       "native": false,
       "autoRequire": false,
@@ -1470,6 +1468,8 @@
         "hirber": "https://github.com/hirber/hirber"
       },
       "versions": {
+        "4.0": "0.6.3",
+
         "3.4": "0.6.2",
 
         "3.3": "0.5.0",
@@ -1502,6 +1502,8 @@
         "hirber": "https://github.com/hirber/hirber"
       },
       "versions": {
+        "4.0": "0.2.0",
+
         "3.4": "0.2.0",
 
         "3.3": "0.2.0",
@@ -1532,6 +1534,47 @@
         "3.0": "0.1.2",
         "2.7": "0.1.1",
         "2.6": "0.1.0"
+      }
+    },
+    {
+      "gem": "prism",
+      "native": true,
+      "autoRequire": false,
+      "description": "Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language",
+      "mriSourcePath": [
+        "prism_compile.c",
+        "prism_compile.h",
+        "prism_init.c",
+        "prism",
+        "lib/prism"
+      ],
+      "jrubySourcePath": false,
+      "sourceRepository": "https://github.com/ruby/prism",
+      "rubygemsLink": "https://rubygems.org/gems/prism",
+      "rdocLink": "https://gemdocs.org/gems/prism/0.19.0/",
+      "maintainer": [
+        "Kevin Newton (kddnewton)",
+        "Jemma Issroff (jemmaissroff)"
+      ],
+      "alternatives": {
+        "ripper": "https://stdgems.org/ripper",
+        "parser": "https://github.com/whitequark/parser",
+        "ruby_parser": "https://github.com/seattlerb/ruby_parser"
+      },
+      "versions": {
+        "4.0":   "1.7.0",
+
+        "3.4":   "1.5.2",
+        "3.4.7": "1.5.1",
+        "3.4.6": "1.5.1",
+        "3.4.5": "1.2.0",
+        "3.4.4": "1.2.0",
+        "3.4.3": "1.2.0",
+        "3.4.2": "1.2.0",
+        "3.4.1": "1.2.0",
+        "3.4.0": "1.2.0",
+
+        "3.3":   "0.19.0"
       }
     },
     {
@@ -1567,6 +1610,8 @@
       "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA (hsbt)"],
       "notes": "Starting with Ruby 3.2, libyaml is not bundled with Ruby anymore",
       "versions": {
+        "4.0": "5.3.1",
+
         "3.4": "5.2.2",
 
         "3.3": "5.1.2",
@@ -1783,6 +1828,7 @@
         "readline-ext": "https://stdgems.org/readline-ext/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
+      "removed": true,
       "versions": {
         "3.4":   "0.6.0",
 
@@ -1826,6 +1872,8 @@
         "em-resolv-replace": "https://github.com/gmodarelli/em-resolv-replace"
       },
       "versions": {
+        "4.0":   "0.7.0",
+
         "3.4":   "0.6.2",
         "3.4.4": "0.6.0",
         "3.4.3": "0.6.0",
@@ -1949,6 +1997,7 @@
       "maintainer": null,
       "notes": "Although `ruby2_keywords` is introduced as a default gem in Ruby 3.1, the `ruby2_keywords` method is available on earlier Ruby versions. See [the announcement](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) and [this blog post](https://eregon.me/blog/2021/02/13/correct-delegation-in-ruby-2-27-3.html) for information about how to use this feature.",
       "versions": {
+        "4.0": "0.0.5",
         "3.4": "0.0.5",
         "3.3": "0.0.5",
         "3.2": "0.0.5",
@@ -1959,15 +2008,17 @@
       "gem": "rubygems",
       "native": false,
       "autoRequire": true,
-      "description": "[RubyGems](https://rubygems.org) allows you to download, install, and use Ruby software packages on your system",
+      "description": "RubyGems allows you to download, install, and use Ruby software packages on your system. It can connect to gem servers like [rubygems.org](https://rubygems.org) or [gem.coop](https://gem.coop) to retrieve latest gems.",
       "mriSourcePath": ["lib/rubygems.rb", "lib/rubygems"],
       "jrubySourcePath": [true, "lib/ruby/stdlib/rubygems/defaults"],
-      "sourceRepository": "https://github.com/rubygems/rubygems",
+      "sourceRepository": "https://github.com/ruby/rubygems",
       "rubygemsLink": "https://rubygems.org/gems/rubygems-update",
       "rdocLink": "https://rubyapi.org/o/gem",
-      "maintainer": ["Eric Hodel (drbrain)", "Hiroshi SHIBATA (hsbt)"],
+      "maintainer": ["Hiroshi SHIBATA (hsbt)"],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
+        "4.0":   "4.0.3",
+
         "3.4":   "3.6.9",
         "3.4.4": "3.6.7",
         "3.4.3": "3.6.7",
@@ -2102,6 +2153,8 @@
       "rdocLink": "https://rubyapi.org/o/securerandom",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
+        "4.0": "0.4.1",
+
         "3.4": "0.4.1",
 
         "3.3": "0.3.1",
@@ -2130,7 +2183,7 @@
       "rubygemsLink": "https://rubygems.org/gems/set",
       "rdocLink": "https://rubyapi.org/o/set",
       "maintainer": "Akinori MUSHA (knu)",
-      "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
+      "notes": "- Since Ruby 4.0, [`Set` is implemented in core Ruby](https://bugs.ruby-lang.org/issues/21216). A Ruby-based implementation is still included as non-gem library at `set/subclass_compatible`.\n- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
       "versions": {
         "3.4": "1.1.1",
         "3.3": "1.1.0",
@@ -2165,6 +2218,7 @@
       "rdocLink": "https://rubyapi.org/o/shellwords",
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
+        "4.0": "0.2.2",
         "3.4": "0.2.2",
         "3.3": "0.2.0",
         "3.2": "0.1.0",
@@ -2184,6 +2238,7 @@
       "rdocLink": "https://rubyapi.org/o/singleton",
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
+        "4.0": "0.3.0",
         "3.4": "0.3.0",
         "3.3": "0.2.0",
         "3.2": "0.1.1",
@@ -2207,6 +2262,8 @@
       "rdocLink": "https://rubyapi.org/o/stringio",
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
+        "4.0":   "3.2.0",
+
         "3.4":   "3.1.2",
 
         "3.3":   "3.1.1",
@@ -2252,6 +2309,8 @@
       "rdocLink": "https://rubyapi.org/o/stringscanner",
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
+        "4.0":   "3.1.6",
+
         "3.4":   "3.1.2",
 
         "3.3":   "3.0.9",
@@ -2337,6 +2396,8 @@
       "rdocLink": "https://rubyapi.org/o/syntaxsuggest",
       "maintainer": null,
       "versions": {
+        "4.0":   "2.0.2",
+
         "3.4":   "2.0.2",
 
         "3.3":   "2.0.1",
@@ -2365,6 +2426,7 @@
       "rdocLink": "https://rubyapi.org/o/tempfile",
       "maintainer": null,
       "versions": {
+        "4.0": "0.3.1",
         "3.4": "0.3.1",
         "3.3": "0.2.1",
         "3.2": "0.1.3",
@@ -2398,6 +2460,8 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/time/Time",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
+        "4.0": "0.4.2",
+
         "3.4": "0.4.1",
 
         "3.3": "0.3.0",
@@ -2439,6 +2503,7 @@
         "Ultimate Guide to Ruby Timeouts": "https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts"
       },
       "versions": {
+        "4.0": "0.6.0",
         "3.4": "0.4.3",
         "3.3": "0.4.1",
         "3.2": "0.3.1",
@@ -2459,6 +2524,7 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/tmpdir/Dir",
       "maintainer": null,
       "versions": {
+        "4.0": "0.3.1",
         "3.4": "0.3.1",
         "3.3": "0.2.0",
         "3.2": "0.1.3",
@@ -2499,6 +2565,7 @@
       "rdocLink": "https://rubyapi.org/o/tsort",
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
+        "4.0": "0.2.0",
         "3.4": "0.2.0",
         "3.3": "0.2.0",
         "3.2": "0.1.1",
@@ -2518,6 +2585,7 @@
       "rdocLink": "https://www.rubydoc.info/stdlib/un",
       "maintainer": "WATANABE Hirofumi (eban)",
       "versions": {
+        "4.0": "0.3.0",
         "3.4": "0.3.0",
         "3.3": "0.3.0",
         "3.2": "0.2.1",
@@ -2541,6 +2609,8 @@
         "ruby-uriparse": "https://github.com/tlewin/ruby-uriparser"
       },
       "versions": {
+        "4.0":   "1.1.1",
+
         "3.4":   "1.0.4",
         "3.4.6": "1.0.3",
         "3.4.5": "1.0.3",
@@ -2615,6 +2685,7 @@
         "ref": "https://github.com/ruby-concurrency/ref"
       },
       "versions": {
+        "4.0": "0.1.4",
         "3.4": "0.1.3",
         "3.3": "0.1.3",
         "3.2": "0.1.2",
@@ -2702,6 +2773,7 @@
       ],
       "maintainer": ["Aaron Patterson (tenderlove)", "Hiroshi SHIBATA (hsbt)"],
       "versions": {
+        "4.0": "0.4.0",
         "3.4": "0.4.0",
         "3.3": "0.3.0",
         "3.2": "0.2.1",
@@ -2725,6 +2797,8 @@
       "rdocLink": "https://rubyapi.org/o/zlib",
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
+        "4.0":   "3.2.2",
+
         "3.4":   "3.2.1",
 
         "3.3":   "3.1.1",
