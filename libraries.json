@@ -184,24 +184,6 @@
       "alternatives": {
         "unf": "https://github.com/knu/ruby-unf"
       }
-    },
-    {
-      "gem": "win32",
-      "native": true,
-      "autoRequire": false,
-      "description": "Let's you use Windows APIs, e.g. call functions in DLLs",
-      "mriSourcePath": "ext/win32",
-      "jrubySourcePath": [
-        "lib/ruby/stdlib/Win32API.rb",
-        "lib/ruby/stdlib/win32"
-      ],
-      "rdocLink": "https://rubyapi.org/o/win32",
-      "maintainer": "NAKAMURA Usaku (usa)",
-      "alternatives": {
-        "win32-api": "https://github.com/cosmo0920/win32-api",
-        "FFI": "https://github.com/ffi/ffi",
-        "Fiddle": "https://stdgems.org/fiddle/"
-      }
     }
   ]
 }

@@ -1858,10 +1858,10 @@
     },
     {
       "gem": "resolv",
-      "native": false,
+      "native": true,
       "autoRequire": false,
       "description": "Thread-aware [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) resolver",
-      "mriSourcePath": ["lib/resolv.rb"],
+      "mriSourcePath": ["lib/resolv.rb", "ext/win32/resolv"],
       "jrubySourcePath": "lib/ruby/stdlib/resolv.rb",
       "sourceRepository": "https://github.com/ruby/resolv",
       "rubygemsLink": "https://rubygems.org/gems/resolv",
@@ -2756,6 +2756,20 @@
         "3.2": "1.8.9",
         "3.1": "1.8.8",
         "3.0": "1.8.8"
+      }
+    },
+    {
+      "gem": "win32-registry",
+      "native": false,
+      "autoRequire": false,
+      "description": "Allows you to call Windows Registry APIs",
+      "mriSourcePath": "ext/win32/lib/win32/registry.rb",
+      "jrubySourcePath": false,
+      "sourceRepository": "https://github.com/ruby/win32-registry",
+      "rubygemsLink": "https://rubygems.org/gems/win32-registry",
+      "rdocLink": null,
+      "versions": {
+        "4.0": "0.1.2"
       }
     },
     {
