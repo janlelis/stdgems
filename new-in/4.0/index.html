@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Standard Gems: Gemified in 4.0</title>
+    <link href="/stylesheets/all3.css" rel="stylesheet" />
+
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Ruby's standard library is divided into default and bundled gems"/>
+    <meta name="keywords" content="ruby, stdlib, bundled, default, gems"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/images/stdgems.favicon.png">
+
+    <script>
+document.addEventListener('DOMContentLoaded', function(){
+  ['h2', 'h3'].forEach(function(h){
+    document.querySelectorAll(h).forEach(function(e){
+      e.innerHTML = '<a href="#' + e.id + '">' + e.innerHTML + '</a>'
+    })
+  })
+})
+    </script>
+  </head>
+
+  <body>
+    <div class="world">
+      <section class="post-header">
+        <a href="/" class="ruby"><img src="/images/stdgems.logo.png" alt="stdgems"></a>
+        <h1 class="post-heading" id="top">Gemified in 4.0</h1>
+      </section>
+
+     	<article class="post">
+<p><strong>Warning:</strong> This Ruby version has not been released, yet. Standard gem data might still change.</p>
+
+<p>The following libraries were made standard gems with <a href="/4.0.0">Ruby 4.0.0</a></p>
+
+<h2 class="table-caption" id="new-default-gems">New Default Gems</h2>
+
+<table class="table-20-45-X">
+  <thead>
+    <tr>
+      <th>New Default Gem</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/win32-registry">win32-registry</a></td>
+      <td>Allows you to call Windows Registry APIs</td>
+      <td><a href="https://rubygems.org/gems/win32-registry">RubyGems</a> · <a href="https://github.com/ruby/win32-registry">GitHub</a> · <a href="https://github.com/ruby/ruby/tree/master/ext/win32/lib/win32/registry.rb">CRuby</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 class="table-caption" id="new-bundled-gems">New Bundled Gems</h2>
+
+<table class="table-20-45-X">
+  <thead>
+    <tr>
+      <th>New Bundled Gem</th>
+      <th>Description</th>
+      <th>Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/benchmark">benchmark</a></td>
+      <td>Benchmark utility: Measures and reports the time used to execute code</td>
+      <td><a href="https://rubygems.org/gems/benchmark">RubyGems</a> · <a href="https://github.com/ruby/benchmark">GitHub</a> · <a href="https://rubyapi.org/o/benchmark">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/fiddle">fiddle</a> <strong>c</strong></td>
+      <td>Support for FFI (<a href="https://sourceware.org/libffi/">Foreign Function Interface</a>)</td>
+      <td><a href="https://rubygems.org/gems/fiddle">RubyGems</a> · <a href="https://github.com/ruby/fiddle">GitHub</a> · <a href="https://rubyapi.org/o/fiddle">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/irb">irb</a></td>
+      <td>Interactive Ruby Console (<a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a>)</td>
+      <td><a href="https://rubygems.org/gems/irb">RubyGems</a> · <a href="https://github.com/ruby/irb">GitHub</a> · <a href="https://www.rubydoc.info/gems/irb">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/logger">logger</a></td>
+      <td><a href="https://ruby.janlelis.de/50-exploring-the-stdlib-logger">Logging utility</a></td>
+      <td><a href="https://rubygems.org/gems/logger">RubyGems</a> · <a href="https://github.com/ruby/logger">GitHub</a> · <a href="https://rubyapi.org/o/logger">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/ostruct">ostruct</a></td>
+      <td>Wrapper around <a href="https://ruby-doc.org/core/Hash.html">Hash</a> which lets you read and set attributes with a method-based API</td>
+      <td><a href="https://rubygems.org/gems/ostruct">RubyGems</a> · <a href="https://github.com/ruby/ostruct">GitHub</a> · <a href="https://rubyapi.org/o/openstruct">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/pstore">pstore</a></td>
+      <td>Transactional file storage for Ruby objects</td>
+      <td><a href="https://rubygems.org/gems/pstore">RubyGems</a> · <a href="https://github.com/ruby/pstore">GitHub</a> · <a href="https://rubyapi.org/o/pstore">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/rdoc">rdoc</a></td>
+      <td>Ruby documentation generator</td>
+      <td><a href="https://rubygems.org/gems/rdoc">RubyGems</a> · <a href="https://github.com/ruby/rdoc">GitHub</a> · <a href="https://ruby.github.io/rdoc/">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/readline">readline</a></td>
+      <td>If available, <a href="https://stdgems.org/readline-ext">readline-ext</a> will be loaded, or (Ruby-only) bundled gem <a href="https://stdgems.org/reline">reline</a> will be used.</td>
+      <td><a href="https://rubygems.org/gems/readline">RubyGems</a> · <a href="https://github.com/ruby/readline">GitHub</a> · <a href="https://rubyapi.org/o/readline">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/reline">reline</a></td>
+      <td>Ruby-only implementation of <a href="https://directory.fsf.org/wiki/Readline">GNU Readline</a> / <a href="https://thrysoee.dk/editline/">NetBSD Editline</a></td>
+      <td><a href="https://rubygems.org/gems/reline">RubyGems</a> · <a href="https://github.com/ruby/reline">GitHub</a> · <a href="https://rubyapi.org/o/reline">RDoc</a></td>
+    </tr>
+    <tr>
+      <td><a href="/win32ole">win32ole</a> <strong>c</strong></td>
+      <td>Windows <a href="https://en.wikipedia.org/wiki/OLE_Automation">OLE automation</a> interface</td>
+      <td><a href="https://rubygems.org/gems/win32ole">RubyGems</a> · <a href="https://github.com/ruby/win32ole">GitHub</a> · <a href="https://rubyapi.org/o/win32ole">RDoc</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="more-standard-gems">More Standard Gems</h2>
+
+<ul>
+  <li><a href="/">General information about standard gems</a></li>
+  <li>Gem list for Ruby: <a href="/4.0.0">4.0.0</a> (preview)</li>
+  <li>Gem list for Ruby: <a href="/3.4.8">3.4.8</a> · <a href="/3.4.7">3.4.7</a> · <a href="/3.4.6">3.4.6</a> · <a href="/3.4.5">3.4.5</a> · <a href="/3.4.4">3.4.4</a> · <a href="/3.4.3">3.4.3</a> · <a href="/3.4.2">3.4.2</a> · <a href="/3.4.1">3.4.1</a> · <a href="/3.4.0">3.4.0</a></li>
+  <li>Gem list for Ruby: <a href="/3.3.10">3.3.10</a> · <a href="/3.3.9">3.3.9</a> · <a href="/3.3.8">3.3.8</a> · <a href="/3.3.7">3.3.7</a> · <a href="/3.3.6">3.3.6</a> · <a href="/3.3.5">3.3.5</a> · <a href="/3.3.4">3.3.4</a> · <a href="/3.3.3">3.3.3</a> · <a href="/3.3.2">3.3.2</a> · <a href="/3.3.1">3.3.1</a> · <a href="/3.3.0">3.3.0</a></li>
+  <li>Gem list for Ruby: <a href="/3.2.9">3.2.9</a> · <a href="/3.2.8">3.2.8</a> · <a href="/3.2.7">3.2.7</a> · <a href="/3.2.6">3.2.6</a> · <a href="/3.2.5">3.2.5</a> · <a href="/3.2.4">3.2.4</a> · <a href="/3.2.3">3.2.3</a> · <a href="/3.2.2">3.2.2</a> · <a href="/3.2.1">3.2.1</a> · <a href="/3.2.0">3.2.0</a></li>
+  <li>Gem list for Ruby: <a href="/3.1.7">3.1.7</a> · <a href="/3.1.6">3.1.6</a> · <a href="/3.1.5">3.1.5</a> · <a href="/3.1.4">3.1.4</a> · <a href="/3.1.3">3.1.3</a> · <a href="/3.1.2">3.1.2</a> · <a href="/3.1.1">3.1.1</a> · <a href="/3.1.0">3.1.0</a></li>
+  <li>Gem list for Ruby: <a href="/3.0.7">3.0.7</a> · <a href="/3.0.6">3.0.6</a> · <a href="/3.0.5">3.0.5</a> · <a href="/3.0.4">3.0.4</a> · <a href="/3.0.3">3.0.3</a> · <a href="/3.0.2">3.0.2</a> · <a href="/3.0.1">3.0.1</a> · <a href="/3.0.0">3.0.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.7.8">2.7.8</a> · <a href="/2.7.7">2.7.7</a> · <a href="/2.7.6">2.7.6</a> · <a href="/2.7.5">2.7.5</a> · <a href="/2.7.4">2.7.4</a> · <a href="/2.7.3">2.7.3</a> · <a href="/2.7.2">2.7.2</a> · <a href="/2.7.1">2.7.1</a> · <a href="/2.7.0">2.7.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.6.10">2.6.10</a> · <a href="/2.6.9">2.6.9</a> · <a href="/2.6.8">2.6.8</a> · <a href="/2.6.7">2.6.7</a> · <a href="/2.6.6">2.6.6</a> · <a href="/2.6.5">2.6.5</a> · <a href="/2.6.4">2.6.4</a> · <a href="/2.6.3">2.6.3</a> · <a href="/2.6.2">2.6.2</a> · <a href="/2.6.1">2.6.1</a> · <a href="/2.6.0">2.6.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.5.9">2.5.9</a> · <a href="/2.5.8">2.5.8</a> · <a href="/2.5.7">2.5.7</a> · <a href="/2.5.6">2.5.6</a> · <a href="/2.5.5">2.5.5</a> · <a href="/2.5.4">2.5.4</a> · <a href="/2.5.3">2.5.3</a> · <a href="/2.5.2">2.5.2</a> · <a href="/2.5.1">2.5.1</a> · <a href="/2.5.0">2.5.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.4.10">2.4.10</a> · <a href="/2.4.9">2.4.9</a> · <a href="/2.4.8">2.4.8</a> · <a href="/2.4.7">2.4.7</a> · <a href="/2.4.6">2.4.6</a> · <a href="/2.4.5">2.4.5</a> · <a href="/2.4.4">2.4.4</a> · <a href="/2.4.3">2.4.3</a> · <a href="/2.4.2">2.4.2</a> · <a href="/2.4.1">2.4.1</a> · <a href="/2.4.0">2.4.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.3.8">2.3.8</a> · <a href="/2.3.7">2.3.7</a> · <a href="/2.3.6">2.3.6</a> · <a href="/2.3.5">2.3.5</a> · <a href="/2.3.4">2.3.4</a> · <a href="/2.3.3">2.3.3</a> · <a href="/2.3.2">2.3.2</a> · <a href="/2.3.1">2.3.1</a> · <a href="/2.3.0">2.3.0</a></li>
+  <li>Gem list for Ruby: <a href="/2.2.10">2.2.10</a> · <a href="/2.2.9">2.2.9</a> · <a href="/2.2.8">2.2.8</a> · <a href="/2.2.7">2.2.7</a> · <a href="/2.2.6">2.2.6</a> · <a href="/2.2.5">2.2.5</a> · <a href="/2.2.4">2.2.4</a> · <a href="/2.2.3">2.2.3</a> · <a href="/2.2.2">2.2.2</a> · <a href="/2.2.1">2.2.1</a> · <a href="/2.2.0">2.2.0</a></li>
+  <li>Compare versions: <a href="/compare">Main Rubies</a> · <a href="/compare/supported">Supported Rubies</a> · <a href="/compare/all">All Rubies</a> · <a href="/compare/3.4">3.4</a> · <a href="/compare/3.3">3.3</a> · <a href="/compare/3.2">3.2</a> · <a href="/compare/3.1">3.1</a> · <a href="/compare/3.0">3.0</a> · <a href="/compare/2.7">2.7</a> · <a href="/compare/2.6">2.6</a> · <a href="/compare/2.5">2.5</a> · <a href="/compare/2.4">2.4</a> · <a href="/compare/2.3">2.3</a> · <a href="/compare/2.2">2.2</a></li>
+  <li>Gemified in: <a href="/new-in/4.0">4.0</a> - <a href="/new-in/3.4">3.4</a> - <a href="/new-in/3.3">3.3</a> - <a href="/new-in/3.2">3.2</a> · <a href="/new-in/3.1">3.1</a> · <a href="/new-in/3.0">3.0</a> · <a href="/new-in/2.7">2.7</a> · <a href="/new-in/2.6">2.6</a> · <a href="/new-in/2.5">2.5</a> · <a href="/new-in/2.4">2.4</a> · <a href="/new-in/2.3">2.3</a> · <a href="/new-in/2.2">2.2</a></li>
+  <li>List of <a href="/libraries">Non-Gem Default Libraries</a></li>
+  <li>List of <a href="/unmaintained">Unmaintained Default Gems</a></li>
+  <li>List of <a href="/removed">Removed Standard Gems</a></li>
+</ul>
+
+</article>
+    </div>
+  </body>
+</html>

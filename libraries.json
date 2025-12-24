@@ -1,7 +1,21 @@
 {
   "version": "5.22.0",
-  "info": "These non-gem libraries are part of a Ruby installation, can always be require directly and cannot be removed.",
+  "info": "These non-gem libraries are part of a Ruby installation, can always be require directly, and cannot be removed.",
   "gems": [
+    {
+      "gem": "cgi-escape",
+      "native": true,
+      "autoRequire": false,
+      "description": "HTML and URI escape utilities",
+      "mriSourcePath": ["lib/cgi", "ext/cgi"],
+      "jrubySourcePath": false,
+      "rdocLink": null,
+      "notes": "Only `cgi/escape` is available. [The cgi gem itself was removed with Ruby 4.0.](https://bugs.ruby-lang.org/issues/21258)",
+      "maintainer": null,
+      "alternatives": {
+        "Rack::Utils / URI": "https://github.com/rack/rack/blob/da573f3ffefa47f48dcf8207ee95181c3f9dcd78/lib/rack/utils.rb#L39-L60"
+      }
+    },
     {
       "gem": "continuation",
       "native": true,
@@ -63,6 +77,23 @@
       "maintainer": null
     },
     {
+      "gem": "pathname",
+      "native": false,
+      "autoRequire": false,
+      "description": "Provides extra methods for the `Pathname` class: `#find` (→ [find](https://stdgems.org/find)), `#rmtree` (→ [`FileUtils.rm_rf`](https://stdgems.org/fileutils)), and `#mktmpdir` (→ [tmpdir](https://stdgems.org/tmpdir))",
+      "mriSourcePath": "lib/pathname.rb",
+      "jrubySourcePath": [
+        "lib/ruby/stdlib/pathname.rb",
+        "core/src/main/java/org/jruby/ext/pathname"
+      ],
+      "rdocLink": "https://rubyapi.org/o/pathname",
+      "notes": "In Ruby 4.0 [pathname was made part of core Ruby](https://bugs.ruby-lang.org/issues/17473). This non-gem library adds a few methods to the **Pathname** class.",
+      "maintainer": null,
+      "alternatives": {
+        "path": "https://github.com/eregon/path"
+      }
+    },
+    {
       "gem": "pty",
       "native": true,
       "autoRequire": false,
@@ -112,6 +143,17 @@
       }
     },
     {
+      "gem": "set-subclass_compatible",
+      "native": false,
+      "autoRequire": false,
+      "description": "Ruby-only implementation of Set used in sub-classes of Set for backwards compatibility",
+      "mriSourcePath": "lib/set",
+      "jrubySourcePath": false,
+      "rdocLink": null,
+      "notes": "- Since Ruby 4.0, [`Set` is implemented in core Ruby](https://bugs.ruby-lang.org/issues/21216). For the previous default gem, see [set](https://stdgems.org/set).",
+      "maintainer": "Akinori MUSHA (knu)"
+    },
+    {
       "gem": "socket",
       "native": true,
       "autoRequire": false,
@@ -129,7 +171,7 @@
       "native": false,
       "autoRequire": true,
       "description": "Adds a [String#unicode_normalize](https://rubyapi.org/o/string#method-i-unicode_normalize) method which [normalizes unicode strings](https://unicode.org/reports/tr15/)",
-      "mriSourcePath": ["lib/unicode_normalize.rb", "lib/unicode_normalize"],
+      "mriSourcePath": ["lib/unicode_normalize"],
       "jrubySourcePath": [
         "lib/ruby/stdlib/unicode_normalize.rb",
         "lib/ruby/stdlib/unicode_normalize"
@@ -141,24 +183,6 @@
       "maintainer": "Martin J. Dürst",
       "alternatives": {
         "unf": "https://github.com/knu/ruby-unf"
-      }
-    },
-    {
-      "gem": "win32",
-      "native": true,
-      "autoRequire": false,
-      "description": "Let's you use Windows APIs, e.g. call functions in DLLs",
-      "mriSourcePath": "ext/win32",
-      "jrubySourcePath": [
-        "lib/ruby/stdlib/Win32API.rb",
-        "lib/ruby/stdlib/win32"
-      ],
-      "rdocLink": "https://rubyapi.org/o/win32",
-      "maintainer": "NAKAMURA Usaku (usa)",
-      "alternatives": {
-        "win32-api": "https://github.com/cosmo0920/win32-api",
-        "FFI": "https://github.com/ffi/ffi",
-        "Fiddle": "https://stdgems.org/fiddle/"
       }
     }
   ]
