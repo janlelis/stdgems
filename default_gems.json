@@ -2183,8 +2183,9 @@
       "sourceRepository": "https://github.com/ruby/set",
       "rubygemsLink": "https://rubygems.org/gems/set",
       "rdocLink": "https://rubyapi.org/o/set",
-      "maintainer": "Akinori MUSHA (knu)",
-      "notes": "- Since Ruby 4.0, [`Set` is implemented in core Ruby](https://bugs.ruby-lang.org/issues/21216). A Ruby-based implementation is still included as non-gem library at `set/subclass_compatible`.\n- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
+      "maintainer": null,
+      "notes": "- Since Ruby 4.0, [`Set` is implemented in core Ruby](https://bugs.ruby-lang.org/issues/21216).\n- A Ruby-based implementation is still included as non-gem library at [`set/subclass_compatible`](https://stdgems.org/set-subclass_compatible/).\n- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n- Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
+      "removed": true,
       "versions": {
         "3.4": "1.1.1",
         "3.3": "1.1.0",
