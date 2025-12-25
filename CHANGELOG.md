@@ -1,8 +1,8 @@
 # Change Log
 
-## Next
+## 5.24.0
 
-Add Ruby 4.0 preview release:
+Add Ruby 4.0 release:
 
 - Move from default to bundled gems:
   - benchmark
@@ -15,10 +15,12 @@ Add Ruby 4.0 preview release:
   - readline
   - reline
   - win32ole
+- Add win32-registry to default gems
 - Update other default & bundled gems
 - Remove cgi gem in favor of non-gem `cgi/escape` library
 - Remove set gem (now implemented in core), add `set/subclass_compatible` library
 - Remove pathname gem (now implemened in core), add `pathname` library for bonus methods
+- Remove old win32 entry from libraries
 
 ## 5.23.0
 
