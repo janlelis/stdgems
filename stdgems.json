@@ -1,5 +1,5 @@
 {
-  "version": "5.22.0",
+  "version": "5.24.0",
   "info": "All standard gems and libraries in a single file, constructed from the other JSON files (see rake task for details).",
   "gems": [
     {
@@ -20,6 +20,7 @@
           "3.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.1.2",
           "3.4": "0.1.2"
         }
       }
@@ -45,23 +46,21 @@
           "3.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.3.0",
           "3.4": "0.2.0"
         }
       }
     },
     {
       "gem": "benchmark",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Benchmark utility: Measures and reports the time used to execute code",
-      "mriSourcePath": "lib/benchmark.rb",
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/benchmark",
       "rubygemsLink": "https://rubygems.org/gems/benchmark",
       "rdocLink": "https://rubyapi.org/o/benchmark",
-      "maintainer": null,
-      "willBecomeBundledGem": true,
       "alternatives": {
         "benchmark-ips": "https://github.com/evanphx/benchmark-ips",
         "benchmark-driver": "https://github.com/benchmark-driver/benchmark-driver"
@@ -74,6 +73,9 @@
           "3.1": "0.2.0",
           "3.0": "0.1.1",
           "2.7": "0.1.0"
+        },
+        "bundled": {
+          "4.0": "0.5.0"
         }
       }
     },
@@ -105,6 +107,7 @@
           "2.2": "1.2.6"
         },
         "bundled": {
+          "4.0": "4.0.1",
           "3.4": "3.1.8"
         }
       }
@@ -123,6 +126,7 @@
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
         "default": {
+          "4.0": "4.0.3",
           "3.4": "2.6.9",
           "3.4.4": "2.6.7",
           "3.4.3": "2.6.7",
@@ -160,7 +164,7 @@
     {
       "gem": "cgi",
       "currentType": "default",
-      "native": true,
+      "native": false,
       "autoRequire": false,
       "description": "Support for CGI ([Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface))",
       "mriSourcePath": [
@@ -168,20 +172,15 @@
         "lib/cgi",
         "ext/cgi"
       ],
-      "jrubySourcePath": [
-        true,
-        "core/src/main/java/org/jruby/ext/cgi/escape/CGIEscape.java"
-      ],
+      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/cgi",
       "rubygemsLink": "https://rubygems.org/gems/cgi",
       "rdocLink": "https://rubyapi.org/o/cgi",
-      "maintainer": [
-        "Nobuyoshi Nakada (nobu) — native code"
-      ],
-      "notes": "Only the escape utilities are implemented as native extension.",
+      "notes": "[Removed with Ruby 4.0.](https://bugs.ruby-lang.org/issues/21258) The gem's escape utilites have been moved to a non-gem library at `cgi/escape`.",
       "alternatives": {
         "rack": "https://github.com/rack/rack"
       },
+      "removed": true,
       "versions": {
         "default": {
           "3.4": "0.4.2",
@@ -229,6 +228,24 @@
           "2.7.1": "0.1.0",
           "2.7.0": "0.1.0"
         }
+      }
+    },
+    {
+      "gem": "cgi-escape",
+      "currentType": "library",
+      "native": true,
+      "autoRequire": false,
+      "description": "HTML and URI escape utilities",
+      "mriSourcePath": [
+        "lib/cgi",
+        "ext/cgi"
+      ],
+      "jrubySourcePath": false,
+      "rdocLink": null,
+      "notes": "Only `cgi/escape` is available. [The cgi gem itself was removed with Ruby 4.0.](https://bugs.ruby-lang.org/issues/21258)",
+      "maintainer": null,
+      "alternatives": {
+        "Rack::Utils / URI": "https://github.com/rack/rack/blob/da573f3ffefa47f48dcf8207ee95181c3f9dcd78/lib/rack/utils.rb#L39-L60"
       }
     },
     {
@@ -308,6 +325,7 @@
           "2.5": "1.0.0"
         },
         "bundled": {
+          "4.0": "3.3.5",
           "3.4": "3.3.2"
         }
       }
@@ -333,6 +351,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "3.5.1",
           "3.4": "3.4.1",
           "3.3": "3.3.4",
           "3.2": "3.3.3",
@@ -405,6 +424,7 @@
           "3.0.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "1.11.0",
           "3.4": "1.11.0",
           "3.4.4": "1.10.0",
           "3.4.3": "1.10.0",
@@ -443,6 +463,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.6.1",
           "3.4": "0.4.0",
           "3.3": "0.3.1",
           "3.2": "0.3.0",
@@ -471,6 +492,7 @@
       "notes": "- You can [prevent Ruby from loading this default gem](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-did_you_mean`",
       "versions": {
         "default": {
+          "4.0": "2.0.0",
           "3.4": "2.0.0",
           "3.3": "1.6.3",
           "3.2": "1.6.3",
@@ -506,6 +528,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "3.2.1",
           "3.4": "3.2.0",
           "3.3": "3.1.1",
           "3.2": "3.1.1",
@@ -535,6 +558,7 @@
           "3.0.0": "2.0.4"
         },
         "bundled": {
+          "4.0": "2.2.3",
           "3.4": "2.2.1"
         }
       }
@@ -573,6 +597,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "0.8.1",
           "3.4": "0.8.0",
           "3.3": "0.8.0",
           "3.2": "0.7.2",
@@ -602,6 +627,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "6.0.1",
           "3.4": "4.0.4",
           "3.3": "4.0.3",
           "3.2": "4.0.2",
@@ -627,6 +653,7 @@
       "notes": "- You can [prevent Ruby from loading this default gem with](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) `$ ruby --disable-error_highlight`",
       "versions": {
         "default": {
+          "4.0": "0.7.1",
           "3.4": "0.7.0",
           "3.3": "0.6.0",
           "3.2": "0.5.1",
@@ -651,6 +678,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "1.4.6",
           "3.4": "1.4.6",
           "3.4.4": "1.4.5",
           "3.4.3": "1.4.5",
@@ -687,6 +715,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "1.3.0",
           "3.4": "1.2.0",
           "3.3": "1.1.0",
           "3.2": "1.0.2",
@@ -703,21 +732,15 @@
     },
     {
       "gem": "fiddle",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Support for FFI ([Foreign Function Interface](https://sourceware.org/libffi/))",
-      "mriSourcePath": "ext/fiddle",
-      "jrubySourcePath": [
-        "lib/ruby/stdlib/fiddle.rb",
-        "lib/ruby/stdlib/fiddle"
-      ],
       "sourceRepository": "https://github.com/ruby/fiddle",
       "rubygemsLink": "https://rubygems.org/gems/fiddle",
       "rdocLink": "https://rubyapi.org/o/fiddle",
-      "maintainer": "Aaron Patterson (tenderlove)",
       "notes": "Starting with Ruby 3.2, libffi is not bundled with Ruby anymore",
-      "willBecomeBundledGem": true,
       "alternatives": {
         "FFI": "https://github.com/ffi/ffi"
       },
@@ -734,6 +757,9 @@
           "2.7": "1.0.0",
           "2.6": "1.0.0",
           "2.5": "1.0.0"
+        },
+        "bundled": {
+          "4.0": "1.1.8"
         }
       }
     },
@@ -754,6 +780,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "1.8.0",
           "3.4": "1.7.3",
           "3.3": "1.7.2",
           "3.2": "1.7.0",
@@ -783,6 +810,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.2.0",
           "3.4": "0.2.0",
           "3.3": "0.2.0",
           "3.2": "0.1.1",
@@ -809,6 +837,7 @@
       "maintainer": "Keiju ISHITSUKA (keiju)",
       "versions": {
         "default": {
+          "4.0": "1.4.0",
           "3.4": "1.3.3",
           "3.3": "1.3.3",
           "3.2": "1.3.3",
@@ -864,6 +893,7 @@
           "2.7": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.2.1",
           "3.4": "0.2.1"
         }
       }
@@ -882,6 +912,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "default": {
+          "4.0": "0.8.2",
           "3.4": "0.8.1",
           "3.4.4": "0.8.0",
           "3.4.3": "0.8.0",
@@ -921,6 +952,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "default": {
+          "4.0": "0.3.2",
           "3.4": "0.3.2",
           "3.4.4": "0.3.1",
           "3.4.3": "0.3.1",
@@ -951,6 +983,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "default": {
+          "4.0": "0.4.0",
           "3.4": "0.3.2",
           "3.4.4": "0.3.1",
           "3.4.3": "0.3.1",
@@ -984,6 +1017,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "1.2.8",
           "3.4": "1.2.7",
           "3.3": "1.2.6",
           "3.2": "1.2.5",
@@ -998,25 +1032,14 @@
     },
     {
       "gem": "irb",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Interactive Ruby Console ([REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop))",
-      "mriSourcePath": [
-        "lib/irb.rb",
-        "lib/irb"
-      ],
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/irb",
       "rubygemsLink": "https://rubygems.org/gems/irb",
       "rdocLink": "https://www.rubydoc.info/gems/irb",
-      "maintainer": [
-        "Stan Lo (st0012)",
-        "Tomoya Ishida (tompng)",
-        "Mari Imaizumi (ima1zumi)",
-        "Hitoshi Hasumi (hasumikin)"
-      ],
-      "willBecomeBundledGem": true,
       "alternatives": {
         "pry": "https://github.com/pry/pry",
         "rib": "https://github.com/godfat/rib",
@@ -1036,6 +1059,9 @@
           "2.7.1": "1.2.3",
           "2.7.0": "1.2.1",
           "2.6": "1.0.0"
+        },
+        "bundled": {
+          "4.0": "1.16.0"
         }
       }
     },
@@ -1062,6 +1088,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "2.18.0",
           "3.4": "2.9.1",
           "3.3": "2.7.2",
           "3.3.5": "2.7.1",
@@ -1090,18 +1117,14 @@
     },
     {
       "gem": "logger",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "[Logging utility](https://ruby.janlelis.de/50-exploring-the-stdlib-logger)",
-      "mriSourcePath": "lib/logger.rb",
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/logger",
       "rubygemsLink": "https://rubygems.org/gems/logger",
       "rdocLink": "https://rubyapi.org/o/logger",
-      "notes": "- **Attention:** There was a 1.2.8 version on rubygems, which was later [yanked](https://rubygems.org/gems/logger/versions/1.2.8)\n- The old repository is at [github.com/nahi/logger](https://github.com/nahi/logger)",
-      "maintainer": "Naotoshi Seo (sonots)",
-      "willBecomeBundledGem": true,
       "alternatives": {
         "semantic_logger": "https://github.com/reidmorrison/semantic_logger",
         "ougai": "https://github.com/tilfin/ougai",
@@ -1120,6 +1143,9 @@
           "3.0": "1.4.3",
           "2.7": "1.4.2",
           "2.6": "1.3.0"
+        },
+        "bundled": {
+          "4.0": "1.7.0"
         }
       }
     },
@@ -1143,6 +1169,7 @@
           "2.6": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.4.3",
           "3.4": "0.4.2",
           "3.3": "0.4.2",
           "3.2": "0.4.2",
@@ -1164,6 +1191,7 @@
       },
       "versions": {
         "bundled": {
+          "4.0": "5.27.0",
           "3.4": "5.25.4",
           "3.3": "5.20.0",
           "3.2": "5.16.3",
@@ -1225,6 +1253,7 @@
           "2.6": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.4.0",
           "3.4": "0.3.0"
         }
       }
@@ -1247,6 +1276,7 @@
           "3.0.0": "0.1.1"
         },
         "bundled": {
+          "4.0": "0.3.9",
           "3.4": "0.3.8",
           "3.3": "0.3.4",
           "3.3.0": "0.3.3",
@@ -1293,6 +1323,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.9.1",
           "3.4": "0.6.0",
           "3.3": "0.4.1",
           "3.3.0": "0.4.0",
@@ -1326,6 +1357,7 @@
           "3.0": "0.1.1"
         },
         "bundled": {
+          "4.0": "0.6.1",
           "3.4": "0.5.8",
           "3.4.3": "0.5.6",
           "3.4.2": "0.5.6",
@@ -1373,6 +1405,7 @@
           "2.7": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.1.2",
           "3.4": "0.1.2",
           "3.3": "0.1.2",
           "3.2": "0.1.2",
@@ -1394,6 +1427,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "0.2.2",
           "3.4": "0.2.2",
           "3.3": "0.2.2",
           "3.2": "0.2.1",
@@ -1421,6 +1455,7 @@
           "2.7": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.5.1",
           "3.4": "0.5.0",
           "3.3": "0.5.1",
           "3.3.7": "0.4.0.1",
@@ -1482,6 +1517,7 @@
           "3.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.2.0",
           "3.4": "0.2.0"
         }
       }
@@ -1520,6 +1556,7 @@
           "2.7": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.1.2",
           "3.4": "0.1.2"
         }
       }
@@ -1538,6 +1575,7 @@
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "default": {
+          "4.0": "0.5.0",
           "3.4": "0.5.0",
           "3.3": "0.4.1",
           "3.2": "0.3.0",
@@ -1563,6 +1601,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.2.1",
           "3.4": "0.2.1",
           "3.3": "0.2.1",
           "3.2": "0.1.2",
@@ -1587,6 +1626,7 @@
       "notes": "JRuby uses the Bouncy Castle-based [jruby-openssl gem](https://github.com/jruby/jruby-openssl) instead",
       "versions": {
         "default": {
+          "4.0": "4.0.0",
           "3.4": "3.3.1",
           "3.4.7": "3.3.0",
           "3.4.6": "3.3.0",
@@ -1662,6 +1702,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.8.1",
           "3.4": "0.6.0",
           "3.3": "0.4.0",
           "3.2": "0.3.1",
@@ -1677,16 +1718,14 @@
     },
     {
       "gem": "ostruct",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Wrapper around [Hash](https://ruby-doc.org/core/Hash.html) which lets you read and set attributes with a method-based API",
-      "mriSourcePath": "lib/ostruct.rb",
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/ostruct",
       "rubygemsLink": "https://rubygems.org/gems/ostruct",
       "rdocLink": "https://rubyapi.org/o/openstruct",
-      "maintainer": "Marc-André Lafortune (marcandre)",
       "alternatives": {
         "Hash": "https://ruby-doc.org/core/Hash.html"
       },
@@ -1699,24 +1738,24 @@
           "3.0": "0.3.1",
           "2.7": "0.2.0",
           "2.6": "0.1.0"
+        },
+        "bundled": {
+          "4.0": "0.6.3"
         }
       }
     },
     {
       "gem": "pathname",
-      "currentType": "default",
-      "native": true,
+      "currentType": "library",
+      "prevType": "default",
+      "native": false,
       "autoRequire": false,
-      "description": "Wraps `File`, `FileTest`, `Dir`, and `FileUtils` to ease working with file system paths",
-      "mriSourcePath": "ext/pathname",
-      "jrubySourcePath": [
-        "lib/ruby/stdlib/pathname.rb",
-        "core/src/main/java/org/jruby/ext/pathname"
-      ],
-      "sourceRepository": "https://github.com/ruby/pathname",
-      "rubygemsLink": "https://rubygems.org/gems/pathname",
+      "description": "Provides extra methods for the `Pathname` class: [`#find`](https://stdgems.org/find), [`#rmtree`](https://stdgems.org/fileutils), and [`#mktmpdir`](https://stdgems.org/tmpdir)",
+      "mriSourcePath": "lib/pathname.rb",
+      "jrubySourcePath": false,
       "rdocLink": "https://rubyapi.org/o/pathname",
-      "maintainer": "Tanaka Akira (akr)",
+      "notes": "In Ruby 4.0 [pathname was made part of core Ruby](https://bugs.ruby-lang.org/issues/17473). This non-gem library adds a few methods to the **Pathname** class.",
+      "maintainer": null,
       "alternatives": {
         "path": "https://github.com/eregon/path"
       },
@@ -1741,6 +1780,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/power_assert",
       "versions": {
         "bundled": {
+          "4.0": "3.0.1",
           "3.4": "2.0.5",
           "3.3": "2.0.3",
           "3.2": "2.0.3",
@@ -1783,6 +1823,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.6.3",
           "3.4": "0.6.2",
           "3.3": "0.5.0",
           "3.2": "0.4.0",
@@ -1814,6 +1855,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.2.0",
           "3.4": "0.2.0",
           "3.3": "0.2.0",
           "3.2": "0.1.1",
@@ -1844,6 +1886,7 @@
           "2.6": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.1.4",
           "3.4": "0.1.3",
           "3.3": "0.1.2",
           "3.2": "0.1.2",
@@ -1879,6 +1922,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "1.7.0",
           "3.4": "1.5.2",
           "3.4.7": "1.5.1",
           "3.4.6": "1.5.1",
@@ -1894,16 +1938,14 @@
     },
     {
       "gem": "pstore",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Transactional file storage for Ruby objects",
-      "mriSourcePath": "lib/pstore.rb",
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/pstore",
       "rubygemsLink": "https://rubygems.org/gems/pstore",
       "rdocLink": "https://rubyapi.org/o/pstore",
-      "maintainer": null,
       "versions": {
         "default": {
           "3.4": "0.1.4",
@@ -1912,6 +1954,9 @@
           "3.1": "0.1.1",
           "3.0": "0.1.1",
           "2.7": "0.1.0"
+        },
+        "bundled": {
+          "4.0": "0.2.0"
         }
       }
     },
@@ -1933,6 +1978,7 @@
       "notes": "Starting with Ruby 3.2, libyaml is not bundled with Ruby anymore",
       "versions": {
         "default": {
+          "4.0": "5.3.1",
           "3.4": "5.2.2",
           "3.3": "5.1.2",
           "3.2": "5.0.1",
@@ -2006,6 +2052,7 @@
           "3.0.0": "1.5.1"
         },
         "bundled": {
+          "4.0": "1.8.1",
           "3.4": "1.8.1",
           "3.3": "1.7.3"
         }
@@ -2025,6 +2072,7 @@
       },
       "versions": {
         "bundled": {
+          "4.0": "13.3.1",
           "3.4": "13.2.1",
           "3.3": "13.1.0",
           "3.2": "13.0.6",
@@ -2082,6 +2130,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/rbs",
       "versions": {
         "bundled": {
+          "4.0": "3.10.0",
           "3.4": "3.8.0",
           "3.3": "3.4.0",
           "3.2": "2.8.2",
@@ -2098,23 +2147,14 @@
     },
     {
       "gem": "rdoc",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Ruby documentation generator",
-      "mriSourcePath": [
-        "lib/rdoc.rb",
-        "lib/rdoc"
-      ],
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/rdoc",
       "rubygemsLink": "https://rubygems.org/gems/rdoc",
       "rdocLink": "https://ruby.github.io/rdoc/",
-      "maintainer": [
-        "Eric Hodel (drbrain)",
-        "Hiroshi SHIBATA (hsbt)"
-      ],
-      "willBecomeBundledGem": true,
       "alternatives": {
         "YARD": "https://yardoc.org/"
       },
@@ -2178,23 +2218,23 @@
           "2.4.0": "5.0.0",
           "2.3": "4.2.1",
           "2.2": "4.2.0"
+        },
+        "bundled": {
+          "4.0": "6.17.0"
         }
       }
     },
     {
       "gem": "readline",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
-      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) default gem [reline](https://stdgems.org/reline) will be used.",
-      "mriSourcePath": "ext/readline",
-      "jrubySourcePath": false,
+      "description": "If available, [readline-ext](https://stdgems.org/readline-ext) will be loaded, or (Ruby-only) bundled gem [reline](https://stdgems.org/reline) will be used.",
       "sourceRepository": "https://github.com/ruby/readline",
       "rubygemsLink": "https://rubygems.org/gems/readline",
       "rdocLink": "https://rubyapi.org/o/readline",
-      "maintainer": "TAKAO Kouji (kouji)",
-      "notes": "JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
-      "willBecomeBundledGem": true,
+      "notes": "Moved to default to bundled gem in 4.0. JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead.",
       "alternatives": {
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
@@ -2206,6 +2246,9 @@
           "3.1": "0.0.3",
           "3.0": "0.0.2",
           "2.7": "0.0.2"
+        },
+        "bundled": {
+          "4.0": "0.0.4"
         }
       }
     },
@@ -2220,13 +2263,12 @@
       "sourceRepository": "https://github.com/ruby/readline-ext",
       "rubygemsLink": "https://rubygems.org/gems/readline-ext",
       "rdocLink": "https://rubyapi.org/o/readline",
-      "removed": true,
       "notes": "- Was just called **readline** before Ruby 2.7\n- JRuby uses the jline-based [jruby-readline gem](https://github.com/jruby/jruby-readline) instead",
-      "willBecomeBundledGem": true,
       "alternatives": {
         "reline": "https://stdgems.org/reline/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
       },
+      "removed": true,
       "versions": {
         "default": {
           "3.2": "0.1.5",
@@ -2238,21 +2280,14 @@
     },
     {
       "gem": "reline",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": false,
       "autoRequire": false,
       "description": "Ruby-only implementation of [GNU Readline](https://directory.fsf.org/wiki/Readline) / [NetBSD Editline](https://thrysoee.dk/editline/) ",
-      "mriSourcePath": "lib/reline",
-      "jrubySourcePath": true,
       "sourceRepository": "https://github.com/ruby/reline",
       "rubygemsLink": "https://rubygems.org/gems/reline",
       "rdocLink": "https://rubyapi.org/o/reline",
-      "maintainer": [
-        "Stan Lo (st0012)",
-        "Tomoya Ishida (tompng)",
-        "Mari Imaizumi (ima1zumi)",
-        "Hitoshi Hasumi (hasumikin)"
-      ],
       "alternatives": {
         "readline-ext": "https://stdgems.org/readline-ext/",
         "rb-readline": "https://github.com/ConnorAtherton/rb-readline"
@@ -2277,6 +2312,9 @@
           "2.7": "0.1.5",
           "2.7.1": "0.1.3",
           "2.7.0": "0.1.2"
+        },
+        "bundled": {
+          "4.0": "0.6.3"
         }
       }
     },
@@ -2291,6 +2329,7 @@
       "rdocLink": "https://rubydoc.info/gems/repl_type_completor",
       "versions": {
         "bundled": {
+          "4.0": "0.1.12",
           "3.4": "0.1.9"
         }
       }
@@ -2298,11 +2337,12 @@
     {
       "gem": "resolv",
       "currentType": "default",
-      "native": false,
+      "native": true,
       "autoRequire": false,
       "description": "Thread-aware [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) resolver",
       "mriSourcePath": [
-        "lib/resolv.rb"
+        "lib/resolv.rb",
+        "ext/win32/resolv"
       ],
       "jrubySourcePath": "lib/ruby/stdlib/resolv.rb",
       "sourceRepository": "https://github.com/ruby/resolv",
@@ -2316,6 +2356,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.7.0",
           "3.4": "0.6.2",
           "3.4.4": "0.6.0",
           "3.4.3": "0.6.0",
@@ -2355,6 +2396,7 @@
           "3.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.1.1",
           "3.4": "0.1.1"
         }
       }
@@ -2385,6 +2427,7 @@
           "2.6.0": "3.1.9"
         },
         "bundled": {
+          "4.0": "3.4.4",
           "3.4": "3.4.4",
           "3.4.7": "3.4.0",
           "3.4.6": "3.4.0",
@@ -2446,6 +2489,7 @@
           "3.0.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.2.0",
           "3.4": "0.2.0"
         }
       }
@@ -2485,6 +2529,7 @@
           "2.6": "0.2.7"
         },
         "bundled": {
+          "4.0": "0.3.1",
           "3.4": "0.3.1",
           "3.3": "0.3.1",
           "3.3.4": "0.3.0",
@@ -2525,6 +2570,7 @@
       "notes": "Although `ruby2_keywords` is introduced as a default gem in Ruby 3.1, the `ruby2_keywords` method is available on earlier Ruby versions. See [the announcement](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) and [this blog post](https://eregon.me/blog/2021/02/13/correct-delegation-in-ruby-2-27-3.html) for information about how to use this feature.",
       "versions": {
         "default": {
+          "4.0": "0.0.5",
           "3.4": "0.0.5",
           "3.3": "0.0.5",
           "3.2": "0.0.5",
@@ -2537,7 +2583,7 @@
       "currentType": "default",
       "native": false,
       "autoRequire": true,
-      "description": "[RubyGems](https://rubygems.org) allows you to download, install, and use Ruby software packages on your system",
+      "description": "RubyGems allows you to download, install, and use Ruby software packages on your system. It can connect to gem servers like [rubygems.org](https://rubygems.org) or [gem.coop](https://gem.coop) to retrieve latest gems.",
       "mriSourcePath": [
         "lib/rubygems.rb",
         "lib/rubygems"
@@ -2546,16 +2592,16 @@
         true,
         "lib/ruby/stdlib/rubygems/defaults"
       ],
-      "sourceRepository": "https://github.com/rubygems/rubygems",
+      "sourceRepository": "https://github.com/ruby/rubygems",
       "rubygemsLink": "https://rubygems.org/gems/rubygems-update",
       "rdocLink": "https://rubyapi.org/o/gem",
       "maintainer": [
-        "Eric Hodel (drbrain)",
         "Hiroshi SHIBATA (hsbt)"
       ],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
         "default": {
+          "4.0": "4.0.3",
           "3.4": "3.6.9",
           "3.4.4": "3.6.7",
           "3.4.3": "3.6.7",
@@ -2689,6 +2735,7 @@
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "default": {
+          "4.0": "0.4.1",
           "3.4": "0.4.1",
           "3.3": "0.3.1",
           "3.2": "0.2.2",
@@ -2714,8 +2761,9 @@
       "sourceRepository": "https://github.com/ruby/set",
       "rubygemsLink": "https://rubygems.org/gems/set",
       "rdocLink": "https://rubyapi.org/o/set",
-      "maintainer": "Akinori MUSHA (knu)",
-      "notes": "- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n-Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
+      "maintainer": null,
+      "notes": "- Since Ruby 4.0, [`Set` is implemented in core Ruby](https://bugs.ruby-lang.org/issues/21216).\n- A Ruby-based implementation is still included as non-gem library at [`set/subclass_compatible`](https://stdgems.org/set-subclass_compatible/).\n- Although this default gem is not automatically required, it will be autoloaded as soon you use the `Set` constant or the `to_set` method (Ruby 3.2+)\n- Prior to v1.0.0, this gem included the SortedSet class (now exctracted to the [sorted_set gem](https://github.com/knu/sorted_set))",
+      "removed": true,
       "versions": {
         "default": {
           "3.4": "1.1.1",
@@ -2725,6 +2773,18 @@
           "3.0": "1.0.1"
         }
       }
+    },
+    {
+      "gem": "set-subclass_compatible",
+      "currentType": "library",
+      "native": false,
+      "autoRequire": false,
+      "description": "Ruby-only implementation of Set used in sub-classes of Set for backwards compatibility",
+      "mriSourcePath": "lib/set",
+      "jrubySourcePath": false,
+      "rdocLink": null,
+      "notes": "- Since Ruby 4.0, [`Set` is implemented in core Ruby](https://bugs.ruby-lang.org/issues/21216). For the previous default gem, see [set](https://stdgems.org/set).",
+      "maintainer": "Akinori MUSHA (knu)"
     },
     {
       "gem": "shell",
@@ -2760,6 +2820,7 @@
       "maintainer": "Akinori MUSHA (knu)",
       "versions": {
         "default": {
+          "4.0": "0.2.2",
           "3.4": "0.2.2",
           "3.3": "0.2.0",
           "3.2": "0.1.0",
@@ -2782,6 +2843,7 @@
       "maintainer": "Yukihiro Matsumoto (matz)",
       "versions": {
         "default": {
+          "4.0": "0.3.0",
           "3.4": "0.3.0",
           "3.3": "0.2.0",
           "3.2": "0.1.1",
@@ -2825,6 +2887,7 @@
       "maintainer": "Nobuyuki Nakada (nobu)",
       "versions": {
         "default": {
+          "4.0": "3.2.0",
           "3.4": "3.1.2",
           "3.3": "3.1.1",
           "3.3.2": "3.1.0",
@@ -2868,6 +2931,7 @@
       "maintainer": "Kouhei Sutou (kou)",
       "versions": {
         "default": {
+          "4.0": "3.1.6",
           "3.4": "3.1.2",
           "3.3": "3.0.9",
           "3.3.2": "3.0.7",
@@ -2927,6 +2991,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "2.0.2",
           "3.4": "2.0.2",
           "3.3": "2.0.1",
           "3.3.5": "2.0.0",
@@ -2963,6 +3028,7 @@
           "3.0": "0.1.0"
         },
         "bundled": {
+          "4.0": "0.3.0",
           "3.4": "0.2.0"
         }
       }
@@ -2984,6 +3050,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "0.3.1",
           "3.4": "0.3.1",
           "3.3": "0.2.1",
           "3.2": "0.1.3",
@@ -3007,6 +3074,7 @@
       },
       "versions": {
         "bundled": {
+          "4.0": "3.7.3",
           "3.4": "3.6.7",
           "3.3": "3.6.1",
           "3.2": "3.5.7",
@@ -3055,6 +3123,7 @@
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "default": {
+          "4.0": "0.4.2",
           "3.4": "0.4.1",
           "3.3": "0.3.0",
           "3.2": "0.2.2",
@@ -3097,6 +3166,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.6.0",
           "3.4": "0.4.3",
           "3.3": "0.4.1",
           "3.2": "0.3.1",
@@ -3120,6 +3190,7 @@
       "maintainer": null,
       "versions": {
         "default": {
+          "4.0": "0.3.1",
           "3.4": "0.3.1",
           "3.3": "0.2.0",
           "3.2": "0.1.3",
@@ -3169,6 +3240,7 @@
       "maintainer": "Tanaka Akira (akr)",
       "versions": {
         "default": {
+          "4.0": "0.2.0",
           "3.4": "0.2.0",
           "3.3": "0.2.0",
           "3.2": "0.1.1",
@@ -3188,6 +3260,7 @@
       "rdocLink": "https://www.rubydoc.info/gems/typeprof",
       "versions": {
         "bundled": {
+          "4.0": "0.31.0",
           "3.4": "0.30.1",
           "3.3": "0.21.9",
           "3.2": "0.21.3",
@@ -3214,6 +3287,7 @@
       "maintainer": "WATANABE Hirofumi (eban)",
       "versions": {
         "default": {
+          "4.0": "0.3.0",
           "3.4": "0.3.0",
           "3.3": "0.3.0",
           "3.2": "0.2.1",
@@ -3229,7 +3303,6 @@
       "autoRequire": true,
       "description": "Adds a [String#unicode_normalize](https://rubyapi.org/o/string#method-i-unicode_normalize) method which [normalizes unicode strings](https://unicode.org/reports/tr15/)",
       "mriSourcePath": [
-        "lib/unicode_normalize.rb",
         "lib/unicode_normalize"
       ],
       "jrubySourcePath": [
@@ -3269,6 +3342,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "1.1.1",
           "3.4": "1.0.4",
           "3.4.6": "1.0.3",
           "3.4.5": "1.0.3",
@@ -3341,6 +3415,7 @@
       },
       "versions": {
         "default": {
+          "4.0": "0.1.4",
           "3.4": "0.1.3",
           "3.3": "0.1.3",
           "3.2": "0.1.2",
@@ -3398,37 +3473,32 @@
       }
     },
     {
-      "gem": "win32",
-      "currentType": "library",
-      "native": true,
+      "gem": "win32-registry",
+      "currentType": "default",
+      "native": false,
       "autoRequire": false,
-      "description": "Let's you use Windows APIs, e.g. call functions in DLLs",
-      "mriSourcePath": "ext/win32",
-      "jrubySourcePath": [
-        "lib/ruby/stdlib/Win32API.rb",
-        "lib/ruby/stdlib/win32"
-      ],
-      "rdocLink": "https://rubyapi.org/o/win32",
-      "maintainer": "NAKAMURA Usaku (usa)",
-      "alternatives": {
-        "win32-api": "https://github.com/cosmo0920/win32-api",
-        "FFI": "https://github.com/ffi/ffi",
-        "Fiddle": "https://stdgems.org/fiddle/"
+      "description": "Allows you to call Windows Registry APIs",
+      "mriSourcePath": "ext/win32/lib/win32/registry.rb",
+      "jrubySourcePath": false,
+      "sourceRepository": "https://github.com/ruby/win32-registry",
+      "rubygemsLink": "https://rubygems.org/gems/win32-registry",
+      "rdocLink": null,
+      "versions": {
+        "default": {
+          "4.0": "0.1.2"
+        }
       }
     },
     {
       "gem": "win32ole",
-      "currentType": "default",
+      "currentType": "bundled",
+      "prevType": "default",
       "native": true,
       "autoRequire": false,
       "description": "Windows [OLE automation](https://en.wikipedia.org/wiki/OLE_Automation) interface",
-      "mriSourcePath": "ext/win32ole",
-      "jrubySourcePath": "lib/ruby/stdlib/win32ole.rb",
       "sourceRepository": "https://github.com/ruby/win32ole",
       "rubygemsLink": "https://rubygems.org/gems/win32ole",
       "rdocLink": "https://rubyapi.org/o/win32ole",
-      "maintainer": "Masaki Suketa (suke)",
-      "willBecomeBundledGem": true,
       "versions": {
         "default": {
           "3.4": "1.9.1",
@@ -3436,6 +3506,9 @@
           "3.2": "1.8.9",
           "3.1": "1.8.8",
           "3.0": "1.8.8"
+        },
+        "bundled": {
+          "4.0": "1.9.2"
         }
       }
     },
@@ -3486,6 +3559,7 @@
       ],
       "versions": {
         "default": {
+          "4.0": "0.4.0",
           "3.4": "0.4.0",
           "3.3": "0.3.0",
           "3.2": "0.2.1",
@@ -3512,6 +3586,7 @@
       "maintainer": "NARUSE, Yui (naruse)",
       "versions": {
         "default": {
+          "4.0": "3.2.2",
           "3.4": "3.2.1",
           "3.3": "3.1.1",
           "3.3.1": "3.1.0",
