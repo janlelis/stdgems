@@ -13,17 +13,6 @@ task :stdgems_json do
   stdgems = {}
   stdgems_out_filename = "stdgems.json"
 
-  libraries.each{ |library|
-    gem_name = library["gem"]
-
-    # copy over data, add type to json
-    stdgems[gem_name] = {
-      "gem" => gem_name,
-      "currentType" => "library",
-      **library
-    }
-  }
-
   bundled_gems.each{ |bundled_gem|
     gem_name = bundled_gem["gem"]
 
@@ -76,6 +65,39 @@ task :stdgems_json do
         "versions" => {
           "default" => default_gem_versions,
           "bundled" => bundled_gem_versions,
+        }
+      }
+    end
+  }
+
+  libraries.each{ |library|
+    gem_name = library["gem"]
+
+    if !stdgems[gem_name]
+      # copy over data if no standard gem of this name exists
+
+      stdgems[gem_name] = {
+        "gem" => gem_name,
+        "currentType" => "library",
+        **library
+      }
+    else
+      # or merge data
+      standard_gem = stdgems[gem_name]
+
+      prev_type = standard_gem.delete("currentType")
+      standard_gem.delete("prevType")
+      standard_gem.delete("removed")
+      standard_gem.delete("sourceRepository")
+      standard_gem_versions = standard_gem["versions"][prev_type]
+
+      stdgems[gem_name] = {
+        "gem" => gem_name,
+        "currentType" => "library",
+        "prevType" => prev_type,
+        **library,
+        "versions" => {
+          prev_type => standard_gem_versions,
         }
       }
     end
