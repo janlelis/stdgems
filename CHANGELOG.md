@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.25.0
+
+- Ruby release 4.0.1: Update prism
+- Ruby release 3.2.10: Update uri, rexml, resolv
+
 ## 5.24.0
 
 Add Ruby 4.0 release:
