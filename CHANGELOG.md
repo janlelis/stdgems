@@ -1,5 +1,10 @@
 # Change Log
 
+## 5.26.0
+
+- Fix Ruby 4.0 bundled gems (thanks @taketo1113)
+- Ruby release 3.4.9: Update zlib
+
 ## 5.25.0
 
 - Ruby release 4.0.1: Update prism
