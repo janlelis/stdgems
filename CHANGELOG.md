@@ -1,6 +1,6 @@
 # Change Log
 
-## 5.27.0 (unreleased)
+## 5.27.0
 
 - Ruby release 4.0.2 default gems: Update bundler, prism,
                                    rubygems, syntax_suggest, zlib
