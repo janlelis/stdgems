@@ -1,5 +1,14 @@
 # Change Log
 
+## 5.27.0 (unreleased)
+
+- Ruby release 4.0.2 default gems: Update bundler, prism,
+                                   rubygems, syntax_suggest, zlib
+- Ruby release 4.0.2 bundled gems: pstore
+- Ruby release 3.3.11: Update pstore, syntax_suggest, zlib
+- Fix resolv updated to 0.3.1 with Ruby 3.3.9
+- Ruby release 3.2.11: Update zlib
+
 ## 5.26.0
 
 - Fix Ruby 4.0 bundled gems (thanks @taketo1113)
