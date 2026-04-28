@@ -1,5 +1,5 @@
 {
-  "version": "5.27.0",
+  "version": "5.28.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
@@ -504,7 +504,11 @@
         "herb": "https://herb-tools.dev"
       },
       "versions": {
-        "4.0": "6.0.1",
+        "4.0": "6.0.1.1",
+        "4.0.2": "6.0.1",
+        "4.0.1": "6.0.1",
+        "4.0.0": "6.0.1",
+
         "3.4": "4.0.4",
         "3.3": "4.0.3",
         "3.2": "4.0.2",
