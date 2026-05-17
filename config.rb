@@ -20,9 +20,10 @@ JRUBY_SOURCE_PREFIX = "https://github.com/jruby/jruby/tree/master/"
 
 STDGEMS_VERSION = JSON.parse(DEFAULT_GEMS_FILE)["version"]
 
-CURRENT_RUBY_VERSION = '4.0.3'
+CURRENT_RUBY_VERSION = '4.0.4'
 
 RUBY_4_0_VERSIONS = %w[
+  4.0.4
   4.0.3
   4.0.2
   4.0.1
