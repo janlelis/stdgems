@@ -1,5 +1,5 @@
 {
-  "version": "5.28.0",
+  "version": "5.29.0",
   "info": "Default gems are part of a Ruby installation, can always be required directly and cannot be removed.",
   "gems": [
     {
@@ -109,7 +109,9 @@
       "rdocLink": "https://www.rubydoc.info/gems/bundler",
       "maintainer": "Hiroshi SHIBATA (hsbt)",
       "versions": {
-        "4.0":   "4.0.6",
+        "4.0":   "4.0.10",
+        "4.0.3": "4.0.6",
+        "4.0.2": "4.0.6",
         "4.0.1": "4.0.3",
         "4.0.0": "4.0.3",
 
@@ -2062,7 +2064,9 @@
       "maintainer": ["Hiroshi SHIBATA (hsbt)"],
       "notes": "- You can [prevent Ruby from loading RubyGems (and any gems)](https://idiosyncratic-ruby.com/71-nothing-to-disable.html) with `$ ruby --disable-gems`",
       "versions": {
-        "4.0":   "4.0.6",
+        "4.0":   "4.0.10",
+        "4.0.3": "4.0.6",
+        "4.0.2": "4.0.6",
         "4.0.1": "4.0.3",
         "4.0.0": "4.0.3",
 
