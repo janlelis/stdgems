@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.29.0
+
+- Ruby release 4.0.4: Update bundler, rubygems
+
 ## 5.28.0
 
 - Ruby release 4.0.3: Update erb
