@@ -1,5 +1,12 @@
 # Change Log
 
+## 5.30.0
+
+- Ruby release 3.4.10 (bundled): Update net-imap
+- Ruby release 3.4.10 (default): Update erb, openssl, prism, pstore,
+                                 resolv, syntax_suggest
+- Ruby release 4.0.5: Update rdoc
+
 ## 5.29.0
 
 - Ruby release 4.0.4: Update bundler, rubygems
