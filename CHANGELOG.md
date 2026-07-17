@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.31.0
+
+- Ruby release 4.0.6: Update bundler, rubygems, error_highlight,
+                      openssl, net-imap
+- Ruby release 3.3.12: Update erb, openssl, syntax_suggest, net-imap
+
 ## 5.30.0
 
 - Ruby release 3.4.10 (bundled): Update net-imap
