@@ -494,7 +494,7 @@
     },
     {
       "gem": "erb",
-      "native": false,
+      "native": true,
       "autoRequire": false,
       "description": "Templating engine for Ruby",
       "mriSourcePath": "lib/erb.rb",
