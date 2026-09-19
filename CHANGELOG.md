@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.32.0
+
+- Ruby release 4.0.7: Update bundler, rubygems, erb, resolv
+
 ## 5.31.0
 
 - Ruby release 4.0.6: Update bundler, rubygems, error_highlight,
