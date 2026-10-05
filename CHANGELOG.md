@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.33.0
+
+- Ruby release 3.4.11: Update resolv
+
 ## 5.32.0
 
 - Ruby release 4.0.7: Update bundler, rubygems, erb, resolv
