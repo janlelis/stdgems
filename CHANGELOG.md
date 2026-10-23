@@ -1,5 +1,11 @@
 # Change Log
 
+## 5.34.0
+
+- Ruby release 4.0.9, 4.0.8: Update prism
+  Ruby release 3.4.12: No change
+  Ruby release 3.3.13: Update resolv
+
 ## 5.33.0
 
 - Ruby release 3.4.11: Update resolv
